@@ -54,7 +54,7 @@ const services = [
             "Boost your brand’s visibility with tailored influencer marketing strategies. We connect you with influencers who align with your brand, helping to expand reach, drive engagement, and build lasting trust with your target audience.",
         icon: <PenTool size={28} className="text-cyan-300" />,
     },
-    
+
     {
         title: "Web App Development",
         description:
@@ -67,20 +67,20 @@ const services = [
 function Ourservice() {
     return (
         <div>
-            <section className="bg-[#0e1b27] text-white flex flex-col items-center justify-center py-16 px-6 lg:px-20 relative">
+            <section className="bg-[#0e1b27] text-white flex flex-col items-center justify-center py-1 px-6 lg:px-20 relative">
                 <div className="relative flex flex-col items-center justify-center text-center py-20 bg-[#0e1b27]">
 
-                    {/* Large Background "SERVICES" Text */}
-                    <h1 className="absolute text-[120px] md:text-[220px] lg:text-[280px] font-bold uppercase text-transparent text-outline-50 
-                     bg-gradient-to-r from-[#646a6b] to-[#708386] bg-clip-text opacity-20">
+                    {/* Large Background "SERVICES" Text with Outline Effect */}
+                    <h1 className="text-[8rem] font-bold uppercase tracking-wide text-transparent outline-text">
                         SERVICES
                     </h1>
 
+
                     {/* Button Positioned Over "SERVICES" */}
                     <button className="relative px-9 py-2 text-white font-medium rounded-full 
-                     bg-gradient-to-r from-[#06deff] to-[#00a2bb] 
+                             bg-gradient-to-r from-[#06deff] to-[#00a2bb] 
                      shadow-[0px_0px_10px_#06deff] border border-cyan-400 
-                     hover:scale-105 transition-all z-20">
+                        hover:scale-105 transition-all z-20">
                         Our Services
                     </button>
 
@@ -91,31 +91,33 @@ function Ourservice() {
 
                 </div>
 
+
+
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-1">
                     {services.map((service, index) => (
-                  <div
-                  key={index}
-                  className="relative w-[341px] h-[300px] rounded-[25px] p-[2px] opacity-90  transition-all shadow-lg duration-300 group group-hover:backdrop-blur-sm hover:backdrop-blur-none hover:scale-105"
-                >
-                  {/* Gradient Border */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#008EAA] via-[#4C4C4C] to-[#00EEDF] rounded-[25px]
+                        <div
+                            key={index}
+                            className="relative w-[341px] h-[300px] rounded-[25px] p-[2px] opacity-90  transition-all shadow-lg duration-300 group group-hover:backdrop-blur-sm hover:backdrop-blur-none hover:scale-105"
+                        >
+                            {/* Gradient Border */}
+                            <div className="absolute inset-0 bg-gradient-to-r from-[#008EAA] via-[#4C4C4C] to-[#00EEDF] rounded-[25px]
                   opacity-50 group-hover:opacity-100 transition-all duration-300"></div>
-                
-                  {/* Card Content */}
-                  <div className="relative w-full h-full bg-gradient-to-t from-[#252525] to-[#026a7f] rounded-[25px] p-6 flex flex-col gap-4  group-hover:blur-sm hover:blur-none 
+
+                            {/* Card Content */}
+                            <div className="relative w-full h-full bg-gradient-to-t from-[#252525] to-[#026a7f] rounded-[25px] p-6 flex flex-col gap-4  group-hover:blur-sm hover:blur-none 
                       group-hover:shadow-none hover:shadow-[0_0_20px_rgba(6,255,240,0.5)] 
                       transition-all duration-300">
-                    {/* Icon and Title */}
-                    <div className="flex items-center gap-3">
-                      {service.icon}
-                      <h3 className="text-lg font-semibold text-white">{service.title}</h3>
-                    </div>
-                
-                    {/* Description - No Extra Space */}
-                    <p className="text-gray-200 text-sm">{service.description}</p>
-                  </div>
-                </div>
+                                {/* Icon and Title */}
+                                <div className="flex items-center gap-3">
+                                    {service.icon}
+                                    <h3 className="text-lg font-semibold text-white">{service.title}</h3>
+                                </div>
+
+                                {/* Description - No Extra Space */}
+                                <p className="text-gray-200 text-sm">{service.description}</p>
+                            </div>
+                        </div>
                     ))}
                 </div>
             </section>
