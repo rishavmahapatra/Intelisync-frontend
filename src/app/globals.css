@@ -4,6 +4,13 @@ body {
   font-family: 'Poppins';
 }
 
+.outline-text {
+  -webkit-text-stroke: 1px #00ffff; /* Cyan outline */
+  text-stroke: 2px #00ffff;
+  color: transparent;
+  
+}
+
 /* @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
