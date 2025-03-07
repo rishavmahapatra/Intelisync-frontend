@@ -3,18 +3,12 @@ import Image from "next/image";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion"; // Import Framer Motion
 
-import first from "@/components/landingpage/photos/logo1.png";
-import second from "@/components/landingpage/photos/logo2.png";
-import third from "@/components/landingpage/photos/logo3.png";
-import fourth from "@/components/landingpage/photos/logo4.png";
-import fifth from "@/components/landingpage/photos/logo5.png";
-
 const badges = [
-  { id: 1, name: "logo", image: first },
-  { id: 2, name: "logo", image: second },
-  { id: 3, name: "logo", image: third },
-  { id: 4, name: "logo", image: fourth },
-  { id: 5, name: "logo", image: fifth },
+  { id: 1, name: "logo", image: "/photos/logo1.png" },
+  { id: 2, name: "logo", image: "/photos/logo2.png" },
+  { id: 3, name: "logo", image: "/photos/logo3.png" },
+  { id: 4, name: "logo", image: "/photos/logo4.png" },
+  { id: 5, name: "logo", image: "/photos/logo5.png" },
 ];
 
 export default function BadgesSection() {
