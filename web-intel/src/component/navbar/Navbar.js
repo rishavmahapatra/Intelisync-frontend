@@ -26,9 +26,9 @@ export default function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="text-white transition duration-300 hover:text-teal-400 hover:scale-105 focus:outline-none flex items-center space-x-2"
             >
-              <span>Our Services</span>
+              <span className='cursor-pointer'>Our Services</span>
             </button>
-            <div className="relative z-20">
+            <div className="relative z-100">
             {isOpen && (
               <motion.ul
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}

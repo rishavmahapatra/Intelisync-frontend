@@ -16,7 +16,7 @@ export default function BadgesSection() {
   const isInView = useInView(ref, { once: false, margin: "-50px" }); // Triggers on every scroll into view
 
   return (
-    <motion.div
+    <div
       ref={ref}
       initial={{ opacity: 0, scale: 0.5 }}
       animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
@@ -34,7 +34,7 @@ export default function BadgesSection() {
       </motion.button>
 
       {/* Badges Grid */}
-      <div className="mt-10 grid grid-cols-2 md:grid-cols-5 gap-12">
+      <div className="mt-10 grid grid-cols-2 md:grid-cols-5 gap-12 max-w-5xl place-items-center">
         {badges.map((badge, index) => (
           <motion.div
             key={badge.id}
@@ -59,6 +59,6 @@ export default function BadgesSection() {
           </motion.div>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 }

@@ -247,3 +247,30 @@ export const AIfaq =[
   },
 
 ];
+export const Brandingfaqs = [
+  {
+    question: "What are your Marketing Specialities?",
+    answer:
+      "We specialize in digital marketing, SEO, social media, and branding strategies.",
+  },
+  {
+    question: "How can my business benefit from partnering with your Agency?",
+    answer:
+      "Our tailored marketing approach helps you increase reach, engagement, and conversions.",
+  },
+  {
+    question:
+      "How does your approach differ from traditional marketing agencies?",
+    answer:
+      "We leverage data-driven insights and innovative techniques to maximize ROI.",
+  },
+  {
+    question: "Can you share success stories from previous clients?",
+    answer:
+      "Yes! We have helped multiple brands achieve significant growth and revenue increases.",
+  },
+  {
+    question: "What industries do you specialize in?",
+    answer: "We cater to e-commerce, SaaS, real estate, healthcare, and more.",
+  },
+];

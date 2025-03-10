@@ -9,7 +9,7 @@ export default function CommunityServices() {
             </h2>
 
             <p className="text-gray-300 mt-4 max-w-3xl mx-auto text-center text-[13px] leading-[20px] tracking-[-0.01em] font-normal">
-                Simply having a Discord or Telegram group isn't enough—effective management is key to building a vibrant, engaged community. Our crypto community management services are designed to elevate your project's presence across multiple platforms, creating excitement and fostering trust. Here's how we can help:
+                Simply having a Discord or Telegram group isn&apos;t enough—effective management is key to building a vibrant, engaged community. Our crypto community management services are designed to elevate your project&apos;s presence across multiple platforms, creating excitement and fostering trust. Here&apos;s how we can help:
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mt-10">

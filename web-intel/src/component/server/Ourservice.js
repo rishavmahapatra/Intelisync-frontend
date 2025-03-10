@@ -67,13 +67,18 @@ const services = [
 function Ourservice() {
     return (
         <div>
-            <section className="bg-[#0e1b27] text-white flex flex-col items-center justify-center py-1 px-6 lg:px-20 relative">
-                <div className="relative flex flex-col items-center justify-center text-center py-20 bg-[#0e1b27]">
+            <section className="bg-black text-white flex flex-col items-center justify-center py-1 px-6 lg:px-20 relative">
+                <div className="relative flex flex-col items-center justify-center text-center py-20 ">
 
                     {/* Large Background "SERVICES" Text with Outline Effect */}
-                    <h1 className="text-[8rem] font-bold uppercase tracking-wide text-transparent outline-text">
+                    {/* <h1 className="text-[8rem] font-bold uppercase tracking-wide text-transparent outline-text">
                         SERVICES
-                    </h1>
+                    </h1> */}
+
+                    <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10rem] lg:text-[15rem] 
+                font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
+                    SERVICES
+                </h1>
 
 
                     {/* Button Positioned Over "SERVICES" */}

@@ -9,7 +9,7 @@ export default function BlockchainBusiness() {
       <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
         <div className="max-w-2xl">
           <h1 className="font-poppins font-medium text-[40px] leading-[50px] tracking-[-0.01%]">
-           Maximize Your Business's Full Potential with Customized AI Solutions and Advanced Technology
+           Maximize Your Business&apos;s Full Potential with Customized AI Solutions and Advanced Technology
           </h1>
    
           {content.map((paragraph, index) => (
