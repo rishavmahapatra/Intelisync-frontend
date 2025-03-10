@@ -126,3 +126,37 @@ export const services = [
         "Build strategic partnerships to strengthen your community and brand. We identify and manage collaborations with influencers, projects, and industry leaders to boost visibility and enhance engagement opportunities.",
     },
   ];
+
+  export const MarketingStrategies = [
+    "Attract and captivate new audiences with engaging, high-value content.",
+    "Strengthen brand credibility and position your business as an authority in your niche.",
+    "Drive high-impact ICO marketing campaigns to enhance visibility and raise capital.",
+    "Break through ad fatigue with innovative techniques that optimize marketing ROI and boost conversions.",
+];
+
+export const InfluencerMarketingservices = [
+    {
+        title: "Create Authentic, Engaging Content",
+        description: "Leverage influencer-driven content that resonates with your target audience and boosts brand engagement."
+    },
+    {
+        title: "Expand Audience Reach",
+        description: "Connect with influencers who can tap into new, highly engaged audiences to increase brand visibility and awareness."
+    },
+    {
+        title: "Enhance Brand Credibility",
+        description: "Build trust by partnering with influencers who have authentic connections and authority in your niche."
+    },
+    {
+        title: "Maximize ROI with Data-Driven Strategies",
+        description: "Use actionable insights to optimize influencer campaigns for higher engagement, increased conversions, and measurable business growth."
+    },
+    {
+        title: "Multi-Channel Promotion",
+        description: "Amplify your brand’s message across multiple platforms with coordinated influencer campaigns."
+    },
+    {
+        title: "Influencer Performance Tracking",
+        description: "Monitor and analyze influencer campaign performance with real-time data and detailed insights."
+    }
+];

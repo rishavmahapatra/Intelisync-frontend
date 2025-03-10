@@ -8,7 +8,7 @@ import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
 import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
-import { BlockChainfaqs } from "@/utils/FAQ_Data";
+import {Communityfaqs } from "@/utils/FAQ_Data";
 
 export default function page() {
     return (
@@ -18,7 +18,7 @@ export default function page() {
             <CryptoCommunityManagement/>
             <CommunityServices/>
             <TrustedInnovators />
-            <FAQSection faqs={BlockChainfaqs} />
+            <FAQSection faqs={Communityfaqs} />
             <PartnersBackers />
             <Blog/>
             <ContactUs/>

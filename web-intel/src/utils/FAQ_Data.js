@@ -33,3 +33,59 @@ export const BlockChainfaqs = [
         "Connect with us to discuss your business needs. Our team will assess your goals and develop a customized strategy to help you leverage the power of blockchain and Web3.",
     },
   ];
+
+  export const Communityfaqs = [
+    {
+      question: "How can community management strengthen my brand?",
+      answer:
+        "Community management goes beyond engagement—it’s about creating meaningful connections. By fostering conversations and nurturing relationships, we help turn followers into loyal advocates who amplify your brand’s reach.",
+    },
+    {
+      question: "What’s your approach to building an active community?",
+      answer:
+        "We craft content that sparks conversations and monitor discussions in real-time. By responding authentically, encouraging feedback, and promoting user-generated content, we cultivate a thriving, engaged community.",
+    },
+    {
+      question: "Which platforms are ideal for my brand’s community?",
+      answer:
+        "From Facebook and LinkedIn to Discord and niche forums, we select platforms that best align with your audience. Our tailored approach ensures your brand stays visible where your community gathers.",
+    },
+    {
+      question: "How do you manage negative interactions or comments?",
+      answer:
+        "We believe in turning challenges into opportunities. By handling negative feedback with empathy and transparency, we not only protect your brand’s reputation but also build deeper trust within your community.",
+    },
+    {
+      question: "Can community management help grow brand awareness?",
+      answer:
+        "Absolutely! Engaging conversations and interactive content increase visibility, attract new members, and create buzz around your brand—fostering long-term growth and loyalty.",
+    },
+  ];
+
+  export const InfluencerMarketingfaqs = [
+    {
+      question: "How can influencer marketing boost my brand’s visibility?",
+      answer:
+        "Influencer marketing taps into trusted voices within your niche to create authentic, high-impact content. This builds trust, expands your reach, and drives engagement that feels genuine to audiences.",
+    },
+    {
+      question: "How do you match influencers with my brand?",
+      answer:
+        "We prioritize authenticity by connecting you with influencers who share your brand’s mission and tone. The result? Campaigns that resonate, drive engagement, and convert followers into customers.",
+    },
+    {
+      question: "What types of influencers can I work with?",
+      answer:
+        "We collaborate with nano, micro, macro, and mega influencers across diverse industries. Whether you need niche advocates or large-scale ambassadors, we have the right match to fit your goals.",
+    },
+    {
+      question: "How do you track influencer marketing success?",
+      answer:
+        "We track KPIs such as engagement, conversions, reach, and ROI. Our transparent reporting keeps you in the loop, ensuring your campaigns are optimized for maximum impact.",
+    },
+    {
+      question: "How does influencer marketing fuel long-term growth?",
+      answer:
+        "Consistent influencer collaborations build trust and loyalty over time. By staying top of mind with your target audience, influencer partnerships can amplify your brand’s voice and foster long-term growth.",
+    },
+  ];
