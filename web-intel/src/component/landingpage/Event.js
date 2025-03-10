@@ -31,6 +31,7 @@ function EventGallery() {
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
   return (
+    <div className="bg-black">
     <motion.div
       ref={ref}
       initial={{ opacity: 0, scale: 0.5 }}
@@ -64,6 +65,7 @@ function EventGallery() {
         ))} 
       </div>
     </motion.div>
+    </div>
   );  
 }
 

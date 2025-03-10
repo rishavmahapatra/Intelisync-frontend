@@ -4,16 +4,16 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/f
 export default function Footer() {
   return (
     <footer
-      className="py-20 bg-black text-white relative min-h-[300px] mt 20"
+      className="py-20 bg-black  text-white relative min-h-[300px]"
       style={{
-        backgroundImage: `url('/FooterImage.png')`,
-        backgroundPosition: "center top",
+        backgroundImage: `url('/footerimage.png')`,
+        backgroundPosition: "center 30%",
         backgroundRepeat: "no-repeat",
         backgroundSize: "95% auto", // Adjust width, height auto
-        paddingTop: "100px" // Push content down
+        paddingTop: "200px" // Push content down
       }}
     >
-      <div className="py-6 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mr-14">
+      <div className="p-6 lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <h2 className="text-2xl font-bold">
             <span className="text-white">Inteli</span>
