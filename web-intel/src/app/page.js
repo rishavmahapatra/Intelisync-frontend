@@ -1,27 +1,21 @@
 
 import Navbar from "@/component/navbar/Navbar";
-import Founder from "@/component/founderpage/Founder";
-import Blog from "@/component/landingpage/Blog";
-import Product from "@/component/ourproduct/Product";
-import Ourservice from "@/component/server/Ourservice";
-import Section1 from "@/component/whoweare/Section";
 import Section from "@/component/landingpage/Section";
 import Trusted from "@/component/landingpage/Trusted";
+import Section1 from "@/component/whoweare/Section";
+import Founder from "@/component/founderpage/Founder";
+import Ourservice from "@/component/server/Ourservice";
+import Product from "@/component/ourproduct/Product";
+import Portfolio from "@/component/footer/Portfolio";
 import Event from "@/component/landingpage/Event";
+import Blog from "@/component/landingpage/Blog";
 import Badges from "@/component/landingpage/Badges";
 import Client from "@/component/landingpage/Client";
+import {landingFaq} from "@/utils/FAQ_Data";
 import Global from "@/component/landingpage/Global";
-import FAQSection from "@/component/landingpage/FAQSection";
-import Banner from "@/component/branding/Banner";
-import Homepage from "@/component/branding/Homepage";
-import Impact from "@/component/branding/Impact";
-import Trustedservice from "@/component/branding/Trustedservice"
-import Faq from "@/component/branding/Faq";
-import Contact from "@/component/landingpage/Contact";
-import Blogservice from "@/component/branding/Blogservice";
-import Contactservice from "@/component/branding/Contactservice";
+import ContactUs from "@/component/ContactUs/ContactUs";
 import Footer from "@/component/footer/Footer";
-import Portfolio from "@/component/footer/Portfolio";
+import FAQSection from "@/component/FAQ/FAQ";
 
 
 export default function Home() {
@@ -37,19 +31,12 @@ export default function Home() {
     <Blog />
     <Badges />
     <Client />
-    <FAQSection />
-    <Contact />
-    <Global />
+    <FAQSection faqs={landingFaq}/>
     <Product />
-    {/* <Portfolio /> */}
-    {/* <Banner />
-    <Homepage />
-    <Impact />
-    <Trustedservice />
-    <Faq />
-    <Blogservice/>
-    <Contactservice /> */}
-    {/* <Footer /> */}
+    <Portfolio />
+    <ContactUs/>
+    <Global />
+    <Footer />
     
     </>
   );

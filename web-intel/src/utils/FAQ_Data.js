@@ -1,10 +1,30 @@
 export const BlockChainfaqs = [
-    { question: "How can blockchain improve my business?", answer: "Blockchain enhances transparency, security, and efficiency. It creates tamper-proof records, simplifies processes, and reduces costs by eliminating middlemen. Whether it’s managing supply chains or securing transactions, blockchain can give your business a competitive edge in today’s digital world." },
-    { question: "What types of blockchain services do you offer?", answer: "We offer a full range of blockchain services, including smart contract development, private and public blockchain solutions, tokenization, decentralized apps (dApps), and blockchain consulting. Whatever your needs, we provide tailored solutions to help you unlock blockchain’s potential." },
-    { question: "How secure are your blockchain solutions?", answer: "Security is at the core of our blockchain solutions. We follow best practices, including encryption, multi-signature authentication, and rigorous testing, to ensure data integrity. Our goal is to provide blockchain services that are as secure as they are innovative." },
-    { question: "Can blockchain be integrated into my current systems?", answer: "Yes, blockchain can be seamlessly integrated into your existing infrastructure. We analyze your current systems and develop solutions that complement your operations without causing disruptions. This ensures a smooth transition and maximizes the benefits for your business." },
-    { question: "How long does it take to implement blockchain solutions?", answer: "Implementation timelines vary based on complexity. Simple blockchain projects can be completed in weeks, while more advanced solutions may take several months. We’ll work with you to create a customized plan and timeline that meets your business needs efficiently." },
-  ];
+  {
+    question: "How can blockchain improve my business?",
+    answer:
+      "Blockchain enhances transparency, security, and efficiency. It creates tamper-proof records, simplifies processes, and reduces costs by eliminating middlemen. Whether it’s managing supply chains or securing transactions, blockchain can give your business a competitive edge in today’s digital world.",
+  },
+  {
+    question: "What types of blockchain services do you offer?",
+    answer:
+      "We offer a full range of blockchain services, including smart contract development, private and public blockchain solutions, tokenization, decentralized apps (dApps), and blockchain consulting. Whatever your needs, we provide tailored solutions to help you unlock blockchain’s potential.",
+  },
+  {
+    question: "How secure are your blockchain solutions?",
+    answer:
+      "Security is at the core of our blockchain solutions. We follow best practices, including encryption, multi-signature authentication, and rigorous testing, to ensure data integrity. Our goal is to provide blockchain services that are as secure as they are innovative.",
+  },
+  {
+    question: "Can blockchain be integrated into my current systems?",
+    answer:
+      "Yes, blockchain can be seamlessly integrated into your existing infrastructure. We analyze your current systems and develop solutions that complement your operations without causing disruptions. This ensures a smooth transition and maximizes the benefits for your business.",
+  },
+  {
+    question: "How long does it take to implement blockchain solutions?",
+    answer:
+      "Implementation timelines vary based on complexity. Simple blockchain projects can be completed in weeks, while more advanced solutions may take several months. We’ll work with you to create a customized plan and timeline that meets your business needs efficiently.",
+  },
+];
 
   export const Servicesfaqs = [
     {
@@ -173,3 +193,57 @@ export const BlockChainfaqs = [
         "We start by understanding your brand, goals, and target audience. Then, we craft a tailored plan with the right messaging, strategies, and channels to amplify your brand’s visibility and trustworthiness. Every plan is designed to reflect your unique voice and drive meaningful engagement.",
     },
   ];
+
+export const landingFaq = [
+  {
+    question: "What are your Marketing Specialities?",
+    answer:
+      "We specialize in digital marketing, SEO, social media, and branding strategies.",
+  },
+
+  {
+    question: "How can my business benefit from partnering with your Agency?",
+    answer:
+      "Our tailored marketing approach helps you increase reach, engagement, and conversions.",
+  },
+  {
+    question:
+      "How does your approach differ from traditional marketing agencies?",
+    answer:
+      "We leverage data-driven insights and innovative techniques to maximize ROI.",
+  },
+  {
+    question: "Can you share success stories from previous clients?",
+    answer:
+      "Yes! We have helped multiple brands achieve significant growth and revenue increases.",
+  },
+  {
+    question: "What industries do you specialize in?",
+    answer: "We cater to e-commerce, SaaS, real estate, healthcare, and more.",
+  },
+];
+
+export const AIfaq =[
+  {
+    question : "How can AI improve my business?",
+    answer : "AI can help your business work smarter, not harder. It automates routine tasks, analyzes data to uncover insights, and delivers personalized customer experiences. The result? Increased productivity, better decision-making, and new opportunities for growth that take your business to the next level."
+  },
+
+  {
+    question : "How can AI improve my business?",
+    answer : "AI is transforming industries across the board—healthcare, finance, retail, manufacturing, and beyond. Whether it’s streamlining operations, improving customer service, or boosting sales, AI helps businesses in every sector stay competitive and innovative."
+  },
+  {
+    question : "How do you ensure the security of AI applications?",
+    answer : "Keeping your data safe is a top priority. We follow strict industry standards, encrypt sensitive information, and test thoroughly for vulnerabilities. Our goal is to provide AI solutions that are not only powerful but also secure and trustworthy."
+  },
+  {
+    question : "What is the typical timeline for implementing AI solutions?",
+    answer : "The timeline depends on your project’s complexity. Simple AI applications can be implemented in a few weeks, while more advanced systems may take a few months. We’ll work with you to create a clear, realistic timeline and ensure the process runs smoothly from start to finish."
+  },
+  {
+    question : "Can AI be integrated with my existing systems?",
+    answer : "Absolutely! AI can be seamlessly integrated with your current systems to enhance what you already have. We’ll evaluate your setup and design a solution that fits perfectly—no disruptions, just smarter, more efficient operations for your business"
+  },
+
+];

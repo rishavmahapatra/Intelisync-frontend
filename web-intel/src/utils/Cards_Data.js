@@ -259,3 +259,37 @@ export const PublicRelationCards = [
       "Position your brand as an industry leader with our thought leadership services. We craft compelling narratives, develop executive visibility plans, and publication opportunities to enhance your brand’s authority and influence.",
   },
 ];
+  export const Artificial =[
+
+  
+    {
+        title: "AI Solutions for Business Innovation",
+        description:
+            " Our AI services help businesses leverage artificial intelligence to automate processes, optimize operations, and drive strategic decision-making. We provide customized solutions that deliver measurable impact and drive long-term success."        },
+    {
+        title: "Data-Driven Insights & Analytics",
+        description:
+            "Unlock actionable insights from your data using advanced AI analytics, enabling smarter decisions that boost performance and enhance customer experiences.",
+    },
+    {
+        title: "Natural Language Processing (NLP)",
+        description:
+            "Leverage NLP to enhance communication with customers through AI-powered chatbots, sentiment analysis, and language-based insights for improved service and engagement.",
+    },
+    {
+        title: "AI-Driven Innovation & Strategy",
+        description:
+            "Develop and implement innovative AI strategies that align with your business goals, helping you adapt quickly to changing market conditions and drive sustainable growth.",
+    },
+    {
+        title: "Robotic Process Automation (RPA)",
+        description:
+            "Streamline repetitive tasks and improve operational efficiency with AI-powered robotic process automation. Our RPA solutions help businesses reduce manual effort, minimize errors, and enhance productivity across various processes.",
+    },
+    {
+        title: "AI-Powered Personalization",
+        description:
+            "Deliver hyper-personalized customer experiences with AI-driven personalization strategies. We leverage advanced algorithms to tailor recommendations, content, and services that boost engagement, loyalty, and conversion rates.",
+    },
+
+];
