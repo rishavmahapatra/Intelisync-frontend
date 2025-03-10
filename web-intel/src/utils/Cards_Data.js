@@ -160,3 +160,102 @@ export const InfluencerMarketingservices = [
         description: "Monitor and analyze influencer campaign performance with real-time data and detailed insights."
     }
 ];
+
+export const StrategicCards = [
+  {
+    title: "Strategic Planning & Execution",
+    description:
+      "From vision to execution, we help you develop and implement actionable strategies that achieve measurable results. Our approach ensures that your business strategy is effective and aligned with your long-term goals.",
+  },
+  {
+    title: "Growth & Performance Enhancement",
+    description:
+      "Our strategic advisory services focus on driving sustainable growth and improving overall business performance. We work with you to implement strategies that boost productivity, profitability, and market share.",
+  },
+  {
+    title: "Market Research & Competitive Analysis",
+    description:
+      "Through comprehensive market research, we provide valuable insights and identify industry trends, helping your business stay ahead of competitors. Our analysis enables informed decision-making for future growth.",
+  },
+  {
+    title: "Tailored Strategy Development",
+    description:
+      "We create customized business strategies that align with your specific goals, ensuring targeted growth. Our expert advisors work with you to craft solutions that maximize long-term success.",
+  },
+  {
+    title: "Operational Efficiency Optimization",
+    description:
+      "Prepare for the unexpected with our proactive crisis management services. We develop and execute crisis response strategies that protect your brand’s reputation, minimize negative impact, and rebuild trust with key stakeholders.",
+  },
+  {
+    title: "Risk Management & Mitigation",
+    description:
+      "Position your brand as an industry leader with our thought leadership services. We craft compelling narratives, develop executive visibility plans, and publication opportunities to enhance your brand’s authority and influence.",
+  },
+];
+
+export const GrowthCards = [
+  {
+    title: "Customer Acquisition Strategy",
+    description:
+      "We develop targeted strategies that attract and convert new customers. By leveraging SEO, PPC, and content marketing, we create campaigns designed to reach your ideal audience and increase customer acquisition.",
+  },
+  {
+    title: "Data-Driven Insights & Analytics",
+    description:
+      "Our CRO services focus on enhancing the performance of your website and landing pages to increase conversions. Through A/B testing, user behavior analysis, and optimization, we help maximize your website’s potential to turn visitors into customers.",
+  },
+  {
+    title: "Data-Driven Marketing",
+    description:
+      "We harness the power of analytics and insights to inform your marketing decisions. By continuously tracking and analyzing campaign performance, we ensure every marketing move is backed by data, driving optimal results and ROI.",
+  },
+  {
+    title: "Email Marketing Campaigns",
+    description:
+      "Our email marketing services are designed to nurture leads and build long-lasting customer relationships. With personalized, targeted email campaigns, we increase engagement, retention, and conversion by delivering the right message at the right time.",
+  },
+  {
+    title: "Content Marketing Strategy",
+    description:
+      "From AMAs and webinars to virtual meetups, we'll organize events that allow your team to connect directly with your audience and foster deeper engagement.",
+  },
+  {
+    title: "Partnership & Collaboration Management",
+    description:
+      "Build strategic partnerships to strengthen your community and brand. We identify and manage collaborations with influencers, projects, and industry leaders to boost visibility and enhance engagement opportunities.",
+  },
+];
+
+export const PublicRelationCards = [
+  {
+    title: "Strategy Execution",
+    description:
+      "We implement the strategy by leveraging our vast media network, ensuring your brand is showcased in reputable publications that shape public perception and influence key audiences.",
+  },
+  {
+    title: "Audit & Report",
+    description:
+      "We start with a comprehensive brand audit to evaluate how your brand is currently perceived. You’ll receive a detailed report with actionable insights and opportunities for improving your brand’s image and market positioning.",
+  },
+  {
+    title: "Insight-Driven Strategy",
+    description:
+      "With a deep understanding of your brand’s perception, our PR team develops a strategic, data-driven plan to improve your brand’s recognition and reputation among your target audience.",
+  },
+  {
+    title: "Performance Tracking",
+    description:
+      "We continuously track the performance of your media coverage and public sentiment, making real-time adjustments and follow-ups as necessary, while keeping you informed throughout the entire process.",
+  },
+  {
+    title: "Crisis Management",
+    description:
+      "Prepare for the unexpected with our proactive crisis management services. We develop and execute crisis response strategies that protect your brand’s reputation, minimize negative impact, and rebuild trust with key stakeholders.",
+  },
+  {
+    title: "Thought Leadership Development",
+    description:
+      "Position your brand as an industry leader with our thought leadership services. We craft compelling narratives, develop executive visibility plans, and publication opportunities to enhance your brand’s authority and influence.",
+  },
+];

@@ -4,9 +4,9 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/f
 export default function Footer() {
   return (
     <footer
-      className="py-20 bg-black text-white relative min-h-[300px]"
+      className="py-20 bg-black text-white relative min-h-[300px] mt 20"
       style={{
-        backgroundImage: `url('/photos/image.png')`,
+        backgroundImage: `url('/FooterImage.png')`,
         backgroundPosition: "center top",
         backgroundRepeat: "no-repeat",
         backgroundSize: "95% auto", // Adjust width, height auto

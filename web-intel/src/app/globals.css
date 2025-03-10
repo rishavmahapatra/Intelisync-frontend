@@ -10,6 +10,17 @@ body {
   color: transparent;
   
 }
+.glow-effect {
+  position: absolute;
+  top: -50px;
+  left: -150px;
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(6, 222, 255, 0.6) 0%, transparent 60%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
 /* @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
