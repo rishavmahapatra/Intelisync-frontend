@@ -21,13 +21,14 @@ import Contact from "@/component/landingpage/Contact";
 import Blogservice from "@/component/branding/Blogservice";
 import Contactservice from "@/component/branding/Contactservice";
 import Footer from "@/component/footer/Footer";
+import Portfolio from "@/component/footer/Portfolio";
 
 
 export default function Home() {
   return (
     <>
     <Navbar />
-    {/* <Section />
+    <Section />
     <Trusted />
     <Section1 />
     <Founder />
@@ -39,14 +40,15 @@ export default function Home() {
     <FAQSection />
     <Contact />
     <Global />
-    <Product /> */}
-    <Banner />
+    <Product />
+    <Portfolio />
+    {/* <Banner />
     <Homepage />
     <Impact />
     <Trustedservice />
     <Faq />
     <Blogservice/>
-    <Contactservice />
+    <Contactservice /> */}
     <Footer />
     
     </>
