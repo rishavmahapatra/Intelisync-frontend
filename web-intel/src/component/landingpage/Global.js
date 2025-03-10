@@ -30,6 +30,7 @@ function GlobalData() {
             const ref = useRef(null);
             const isInView = useInView(ref); // Each card gets its own inView tracking
 
+            return (
               <motion.div
                 key={index}
                 ref={ref}
@@ -50,7 +51,7 @@ function GlobalData() {
                   {location.name}
                 </p>
               </motion.div>
-            
+            );
           })}
         </div>
       </div>
