@@ -41,7 +41,7 @@ export default function Home() {
     <Contact />
     <Global />
     <Product />
-    <Portfolio />
+    {/* <Portfolio /> */}
     {/* <Banner />
     <Homepage />
     <Impact />
@@ -49,7 +49,7 @@ export default function Home() {
     <Faq />
     <Blogservice/>
     <Contactservice /> */}
-    <Footer />
+    {/* <Footer /> */}
     
     </>
   );

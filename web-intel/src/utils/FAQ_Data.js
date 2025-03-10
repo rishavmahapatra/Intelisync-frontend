@@ -89,3 +89,87 @@ export const BlockChainfaqs = [
         "Consistent influencer collaborations build trust and loyalty over time. By staying top of mind with your target audience, influencer partnerships can amplify your brand’s voice and foster long-term growth.",
     },
   ];
+
+  export const Startegicfaqs = [
+    {
+      question: "What does strategic advisory mean for my business?",
+      answer:
+        "Strategic advisory is about partnering with you to create a roadmap for success. It involves analyzing your business’s strengths, challenges, and opportunities to develop actionable strategies that drive growth, improve efficiency, and help you achieve your long-term goals.",
+    },
+    {
+      question: "How can strategic advisory help my business?",
+      answer:
+        "It provides you with expert insights and tailored solutions to overcome challenges and seize new opportunities. Whether you’re launching a new product, expanding to new markets, or optimizing operations, strategic advisory helps you make smart, informed decisions that fuel growth.",
+    },
+    {
+      question: "What’s your approach to developing a winning strategy for my business?",
+      answer:
+        "We start by understanding your business inside and out your vision, market, and challenges. From there, we craft a customized plan with clear, measurable steps. We focus on flexibility too, so we can adapt as the market or your needs evolve to keep you on track for success.",
+    },
+    {
+      question: "How do you identify business growth opportunities?",
+      answer:
+        "We analyze your industry trends, customer data, and competitive landscape to uncover areas of opportunity. Whether it’s a new product line, market expansion, or process improvement, we pinpoint growth paths that align with your business strengths and goals.",
+    },
+    {
+      question: "How do you ensure strategies align with my goals?",
+      answer:
+        "Your business goals are our North Star. We collaborate with you every step of the way, ensuring our strategies are tailored to your vision. We also set clear milestones and performance metrics to track progress and fine-tune strategies to stay aligned with your objectives.",
+    },
+  ];
+
+  export const GrowthMarketingfaqs = [
+    {
+      question: "What is growth marketing?",
+      answer:
+        "Growth marketing is a data-driven approach that focuses on more than just acquiring new customers—it’s about nurturing relationships, boosting engagement, and driving long-term business growth. It combines creativity with analytics to fine-tune every aspect of the customer journey for maximum impact.",
+    },
+    {
+      question: "How does growth marketing help my business grow?",
+      answer:
+        "Growth marketing helps your business by optimizing every stage of the customer journey—from awareness to retention. It identifies opportunities for improvement, leverages data to make informed decisions, and continuously tests strategies to find what works best. The result? Sustainable, scalable growth tailored to your business.",
+    },
+    {
+      question: "How do you track growth marketing success?",
+      answer:
+        "Success is measured through key performance indicators (KPIs) like customer acquisition cost, retention rates, lifetime value, conversion rates, and engagement metrics. By tracking these metrics, we can make data-backed adjustments to improve performance and maximize your return on investment.",
+    },
+    {
+      question: "Can growth marketing be applied to both online and offline?",
+      answer:
+        "Yes! Growth marketing is versatile. While it’s often associated with digital marketing, it can also be applied to offline strategies like events, print advertising, and direct mail. The key is creating a cohesive experience across all channels to boost brand visibility and engagement.",
+    },
+    {
+      question: "How do you create a customized growth marketing strategy?",
+      answer:
+        "We start by understanding your business goals, audience, and market landscape. From there, we analyze data to identify growth opportunities and tailor strategies to your unique needs. Whether it’s optimizing your website, launching social campaigns, or improving customer retention, every step is designed to drive meaningful results.",
+    },
+  ];
+
+  export const PublicRelationfaqs = [
+    {
+      question: "How can PR improve my brand’s reputation?",
+      answer:
+        "PR helps tell your brand’s story in a way that builds trust and credibility. It gets your business featured in positive news stories, creates meaningful connections with your audience, and positions you as an industry leader. This reputation boost can attract more customers and foster long-term loyalty.",
+    },
+    {
+      question: "What PR strategies do you use?",
+      answer:
+        "We use a mix of strategies to make your brand stand out press releases, media outreach, influencer collaborations, event marketing, thought leadership articles, and social media engagement. Each strategy is tailored to amplify your brand’s message and ensure maximum visibility.",
+    },
+    {
+      question: "How do you measure the success of a PR campaign?",
+      answer:
+        "Success is measured by how effectively we achieve your goals. We track metrics like media mentions, website traffic, social engagement, brand sentiment, and lead generation. These insights help us fine-tune the strategy and ensure your campaign delivers real, measurable results.",
+    },
+    {
+      question: "Can PR help with crisis management?",
+      answer:
+        "Yes! PR plays a crucial role in managing crises by controlling the narrative and providing clear, transparent communication. We’ll act fast to address concerns, reassure your audience, and protect your brand’s reputation, ensuring you emerge stronger from any situation.",
+    },
+    {
+      question: "How do you create a custom PR plan for my business?",
+      answer:
+        "We start by understanding your brand, goals, and target audience. Then, we craft a tailored plan with the right messaging, strategies, and channels to amplify your brand’s visibility and trustworthiness. Every plan is designed to reflect your unique voice and drive meaningful engagement.",
+    },
+  ];
