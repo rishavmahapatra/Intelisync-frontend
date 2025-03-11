@@ -293,3 +293,51 @@ export const PublicRelationCards = [
     },
 
 ];
+
+export const IndustryOurservices = [
+  {
+      title: "FinTech",
+      description:
+          "Drive growth and profitability with data-driven fintech marketing. Strengthen your brand, attract high-quality leads, and enhance customer engagement.",
+  },
+  {
+      title: "Healthcare",
+      description:
+          "Boost patient acquisition and engagement with tailored healthcare marketing. Build trust, establish authority, and connect with the right audience.",
+  },
+  {
+      title: "Gaming",
+      description:
+          "Expand your player base and maximize in-game revenue with strategic marketing. Leverage targeted campaigns to enhance engagement.",
+  },
+  {
+      title: "Crypto",
+      description:
+          "Accelerate your crypto projects with expert marketing strategies. Navigate the evolving blockchain landscape with confidence.",
+  },
+  {
+      title: "Startup",
+      description:
+          "Scale your startup with growth-focused marketing solutions. Build brand awareness, engage customers, and drive sustainable success.",
+  },
+  {
+      title: "Small Business",
+      description:
+          "Unlock your small business’s full potential with strategic marketing. Increase visibility, attract customers, and boost long-term growth.",
+  },
+];
+
+export const GamingServices = [
+  { title: "User Acquisition", description: "Create compelling campaigns to attract new players, foster brand loyalty, and expand your game's player base." },
+  { title: "ASO (App Store Optimization)", description: "Implement ASO strategies to boost your game's visibility in app stores and attract more players." },
+  { title: "Custom Marketing Strategy", description: "Develop personalized strategies and campaigns to drive organic growth, engage your audience, and increase revenue." },
+  { title: "Social Media Management", description: "Manage and optimize social media campaigns to reach players across top platforms, creating a strong online presence." },
+  { title: "Public Relations (PR)", description: "Leverage PR strategies to build hype, generate positive press, and increase your game's visibility." },
+  { title: "Branding & Identity", description: "Refine your game's brand identity for consistency, recognition, and a unified image that appeals to your audience." },
+  { title: "Influencer Marketing", description: "Collaborate with influential gamers and streamers to expand your reach and attract new players." },
+  { title: "Affiliate Marketing", description: "Build strong relationships with affiliates to broaden your reach and grow your player base." },
+  { title: "Community Management", description: "Implement ASO strategies to boost your game's visibility in app stores and attract more players." },
+  { title: "Paid Media", description: "Use targeted media buying strategies to efficiently drive downloads and maximize your game's exposure." },
+  { title: "Gaming Events", description: "Implement ASO strategies to boost your game's visibility in app stores and attract more players." },
+  { title: "Game Localization & Global Marketing", description: "Implement ASO strategies to boost your game's visibility in app stores and attract more players." },
+];

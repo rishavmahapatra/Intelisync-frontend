@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
+
 
 .outline-text {
   -webkit-text-stroke: 1px #00ffff; /* Cyan outline */

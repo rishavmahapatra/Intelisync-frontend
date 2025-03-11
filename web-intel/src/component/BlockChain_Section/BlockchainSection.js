@@ -2,7 +2,7 @@
 export default function Section() {
     return (
         <div
-            className="flex items-center justify-center h-[595px] bg-gradient-to-bl from-[#089BC4] via-[#009CAD] to-[#00468C] text-white"
+            className="flex items-center justify-center h-screen bg-gradient-to-bl from-[#089BC4] via-[#009CAD] to-[#00468C] text-white"
             style={{
                 background: "linear-gradient(254.95deg, #086CC4 -2.44%, #9F30FF -2.43%, #00BBD8 50.15%, #00B0C4 68.3%, #068BFF 99.46%, #00468C 99.46%, #009CAD 99.46%)",
             }}
