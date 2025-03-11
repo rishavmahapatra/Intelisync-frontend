@@ -16,7 +16,7 @@ export default function TrustedInnovators() {
     return (
         <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
             <div className="relative w-fit mx-auto pb-2">
-                <h2 className="font-poppins font-semibold text-[30px] leading-[40px] tracking-[-0.01%] text-center">
+                <h2 className="font-poppins font-semibold text-[25px] leading-[40px] tracking-[-0.01%] text-center">
                     Trusted by Top Innovators
                 </h2>
 

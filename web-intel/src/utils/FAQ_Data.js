@@ -274,3 +274,59 @@ export const Brandingfaqs = [
     answer: "We cater to e-commerce, SaaS, real estate, healthcare, and more.",
   },
 ];
+
+export const Industryfaqs = [
+  {
+    question: " How does Intelisync drive digital transformation across industries? ",
+    answer:
+      "Intelisync blends blockchain, tokenization, automation, and AI-driven marketing to optimize workflows, enhance security, and unlock new growth opportunities.",
+  },
+  {
+    question: "What industries benefit from Intelisync’s solutions?",
+    answer:
+      "From finance to supply chain, our scalable technologies drive efficiency, transparency, and innovation across multiple industries.",
+  },
+  {
+    question:
+      "How does Intelisync help businesses scale seamlessly?",
+    answer:
+      "With multi-chain interoperability, Layer 2 solutions, and decentralized frameworks, we enable businesses to expand without bottlenecks.",
+  },
+  {
+    question: "What impact does Intelisync’s technology have on regulatory compliance?",
+    answer:
+      "Our solutions help businesses maintain transparency and meet compliance requirements through tamper-proof records and automated reporting.",
+  },
+  {
+    question: "How can Intelisync help businesses stay future-ready?",
+    answer: "By integrating cutting-edge technology with adaptive solutions, we future-proof industries against evolving digital challenges.",
+  },
+];
+
+export const Gamingfaqs = [
+  {
+    question: " How can I increase user acquisition for my game?",
+    answer:
+      "To boost user acquisition, you can use targeted advertising across social media, run in-game promotions, and leverage cross-promotion with other games. Optimizing your game for app stores and creating engaging content can also help attract new players.",
+  },
+  {
+    question: "What strategies can improve my game's visibility in app stores?",
+    answer:
+      "App Store Optimization (ASO) is key. Focus on using relevant keywords in your title and description, create an eye-catching icon, use high-quality screenshots and videos, and encourage positive reviews. Regular updates also help improve visibility by showing the game is active.",
+  },
+  {
+    question:
+      "How do you develop a successful marketing strategy for a video game?",
+    answer:
+      "A solid marketing strategy starts with identifying your target audience and setting clear goals. Use a multi-channel approach that includes social media campaigns, content marketing, influencer collaborations, paid ads, and PR. Consistent engagement and storytelling around your game also drive awareness and interest.",
+  },
+  {
+    question: "How can influencer marketing help boost my game’s popularity?",
+    answer:
+      "Partnering with influencers allows you to tap into their established audiences and build trust. Influencers can create authentic content, such as gameplay videos or live streams, to showcase your game’s features and excitement, helping to drive downloads and engagement.",
+  },
+  {
+    question: "What role does community management play in growing my game’s player base?",
+    answer: "Community management fosters strong connections with players by promoting engagement and interaction. A dedicated community team can answer questions, run events, gather feedback, and build a sense of belonging that encourages retention and word-of-mouth promotion for your game.",
+  },
+];
