@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins';
+}
+
+.outline-text {
+  -webkit-text-stroke: 1px #00ffff; /* Cyan outline */
+  text-stroke: 2px #00ffff;
+  color: transparent;
+  
+}
+.glow-effect {
+  position: absolute;
+  top: -50px;
+  left: -150px;
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(6, 222, 255, 0.6) 0%, transparent 60%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+/* @theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
