@@ -18,10 +18,16 @@ const brands = [
 
 export default function TrustedBrands() {
   return (
-    <div className="flex justify-center items-center h-[30vh] bg-black overflow-hidden">
-      <div className="w-full max-w-[1222px] relative">
+    <div className="flex flex-col justify-center items-center h-[20vh] bg-[#000B18] overflow-hidden">
+       <div className="text-center mb-4">
+            <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white relative inline-block pb-2">
+              Trusted by Top Innovators
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-[#06FFF0] via-[#00aaff] to-[#0192BA]"></span>
+            </h1>
+          </div>
+      <div className="w-full relative">
         <motion.div
-          className="flex items-center w-max flex-nowrap space-x-20" // Increased spacing for smoother appearance
+          className="flex items-center flex-nowrap space-x-20" // Increased spacing for smoother appearance
           animate={{ x: ["0%", "-50%"] }}
           transition={{ 
             repeat: Infinity, 

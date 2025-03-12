@@ -9,57 +9,57 @@ const services = [
         title: "Artificial Intelligence",
         description:
             "Unlock efficiency and innovation with custom AI and machine learning models, leveraging  natural language processing, computer vision, and intelligent automation to drive smarter business decisions.",
-        icon: <Sparkles size={28} className="text-cyan-300" />,
+        icon: <img src="/AIimage.png" alt="AI Icon" className="w-7 h-7" />
     },
     {
         title: "Growth Marketing",
         description:
             "Social Media Management, Community Management, Influencers & AMAs, Campaigns & Activations & more",
-        icon: <Users size={28} className="text-cyan-300" />,
+        icon: <img src="/Growth Marketing.png" alt="growth icon" className="w-7 h-7" />
     },
     {
         title: "Blockchain Services",
         description:
             "We help businesses integrate blockchain to enhance security, streamline operations, and unlock new opportunities in asset management and decentralized systems.",
-        icon: <Blocks size={28} className="text-cyan-300" />,
+        icon: <img src="/Blockchain Services.png" alt="blockchain icon" className="w-7 h-7" />
     },
     {
         title: "Public Relations",
         description:
             "Enhance your brand’s reputation and visibility with strategic PR campaigns, media outreach, and influencer collaborations, ensuring impactful storytelling and strong industry presence.",
-        icon: <Megaphone size={28} className="text-cyan-300" />,
+        icon: <img src="/Public Relations.png" alt="blockchain icon" className="w-7 h-7" />
     },
     {
         title: "Strategic Advisory",
         description:
             "Personalised advisory services designed to help you overcome the challenges that come with running a successful business.",
-        icon: <Briefcase size={28} className="text-cyan-300" />,
+        icon: <img src="/Strategic Advisory.png" alt="blockchain icon" className="w-7 h-7" />,
     },
     {
         title: "Branding",
         description:
             "Craft a powerful and distinctive brand identity with strategic positioning, compelling storytelling, and design, ensuring your brand stands out in the digital era.",
-        icon: <PenTool size={28} className="text-cyan-300" />,
+        icon: <img src="/Branding.png" alt="blockchain icon" className="w-7 h-7" />,
     },
     {
         title: "Community Management",
         description:
             "Build a vibrant, loyal community with proactive engagement and meaningful interactions. Our community management services enhance brand trust, improve customer retention, and turn followers into long-term brand advocates.",
-        icon: <PenTool size={28} className="text-cyan-300" />,
+        icon: <img src="/Community Management.png" alt="blockchain icon" className="w-7 h-7" />,
     },
 
     {
         title: "Influencer Marketing",
         description:
             "Boost your brand’s visibility with tailored influencer marketing strategies. We connect you with influencers who align with your brand, helping to expand reach, drive engagement, and build lasting trust with your target audience.",
-        icon: <PenTool size={28} className="text-cyan-300" />,
+        icon: <img src="/Influencer Marketing.png" alt="blockchain icon" className="w-7 h-7" />,
     },
 
     {
         title: "Web App Development",
         description:
             "Elevate your online presence with innovative, user-centric web design from a proven web development company. We specialize in creating high-performing, visually captivating websites that reflect your brand’s identity and drive engagement",
-        icon: <PenTool size={28} className="text-cyan-300" />,
+        icon: <img src="/Web App Development.png" alt="blockchain icon" className="w-7 h-7" />,
     },
 
 ];
@@ -67,7 +67,10 @@ const services = [
 function Ourservice() {
     return (
         <div>
-            <section className="bg-black text-white flex flex-col items-center justify-center py-1 px-6 lg:px-20 relative">
+            <section className="bg-[#000B18] text-white flex flex-col items-center justify-center py-1 px-6 lg:px-20 relative">
+            <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                    </div>
                 <div className="relative flex flex-col items-center justify-center text-center py-20 ">
 
                     {/* Large Background "SERVICES" Text with Outline Effect */}

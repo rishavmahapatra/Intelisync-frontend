@@ -28,8 +28,11 @@ function Blog() {
   const isInView = useInView(ref, { once: false, margin: "-50px" });
 
   return (
-    <div className="bg-black">
-    <section className="container bg-black mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
+    <div className="relative bg-[#000B18]">
+      <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                    </div>
+    <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
       <div className="flex justify-center mb-10 md:mb-15">
 
 <button className="px-6 py-2 text-white text-lg font-semibold rounded-full

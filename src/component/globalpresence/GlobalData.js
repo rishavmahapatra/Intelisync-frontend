@@ -12,8 +12,8 @@ function GlobalData() {
         { name: "India-Pune", image: "/image22.png" },
     ]; 
   return (
-    <div>
-        <div className="bg-black min-h-screen flex flex-col items-center py-12 ">
+    <div className='relative bg-[#000B18] '>
+        <div className="min-h-screen flex flex-col items-center py-12 ">
                 {/* Glowing Button */}
                 <button className="px-6 py-2 text-white text-lg font-semibold rounded-full 
                          bg-gradient-to-r from-cyan-500 to-teal-500 shadow-lg 

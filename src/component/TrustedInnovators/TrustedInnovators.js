@@ -14,27 +14,24 @@ export default function TrustedInnovators() {
     ];
 
     return (
-        <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
-            <div className="relative w-fit mx-auto pb-2">
-                <h2 className="font-poppins font-semibold text-[30px] leading-[40px] tracking-[-0.01%] text-center">
+        <div className="bg-[#000B18] text-white py-10 px-4">
+            {/* Title Section */}
+            <div className="relative text-center pb-4">
+                <h2 className="font-poppins font-semibold text-[26px] sm:text-[30px] leading-[40px] tracking-tight">
                     Trusted by Top Innovators
                 </h2>
-
-                <div className="absolute bottom-0 left-0 w-full h-[2px] bg-cyan-400"></div>
-
+                {/* Underline */}
+                <div className="w-24 mx-auto mt-2 h-[2px] bg-cyan-400"></div>
             </div>
 
-
             {/* Logo Grid */}
-            <div className="grid grid-cols-3 mt-10 w-[1004px] mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 mt-10 mx-auto">
                 {logos.map((logo, index) => (
                     <div
                         key={index}
-                        className={`flex justify-center items-center h-28
-              ${index < logos.length - 3 ? "border-b border-gray-700" : ""} 
-              ${index % 3 !== 2 ? "border-r border-gray-700" : ""}`}
+                        className="flex justify-center items-center h-24 border border-gray-700 rounded-lg p-4"
                     >
-                        <Image src={logo.src} alt={logo.name} width={120} height={60} />
+                        <Image src={logo.src} alt={logo.name} width={120} height={60} className="object-contain" />
                     </div>
                 ))}
             </div>

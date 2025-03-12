@@ -10,7 +10,9 @@ function Founder() {
 
     return (
         <div >
-            <section className="bg-black text-white py-16 px-0 lg:px-40">
+            <section className="bg-[#000B18] text-white py-16 px-0 lg:px-40">
+           
+
             <motion.div
              ref={ref}
              className="bg-gradient-to-r from-black to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border-none p-5"
@@ -22,9 +24,9 @@ function Founder() {
                 >
                 <div className="bg-gradient-to-r from-black to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border border-none  p-5">
                     {/* Image Section */}
-                    <div className="relative w-67 h-90 rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
+                    <div className="relative w-67 h-100 rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
                         <Image
-                            src="/funder.jpg"
+                            src="/founderimage.png"
                             alt="Javed Khan"
                             fill
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"  // Helps Next.js optimize image loading

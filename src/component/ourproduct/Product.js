@@ -19,7 +19,12 @@ function Product() {
     }, [cards.length]);
 
     return (
-        <div className="relative min-h-screen bg-[#020D17] flex flex-col items-center justify-center">
+        <div className="relative min-h-screen bg-[#000B18] flex flex-col items-center justify-center">
+            
+                    <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                    </div>
+            
             {/* Large Transparent Background Text */}
             <div className="text-center relative mt-10">
                 <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10rem] lg:text-[15rem] 

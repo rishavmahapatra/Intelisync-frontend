@@ -92,12 +92,7 @@ const Section = () => {
 
           {/* Trusted Section - Placed Over the Glow with High z-index */}
           
-          <div className="absolute bottom-[-80px] sm:bottom-[-60px] md:bottom-[-120px] w-full text-center px-4 z-20">
-            <p className="text-lg sm:text-xl md:text-2xl font-bold text-white relative inline-block pb-2">
-              Trusted by Top Innovators
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-[#06FFF0] via-[#00aaff] to-[#0192BA]"></span>
-            </p>
-          </div>
+          
         </div>
       </div>
     </section>
