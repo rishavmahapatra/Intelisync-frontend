@@ -1,4 +1,4 @@
-import Blog from "@/component/Blogs/Blogs";
+import Blog from "@/component/landingpage/Blog";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import FAQSection from "@/component/FAQ/FAQ";
 import Footer from "@/component/footer/Footer";

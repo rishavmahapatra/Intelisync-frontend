@@ -13,7 +13,7 @@ const badges = [
 
 export default function BadgesSection() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, margin: "-50px" }); // Triggers on every scroll into view
+  const isInView = useInView(ref, { once: true, margin: "-50px" }); // Triggers on every scroll into view
 
   return (
     <div className="relative bg-[#000B18]">
@@ -25,7 +25,7 @@ export default function BadgesSection() {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="flex flex-col items-center   py-20"
+      className="flex flex-col items-center   py-10"
     >
       {/* Animated Button */}
       <motion.button
@@ -49,9 +49,9 @@ export default function BadgesSection() {
               ease: "easeInOut",
               delay: index * 0.0, // Staggered effect
             }}
-            className="p-8 m-4 transition-transform duration-300 "
+            className="p-4 m-4 transition-transform duration-300 "
             >
-            <div className="w-[150px] h-[150px] flex items-center justify-center p-4 m-4">
+            <div className="w-[150px] h-[150px] flex items-center justify-center p-4">
               <Image
                 src={badge.image}
                 alt={badge.name}

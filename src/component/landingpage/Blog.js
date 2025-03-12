@@ -25,14 +25,14 @@ const blogs = [
 
 function Blog() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, margin: "-50px" });
+  const isInView = useInView(ref, { once: true});
 
   return (
     <div className="relative bg-[#000B18]">
       <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
                     </div>
-    <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
+    <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
       <div className="flex justify-center mb-10 md:mb-15">
 
 <button className="px-6 py-2 text-white text-lg font-semibold rounded-full
@@ -50,6 +50,7 @@ function Blog() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.6, ease: "easeInOut" }}
+            viewport={{ once: true }}
 
             // read more button addjust 
             className="relative border border-gray-700 rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden pb-16" 

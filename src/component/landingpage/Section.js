@@ -5,7 +5,8 @@ import React from "react";
 const Section = () => {
   return (
     <section
-      className="relative bg-black text-white min-h-screen flex flex-col justify-start items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 overflow-hidden pt-2 bg-cover bg-center"
+      className="relative bg-[#000B18]
+       text-white min-h-screen flex flex-col justify-start items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 overflow-hidden pt-2 bg-cover bg-center"
       style={{
         backgroundImage: "url('/Mentahan1.png')",
         backgroundSize: "cover",
@@ -14,7 +15,7 @@ const Section = () => {
       }}
     >
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-[#000B18]"></div>
 
       {/* Header Content */}
       <header className="relative z-10 max-w-screen-xl">
