@@ -3,7 +3,7 @@
 export default function Banner() {
     return (
 
-        <div className="relative flex items-center justify-start h-[780px] text-white overflow-hidden px-10 md:px-20">
+        <div className="relative flex items-center justify-start h-[70vh] text-white overflow-hidden px-10 md:px-20">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-center bg-cover bg-black"
