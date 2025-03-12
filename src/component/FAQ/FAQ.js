@@ -11,7 +11,11 @@ export default function FAQSection({ faqs }) {
   };
 
   return (
-    <div className="bg-[#0A0F1A] text-white py-16 px-6 md:px-20 lg:px-32 flex flex-col md:flex-row">
+    <div className="relative bg-[#000B18]">
+       <div className="absolute w-[200px] h-[300px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                    </div>
+    <div className=" text-white py-16 px-6 md:px-20 lg:px-32 flex flex-col md:flex-row">
       {/* Left Title */}
       <div className="md:w-1/3">
         <h2 className="text-2xl md:text-3xl font-medium">FAQ’S</h2>
@@ -41,5 +45,6 @@ export default function FAQSection({ faqs }) {
         ))}
       </div>
     </div>
+        </div>
   );
 }

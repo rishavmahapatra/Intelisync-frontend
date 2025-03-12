@@ -40,14 +40,14 @@ export default function TestiMonial() {
   };
  
   return (
-    <div className="bg-[#0a0a0a] text-white flex flex-col items-center py-12 px-4 md:px-6">
+    <div className="bg-[#000B18] text-white flex flex-col items-center py-12 px-4 md:px-6">
       {/* Header */}
       <button className="text-lg font-semibold px-6 py-2 bg-cyan-500 rounded-full shadow-lg hover:bg-cyan-400 transition-all">
         What Our Clients Say
       </button>
  
       {/* Testimonial Box */}
-      <div className="relative bg-gray-1000 p-6 sm:p-8 md:p-10 rounded-lg w-full max-w-xl md:max-w-7xl shadow-lg border border-none mt-6">
+      <div className="relative bg-[rgba(217,217,217,0.05)] p-6 sm:p-8 md:p-10 rounded-lg w-full max-w-xl md:max-w-7xl shadow-lg border border-none mt-6">
         {/* Left Arrow */}
         <button
           onClick={prevTestimonial}

@@ -3,8 +3,11 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <div className="relative flex flex-col justify-center items-center min-h-screen bg-black text-white text-center px-4">
-      
+    <div className="relative flex flex-col justify-center items-center min-h-screen bg-[#000B18] text-white text-center px-4">
+       
+                    <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                    </div>
       {/* Glowing Effect in the Top-Left Corner */}
       <div className="glow-effect1"></div>
 

@@ -16,12 +16,16 @@ export default function BadgesSection() {
   const isInView = useInView(ref, { once: false, margin: "-50px" }); // Triggers on every scroll into view
 
   return (
+    <div className="relative bg-[#000B18]">
+       <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                    </div>
     <div
       ref={ref}
       initial={{ opacity: 0, scale: 0.5 }}
       animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="flex flex-col items-center bg-black py-20"
+      className="flex flex-col items-center   py-20"
     >
       {/* Animated Button */}
       <motion.button
@@ -37,7 +41,7 @@ export default function BadgesSection() {
       <div className="mt-10 grid grid-cols-2 md:grid-cols-5 gap-12 max-w-5xl place-items-center">
         {badges.map((badge, index) => (
           <motion.div
-            key={badge.id}
+          key={badge.id}
             initial={{ opacity: 0, scale: 1 }}
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 1 }}
             transition={{
@@ -46,7 +50,7 @@ export default function BadgesSection() {
               delay: index * 0.0, // Staggered effect
             }}
             className="p-8 m-4 transition-transform duration-300 "
-          >
+            >
             <div className="w-[150px] h-[150px] flex items-center justify-center p-4 m-4">
               <Image
                 src={badge.image}
@@ -60,5 +64,6 @@ export default function BadgesSection() {
         ))}
       </div>
     </div>
+  </div>
   );
 }

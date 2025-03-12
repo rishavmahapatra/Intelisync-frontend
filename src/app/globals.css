@@ -21,6 +21,22 @@ body {
   pointer-events: none;
   z-index: 0;
 }
+
+.custom-border {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  border: 2px solid;
+  border-image-source: linear-gradient(
+      90deg, 
+      rgba(7, 234, 211, 0) 1.96%, 
+      rgba(7, 234, 211, 0.28) 27.38%, 
+      #26DDFF 73.78%, 
+      rgba(38, 221, 255, 0) 95.38%
+  );
+  border-image-slice: 1;
+  clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}
 /* @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

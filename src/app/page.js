@@ -1,7 +1,7 @@
 
 import Navbar from "@/component/navbar/Navbar";
 import Section from "@/component/landingpage/Section";
-import Trusted from "@/component/landingpage/Trusted";
+import Trusted from "@/component/TrustedInnovators/Trusted";
 import Section1 from "@/component/whoweare/Section";
 import Founder from "@/component/founderpage/Founder";
 import Ourservice from "@/component/server/Ourservice";
