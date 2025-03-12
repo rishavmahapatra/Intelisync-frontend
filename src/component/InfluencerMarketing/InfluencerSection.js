@@ -1,6 +1,6 @@
 export default function InfluencerCampaign() {
     return (
-        <div className="bg-gradient-to-bl from-[#089BC4] via-[#009CAD] to-[#00468C] text-white py-16 px-6 md:px-20 lg:px-32 text-center">
+        <div className=" h-[70vh] bg-gradient-to-bl from-[#089BC4] via-[#009CAD] to-[#00468C] text-white py-32 px-6 md:px-20 lg:px-32 text-center">
             <h2 className="text-[32px] md:text-[48px] font-semibold leading-[42px] md:leading-[55px] tracking-[-0.01em] text-center">
                 Transform Your Brand with Authentic High-Impact Influencer Campaigns
             </h2>

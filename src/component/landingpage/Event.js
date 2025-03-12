@@ -32,16 +32,16 @@ const events = [
 
 function EventGallery() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
+  const isInView = useInView(ref, { once: true, threshold: 0.2 });
 
   return (
-    <div className="bg-black">
+    <div className="bg-[#000B18]">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, scale: 0.5 }}
         animate={isInView ? { opacity: 1, scale: 1 } : {}}
         transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
-        className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-12 py-10"
+        className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-14"
       >
         {/* Centered Animated Button */}
         <button className="mb-20 px-6 py-2 text-white text-lg font-semibold rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 shadow-lg transition-all duration-300 mt-[-10px]">

@@ -1,6 +1,6 @@
 export default function CommunitySection() {
     return (
-        <div className="bg-gradient-to-bl from-[#089BC4] via-[#009CAD] to-[#00468C] text-white py-16 px-6 md:px-20 lg:px-32 text-center rounded-lg">
+        <div className=" h-screen bg-gradient-to-bl from-[#089BC4] via-[#009CAD] to-[#00468C] text-white py-16 px-6 md:px-20 lg:px-32 text-center rounded-lg">
             <h2 className="text-[48px] leading-[55px] font-semibold text-center tracking-[-0.01em] font-[Poppins] text-white">
                 Unite and Energize Your Crypto Community with Pro Telegram & Discord Management
             </h2>

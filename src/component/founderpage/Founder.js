@@ -6,7 +6,7 @@ import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 function Founder() {
     const ref = useRef(null);
-    const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
+    const isInView = useInView(ref, { once: true, threshold: 0.2 });
 
     return (
         <div >
@@ -15,14 +15,15 @@ function Founder() {
 
             <motion.div
              ref={ref}
-             className="bg-gradient-to-r from-black to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border-none p-5"
+             className="bg-gradient-to-r from-[#000B18] to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border-none p-5"
              initial={{ opacity: 0, scale: 0.5 }}
              animate={isInView ? { opacity: 1, scale: 1 } : {}}
              transition={{ duration: 0.6, ease: "easeInOut" }}
+             viewport={{ once: true }}
             
                    
                 >
-                <div className="bg-gradient-to-r from-black to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border border-none  p-5">
+                <div className="bg-gradient-to-r from-[#000B18] to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border border-none  p-5">
                     {/* Image Section */}
                     <div className="relative w-67 h-100 rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
                         <Image
@@ -54,11 +55,11 @@ function Founder() {
 
                         {/* Social Icons */}
                         <div className="flex justify-center lg:justify-start gap-4 mt-6 ">
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:bg-gray-400 transition">
-                                <FaLinkedin className="  text-2xl text-[rgb(61,232,232)] hover:text-gray-400 transition" />
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
+                                <FaLinkedin className="  text-2xl text-[rgb(61,232,232)]" />
                             </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"  className="bg-gray-700 p-3 rounded-full hover:bg-gray-400 transition">
-                                <FaXTwitter className="text-2xl text-[rgb(61,232,232)] hover:text-gray-400 transition" />
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"  className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
+                                <FaXTwitter className="text-2xl text-[rgb(61,232,232)]" />
                             </a>
                         </div>
                     </div>

@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 import {Ourservicedata}  from '@/utils/Dropdown_Data';
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-black text-white py-4">
@@ -24,22 +23,18 @@ export default function Navbar() {
           <Link href="/company" className="hover:text-teal-400">Company</Link>
 
           {/* Our Services Dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-white transition duration-300 hover:text-teal-400 hover:scale-105 focus:outline-none flex items-center space-x-2"
-            >
+          <div className="relative group">
+            
               {/* <span className='cursor-pointer'>Our Services</span> */}
-              <span className='cursor-pointer'>Our Services</span>
-            </button>
+              <Link href="/services"><span className='cursor-pointer'>Our Services</span></Link>
+          
             <div className="relative z-100">
-            {isOpen && (
               <motion.ul
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}
                 animate={{ opacity: 1, y: 5, scale: 1 }}
                 exit={{ opacity: 0, y: -10, scale: 0.95 }}
                 transition={{ duration: 0.3, ease: 'easeInOut' }}
-                className="absolute left-0 mt-2 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
+                className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
                 style={{
                   background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)'
                 }}
@@ -56,7 +51,6 @@ export default function Navbar() {
                   </li>
                 ))}
               </motion.ul>
-            )}
           </div>
           </div>
 
