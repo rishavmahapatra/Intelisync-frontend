@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import {Ourservicedata}  from '@/utils/Dropdown_Data';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +12,12 @@ export default function Navbar() {
     <nav className="bg-black text-white py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* Logo */}
+        <Link href="/">
         <div className="text-2xl font-bold">
           <span className="text-white">Inteli</span>
           <span className="text-teal-400">sync</span>
         </div>
+        </Link>
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-12 text-lg relative">
@@ -26,6 +29,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="text-white transition duration-300 hover:text-teal-400 hover:scale-105 focus:outline-none flex items-center space-x-2"
             >
+              {/* <span className='cursor-pointer'>Our Services</span> */}
               <span className='cursor-pointer'>Our Services</span>
             </button>
             <div className="relative z-100">
@@ -40,17 +44,7 @@ export default function Navbar() {
                   background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)'
                 }}
               >
-                {[
-                  { title: 'Artificial Intelligence (AI)', link: '/services/artificial-intelligence' },
-                  { title: 'Growth Marketing', link: '/services/growth-marketing' },
-                  { title: 'Blockchain Services', link: '/services/blockchain' },
-                  { title: 'Public Relations', link: '/services/public-relations' },
-                  { title: 'Strategic Advisory', link: '/services/strategic-advisory' },
-                  { title: 'Community Management', link: '/services/community-management' },
-                  { title: 'Web App Development', link: '/services/webdevelopment' },
-                  { title: 'Influencer Marketing', link: '/services/influencer-marketing' },
-                  { title: 'Branding', link: '/services/branding' }
-                ].map((service, index) => (
+                {Ourservicedata.map((service, index) => (
                   <li key={index}>
                     <Link
                       href={service.link}
