@@ -43,22 +43,32 @@ function EventGallery() {
         transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
         className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-14"
       >
-        {/* Centered Animated Button */}
-        <button className="mb-20 px-6 py-2 text-white text-lg font-semibold rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 shadow-lg transition-all duration-300 mt-[-10px]">
-          Intelisync Event Highlights
-        </button>
+       
+        <div className="relative px-5 py-6 text-white font-medium text-center">
+
+          {/* Gradient Text */}
+          <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
+               bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+            Intelisync Event Highlights
+          </h2>
+
+          {/* Underline (centered & dynamic width) */}
+          <div className="mt-3 mx-auto h-0.5 bg-gray-200 w-[calc(100%-2rem)] max-w-[18rem]"></div>
+
+        </div>
+
+
 
         {/* Event Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full">
           {events.map((event, index) => (
             <div
               key={index}
-              className={`relative rounded-xl overflow-hidden shadow-lg ${
-                index === 0 ? "md:col-span-2 md:row-span-2 h-[32rem]"
+              className={`relative rounded-xl overflow-hidden shadow-lg ${index === 0 ? "md:col-span-2 md:row-span-2 h-[32rem]"
                   : index === 3
-                  ? "md:col-span-2"
-                  : ""
-              }`}
+                    ? "md:col-span-2"
+                    : ""
+                }`}
             >
               <div className="relative w-full h-full">
                 <Image
