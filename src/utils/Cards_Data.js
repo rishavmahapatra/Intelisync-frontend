@@ -637,6 +637,71 @@ export const SmallBusinessCard= [
     ],
   },
 ];
+
+export const FintechData = [
+  {
+    title: 'Marketing Strategy',
+    items: ['Brand Strategy & Messaging', 'Marketing Strategy Creation'],
+  },
+  {
+    title: 'Digital Solutions',
+    items: [
+      'Pay-Per-Click (PPC)',
+      'Social Media Advertising',
+      'Display Advertising',
+      'Email Campaigns',
+      'SEO for Fintech',
+    ],
+  },
+  {
+    title: 'Management Services',
+    items: [
+      'Content Marketing',
+      'Social Media Management',
+      'Social Media Management',
+      'Community Management 24/7',
+    ],
+  },
+  {
+    title: 'Exchange & Investor Relations',
+    items: [
+      'Market Creation',
+      'Investor Communication',
+      'Brand Positioning',
+      'Strategic Partnerships',
+    ],
+  },
+  {
+    title: 'Strategic Consulting',
+    items: ['Marketing Consulting', 'Dedicated Marketing Team'],
+  },
+  {
+    title: 'PR & Influencer Outreach',
+    items: [
+      'Media & Press Relations',
+      'Non-Blockchain Influencer Outreach',
+      'Fintech PR',
+    ],
+  },
+  {
+    title: 'PR & Influencer Outreach',
+    items: [
+      'Media & Press Relations',
+      'Non-Blockchain Influencer Outreach',
+      'Fintech PR',
+    ],
+  },
+  {
+    title: 'PR & Influencer Outreach',
+    items: [
+      'Media & Press Relations',
+      'Non-Blockchain Influencer Outreach',
+      'Fintech PR',
+    ],
+  },
+];
+
+
 export const StartupData = [
   {
     title: 'Social Media Marketing',
@@ -701,67 +766,5 @@ export const StartupData = [
   {
     title: 'Blockchain Solutions',
     description: 'Embrace the future with blockchain technology, creating secure, transparent, and efficient systems that transform your business operations and enhance trust.',
-  },
-];
-export const FintechData = [
-  {
-    title: 'Marketing Strategy',
-    items: ['Brand Strategy & Messaging', 'Marketing Strategy Creation'],
-  },
-  {
-    title: 'Digital Solutions',
-    items: [
-      'Pay-Per-Click (PPC)',
-      'Social Media Advertising',
-      'Display Advertising',
-      'Email Campaigns',
-      'SEO for Fintech',
-    ],
-  },
-  {
-    title: 'Management Services',
-    items: [
-      'Content Marketing',
-      'Social Media Management',
-      'Social Media Management',
-      'Community Management 24/7',
-    ],
-  },
-  {
-    title: 'Exchange & Investor Relations',
-    items: [
-      'Market Creation',
-      'Investor Communication',
-      'Brand Positioning',
-      'Strategic Partnerships',
-    ],
-  },
-  {
-    title: 'Strategic Consulting',
-    items: ['Marketing Consulting', 'Dedicated Marketing Team'],
-  },
-  {
-    title: 'PR & Influencer Outreach',
-    items: [
-      'Media & Press Relations',
-      'Non-Blockchain Influencer Outreach',
-      'Fintech PR',
-    ],
-  },
-  {
-    title: 'PR & Influencer Outreach',
-    items: [
-      'Media & Press Relations',
-      'Non-Blockchain Influencer Outreach',
-      'Fintech PR',
-    ],
-  },
-  {
-    title: 'PR & Influencer Outreach',
-    items: [
-      'Media & Press Relations',
-      'Non-Blockchain Influencer Outreach',
-      'Fintech PR',
-    ],
   },
 ];

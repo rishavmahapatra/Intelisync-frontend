@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BlockchainBusiness() {
     const content = [
       "How do you distinguish your business from competitors? Are you clearly communicating your brand’s value to your audience? These are crucial questions that every brand must address. Your brand needs to create a meaningful connection with consumers at every touchpoint of your marketing strategy, and it must remain consistent throughout.",
@@ -9,6 +11,19 @@ export default function BlockchainBusiness() {
     return (
       <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
         <div className="max-w-3xl">
+
+        <div className="text-gray-400 text-sm mb-6">
+                <Link href="/" className="hover:text-gray-300 transition">Homepage</Link>
+                <span className="mx-1">&gt;</span>
+
+                <Link href="/service" className="hover:text-gray-300 transition">Services</Link>
+                <span className="mx-1">&gt;</span>
+
+                <span className="text-cyan-400 font-medium hover:text-cyan-300 transition">
+                    Branding 
+                </span>
+            </div>
+
           <h1 className="font-poppins font-medium text-[40px] leading-[50px] tracking-[-0.01%]">
             Unlock Greater Business Performance through Blockchain Collaboration
           </h1>

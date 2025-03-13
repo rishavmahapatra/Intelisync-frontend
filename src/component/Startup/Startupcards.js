@@ -10,9 +10,9 @@ export default function GrowthSolution() {
                 </h1>
             </div>
  
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 {StartupData.map((solution, index) => (
-                    <div key={index} className="p-6 border border-cyan-400 rounded-lg bg-[#081828] shadow-lg w-[300px] h-auto">
+                    <div key={index} className="p-7 border border-cyan-400 rounded-lg bg-[#081828] shadow-lg w-[300px] h-auto">
                         <h2 className="font-poppins font-semibold text-[19px] leading-[20px] tracking-[-0.01%] mb-3">
                             {solution.title}
                         </h2>

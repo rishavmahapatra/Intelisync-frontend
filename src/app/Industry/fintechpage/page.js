@@ -1,5 +1,6 @@
 import Fintechbanner from "@/component/fintech_Industry/Fintechbanner";
 import Fintechmarketing from "@/component/fintech_Industry/Fintechmarketing";
+import Fintechcards from "@/component/fintech_Industry/Fintechcards";
 import Fintechexpert from "@/component/fintech_Industry/Fintechexpert";
 import Fintechpropel from "@/component/fintech_Industry/Fintechpropel";
 import Fintechcards from "@/component/fintech_Industry/Fintechcards"
@@ -16,9 +17,7 @@ export default function page() {
         <Fintechmarketing />
         <Fintechcards />
         <Fintechexpert />
-        
         <Fintechpropel />
-
         <FAQSection faqs={expertData} />
         <Blog />
         <ContactUs />
