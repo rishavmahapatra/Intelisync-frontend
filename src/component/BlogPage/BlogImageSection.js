@@ -9,7 +9,7 @@ export default function BlogImageSection({ blogs, categories, selectedCategory }
         : blogs;
 
     return (
-        <div className="flex w-full p-6 pt-30">
+        <div className="flex w-full p-6 pt-30 bg-white">
             {/* Left Sidebar */}
             <div className="w-1/4 ml-24"> 
     <div className="mb-4">

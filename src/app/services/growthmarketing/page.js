@@ -11,7 +11,6 @@ import ContactUs from '@/component/ContactUs/ContactUs';
 function page() {
   return (
     <>
-    <Navbar />
     <Accelerate />
     <Drive />
     <Taillored />
@@ -19,7 +18,6 @@ function page() {
     <FAQSection faqs={GrowthMarketingfaqs} />
     <Blog />
     <ContactUs />
-    <Footer/>
     </>
   )
 }

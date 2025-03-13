@@ -12,7 +12,6 @@ import ContactUs from "@/component/ContactUs/ContactUs";
 export default function page() {
     return (
         <div>
-             <Navbar />
             <BlockchainSection />
             <BlockchainBusiness />
             <BlockchainSolutions />
@@ -21,7 +20,6 @@ export default function page() {
             <PartnersBackers />
             <Blog/>
             <ContactUs/>
-            <Footer/>
         </div>
     );
 }

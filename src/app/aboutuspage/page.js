@@ -6,6 +6,8 @@ import Badges from "@/component/landingpage/Badges";
 import TrustedInnovators from "@/component/branding/Trustedservice";
 import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
 import ContactUs from "@/component/ContactUs/ContactUs";
+import Navbar from "@/component/navbar/Navbar";
+import Footer from "@/component/footer/Footer";
 
 
 
@@ -13,7 +15,6 @@ import ContactUs from "@/component/ContactUs/ContactUs";
 export default function page() {
     return (
         <div>
-            
             <Aboutusbanner />
             <About />
             <Aboutvision />
@@ -22,8 +23,6 @@ export default function page() {
             <TrustedInnovators />
             <PartnersBackers />
             <ContactUs />
-           
-         
-        </div>
+       </div>
     );
 }

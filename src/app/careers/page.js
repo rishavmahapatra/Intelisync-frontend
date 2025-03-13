@@ -8,12 +8,10 @@ import Navbar from "@/component/navbar/Navbar";
 export default function page() {
     return (
         <div>
-            <Navbar />
             <CareersBanner />
             <Hiring/>
             <OpenPositions/>
             <CareerForm/>
-            <Footer />
         </div>
     );
 }

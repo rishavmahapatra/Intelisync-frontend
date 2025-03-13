@@ -30,7 +30,7 @@ export const positions = [
             "Communication (Written & Verbal)",
             "Mentorship",
         ],
-        email: "hr@infinityinc.ai",
+        email: "hr@intelisync.ai",
     },
     {
         id: 2,
@@ -55,7 +55,7 @@ export const positions = [
             "Truffle",
             "Web.js",
         ],
-        email: "hr@infinityinc.ai",
+        email: "hr@intelisync.ai",
     },
     {
         id: 3,
@@ -72,7 +72,7 @@ export const positions = [
             "Maintain high coding standards, including security best practices relevant to blockchain technologies.",
         ],
         skills: ["AngularJS", "Bootstrap", "Bubble.io", "CSS", "HTML", "JavaScript", "jQuery", "ReactJS", "Redux", "REST API"],
-        email: "hr@infinityinc.ai",
+        email: "hr@intelisync.ai",
     },
     {
         id: 4,
@@ -99,7 +99,7 @@ export const positions = [
             "Python",
             "REST API"
         ],
-        email: "hr@infinityinc.ai",
+        email: "hr@intelisync.ai",
     },
     {
         id: 5,
@@ -143,7 +143,7 @@ export const positions = [
             "Communication",
             "Collaboration"
         ],
-        email: "hr@infinityinc.ai",
+        email: "hr@intelisync.ai",
     },
     {
         id: 6,
@@ -167,7 +167,7 @@ export const positions = [
             "Video Editing",
             "Video Making"
         ],
-        email: "hr@infinityinc.ai",
+        email: "hr@intelisync.ai",
     },
     {
         id: 7,
@@ -191,7 +191,7 @@ export const positions = [
             "Sales pitch",
             "Training and Development"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 8,
@@ -215,7 +215,7 @@ export const positions = [
             "SEO",
             "Social Media Marketing"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 9,
@@ -237,7 +237,7 @@ export const positions = [
             "Payroll",
             "Performance Management System"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 10,
@@ -272,7 +272,7 @@ export const positions = [
             "Competitor Analysis",
             "Reporting"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 11,
@@ -311,7 +311,7 @@ export const positions = [
             "Analytical Skills",
             "Attention to Detail"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 12,
@@ -347,7 +347,7 @@ export const positions = [
             "Creativity",
             "Community Passion"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 13,
@@ -388,7 +388,7 @@ export const positions = [
             "Attention to Detail",
             "Portfolio"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 14,
@@ -422,7 +422,7 @@ export const positions = [
             "Information Gathering",
             "Attention to Detail"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 15,
@@ -460,7 +460,7 @@ export const positions = [
             "Keyword Research",
             "CMS"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 16,
@@ -500,7 +500,7 @@ export const positions = [
             "Keyword Research",
             "CMS"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     },
     {
         id: 17,
@@ -541,6 +541,6 @@ export const positions = [
             "Keyword Research",
             "CMS"
         ],
-        email: "hr@infinityinc.ai"
+        email: "hr@intelisync.ai"
     }
 ];

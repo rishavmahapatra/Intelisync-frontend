@@ -7,7 +7,7 @@ import Navbar from '@/component/navbar/Navbar'
 import CartMemorable from '@/component/Web_Development/CartMemorable'
 import Expert_web from '@/component/Web_Development/Expert_web'
 import Future_Ready from '@/component/Web_Development/Future_Ready'
-import Web_Carts from '@/component/Web_Development/web_carts'
+import Web_Carts from '@/component/Web_Development/Web_Carts'
 import WebBanner from '@/component/Web_Development/WebBanner'
 import { Webfaqs } from '@/utils/FAQ_Data'
 import React from 'react'
@@ -15,7 +15,6 @@ import React from 'react'
 function page() {
   return (
    <>
-   <Navbar />
    <WebBanner />
    <CartMemorable />
    <Future_Ready />
@@ -25,7 +24,6 @@ function page() {
    <FAQSection faqs={Webfaqs} />
    <Blog />
    <ContactUs />
-   <Footer />
    </>
   )
 }

@@ -3,7 +3,7 @@
 export default function CareersBanner() {
   return (
     <section
-      className=" w-full h-[450px] bg-cover bg-center bg-no-repeat"
+      className=" w-full h-[70vh] bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/Careers_Assets/careersBanner.png')" }}
     >
 
