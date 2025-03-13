@@ -20,27 +20,37 @@ function Product() {
 
     return (
         <div className="relative min-h-screen bg-[#000B18] flex flex-col items-center justify-center">
-            
-                    <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+
+            <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
-                    </div>
-            
+            </div>
+
             {/* Large Transparent Background Text */}
             <div className="text-center relative mt-10">
                 <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10rem] lg:text-[15rem] 
                 font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
                     PRODUCTS
                 </h1>
-                <button className="px-6 py-2 text-white font-medium rounded-full 
-                bg-gradient-to-r from-[#06DEFF] to-[#00A2BB] 
-                shadow-[0px_0px_10px_#06DEFF] border border-cyan-400 
-                hover:scale-105 transition-all relative z-10">
+
+            </div>
+            <div className="relative px-5 py-6 text-white font-medium text-center">
+
+                {/* Gradient Text */}
+                <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
+     bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
                     Our Product
-                </button>
-                <p className="text-gray-100 max-w-lg mt-2 relative z-10">
-                    Explore Intelisync’s product suite, built to enhance performance, transparency, and scalability in the digital era.
+                </h2>
+
+                {/* Underline (centered & dynamic width) */}
+                <div className="mt-3 mx-auto h-0.5 bg-gray-200 w-[calc(100%-2rem)] max-w-[18rem]"></div>
+                <p className='text-white text-sm text-opacity-80'>
+                    Explore Intelisync’s product suite, built to enhance performance,
+                </p>
+                <p className='text-white text-sm text-opacity-80'>
+                    transparency, and scalability in the digital era
                 </p>
             </div>
+
 
             {/* Product Cards */}
             <div className="relative flex items-center justify-center w-full h-[400px] mt-10">
@@ -66,37 +76,56 @@ function Product() {
 
                     return (
                         <motion.div
-                            key={card.id}
-                            className="absolute transition-all ease-in-out"
-                            animate={{
-                                x: translateX,
-                                scale: scale,
-                                opacity: opacity,
-                                zIndex: zIndex
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 100,
-                                damping: 15,
-                                mass: 0.5,
-                                duration: 0.8,
-                                ease: "easeInOut"
-                            }}
+                        key={card.id}
+                        className="absolute transition-all ease-in-out"
+                        animate={{
+                          x: translateX,
+                          scale: scale,
+                          opacity: opacity,
+                          zIndex: zIndex,
+                        }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 100,
+                          damping: 15,
+                          mass: 0.5,
+                          duration: 0.8,
+                          ease: "easeInOut",
+                        }}
+                      >
+                        <div
+                          className={`relative ${isActive ? "w-[350px] h-[380px]" : "w-[280px] h-[320px]"} 
+                                      rounded-2xl p-2 mt-20 overflow-hidden border-2 border-transparent`}
+                         
                         >
-                            <div className={`relative ${isActive ? 'w-[350px] h-[380px]' : 'w-[280px] h-[320px]'} rounded-2xl p-2 mt-20 overflow-hidden`}>
-                                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#00A2BB] to-[#003D47] opacity-70"></div>
-                                <div className="relative w-full h-full bg-[#03131E] rounded-2xl p-[2px] flex items-center justify-center">
-                                    <div className="absolute inset-0 m-auto w-[90%] h-[90%] border border-[#1AB0C4] rounded-[20px] opacity-0"></div>
-                                    <div className="relative w-full h-full bg-[#03131E] rounded-2xl p-6 flex flex-col items-center text-center shadow-lg">
-                                        <div className="flex justify-center items-center mt-5">
-                                            <Image src={card.img} alt={card.title} width={70} height={70} />
-                                        </div>
-                                        <h3 className={`font-semibold text-white transition-all ${isActive ? 'text-2xl' : 'text-lg'}`}>{card.title}</h3>
-                                        <p className={`text-gray-200 mt-4 transition-all ${isActive ? 'text-sm' : 'text-xs'}`}>{card.text}</p>
-                                    </div>
-                                </div>
+                          <div
+                            className="relative w-full h-full bg-[#03131E] rounded-2xl p-[2px] flex items-center justify-center"
+                          >
+                            <div
+                              className="relative w-[280px] min-h-[280px] rounded-2xl p-6 flex flex-col items-center text-center  overflow-hidden
+                                         bg-[rgba(46,130,149,0.07)] backdrop-blur-[50px] shadow-lg border-2 "
+                              style={{
+                                borderImageSource:
+                                  "linear-gradient(194.72deg, rgba(89, 220, 212, 0.01) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%)",
+                                borderImageSlice: 1,
+                              }}
+                            >
+                              <div className="flex justify-center items-center mt-5">
+                                <Image src={card.img} alt={card.title} width={70} height={70} />
+                              </div>
+                              <h3
+                                className={`font-semibold text-white transition-all ${isActive ? "text-2xl" : "text-lg"}`}
+                              >
+                                {card.title}
+                              </h3>
+                              <p className={`text-gray-200 mt-4 transition-all ${isActive ? "text-sm" : "text-xs"}`}>
+                                {card.text}
+                              </p>
                             </div>
-                        </motion.div>
+                          </div>
+                        </div>
+                      </motion.div>
+                      
                     );
                 })}
             </div>

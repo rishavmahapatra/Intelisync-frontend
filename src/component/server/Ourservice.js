@@ -68,66 +68,76 @@ function Ourservice() {
     return (
         <div>
             <section className="bg-[#000B18] text-white flex flex-col items-center justify-center py-1 px-6 lg:px-20 relative">
-            <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
+                <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
-                    </div>
+                </div>
                 <div className="relative flex flex-col items-center justify-center text-center py-20 ">
 
-                    {/* Large Background "SERVICES" Text with Outline Effect */}
-                    {/* <h1 className="text-[8rem] font-bold uppercase tracking-wide text-transparent outline-text">
-                        SERVICES
-                    </h1> */}
 
-                    <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10rem] lg:text-[15rem] 
+                    <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[8rem] lg:text-[15rem] 
                 font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
-                    SERVICES
-                </h1>
+                        SERVICES
+                    </h1>
 
 
                     {/* Button Positioned Over "SERVICES" */}
-                    <button className="relative px-9 py-2 text-white font-medium rounded-full 
-                             bg-gradient-to-r from-[#06deff] to-[#00a2bb] 
-                     shadow-[0px_0px_10px_#06deff] border border-cyan-400 
-                        hover:scale-105 transition-all z-20">
-                        Our Services
-                    </button>
+                    <div className="relative px-5 py-6 text-white font-medium  z-10 text-center">
+                        {/* Gradient Text */}
+                        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent ">
+                            <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins]">Our Services</h2>
+                        </div>
 
-                    {/* Description Text Positioned Below the Button */}
-                    <p className="relative mt-4 text-gray-300 max-w-xl z-10">
-                        Empowering your business with innovative Blockchain, Web3, and AI solutions for a digital future.
-                    </p>
+                        {/* Underline */}
+                        <div className="w-[8rem] h-0.5 bg-gray-400 mx-auto mt-2"></div>
+
+                        {/* Description */}
+                        <p className="relative mt-1 text-gray-300 max-w-xl mx-auto ">
+                            Empowering your business with innovative Blockchain,
+                        </p>
+                        <p className='text-gray-300 max-w-xl mx-auto'> Web3, and AI solutions for a digital future.</p>
+                    </div>
 
                 </div>
 
 
 
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-1">
-                    {services.map((service, index) => (
-                        <div
-                            key={index}
-                            className="relative w-[341px] h-[300px] rounded-[25px] p-[2px] opacity-90  transition-all shadow-lg duration-300 group group-hover:backdrop-blur-sm hover:backdrop-blur-none hover:scale-105"
-                        >
-                            {/* Gradient Border */}
-                            <div className="absolute inset-0 bg-gradient-to-r from-[#008EAA] via-[#4C4C4C] to-[#00EEDF] rounded-[25px]
-                  opacity-50 group-hover:opacity-100 transition-all duration-300"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6 px-4">
+  {services.map((service, index) => (
+    <div
+      key={index}
+      className="relative w-full max-w-[350px] h-[300px] rounded-[10px] 
+                 opacity-90 transition-all shadow-lg duration-300 group hover:scale-105"
+    >
+      {/* Card with Gradient Border */}
+      <div
+        className="relative w-full h-full p-[2px] transition-all duration-300 rounded-[10px]"
+        style={{
+          border: "2px solid",
+          borderImage: "linear-gradient(228.92deg, #00EEDF 0.09%, #4C4C4C 51.92%, #008EAA 99.91%)",
+          borderImageSlice: 1,
+        }}
+      >
+        {/* Card Content */}
+        <div className="relative w-full h-full bg-gradient-to-b from-[#06FFF020] to-[#41414120] 
+                        p-6 flex flex-col gap-3 rounded-[10px]">
+        
+          {/* Icon and Title */}
+          <div className="flex items-center gap-3">
+            {service.icon}
+            <h3 className="text-lg font-semibold text-white">{service.title}</h3>
+          </div>
+    
+          {/* Description */}
+          <p className="text-gray-300 text-sm">{service.description}</p>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
 
-                            {/* Card Content */}
-                            <div className="relative w-full h-full bg-gradient-to-t from-[#252525] to-[#026a7f] rounded-[25px] p-6 flex flex-col gap-4  group-hover:blur-sm hover:blur-none 
-                      group-hover:shadow-none hover:shadow-[0_0_20px_rgba(6,255,240,0.5)] 
-                      transition-all duration-300">
-                                {/* Icon and Title */}
-                                <div className="flex items-center gap-3">
-                                    {service.icon}
-                                    <h3 className="text-lg font-semibold text-white">{service.title}</h3>
-                                </div>
 
-                                {/* Description - No Extra Space */}
-                                <p className="text-gray-200 text-sm">{service.description}</p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+
             </section>
         </div>
     )
