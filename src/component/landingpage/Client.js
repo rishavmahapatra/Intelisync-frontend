@@ -42,9 +42,19 @@ export default function TestiMonial() {
   return (
     <div className="bg-[#000B18] text-white flex flex-col items-center py-12 px-4 md:px-6">
       {/* Header */}
-      <button className="text-lg font-semibold px-6 py-2 bg-cyan-500 rounded-full shadow-lg hover:bg-cyan-400 transition-all">
-        What Our Clients Say
-      </button>
+      <div className="relative  py-6 text-white font-medium text-center">
+
+{/* Gradient Text */}
+<h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
+bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+  What our Client Says
+
+</h2>
+
+{/* Underline (centered & dynamic width) */}
+<div className="mt-3 mx-auto h-0.5 bg-gray-200 w-[calc(100%-2rem)] max-w-[18rem]"></div>
+
+</div>
  
       {/* Testimonial Box */}
       <div className="relative bg-[rgba(217,217,217,0.05)] p-6 sm:p-8 md:p-10 rounded-lg w-full max-w-xl md:max-w-7xl shadow-lg border border-none mt-6">

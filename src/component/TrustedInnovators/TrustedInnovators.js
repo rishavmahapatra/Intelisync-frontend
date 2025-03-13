@@ -14,24 +14,28 @@ export default function TrustedInnovators() {
     ];
 
     return (
-        <div className="bg-[#000B18] text-white py-10 px-4">
-            {/* Title Section */}
-            <div className="relative text-center pb-4">
-                <h2 className="font-poppins font-semibold text-[26px] sm:text-[30px] leading-[40px] tracking-tight">
+        <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32">
+            <div className="relative w-fit mx-auto pb-2">
+                <div className="absolute w-[200px] h-[500px] blur-[100px] top-[50%] left-[50%] rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                </div>
+                <h2 className="text-[32px] leading-[26px] text-center">
                     Trusted by Top Innovators
                 </h2>
-                {/* Underline */}
-                <div className="w-24 mx-auto mt-2 h-[2px] bg-cyan-400"></div>
+                <div className="absolute bottom-0 left-0 w-full h-[4px] bg-cyan-400"></div>
             </div>
 
             {/* Logo Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 mt-10 mx-auto">
-                {logos.map((logo, index) => (
+            <div className="grid grid-cols-3 mt-10 w-full max-w-[70%] mx-auto">
+                {logos.map((brand, index) => (
                     <div
                         key={index}
-                        className="flex justify-center items-center h-24 border border-gray-700 rounded-lg p-4"
+                        className={`flex justify-center items-center h-40
+                      ${index < logos.length - 3 ? "border-b-2 border-gray-700" : ""}
+                      ${index % 3 !== 2 ? "border-r-2 border-gray-700" : ""}
+                      ${index % 3 === 1 ? "border-l-2 border-gray-700" : ""}`}
                     >
-                        <Image src={logo.src} alt={logo.name} width={120} height={60} className="object-contain" />
+                        <Image src={brand.src} alt={brand.name} width={150} height={100} />
                     </div>
                 ))}
             </div>

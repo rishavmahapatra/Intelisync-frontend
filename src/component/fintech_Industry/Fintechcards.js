@@ -1,4 +1,3 @@
-//import { BlockchainSolution, HealthcareCards } from "@/utils/Cards_Data";
 import { FintechData } from "@/utils/Cards_Data"
 export default function GrowthSolution() {
    

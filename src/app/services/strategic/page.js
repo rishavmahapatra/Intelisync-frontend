@@ -14,7 +14,6 @@ import { Startegicfaqs } from "@/utils/FAQ_Data"
 function page() {
   return (
    <>
-   <Navbar />
    <Elevate />
    <AdvisoryServices />
    <SmartSection />
@@ -22,9 +21,7 @@ function page() {
    <FAQSection faqs={Startegicfaqs} />
     <Blog />
     <ContactUs />
-   <Footer />
-
-   </>
+    </>
   )
 }
 

@@ -33,14 +33,19 @@ function Blog() {
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
                     </div>
     <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
-      <div className="flex justify-center mb-10 md:mb-15">
+      
+      <div className="relative px-5 py-6 text-white font-medium text-center">
+    
+    {/* Gradient Text */}
+    <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
+               bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+         Blog-Our Expert Articles
+    </h2>
 
-<button className="px-6 py-2 text-white text-lg font-semibold rounded-full
-               bg-gradient-to-r from-cyan-500 to-teal-500 shadow-lg
-                transition-all duration-300 mt-20">
-          Blog-Our Expert Articles
-        </button>
-      </div>
+    {/* Underline (centered & dynamic width) */}
+    <div className="mt-3 mx-auto h-0.5 bg-gray-200 w-[calc(100%-2rem)] max-w-[18rem]"></div>
+
+</div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogs.map((post, index) => (

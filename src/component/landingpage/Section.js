@@ -58,7 +58,7 @@ const Section = () => {
       {/* Get Started Button */}
       <div className="relative flex flex-col items-center w-full z-20 mt-6">
         <div className="relative rounded-full transition duration-100 ease-in-out hover:bg-gray-100 hover:shadow-lg p-0.5">
-          <button className="px-6 sm:px-6 py-3 sm:py-2 bg-white text-black text-normal sm:text-xl md:text-xl font-bold rounded-full shadow-xl w-auto">
+          <button className="px-6 sm:px-6 py-3 sm:py-2 bg-white text-black text-normal sm:text-xl md:text-xl font-semibold rounded-full shadow-xl w-auto">
             Get started
           </button>
         </div>
@@ -87,13 +87,7 @@ const Section = () => {
           {/* Subtle Radial Glow to Reinforce Center Light */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-[30%] h-[30px] bg-[#06FFF0] opacity-90 blur-3xl rounded-full"></div>
-          </div>
-       
-     
-
-          {/* Trusted Section - Placed Over the Glow with High z-index */}
-          
-          
+          </div>    
         </div>
       </div>
     </section>

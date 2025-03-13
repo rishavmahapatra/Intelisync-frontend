@@ -16,7 +16,6 @@ import { Healthcarefaqs } from "@/utils/FAQ_Data"
 function page() {
   return (
     <> 
-    <Navbar />
     <Innovation />
     <GetAhead />
     <GrowthHealthcare />
@@ -25,7 +24,6 @@ function page() {
     <FAQSection faqs={Healthcarefaqs} />
     <Blog />
     <ContactUs />
-    <Footer />
     </>
   )
 }
