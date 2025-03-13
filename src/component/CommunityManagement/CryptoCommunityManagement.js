@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CryptoCommunityManagement() {
     return (
-        <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
+        <div className="bg-[#000B18] relative text-white py-16 px-6 md:px-20 lg:px-32">
             {/* Breadcrumb */}
             <div className="text-gray-400 text-sm mb-6">
                 <Link href="/" className="hover:text-white transition duration-200">
@@ -15,21 +15,23 @@ export default function CryptoCommunityManagement() {
                 <span> &gt; </span>
                 <span className="text-[#06FFFB]">Community Management</span>
             </div>
-
+            <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+            </div>
             {/* Title */}
-            <h1 className="text-[40px] md:text-[40px] font-medium leading-[50px] tracking-[-0.01em] text-white font-[Poppins]">
+            <h1 className=" max-w-2xl text-[35px] md:text-[35px] leading-[50px] tracking-[-0.01em] text-white">
                 Turbocharge Your Crypto Project with Expert Telegram & Discord Community Management
             </h1>
 
 
             {/* Subheading */}
-            <h2 className="text-[26px] md:text-[26px] font-medium leading-[50px] tracking-[-0.01em] text-[#06FFFB] mt-4 font-[Poppins]">
-                Stand Out in the Crypto Space with <span className="text-white">Engaged Communities</span>
+            <h2 className="text-[25px] md:text-[26px] font-medium leading-[50px] tracking-[-0.01em] text-[#fff] mt-4">
+                Stand Out in the Crypto Space with Engaged Communities
             </h2>
 
 
             {/* Content */}
-            <div className="text-gray-300 text-[17px] leading-[30px] mt-6 space-y-6 font-[400] tracking-tight font-[Poppins]">
+            <div className="text-gray-300 text-[16px] leading-[30px] mt-6 space-y-5  tracking-tight w-[70%]">
                 <p>
                     The cryptocurrency market is fast-paced and highly competitive. Traditional marketing methods often fall short when it comes to attracting and engaging potential investors. With countless projects vying for attention, what sets successful ventures apart is a vibrant, loyal community.
                 </p>

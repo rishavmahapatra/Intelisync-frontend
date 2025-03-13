@@ -28,8 +28,8 @@ function Blog() {
     const isInView = useInView(ref, { once: false, margin: "-50px" });
 
     return (
-        <div className="bg-black">
-            <section className="container bg-black mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
+        <div className="bg-[#000B18]">
+            <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
                 <div className="flex justify-center mb-10 md:mb-15">
 
                     <button className="px-6 py-2 text-white text-lg font-semibold rounded-full
