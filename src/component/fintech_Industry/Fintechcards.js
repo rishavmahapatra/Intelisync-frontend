@@ -1,5 +1,5 @@
 //import { BlockchainSolution, HealthcareCards } from "@/utils/Cards_Data";
-import { Fintechdata } from "@/utils/Cards_Data"
+import { FintechData } from "@/utils/Cards_Data"
 export default function GrowthSolution() {
    
     return (
@@ -11,10 +11,10 @@ export default function GrowthSolution() {
                 </h1>
             </div>
  
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {HealthcareCards.map((solution, index) => (
-                    <div key={index} className="p-6 border border-cyan-400 rounded-lg bg-[#081828] shadow-lg w-[300px] h-auto">
-                        <h2 className="font-poppins font-semibold text-[19px] leading-[20px] tracking-[-0.01%] mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                {FintechData.map((solution, index) => (
+                    <div key={index} className=" p-6 border border-cyan-400 rounded-lg bg-[#081828] shadow-lg w-[300px] h-[250px]">
+                        <h2 className="font-poppins font-semibold text-[19px] leading-[25px] tracking-[-0.01%] mb-4">
                             {solution.title}
                         </h2>
                         <ul className="text-gray-300 text-[14px] leading-[24px]">

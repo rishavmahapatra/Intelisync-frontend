@@ -11,5 +11,18 @@ export const Ourservicedata =[
   ];
 
 
+  export const IndustryData =[
+    { title: 'Crypto', link: '/Industry/crypto' },
+    { title: 'Fintech', link: '/Industry/fintechpage' },
+    { title: 'Gaming', link: '/Industry/Gaming' },
+    { title: 'Healthcare', link: '/Industry/healthcare' },
+    { title: 'Samllbusines', link: '/Industry/smallbusiness' },
+    { title: 'Startup', link: '/Industry/startuppage' },
+  ];
+
+  export const CompanyData =[
+    {title: 'AboutUs', link: '/'}
+  ]
+  
 
   
