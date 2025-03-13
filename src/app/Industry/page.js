@@ -12,7 +12,6 @@ import { Industryfaqs } from "@/utils/FAQ_Data";
 export default function page() {
     return (
         <div>
-            <Navbar />
             <IndustrySection/>
             <OurServices/>
             <TrustedInnovators />
@@ -20,7 +19,6 @@ export default function page() {
             <PartnersBackers />
             <Blog />
             <ContactUs />
-            <Footer />
         </div>
     );
 }

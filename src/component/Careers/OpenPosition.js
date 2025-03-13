@@ -17,8 +17,8 @@ export default function OpenPositions() {
             <p className="text-gray-600 mb-8 text-center w-[40%] mx-auto">
                 Apply to one of our open positions below, or send your resume and cover
                 letter to{" "}
-                <a href="mailto:hr@infinityinc.ai" className="text-black font-bold">
-                    hr@infinityinc.ai
+                <a href="mailto:hr@intelisync.ai" className="text-black font-bold">
+                    hr@intelisync.ai
                 </a>
             </p>
 

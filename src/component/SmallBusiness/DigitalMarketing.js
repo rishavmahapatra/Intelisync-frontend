@@ -1,4 +1,4 @@
-import SmallBusinessCard, { BlockchainSolution, HealthcareCards } from "@/utils/Cards_Data";
+import {SmallBusinessCard} from "@/utils/Cards_Data";
 
 export default function DigitalMarketing() {
     

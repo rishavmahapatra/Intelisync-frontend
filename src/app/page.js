@@ -21,7 +21,6 @@ import FAQSection from "@/component/FAQ/FAQ";
 export default function Home() {
   return (
     <>
-    <Navbar />
     <Section />
     <Trusted />
     <Section1 />
@@ -36,8 +35,6 @@ export default function Home() {
     <Portfolio />
     <ContactUs/>
     <Global />
-    <Footer />
-    
     </>
   );
 }

@@ -12,14 +12,12 @@ import React from 'react'
 function page() {
   return (
    <>
-   <Navbar />
    <Cryptobanner />
    <MarketingStrategies />
    <CryptoCarts />
     <FAQSection faqs={Cryptofaqs} />
     <Blog />
     <ContactUs />
-    <Footer />
    </>
   )
 }

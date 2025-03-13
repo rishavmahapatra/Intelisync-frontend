@@ -13,14 +13,12 @@ import Blog from "@/component/Blogs/Blogs";
 export default function page() {
     return (
         <div>
-            <Navbar />
             <AIbanner />
             <AIhomepage />
             <AIsmart />
             <TrustedInnovators />
             <FAQSection faqs={AIfaq} />
             <Blog />
-            <Footer />
         </div>
     );
 }

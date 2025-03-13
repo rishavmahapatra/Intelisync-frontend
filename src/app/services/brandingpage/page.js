@@ -12,7 +12,6 @@ import {Brandingfaqs} from "@/utils/FAQ_Data";
 export default function Home() {
     return (
       <>
-      <Navbar />
       <Banner />
       <Homepage />
       <Impact />
@@ -20,8 +19,6 @@ export default function Home() {
       <FAQSection faqs={Brandingfaqs} />
       <Blogservice />
       <Contactservice />
-      <Footer />
-
       </>
     );
   }

@@ -13,7 +13,6 @@ import { Gamingfaqs } from "@/utils/FAQ_Data";
 export default function page() {
     return (
         <div>
-            <Navbar />
             <GamingSection/>
             <GamingMarketing/>
             <GameSuccess/>
@@ -21,7 +20,6 @@ export default function page() {
             <FAQSection faqs={Gamingfaqs} />
             <Blog />
             <ContactUs />
-            <Footer />
         </div>
     );
 }

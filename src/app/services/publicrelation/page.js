@@ -13,7 +13,6 @@ import { PublicRelationfaqs } from "@/utils/FAQ_Data"
 function page() {
   return (
     <>
-    <Navbar />
     <PublicRelatoin />
     <NarrativePage />
     <PRServicesPage />
@@ -21,7 +20,6 @@ function page() {
     <FAQSection faqs={PublicRelationfaqs} />
     <Blog />
     <ContactUs />
-    <Footer />
     </>
   )
 }

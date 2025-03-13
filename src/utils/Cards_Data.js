@@ -637,4 +637,131 @@ export const SmallBusinessCard= [
     ],
   },
 ];
-
+export const StartupData = [
+  {
+    title: 'Social Media Marketing',
+    description: 'Harness the power of social platforms like Facebook, Instagram, and Twitter to engage and connect with potential customers, building meaningful relationships.',
+  },
+  {
+    title: 'Search Engine Optimization (SEO)',
+    description: 'Enhance your website’s visibility and attract qualified traffic with targeted SEO strategies designed to elevate your search engine rankings and improve online discoverability.',
+  },
+  {
+    title: 'Paid Advertising',
+    description: 'Drive more traffic and gain new customers with precision-targeted PPC campaigns across platforms like Google and Bing, ensuring cost-effective results.',
+  },
+  {
+    title: 'Paid Social Advertising',
+    description: 'Expand your reach and grow your customer base through tailored pay-per-click campaigns and sponsored content across popular social media platforms.',
+  },
+  {
+    title: 'Influencer Partnerships',
+    description: 'Leverage the influence of well-known figures in your industry to build brand credibility, engage with a larger audience, and boost your sales.',
+  },
+  {
+    title: 'Email Marketing',
+    description: 'Implement ASO strategies to boost your game’s visibility in app stores and attract more players.',
+  },
+  {
+    title: 'Public Relations (PR)',
+    description: 'Generate buzz around your brand with strategic PR initiatives that highlight your products or services, increasing visibility and customer interest.',
+  },
+  {
+    title: 'Video Production',
+    description: 'Create impactful, shareable video content that resonates with your target audience, extending your brand’s presence across digital platforms.',
+  },
+  {
+    title: 'Video Marketing',
+    description: 'Boost your reach with targeted video campaigns that effectively engage viewers, increase conversions, and drive sales.',
+  },
+  {
+    title: 'Brand Development',
+    description: 'Establish a strong and memorable brand identity that differentiates you from competitors, reflecting your unique mission and message.',
+  },
+  {
+    title: 'Community Engagement',
+    description: 'Build and maintain a loyal customer base through dynamic content marketing, engaging conversations, and authentic engagement with your audience.',
+  },
+  {
+    title: 'Website Development',
+    description: 'Create a visually compelling and user-friendly website that showcases your brand and encourages visitors to take action, turning them into loyal customers.',
+  },
+  {
+    title: 'Website Design',
+    description: 'Design an intuitive, visually appealing website that aligns with your brand’s values and provides a seamless browsing experience for visitors.',
+  },
+  {
+    title: 'Mobile App Development',
+    description: 'Reach your customers on-the-go with a custom mobile app optimized for exceptional user experience, driving engagement and satisfaction.',
+  },
+  {
+    title: 'Mobile App Design',
+    description: 'Craft a beautiful, functional mobile app that’s easy to navigate and enhances your user experience, building a lasting connection with your brand.',
+  },
+  {
+    title: 'Blockchain Solutions',
+    description: 'Embrace the future with blockchain technology, creating secure, transparent, and efficient systems that transform your business operations and enhance trust.',
+  },
+];
+export const FintechData = [
+  {
+    title: 'Marketing Strategy',
+    items: ['Brand Strategy & Messaging', 'Marketing Strategy Creation'],
+  },
+  {
+    title: 'Digital Solutions',
+    items: [
+      'Pay-Per-Click (PPC)',
+      'Social Media Advertising',
+      'Display Advertising',
+      'Email Campaigns',
+      'SEO for Fintech',
+    ],
+  },
+  {
+    title: 'Management Services',
+    items: [
+      'Content Marketing',
+      'Social Media Management',
+      'Social Media Management',
+      'Community Management 24/7',
+    ],
+  },
+  {
+    title: 'Exchange & Investor Relations',
+    items: [
+      'Market Creation',
+      'Investor Communication',
+      'Brand Positioning',
+      'Strategic Partnerships',
+    ],
+  },
+  {
+    title: 'Strategic Consulting',
+    items: ['Marketing Consulting', 'Dedicated Marketing Team'],
+  },
+  {
+    title: 'PR & Influencer Outreach',
+    items: [
+      'Media & Press Relations',
+      'Non-Blockchain Influencer Outreach',
+      'Fintech PR',
+    ],
+  },
+  {
+    title: 'PR & Influencer Outreach',
+    items: [
+      'Media & Press Relations',
+      'Non-Blockchain Influencer Outreach',
+      'Fintech PR',
+    ],
+  },
+  {
+    title: 'PR & Influencer Outreach',
+    items: [
+      'Media & Press Relations',
+      'Non-Blockchain Influencer Outreach',
+      'Fintech PR',
+    ],
+  },
+];

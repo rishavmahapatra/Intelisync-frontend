@@ -13,7 +13,6 @@ import { InfluencerMarketingfaqs } from "@/utils/FAQ_Data";
 export default function page() {
     return (
         <div>
-            <Navbar />
             <InfluencerCampaign />
             <InfluencerPartnership/>
             <InfluencerStrategies/>
@@ -22,7 +21,6 @@ export default function page() {
             <PartnersBackers />
             <Blog />
             <ContactUs />
-            <Footer />
         </div>
     );
 }

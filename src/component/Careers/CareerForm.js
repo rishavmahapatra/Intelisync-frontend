@@ -41,7 +41,7 @@ export default function ApplicationForm() {
   };
 
   return (
-    <div className="flex items-end justify-end min-h-screen pl-16 w-[74%] ml-[7vw] mr-[30vw]">
+    <div className="flex items-end bg-white w-full justify-center min-h-screen ">
       <div className="p-8">
         <h2 className="text-xl font-semibold mb-6">
           Join Intellisync and be part of a dynamic team shaping the future of blockchain and digital transformation.
