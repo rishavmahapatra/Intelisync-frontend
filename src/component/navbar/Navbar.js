@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Ourservicedata, IndustryData } from '@/utils/Dropdown_Data';
+import { Ourservicedata, IndustryData , CompanyData} from '@/utils/Dropdown_Data';
 import { GoArrowRight } from "react-icons/go";
 
 export default function Navbar() {
@@ -22,8 +22,37 @@ export default function Navbar() {
  
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-12 text-lg relative">
-          <Link href="/company" className="hover:text-teal-400">Company</Link>
 
+          {/* <Link href="/aboutuspage" className="hover:text-teal-400">Company</Link> */}
+            
+             {/* Company Dropdown */}
+          <div className="relative group">
+            <Link href="/company/aboutuspage" className="cursor-pointer">Company</Link>
+            <div className="relative z-100">
+              <motion.ul
+                initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                animate={{ opacity: 1, y: 5, scale: 1 }}
+                exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                transition={{ duration: 0.3, ease: 'easeInOut' }}
+                className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
+                style={{ background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)' }}
+              >
+                {CompanyData.map((company, index) => (
+                  <li
+                    key={index}
+                    onMouseEnter={() => setHoverIndex(index)}
+                    onMouseLeave={() => setHoverIndex(null)}
+                    className="flex items-center px-1 py-3 text-white transition duration-300 "
+                  >
+                    {hoverIndex === index && <GoArrowRight className="text-white-teal-400 mr-2" />}
+                    <Link href={company.link} className="block">
+                      {company.title}
+                    </Link>
+                  </li>
+                ))}
+              </motion.ul>
+            </div>
+          </div>
 
           {/* Our Services Dropdown */}
           <div className="relative group">
@@ -87,36 +116,9 @@ export default function Navbar() {
             </div>
           </div>
  
-          <Link href="/product" className="hover:text-teal-400">Our products</Link>
+          
          
-          {/* Industry Dropdown */}
-          <div className="relative group">
-            <Link href="/Industry"><span className='cursor-pointer'>Industry</span></Link>
-            <div className="relative z-100">
-              <motion.ul
-                initial={{ opacity: 0, y: -10, scale: 0.95 }}
-                animate={{ opacity: 1, y: 5, scale: 1 }}
-                exit={{ opacity: 0, y: -10, scale: 0.95 }}
-                transition={{ duration: 0.3, ease: 'easeInOut' }}
-                className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
-                style={{
-                  background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)'
-                }}
-              >
-                {IndustryData.map((industry, index) => (
-                  <li key={index}>
-                    <Link
-                      href={industry.link}
-                      className="block px-5 py-3 text-white transition duration-300 hover:bg-teal-400 hover:text-black"
-                    >
-                      {industry.title}
-                    </Link>
-                    <div className="border-b border-gray-500 mx-5"></div>
-                  </li>
-                ))}
-              </motion.ul>
-            </div>
-          </div>
+       
          
           <Link href="/event" className="hover:text-teal-400">Events</Link>
           <Link href="/careers" className="hover:text-teal-400">Careers</Link>

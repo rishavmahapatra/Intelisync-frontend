@@ -1,5 +1,3 @@
-
-import Navbar from "@/component/navbar/Navbar";
 import Section from "@/component/landingpage/Section";
 import Trusted from "@/component/TrustedInnovators/Trusted";
 import Section1 from "@/component/whoweare/Section";
@@ -14,7 +12,6 @@ import Client from "@/component/landingpage/Client";
 import {landingFaq} from "@/utils/FAQ_Data";
 import Global from "@/component/landingpage/Global";
 import ContactUs from "@/component/ContactUs/ContactUs";
-import Footer from "@/component/footer/Footer";
 import FAQSection from "@/component/FAQ/FAQ";
 
 

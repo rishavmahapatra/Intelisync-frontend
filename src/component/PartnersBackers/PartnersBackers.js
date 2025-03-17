@@ -18,10 +18,10 @@ export default function PartnersBackers() {
     <div className="bg-[#020B17] text-white py-12 px-6">
       <div className="text-center">
         <h2 className="text-2xl font-semibold">Partners & Backers</h2>
-        <div className="w-16 h-[2px] bg-cyan-400 mx-auto mt-2"></div>
+        <div className="w-60 h-[2px] bg-cyan-400 mx-auto mt-2"></div>
       </div>
 
-      <div className="grid grid-cols-5 gap-6 mt-10 place-items-center">
+      <div className="grid min-[320px]:max-[480px]:grid-cols-3 grid-cols-5 gap-6 mt-10 place-items-center">
         {partners.map((partner, index) => (
           <div key={index} className="flex justify-center items-center">
             <Image
