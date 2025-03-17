@@ -47,13 +47,13 @@ function EventGallery() {
         <div className="relative px-5 py-6 text-white font-medium text-center">
 
           {/* Gradient Text */}
-          <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
-               bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+          <h2 className="text-[30px] leading-[46px] font-medium font-[Poppins] 
+               bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent " >
             Intelisync Event Highlights
           </h2>
 
           {/* Underline (centered & dynamic width) */}
-          <div className="mt-3 mx-auto h-0.5 bg-gray-200 w-[calc(100%-2rem)] max-w-[18rem]"></div>
+          <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[22rem]"></div>
 
         </div>
 

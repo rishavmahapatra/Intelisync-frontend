@@ -3,7 +3,7 @@ import React from 'react'
 function Expert_web() {
   return (
     <div>
-         <div className="bg-[#0e1b27] text-white py-16 px-6 md:px-20 lg:px-32  ">
+         <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32  ">
       <div className="max-w-4xl ">
         {/* Heading */}
         <h2 className="text-3xl font-bold "  style={{ color: "rgba(6, 255, 251, 1)" }}>

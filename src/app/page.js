@@ -23,6 +23,8 @@ export default function Home() {
     <Section1 />
     <Founder />
     <Ourservice />
+    <Product />
+    <Portfolio />
     <Event />
     <Blog />
     <Badges />

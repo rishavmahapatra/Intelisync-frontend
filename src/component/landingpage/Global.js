@@ -43,23 +43,27 @@ function GlobalData() {
     <div className="relative bg-[#000B18] ">
       <div className="min-h-screen flex flex-col items-center py-12 pb-20">
         {/* Glowing Button */}
-        <button
-          className="px-6 py-2 text-white text-lg font-semibold rounded-full
-               bg-gradient-to-r from-cyan-500 to-teal-500 shadow-lg
-                transition-all duration-300 mt-20"
-        >
-          Our Global Presence
-        </button>
+        <div className="relative px-5 py-6 text-white font-medium text-center">
 
-        {/* Card Container */}
-        <div className="mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 px-4">
-          {globals.map((location) => (
-            <GlobalCard key={location.id} location={location} />
-          ))}
+          {/* Gradient Text */}
+          <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
+            bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+            Our Global Presence
+          </h2>
+
+
+          {/* Underline (centered & dynamic width) */}
+          <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[18rem]"></div>
+            </div>
+          {/* Card Container */}
+          <div className="mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 px-4">
+            {globals.map((location) => (
+              <GlobalCard key={location.id} location={location} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-  );
+      );
 }
 
-export default GlobalData;
+      export default GlobalData;
