@@ -4,22 +4,22 @@ import Image from "next/image";
 export default function Portfolio() {
   return (
     <div className="relative flex flex-col justify-center items-center min-h-screen bg-[#000B18] text-white text-center px-4">
-       
-                    <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
-                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
-                    </div>
-      {/* Glowing Effect in the Top-Left Corner */}
-      <div className="glow-effect1"></div>
 
-      <h1 className="text-[14rem] font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-10">
-        Portfolio
-      </h1>
+      <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+      </div>
 
       {/* Centered Button and Text */}
-      <div className="absolute top-1/4 transform -translate-y-1/2 flex flex-col items-center z-20">
-        <button className="relative px-9 py-2 text-white font-medium rounded-full bg-gradient-to-r from-[#00B6F3] to-[#00EDDF] shadow-[0px_0px_20px_#00EDDF] hover:scale-105 transition-all opacity-80">
-          Our Portfolio
-        </button>
+      <div className="relative px-5 py-6 text-white font-medium text-center">
+
+        {/* Gradient Text */}
+        <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
+        bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+         Portfolio
+        </h2>
+
+        {/* Underline (centered & dynamic width) */}
+        <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[10rem]"></div>
         <p className="mt-2 max-w-3xl text-sm text-gray-400">
           Empowering your business with innovative Blockchain,
         </p>
@@ -40,7 +40,7 @@ export default function Portfolio() {
         />
       </div>
 
-      
+
     </div>
   );
 }

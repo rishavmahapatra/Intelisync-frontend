@@ -27,27 +27,27 @@ function Product() {
 
             {/* Large Transparent Background Text */}
             <div className="text-center relative mt-10">
-                <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[10rem] lg:text-[15rem] 
+                <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem]
                 font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
                     PRODUCTS
                 </h1>
-
             </div>
             <div className="relative px-5 py-6 text-white font-medium text-center">
 
                 {/* Gradient Text */}
-                <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
-     bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+                <h2 className="text-[24px] sm:text-[30px] leading-[26px] tracking-tight font-medium font-[Poppins] 
+                    bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
                     Our Product
                 </h2>
 
+
                 {/* Underline (centered & dynamic width) */}
-                <div className="mt-3 mx-auto h-0.5 bg-gray-200 w-[calc(100%-2rem)] max-w-[18rem]"></div>
-                <p className='text-white text-sm text-opacity-80'>
+                <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[10rem]"></div>
+                <p className="text-white text-xs sm:text-sm text-opacity-80">
                     Explore Intelisync’s product suite, built to enhance performance,
                 </p>
-                <p className='text-white text-sm text-opacity-80'>
-                    transparency, and scalability in the digital era
+                <p className="text-white text-xs sm:text-sm text-opacity-80">
+                    transparency, and scalability in the digital era.
                 </p>
             </div>
 
@@ -94,10 +94,7 @@ function Product() {
                         }}
                       >
                         <div
-                          className={`relative ${isActive ? "w-[350px] h-[380px]" : "w-[280px] h-[320px]"} 
-                                      rounded-2xl p-2 mt-20 overflow-hidden border-2 border-transparent`}
-                         
-                        >
+                          className=" w-[90%] sm:w-[80%] md:w-[350px] h-[350px] md:h-[380px] rounded-2xl p-2 overflow-hidden border-2 border-transparent">
                           <div
                             className="relative w-full h-full bg-[#03131E] rounded-2xl p-[2px] flex items-center justify-center"
                           >

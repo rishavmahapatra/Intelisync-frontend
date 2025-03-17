@@ -6,8 +6,8 @@ function CartMemorable() {
 
     ]
   return (
-    <div>
-        <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
+    <div >
+        <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32">
         <div className="max-w-3xl">
           <h1 className="font-poppins font-medium text-[30px] leading-[50px] tracking-[-0.01%]">
           Craft Memorable Digital Experiences with Custom Web Development
