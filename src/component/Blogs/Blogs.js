@@ -47,7 +47,7 @@ function Blog() {
                             initial={{ opacity: 0, scale: 0.5 }}
                             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
                             transition={{ duration: 0.6, ease: "easeInOut" }}
-
+                            
                             // read more button addjust 
                             className="relative border border-gray-700 rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden pb-16"
                         >
