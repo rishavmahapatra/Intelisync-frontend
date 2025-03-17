@@ -7,20 +7,22 @@ const testimonials = [
   {
     id: 1,
     name: '— Abd-elrahman Salem, AVED - Jeddah, Saudi Arabia',
-    feedback: 'Great service!',
     text: `"Intelisync has been instrumental in expanding our digital presence and engagement. Their expertise in Web3 marketing and blockchain growth strategies has significantly boosted our reach across multiple platforms. The team’s dedication, strategic approach, and deep industry knowledge have made a real impact. It’s been a pleasure working with Intelisync, and I highly recommend them!"`,
   },
   {
     id: 2,
-    name: '— Jane Smith',
-    feedback: 'Loved it!',
-    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quis sapiente amet expedita debitis, voluptatum ipsa eaque libero!"`,
+    name: '— Frederic Magnus, Ntangu - United States',
+    text: `"Intelisync has been a game-changer for us at Ntangu. Their deep understanding of our industry and passion for Web3 have helped us gain invaluable exposure. Through strategic media placements, insightful articles, and high-profile speaking opportunities, they have significantly amplified our brand presence. The Intelisync team is always ahead of the curve, ensuring we stay visible and relevant in a competitive space. Thanks to their efforts, we've experienced a notable uptick in new business. Truly a top-tier partner!"`,
   },
   {
     id: 3,
-    name: '— David Johnson',
-    feedback: 'Highly recommend!',
-    text: `"A fantastic team with incredible insights. Our marketing campaigns have never been better!"`,
+    name: '— Amir Khan, JFS - United Arab Emirates',
+    text: `"If you're launching a cryptocurrency brand or struggling to gain traction with your token, Intelisync is the partner you need. Their expertise in Web3 marketing, combined with an unmatched network of influencers, ensures maximum visibility and engagement. They truly lead the industry in driving blockchain and crypto projects to success. Highly recommended!"`,
+  },
+  {
+    id: 4,
+    name: '— Karn Kashyp, JFS - United Arab Emirates',
+    text: `"Intelisync is a team of true professionals who go above and beyond to deliver exceptional results. Their strategic approach, dedication, and expertise make them an invaluable partner for any Web3 venture. Highly recommended!"`,
   },
 ];
  
@@ -57,36 +59,34 @@ bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
 </div>
  
       {/* Testimonial Box */}
-      <div className="relative bg-[rgba(217,217,217,0.05)] p-6 sm:p-8 md:p-10 rounded-lg w-full max-w-xl md:max-w-7xl shadow-lg border border-none mt-6">
+      <div className="relative bg-[rgba(217,217,217,0.05)] p-6 sm:p-8 md:p-10 rounded-lg w-full h-[400px] max-w-xl md:max-w-7xl shadow-lg border border-none mt-6">
         {/* Left Arrow */}
         <button
           onClick={prevTestimonial}
-          className="absolute left-2 sm:left-6 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white"
+          className="absolute left-2 sm:left-6 top-[50%] transform -translate-y-1/2 text-gray-400 hover:text-white"
         >
           <ChevronLeft size={36} />
         </button>
  
         {/* Testimonial Content */}
-        <p className="text-center text-gray-300 italic text-base sm:text-lg">
-          {testimonials[currentIndex].text}
-        </p>
-        <p className="text-center text-gray-400 mt-4 text-sm sm:text-base">
-          {testimonials[currentIndex].feedback}
-        </p>
-        <p className="text-center text-white mt-4 text-base sm:text-lg font-semibold">
+        <p className="text-center text-gray-300 text-base text-[18px] max-w-[980px] mx-auto">
+           {testimonials[currentIndex].text}
+          </p>
+
+        <p className="text-center text-white mt-20 text-base  text-[18px] font-semibold">
           {testimonials[currentIndex].name}
         </p>
  
         {/* Right Arrow */}
         <button
           onClick={nextTestimonial}
-          className="absolute right-2 sm:right-6 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white"
+          className="absolute right-2 sm:right-6 top-[50%] transform -translate-y-1/2 text-gray-400 hover:text-white"
         >
           <ChevronRight size={36} />
         </button>
  
         {/* Dots Indicator */}
-        <div className="flex space-x-2 mt-5 justify-center">
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
           {testimonials.map((_, index) => (
             <span
               key={index}
