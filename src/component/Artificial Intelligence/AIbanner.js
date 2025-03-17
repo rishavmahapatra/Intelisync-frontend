@@ -4,7 +4,7 @@
 export default function Section() {
     return (
         <div
-        className="flex items-center justify-center h-[70vh] w-full text-white"
+        className="flex items-center justify-center h-[70vh] w-full text-white bg-black"
         style={{
           backgroundImage: "url('/banner.png')",
           backgroundSize: "cover",
@@ -12,11 +12,11 @@ export default function Section() {
           backgroundRepeat: "no-repeat"
         }}
         >
-            <div className="text-center max-w-5xl">
-                <h1 className="font-poppins font-semibold text-[48px] leading-[55px] tracking-[-0.01%] text-center">
+            <div className="text-center max-w-5xl ">
+                <h1 className="font-poppins font-semibold md:text-[48px] md:leading-[55px] tracking-[-0.01%] text-center min-[320px]:text-[40px] xs:leading-[10px]">
                 Transform Your Business with AI Solutions</h1>
  
-                <p className="font-poppins font-medium text-[30px] leading-[40px] tracking-[-0.01%] text-center mt-2">
+                <p className="font-poppins font-medium md:text-[30px] md:leading-[40px] tracking-[-0.01%] text-center mt-2">
                 Fuel innovation and growth with Intelisync’s AI services. Automate processes and enhance decision-making for better business outcomes.
                 </p>
  

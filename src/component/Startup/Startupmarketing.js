@@ -8,17 +8,17 @@ export default function Marketing() {
     ];
    
     return (
-      <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 flex justify-center items-center min-h-screen gap-10">
-
-        <div className="mt-6 md:ml-8">
-          <Image src="/photos/industry_logo.png" alt="Fintech Icon" width={100} height={100} />
-        </div>
+      <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 flex flex-col md:flex-row justify-center items-center min-h-screen gap-6 md:gap-10">
+           {/* Image Section */}
+           <div className="mt-4 md:ml-8">
+             <Image src="/photos/industry_logo.png" alt="Fintech Icon" width={80} height={80} className="sm:w-[100px] sm:h-[100px]" />
+           </div>
 
         <div className="max-w-2xl">
-          <h1 className="font-poppins font-medium text-[30px] leading-[40px] tracking-[-0.01%]">
+          <h1 className="font-poppins font-medium text-[30px] sm:text-[30px] leading-[40px] sm:leading-[40px] tracking-[-0.01%]">
              Unleash Your Startup’s True Potential with
         </h1>
-          <p className=" font-poppins font-semibold text-[30px]  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-transparent mx-auto w-[75%]">
+          <p className=" font-poppins font-semibold text-[30px]  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-transparent mx-auto w-[75%] sm:text-left">
           Expert Marketing Strategies
           </p>
 

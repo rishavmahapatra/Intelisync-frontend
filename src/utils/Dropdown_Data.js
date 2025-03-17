@@ -11,27 +11,23 @@ export const Ourservicedata =[
   ];
 
   export const IndustryData =[
-    { title: ' Crypto', link: '/Industry/crypto' },
     { title: 'Fintech', link: '/Industry/fintechpage' },
-    { title: 'Gaming', link: '/Industry/Gaming' },
     { title: 'healthcare', link: '/Industry/healthcare' },
+    { title: 'Gaming', link: '/Industry/Gaming' },
+    { title: ' Crypto', link: '/Industry/crypto' },
     { title: 'Samllbusines', link: '/Industry/smallbusiness' },
     { title: 'Startup', link: '/Industry/startuppage' },
   ];
  
-
-  export const IndustryData =[
-    { title: 'Crypto', link: '/Industry/crypto' },
-    { title: 'Fintech', link: '/Industry/fintechpage' },
-    { title: 'Gaming', link: '/Industry/Gaming' },
-    { title: 'Healthcare', link: '/Industry/healthcare' },
-    { title: 'Samllbusines', link: '/Industry/smallbusiness' },
-    { title: 'Startup', link: '/Industry/startuppage' },
-  ];
-
   export const CompanyData =[
-    {title: 'AboutUs', link: '/'}
+    {title: 'Blog', link: '/company/blog'},
+    {title: 'Careers',link: '/company/careers'},
+    {title: 'Terms & Condtions', link:'/company/condtions'},
+    
   ]
+  
+
+  
   
 
   
