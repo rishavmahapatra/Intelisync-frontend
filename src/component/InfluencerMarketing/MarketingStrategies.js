@@ -6,7 +6,7 @@ export default function InfluencerStrategies() {
     return (
         <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32">
             {/* Section Header */}
-            <h2 className="text-cyan-400 text-[30px] md:text-[30px] font-semibold leading-[25px] text-center md:text-left">
+            <h2 className="text-cyan-400 text-[30px] md:text-[30px] font-semibold min-[320px]:max-[580px]:leading-[35px] leading-[25px] text-center md:text-left">
                 We craft dynamic, audience-centric content strategies that
             </h2>
 
@@ -18,7 +18,7 @@ export default function InfluencerStrategies() {
             </ul>
 
             {/* Subheading */}
-            <h3 className="text-cyan-400 text-[30px] md:text-[30px] font-semibold leading-[25px] mt-10 text-center md:text-left">
+            <h3 className="text-cyan-400 text-[30px] md:text-[30px] font-semibold min-[320px]:max-[580px]:leading-[35px] leading-[25px] mt-10 text-center md:text-left">
                 We offer comprehensive influencer marketing services that:
             </h3>
 

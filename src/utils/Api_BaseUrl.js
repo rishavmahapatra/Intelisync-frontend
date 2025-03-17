@@ -1,0 +1,1 @@
+export const baseUrl = 'http://43.204.148.12:4000/api/v1/';
