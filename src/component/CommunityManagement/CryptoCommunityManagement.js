@@ -19,19 +19,19 @@ export default function CryptoCommunityManagement() {
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
             </div>
             {/* Title */}
-            <h1 className=" max-w-2xl text-[35px] md:text-[35px] leading-[50px] tracking-[-0.01em] text-white">
+            <h1 className=" max-w-2xl min-[320px]:max-[480px]:text-[30px] sm-text-[30px] md:text-[35px] leading-[50px] tracking-[-0.01em] text-white">
                 Turbocharge Your Crypto Project with Expert Telegram & Discord Community Management
             </h1>
 
 
             {/* Subheading */}
-            <h2 className="text-[25px] md:text-[26px] font-medium leading-[50px] tracking-[-0.01em] text-[#fff] mt-4">
+            <h2 className="min-[320px]:max-[480px]:text-[20px] md:text-[25px] min-[320px]:max-[480px]:leading-[30px] font-medium leading-[50px] tracking-[-0.01em] text-[#fff] mt-4">
                 Stand Out in the Crypto Space with Engaged Communities
             </h2>
 
 
             {/* Content */}
-            <div className="text-gray-300 text-[16px] leading-[30px] mt-6 space-y-5  tracking-tight w-[70%]">
+            <div className="text-gray-300 text-[16px] leading-[30px] mt-6 space-y-5  tracking-tight w-[70%] min-[320px]:max-[580px]:w-[95%]">
                 <p>
                     The cryptocurrency market is fast-paced and highly competitive. Traditional marketing methods often fall short when it comes to attracting and engaging potential investors. With countless projects vying for attention, what sets successful ventures apart is a vibrant, loyal community.
                 </p>

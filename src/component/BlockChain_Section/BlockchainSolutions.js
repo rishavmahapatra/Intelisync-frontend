@@ -5,7 +5,7 @@ export default function BlockchainSolutions() {
     return (
         <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
             <div className="text-center mb-10">
-                <h1 className="text-3xl md:text-5xl font-bold leading-[25px]" style={{ fontSize: "30px", color: "#06FFFB" }}>
+                <h1 className="text-3xl md:text-5xl font-bold min-[320px]:max-[480px]:leading-[40px] sm:leading-[40px] leading-[25px]" style={{ fontSize: "30px", color: "#06FFFB" }}>
                     Empower Your Vision with Innovative Blockchain Solutions
                 </h1>
                 <p className="font-poppins font-normal text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mx-auto">

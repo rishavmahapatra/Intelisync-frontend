@@ -16,7 +16,7 @@ export default function page() {
             <CommunitySection/>
             <CryptoCommunityManagement/>
             <CommunityServices/>
-            <TrustedInnovators />
+            {/* <TrustedInnovators /> */}
             <FAQSection faqs={Communityfaqs} />
             <PartnersBackers />
             <Blog/>

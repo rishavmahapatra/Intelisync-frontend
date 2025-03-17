@@ -4,7 +4,7 @@ export default function CommunityServices() {
 
     return (
         <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32">
-            <h2 className="text-[30px] md:text-[30px] leading-[25px] text-[#06FFFB] text-left">
+            <h2 className="text-[30px] md:text-[30px] min-[320px]:max-[580px]:leading-[35px] sm:leading-[30px] leading-[25px] text-[#06FFFB] text-left">
                 Tailored Crypto Community Management Services
             </h2>
 

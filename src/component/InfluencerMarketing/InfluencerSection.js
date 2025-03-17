@@ -1,6 +1,6 @@
 export default function InfluencerCampaign() {
     return (
-        <div className=" h-[551px] text-white py-32 px-6 md:px-20 lg:px-32 text-center bg-black"
+        <div className=" md:h-[551px] text-white py-32 px-6 md:px-20 lg:px-32 text-center bg-black"
             style={{ backgroundImage: "url('/banner.png')", backgroundRepeat: 'no-repeat' }}>
             <h2 className=" w-[90%] mx-auto text-[35px] md:text-[35px] font-semibold leading-[40px] md:leading-[40px] text-center">
                 Transform Your Brand with Authentic High-Impact Influencer Campaigns
