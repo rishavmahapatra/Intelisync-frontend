@@ -45,6 +45,12 @@ body {
   border-image-slice: 1;
   clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
+
+.srvice-card{
+
+  background: linear-gradient(180.52deg, rgba(6, 255, 240, 0.13) 0.45%, rgba(65, 65, 65, 0.13) 99.55%);
+}
+
 /* @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

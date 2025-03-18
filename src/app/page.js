@@ -30,9 +30,7 @@ export default function Home() {
     <Badges />
     <Client />
     <FAQSection faqs={landingFaq}/>
-    <Product />
-    <Portfolio />
-    <ContactUs/>
+    <ContactUs />
     <Global />
     </>
   );

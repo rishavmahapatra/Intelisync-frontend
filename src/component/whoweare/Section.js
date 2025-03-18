@@ -32,25 +32,22 @@ function Section() {
 
                         {/* Heading & Text */}
                         <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-                            Who <span className="text-white">We Are?</span>
+                        What  <span className="text-white">Defines Us</span>
                         </h2>
                         <p className="mt-4 text-gray-200">
-                            At Intelisync, we are driven by innovation and collaboration, helping businesses refine
-                            their digital strategies and embark on transformational journeys in an ever-evolving technological landscape.
+                        Intelisync is a Web3 agency focusing specifically on blockchain marketing and development services. We scale businesses in the decentralized world using innovative marketing techniques, community engagement, and brand visibility.
                         </p>
                         <p className="mt-3 text-gray-200">
-                            With a presence in Dubai, the USA, India, and Singapore, our globally connected teams foster
-                            creativity and cutting-edge solutions, ensuring we stay ahead of emerging technologies.
+                        As your trusted Web3 marketing agency, we run campaigns targeted at maximizing visibility and interaction. From crypto PR and NFT marketing to crypto advertising, we do it all making us one of the top crypto marketing agencies. If you’re expanding your brand, or launching a new project, we ensure you reach the right market.
                         </p>
                         <p className="mt-3 text-gray-200">
-                            Intelisync empowers businesses to navigate complexities by leveraging AI, Web 3.0 Marketing, Blockchain, and
-                            advanced digital technologies. Our expertise in AI-driven automation, decentralized finance (DeFi), NFT ecosystems,
-                            and tokenization enables organizations to achieve sustainable growth.
+                        From crypto project marketing to ICO promotions, Intelisync assists brands look for trusted associations within Web3, fostering long lasting trust. We're happy to help you scale and create an impact in the blockchain world.
+
                         </p>
-                        <p className="mt-3 text-gray-200">
+                        {/* <p className="mt-3 text-gray-200">
                             Through Web 3.0 marketing strategies, we help brands engage with decentralized communities, optimize blockchain-based
                             advertising, and drive audience growth across emerging platforms.
-                        </p>
+                        </p> */}
                     </motion.div>
 
                     {/* Right Side: 3D Styled Cards */}

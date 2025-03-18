@@ -5,50 +5,50 @@ const services = [
     {
         title: "Artificial Intelligence",
         description:
-            "Unlock efficiency and innovation with custom AI and machine learning models, leveraging  natural language processing, computer vision, and intelligent automation to drive smarter business decisions.",
+            "Intelisync delivers advanced AI development services, integrating machine learning, predictive analytics, and intelligent automation to optimize business processes. As a leading AI development company, we create scalable AI solutions that enhance decision-making and efficiency across industries.",
         icon: <img src="/AIimage.png" alt="AI Icon" className="w-7 h-7" />
     },
     {
         title: "Growth Marketing",
         description:
-            "Social Media Management, Community Management, Influencers & AMAs, Campaigns & Activations & more",
+            "Boost your brand with growth marketing services, including social media,     community management, influencer collaborations, and campaign activations. As   a leading growth marketing company, we drive engagement, visibility, and conversions. ",
         icon: <img src="/Growth Marketing.png" alt="growth icon" className="w-7 h-7" />
     },
     {
         title: "Blockchain Services",
         description:
-            "We help businesses integrate blockchain to enhance security, streamline operations, and unlock new opportunities in asset management and decentralized systems.",
+            "We help businesses integrate blockchain for secure, efficient, and scalable solutions. From blockchain app development services to smart contracts and DeFi, our blockchain development agency builds real world solutions that drive growth. Let’s simplify blockchain solutions development for you.",
         icon: <img src="/Blockchain Services.png" alt="blockchain icon" className="w-7 h-7" />
     },
     {
         title: "Public Relations",
         description:
-            "Enhance your brand’s reputation and visibility with strategic PR campaigns, media outreach, and influencer collaborations, ensuring impactful storytelling and strong industry presence.",
+            "Build credibility and industry presence with our public relation agency. We craft strategic PR campaigns, manage advertising/public relations, and connect brands with media and influencers to amplify their reach and impact.",
         icon: <img src="/Public Relations.png" alt="blockchain icon" className="w-7 h-7" />
     },
     {
         title: "Strategic Advisory",
         description:
-            "Personalised advisory services designed to help you overcome the challenges that come with running a successful business.",
+            "Get expert strategy advisory services to tackle business challenges. Our strategic advisors offer practical insights, helping you make smart decisions, improve operations, and achieve long-term growth in a competitive market.",
         icon: <img src="/Strategic Advisory.png" alt="blockchain icon" className="w-7 h-7" />,
     },
     {
         title: "Branding",
         description:
-            "Craft a powerful and distinctive brand identity with strategic positioning, compelling storytelling, and design, ensuring your brand stands out in the digital era.",
+            "Your brand is your identity. We create a strong market presence with strategic storytelling and design. Understanding the importance of branding in marketing, we help businesses build trust and stand out. As a leading branding agency, we ensure your branding and marketing drive real impact.",
         icon: <img src="/Branding.png" alt="blockchain icon" className="w-7 h-7" />,
     },
     {
         title: "Community Management",
         description:
-            "Build a vibrant, loyal community with proactive engagement and meaningful interactions. Our community management services enhance brand trust, improve customer retention, and turn followers into long-term brand advocates.",
+            "A strong community builds a strong brand. Our community management services foster engagement, trust, and loyalty, helping businesses turn audiences into lasting advocates. Let a skilled community manager drive meaningful interactions for your brand.",
         icon: <img src="/Community Management.png" alt="blockchain icon" className="w-7 h-7" />,
     },
 
     {
         title: "Influencer Marketing",
         description:
-            "Boost your brand’s visibility with tailored influencer marketing strategies. We connect you with influencers who align with your brand, helping to expand reach, drive engagement, and build lasting trust with your target audience.",
+            "Expand your reach with influencers who truly connect with your audience. Our crypto influencer marketing agency helps you partner with the top crypto influencers, driving engagement and trust for your brand.",
         icon: <img src="/Influencer Marketing.png" alt="blockchain icon" className="w-7 h-7" />,
     },
 
@@ -95,22 +95,25 @@ function Ourservice() {
                 </div>
 
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-6 md:gap-8 mt-6 px-2 md:px-4 lg:px-6 w-full max-w-screen-xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-6 mt-6 px-2 md:px-6 lg:px-30 w-full max-w-screen-xl mx-auto">
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="relative w-full max-w-[350px] h-[300px] opacity-90 transition-all shadow-lg duration-300 group hover:scale-105 mx-auto"
+                            className="relative w-full max-w-[300px] h-[300px] opacity-90 transition-all shadow-lg group mx-auto"
                         >
                             {/* Card with Gradient Border */}
-                            <div className="relative w-full h-full p-[2px] rounded-[10px] bg-gradient-to-r from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
+                            <div className="relative w-full  h-full p-[2px] rounded-[10px]">
+                                <div className="absolute inset-0 border-2 rounded-xl"
+                                    style={{ borderImage: "linear-gradient(43.49deg, #008EAA 6.15%, #4C4C4C 56.38%, #00EEDF 94.43%) 1" }}
+                                    >
+                                </div>
                                 {/* Inner Content */}
-                                <div className="w-full h-full p-6 flex flex-col gap-3 rounded-[8px] bg-black">
+                                <div className="w-full h-full p-6 flex flex-col gap-3 rounded-[8px] srvice-card"    >
                                     {/* Icon and Title */}
                                     <div className="flex items-center gap-3">
                                         {service.icon}
                                         <h3 className="text-lg font-semibold text-white">{service.title}</h3>
                                     </div>
-
                                     {/* Description */}
                                     <p className="text-gray-300 text-sm">{service.description}</p>
                                 </div>
@@ -118,6 +121,7 @@ function Ourservice() {
                         </div>
                     ))}
                 </div>
+
             </section>
         </div>
     );
