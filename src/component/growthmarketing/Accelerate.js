@@ -4,10 +4,7 @@ import Link from "next/link";
 export default function Accelerate() {
     return (
         <div
-            className="flex items-center justify-center min-h-screen px-6 md:px-12 text-white text-center"
-            style={{
-                background: "linear-gradient(254.95deg, #086CC4 -2.44%, #9F30FF -2.43%, #00BBD8 50.15%, #00B0C4 68.3%, #068BFF 99.46%, #00468C 99.46%, #009CAD 99.46%)",
-            }}
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
         >
             <div className="max-w-4xl">
                 <h1 className="font-poppins font-semibold text-[28px] sm:text-[36px] md:text-[48px] leading-[36px] sm:leading-[44px] md:leading-[55px] tracking-tight">

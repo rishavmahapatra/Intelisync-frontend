@@ -3,11 +3,9 @@ import Link from "next/link";
 export default function Elevate() {
     return (
         <div
-            className="flex items-center justify-center h-[70vh] sm:h-auto min-h-[595px] bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-12"
-            style={{
-                background: "linear-gradient(254.95deg, #086CC4 -2.44%, #9F30FF -2.43%, #00BBD8 50.15%, #00B0C4 68.3%, #068BFF 99.46%, #00468C 99.46%, #009CAD 99.46%)",
-            }}
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
         >
+        
             <div className="text-center max-w-3xl">
                 <h1 className="font-poppins font-semibold text-[32px] sm:text-[40px] md:text-[32px] leading-[40px] sm:leading-[50px] md:leading-[55px] tracking-[-0.01%] text-center">
                 Elevate Your Business with Expert Guidance

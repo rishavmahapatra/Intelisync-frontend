@@ -1,13 +1,13 @@
 export const blogs = [
     {
         id: 1,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Mastering Web3 Marketing: Strategies to Build, Scale, and Engage Communities",
         description: "A complete guide"
     },
-    {
+{
         id: 2,
         image: "/Blog_Assets/BlockchainMarketing.png",
         date: "February 27, 2025",
@@ -18,7 +18,7 @@ export const blogs = [
     },
     {
         id: 3,
-        image: "/Blog_Assets/CryptoWallet.png",
+        image: "/Blog_Assets/CryptoWallet.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Crypto Wallet Marketing: Driving Adoption in the Digital Asset Economy",
@@ -27,7 +27,7 @@ export const blogs = [
     },
     {
         id: 4,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "The Power of Crypto Influencer Marketing: How to Build Trust and Amplify Reach",
@@ -36,7 +36,7 @@ export const blogs = [
     },
     {
         id: 5,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Building Vibrant Communities on Telegram & Discord: From Zero to Thriving",
@@ -45,7 +45,7 @@ export const blogs = [
     },
     {
         id: 6,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Web3 Community Growth: Unlocking Engagement and Loyalty",
@@ -54,7 +54,7 @@ export const blogs = [
     },
     {
         id: 7,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "ICO Launch: From Idea to Token Distribution",
@@ -63,7 +63,7 @@ export const blogs = [
     },
     {
         id: 8,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "ICO Marketing: Proven Tactics to Boost Visibility and Raise Capital",
@@ -72,7 +72,7 @@ export const blogs = [
     },
     {
         id: 9,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "The Power of Crypto Influencer Marketing: How to Build Trust and Amplify Reach",
@@ -81,7 +81,7 @@ export const blogs = [
     },
     {
         id: 10,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Crypto Launchpads & IDO Platforms: How to Choose the Right Partner for Your Token Sale",
@@ -90,7 +90,7 @@ export const blogs = [
     },
     {
         id: 11,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Web3 Fundraising & Marketing Guide: Navigating the New Era of Decentralized Capital",
@@ -99,7 +99,7 @@ export const blogs = [
     },
     {
         id: 12,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Fintech Marketing Strategies: How to Cut Through the Noise and Drive Adoption",
@@ -108,7 +108,7 @@ export const blogs = [
     },
     {
         id: 13,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Must-Attend Fintech Events & Conferences to Stay Ahead in the Game",
@@ -117,7 +117,7 @@ export const blogs = [
     },
     {
         id: 14,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Casino Marketing in the Digital Age: How to Attract High Rollers & Boost Engagement",
@@ -126,7 +126,7 @@ export const blogs = [
     },
     {
         id: 15,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Play-to-Earn Games Revolution: Top Projects Redefining Digital Rewards",
@@ -135,7 +135,7 @@ export const blogs = [
     },
     {
         id: 16,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Brand Marketing Unplugged: How to Build Stories That Resonate in the Web3 World",
@@ -144,7 +144,7 @@ export const blogs = [
     },
     {
         id: 17,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Content is King: Why Blogs, Newsletters & Podcasts Matter for Web3 Brands",
@@ -153,7 +153,7 @@ export const blogs = [
     },
     {
         id: 18,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "NFT Marketing: How to Launch, Promote, and Sell Digital Collectibles",
@@ -162,7 +162,7 @@ export const blogs = [
     },
     {
         id: 19,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Top NFT Marketplaces to Showcase, Trade & Monetize Your Digital Art",
@@ -171,7 +171,7 @@ export const blogs = [
     },
     {
         id: 20,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "DeFi Staking Platforms: How to Earn Passive Income in the Crypto Economy",
@@ -180,7 +180,7 @@ export const blogs = [
     },
     {
         id: 21,
-        image: "/Blog_Assets/Web3Image.png",
+        image: "/Blog_Assets/Web3Image.webp",
         date: "February 27, 2025",
         readTime: "18 mins read",
         title: "Tokenization in Banking: The Future of Digital Assets and Real-World Value",

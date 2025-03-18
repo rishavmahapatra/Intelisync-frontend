@@ -2,8 +2,9 @@
 
 export default function Innovation() {
     return (
-        <div className="relative min-h-screen text-white bg-black flex items-center justify-center px-6 md:px-20 py-20 md:py-32 bg-cover bg-center bg-no-repeat" 
-            style={{ backgroundImage: "url('/banner.png')" }}>
+        <div
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
+        >
 
             <div className="text-center md:text-left max-w-4xl md:max-w-5xl">
                 <h1 className="font-poppins font-semibold text-[32px] sm:text-[40px] md:text-[48px] leading-[40px] sm:leading-[50px] md:leading-[55px] tracking-[-0.01px]">

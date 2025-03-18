@@ -6,7 +6,7 @@ export default function Cryptobanner() {
     {/* Background Image */}
     <div
         className="absolute inset-0 bg-center bg-cover bg-black"
-        style={{ backgroundImage: "url('/banner.png')" }}
+        style={{ backgroundImage: "url('/banner.webp')" }}
     ></div>
 
     {/* Content */}

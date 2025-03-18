@@ -1,16 +1,11 @@
-'use client'
+'use client';
+
 
 
 export default function Section() {
     return (
         <div
-        className="flex items-center justify-center h-[70vh] w-full text-white bg-black"
-        style={{
-          backgroundImage: "url('/banner.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat"
-        }}
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
         >
             <div className="text-center max-w-5xl ">
                 <h1 className="font-poppins font-semibold md:text-[48px] md:leading-[55px] tracking-[-0.01%] text-center min-[320px]:text-[40px] xs:leading-[10px]">

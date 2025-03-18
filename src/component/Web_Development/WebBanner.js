@@ -3,11 +3,8 @@ import React from 'react'
 
 function WebBanner() {
   return (
-    <div>
-         <div
-        className="flex items-center justify-center h-[70vh] bg-gradient-to-r from-blue-500 to-purple-500 text-white"            style={{
-                background: "linear-gradient(254.95deg, #086CC4 -2.44%, #9F30FF -2.43%, #00BBD8 50.15%, #00B0C4 68.3%, #068BFF 99.46%, #00468C 99.46%, #009CAD 99.46%)",
-            }}
+    <div
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
         >
             <div className="text-center max-w-5xl">
                 <h1 className="font-poppins font-semibold text-[48px] leading-[55px] tracking-[-0.01%] text-center">
@@ -23,7 +20,7 @@ function WebBanner() {
  
             </div>
         </div>
-    </div>
+   
   )
 }
 

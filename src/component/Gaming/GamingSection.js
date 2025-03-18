@@ -3,7 +3,7 @@
 export default function GamingSection() {
     return (
         <div className="flex items-center h-[551px] px-10 bg-black"
-            style={{ backgroundImage: "url('/banner.png')", backgroundRepeat: 'no-repeat' }}>
+            style={{ backgroundImage: "url('/banner.webp')", backgroundRepeat: 'no-repeat' }}>
             {/* Left Content */}
             <div className="w-1/2 pl-[2%]">
                 <h1 className="font-semibold text-[35px] leading-[42px] text-white">

@@ -2,9 +2,8 @@
 
 export default function MarketingFule() {
     return (
-        <div 
-            className="relative min-h-screen text-white bg-black flex flex-col items-center justify-center text-center py-20 md:py-32 px-6 md:px-20"
-            style={{ backgroundImage: "url('/banner.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+        <div
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
         >
             <div className="max-w-4xl">
                 <h1 className="font-poppins font-semibold text-[28px] sm:text-[32px] md:text-[40px] leading-[36px] sm:leading-[45px] md:leading-[50px] tracking-[-0.01px]">

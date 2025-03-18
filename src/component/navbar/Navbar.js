@@ -121,8 +121,8 @@ export default function Navbar() {
        
          
           <Link href="/event" className="hover:text-teal-400">Events</Link>
-          <Link href="/careers" className="hover:text-teal-400">Careers</Link>
-          <Link href="/blog" className="hover:text-teal-400">Blog</Link>
+          <Link href="company/careers" className="hover:text-teal-400">Careers</Link>
+          <Link href="company/blog" className="hover:text-teal-400">Blog</Link>
         </div>
  
         {/* Contact Button */}
