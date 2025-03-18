@@ -18,7 +18,7 @@ export default function BlockchainSolutions() {
                 {BlockchainSolution.map((solution, index) => (
                     <div
                         key={index}
-                        className="p-6 border border-cyan-400 rounded-lg bg-[#000B18] shadow-lg"
+                        className="p-6 border border-cyan-400 rounded-lg bg-[#07111E] shadow-lg"
                     >
                         <h2 className="font-poppins font-semibold text-[19px] leading-[20px] tracking-[-0.01%]">
                             {solution.title}
