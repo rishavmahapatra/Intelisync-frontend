@@ -6,15 +6,21 @@ import IndustrySection from "@/component/Industry/IndustrySection";
 import OurServices from "@/component/Industry/OurServices";
 import Navbar from "@/component/navbar/Navbar";
 import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Industryfaqs } from "@/utils/FAQ_Data";
 
 export default function page() {
     return (
         <div>
-            <IndustrySection/>
-            <OurServices/>
-            <TrustedInnovators />
+            <IndustrySection />
+            <OurServices />
+            <div className="block sm:block md:hidden">
+                <TrustedBrands />
+            </div>
+            <div className="hidden md:block">
+                <TrustedInnovators />
+            </div>
             <FAQSection faqs={Industryfaqs} />
             <PartnersBackers />
             <Blog />

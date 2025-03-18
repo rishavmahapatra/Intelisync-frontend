@@ -5,7 +5,7 @@ export default function IndustrySection() {
         <div className="flex items-center justify-center h-[551px] text-white bg-black"
             style={{ backgroundImage: "url('/banner.png')", objectFit: 'cover', backgroundRepeat: 'no-repeat' }}>
             <div className="text-center">
-                <h1 className="font-semibold text-[48px] leading-[55px] tracking-tight">
+                <h1 className="font-semibold min-[320px]:max-[590px]:text-[40px] sm:text-[40px] md:text-[48px] leading-[55px] tracking-tight">
                     Industries with Next-Gen Solutions
                 </h1>
 

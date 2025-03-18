@@ -14,7 +14,7 @@ export default function OpenPositions() {
         <section className="bg-white py-3 px-4 flex flex-col items-center">
             {/* Header */}
             <h2 className="text-3xl font-semibold text-center mb-4">Open Positions</h2>
-            <p className="text-gray-600 mb-8 text-center w-[40%] mx-auto">
+            <p className="text-gray-600 mb-8 text-center w-[40%] min-[320px]:max-[590px]:w-[95%] sm:w-[80%] mx-auto">
                 Apply to one of our open positions below, or send your resume and cover
                 letter to{" "}
                 <a href="mailto:hr@intelisync.ai" className="text-black font-bold">

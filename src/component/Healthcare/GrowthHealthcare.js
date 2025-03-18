@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function GrowthHealthcare() {
   return (
-    <section className="bg-[#0B1320] text-white py-10 px-6 md:px-12">
+    <section className="bg-[#020B17] text-white py-10 px-6 md:px-12">
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-semibold mb-1 font-poppins text-[30px] leading-[40px]">
