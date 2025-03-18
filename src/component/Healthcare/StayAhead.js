@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function StayAhead() {
   return (
-    <section className="bg-[#0B1320] text-white py-16 px-6 md:px-12">
+    <section className="bg-[#020B17] text-white py-16 px-6 md:px-12">
       <div className="max-w-6xl mx-auto text-center md:text-left">
         <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-10">
           <span className="block font-bold font-poppins">
@@ -17,10 +17,11 @@ export default function StayAhead() {
         
         {/* Expert Items */}
         {expertData.map((item, index) => (
-          <div key={index} className="relative flex flex-col items-center text-center md:text-left">
+          <div key={index} className="relative flex flex-col items-center text-center md:text-left w-full">
+            
             {/* Dotted Line (Only for Desktop, Between Items) */}
             {index > 0 && (
-              <div className="hidden lg:block absolute -top-8 left-1/2 transform -translate-x-1/2 w-full border-t border-dotted border-gray-400"></div>
+              <div className="hidden lg:block absolute top-10 left-[-50%] w-full border-t border-dotted border-gray-400"></div>
             )}
 
             {/* Image Container */}

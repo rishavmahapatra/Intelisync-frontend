@@ -2,7 +2,7 @@
 
 export default function Innovation() {
     return (
-        <div className="relative min-h-screen text-white bg-black flex items-center justify-center px-6 md:px-20 py-20 md:py-32 bg-cover bg-center bg-no-repeat" 
+        <div className="relative min-h-screen text-white bg-[#020B17] flex items-center justify-center px-6 md:px-20 py-20 md:py-32 bg-cover bg-center bg-no-repeat" 
             style={{ backgroundImage: "url('/banner.png')" }}>
 
             <div className="text-center md:text-left max-w-4xl md:max-w-5xl">
