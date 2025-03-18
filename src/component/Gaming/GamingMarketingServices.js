@@ -23,7 +23,7 @@ export default function GamingMarketingServices() {
       {/* Services Grid */}
       <div className="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 px-6">
         {GamingServices.map((service, index) => (
-          <div key={index} className="bg-[#000B18] border border-cyan-400 p-8 rounded-lg">
+          <div key={index} className="bg-gradient-to-b from-[#000B18] to-[rgba(0,11,24,0.3)] border border-cyan-400 p-8 rounded-lg">
             <h3 className="text-[18px] font-semibold text-left">{service.title}</h3>
             <p className="text-gray-300 mt-2 text-[14px] leading-[20px]">{service.description}</p>
           </div>

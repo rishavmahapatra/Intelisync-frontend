@@ -27,12 +27,12 @@ export default function TrustedBrands() {
           </div>
       <div className="w-full relative">
         <motion.div
-          className="flex items-center flex-nowrap space-x-20" // Increased spacing for smoother appearance
+          className="flex items-center flex-nowrap space-x-5 md:space-x-20" // Increased spacing for smoother appearance
           animate={{ x: ["0%", "-50%"] }}
           transition={{ 
             repeat: Infinity, 
             ease: "linear", // Smoother acceleration and deceleration
-            duration: 15, // Slower and smoother scrolling
+            duration: 5, 
            // times: [0,0.5,1],
           }}
         >
@@ -43,6 +43,7 @@ export default function TrustedBrands() {
                 alt={`Logo ${brand.name}`} 
                 width={200} 
                 height={100} 
+                className="w-[100px] sm:w-[200px]" 
                 unoptimized 
               />
             </div>

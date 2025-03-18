@@ -9,17 +9,23 @@ import FAQSection from "@/component/FAQ/FAQ";
 import { BlockChainfaqs } from "@/utils/FAQ_Data";
 import Blog from "@/component/Blogs/Blogs";
 import ContactUs from "@/component/ContactUs/ContactUs";
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 export default function page() {
     return (
         <div>
             <BlockchainSection />
             <BlockchainBusiness />
             <BlockchainSolutions />
-            <TrustedInnovators />
+            <div className="block sm:block md:hidden">
+                <TrustedBrands />
+            </div>
+            <div className="hidden md:block">
+                <TrustedInnovators />
+            </div>
             <FAQSection faqs={BlockChainfaqs} />
             <PartnersBackers />
-            <Blog/>
-            <ContactUs/>
+            <Blog />
+            <ContactUs />
         </div>
     );
 }
