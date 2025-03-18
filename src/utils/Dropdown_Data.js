@@ -12,10 +12,10 @@ export const Ourservicedata =[
 
   export const IndustryData =[
     { title: 'Fintech', link: '/Industry/fintechpage' },
-    { title: 'healthcare', link: '/Industry/healthcare' },
+    { title: 'Healthcare', link: '/Industry/healthcare' },
     { title: 'Gaming', link: '/Industry/Gaming' },
-    { title: ' Crypto', link: '/Industry/crypto' },
-    { title: 'Samllbusines', link: '/Industry/smallbusiness' },
+    { title: 'Crypto', link: '/Industry/crypto' },
+    { title: 'Small business', link: '/Industry/smallbusiness' },
     { title: 'Startup', link: '/Industry/startuppage' },
   ];
  

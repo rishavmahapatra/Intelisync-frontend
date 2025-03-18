@@ -30,7 +30,11 @@ export default function Home() {
     <Badges />
     <Client />
     <FAQSection faqs={landingFaq}/>
+<<<<<<< HEAD
     <ContactUs />
+=======
+    <ContactUs/>
+>>>>>>> 2033bbcf861002e7051ac8729c8d6f6e05060668
     <Global />
     </>
   );

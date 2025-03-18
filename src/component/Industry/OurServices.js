@@ -27,7 +27,7 @@ export default function OurServices() {
                 {IndustryOurservices.map((service, index) => (
                     <div
                         key={index}
-                        className="bg-[#03283b] border-b border-cyan-400 rounded-lg p-6 text-left"
+                        className="bg-[#001e2a] border-b border-cyan-400 rounded-2xl p-6 text-left transition-all duration-500 hover:shadow-[0px_0_15px_0px] hover:bg-gradient-to-b from-[#000B18] to-[rgba(0,11,24,0.3)] hover:shadow-cyan-400"
                     >
                         <h3 className="text-[19px] leading-[30px] font-semibold text-white-400 text-center">{service.title}</h3>
                         <p className="mt-2 text-gray-300 text-[13px] leading-[20px]">{service.description}</p>

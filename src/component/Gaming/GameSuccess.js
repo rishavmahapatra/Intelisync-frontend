@@ -19,19 +19,19 @@ export default function GameSuccess() {
         {/* Left Side */}
         <div className="space-y-4">
           <div className="flex items-center gap-4">
-            <Image src="/Gaming_Assets/traffic.png" alt="Traffic Icon" width={24} height={24} />
+            <Image src="/Gaming_Assets/traffic.webp" alt="Traffic Icon" width={24} height={24} />
             <p className="text-gray-300 text-[16px] leading-[14px]">
               Drive traffic and increase player conversion.
-            </p>
+            </p> 
           </div>
           <div className="flex items-center gap-4">
-            <Image src="/Gaming_Assets/community.png" alt="Community Icon" width={24} height={24} />
+            <Image src="/Gaming_Assets/community.webp" alt="Community Icon" width={24} height={24} />
             <p className="text-gray-300 text-[16px] leading-[14px]">
               Build a loyal player base and grow your community.
             </p>
           </div>
           <div className="flex items-center gap-4">
-            <Image src="/Gaming_Assets/revenue.png" alt="Revenue Icon" width={24} height={24} />
+            <Image src="/Gaming_Assets/revenue.webp" alt="Revenue Icon" width={24} height={24} />
             <p className="text-gray-300 text-[16px] leading-[14px]">
               Boost revenue and improve in-game purchases.
             </p>

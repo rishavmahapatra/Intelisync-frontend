@@ -7,20 +7,26 @@ import FAQSection from "@/component/FAQ/FAQ";
 import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
 import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
-import {Communityfaqs } from "@/utils/FAQ_Data";
+import { Communityfaqs } from "@/utils/FAQ_Data";
 
 export default function page() {
     return (
         <div>
-            <CommunitySection/>
-            <CryptoCommunityManagement/>
-            <CommunityServices/>
-            {/* <TrustedInnovators /> */}
+            <CommunitySection />
+            <CryptoCommunityManagement />
+            <CommunityServices />
+            <div className="block sm:block md:hidden">
+                <TrustedBrands />
+            </div>
+            <div className="hidden md:block">
+                <TrustedInnovators />
+            </div>
             <FAQSection faqs={Communityfaqs} />
             <PartnersBackers />
-            <Blog/>
-            <ContactUs/>
+            <Blog />
+            <ContactUs />
         </div>
     );
 }
