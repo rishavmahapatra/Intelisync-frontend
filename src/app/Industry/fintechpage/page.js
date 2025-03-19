@@ -15,8 +15,8 @@ export default function page() {
         <> 
         <Fintechbanner />
         <Fintechmarketing />
-        <Fintechcards />
         <Fintechexpert />
+        <Fintechcards />
         <Fintechpropel />
         <FAQSection faqs={expertData} />
         <Blog />
