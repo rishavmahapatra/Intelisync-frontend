@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -25,12 +25,31 @@ export default function Footer() {
             We empower companies to innovate with decentralized technologies, custom blockchain
             development, and strategic growth marketing.
           </p>
-          <div className="flex space-x-4 mt-6">
-            <FaFacebookF className="text-gray-400 hover:text-teal-400 cursor-pointer text-xl transition-all" />
-            <FaInstagram className="text-gray-400 hover:text-teal-400 cursor-pointer text-xl transition-all" />
-            <FaLinkedinIn className="text-gray-400 hover:text-teal-400 cursor-pointer text-xl transition-all" />
-            <FaYoutube className="text-gray-400 hover:text-teal-400 cursor-pointer text-xl transition-all" />
+
+          <div className="flex space-x-2 mt-4">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+              <FaFacebookF className="text-lg text-[rgb(61,232,232)]" />
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+              <FaInstagram className="text-lg text-[rgb(61,232,232)]" />
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+              <FaLinkedinIn className="text-lg text-[rgb(61,232,232)]" />
+            </a>
+
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+              <FaXTwitter className="text-lg text-[rgb(61,232,232)]" />
+            </a>
+
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+              <FaYoutube className="text-lg text-[rgb(61,232,232)]" />
+            </a>
           </div>
+
+
+
         </div>
 
         <div>
@@ -71,10 +90,11 @@ export default function Footer() {
           <ul className="space-y-3 text-gray-400 text-sm mr-10">
             {[
               "Dubai - UAE | Intelisync",
-              "India - Pune | Intelisync Technology Pvt Ltd",
               "Singapore | Intelisync Pvt Ltd",
               "Boston | USA",
               "London | United Kingdom",
+              "Riyadh | Intelisync",
+              "India - Pune | Intelisync Technology Pvt Ltd",
             ].map((location, index) => (
               <li key={index} className="hover:text-teal-400 transition-all">{location}</li>
             ))}

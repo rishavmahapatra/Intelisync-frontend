@@ -79,7 +79,11 @@ const ContactUs = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228]">
+=======
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[rgba(30,34,40,1)]">
+>>>>>>> 0f6d03403d84aa1cd73d977515cdb1d74fb50cf5
       <div className="md:w-1/2 mb-16">
         <h2 className="text-3xl md:text-4xl font-[500] mb-6 text-white text-[33px] leading-[38px] tracking-[-0.01em]">
           Ready to take your marketing <br /> to the next level?

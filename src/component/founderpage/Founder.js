@@ -43,14 +43,19 @@ function Founder() {
                             Meet our Founder
                         </button>
                         <h2 className="text-3xl font-bold bg-gradient-to-r from-[#edf1f2] to-[#06FFF0] bg-clip-text text-transparent ">Javed Khan</h2>
+                        <span>Visionary Leadership in Web3 & Blockchain Marketing </span>
                         <p className="text-gray-300 f mt-4  font-light">
-                            Javed Khan is the visionary founder and driving force behind Intelisync, with over 15 years of leadership in AI, Blockchain, Web3, and Digital Transformation. Fueled by a passion for innovation, he has been instrumental in developing cutting-edge AI and Web3.0 solutions that help businesses navigate the complexities of the decentralized and data-driven digital world.
+                        Success in Web3 requires more than just innovation. It takes strategic leadership. At Intelisync, Javed Khan leads the way, bringing over 15 years of expertise in blockchain marketing and Web3 growth strategies. His goal is to help brands navigate the decentralized world with strong marketing, strategic PR, and effective blockchain solutions.
                         </p>
                         <p className='text-gray-300  mt-1  font-light'>
-                            An expert in AI-driven automation, Layer 2 scalability, multi-chain interoperability, and energy-efficient consensus mechanisms, Javed has led Intelisync to emerge as a key player in RWA (Real-World Asset) Tokenization, Web3.0, and AI-powered blockchain ecosystems. His expertise enables organizations to scale securely, harness decentralized intelligence, and unlock new digital opportunities through AI-enhanced smart contracts, predictive analytics, and autonomous decision-making.
+                        Under his leadership, Intelisync has grown into a trusted Web3 marketing agency, offering services in crypto PR, NFT marketing, and blockchain PR. By launching successful Web3 projects and building engaged communities, Intelisync has established itself among the top crypto marketing agencies.
+
                         </p>
                         <p className='text-gray-300  mt-1  font-light'>
-                            With an unwavering commitment to turning technological advancements into real-world solutions, Javed continues to redefine industry standards and shape the future of AI, Web3.0, and decentralized technologies through Intelisync.
+                        With deep expertise in real-world asset tokenization, multi-chain interoperability, and scalable blockchain marketing, Javed has positioned Intelisync at the forefront of the industry. Whether it’s an NFT launch, a DeFi campaign, or a tailored crypto PR strategy, Intelisync helps brands gain the visibility they need in an evolving digital space.
+                        </p >
+
+                        <p className='text-gray-300  mt-1  font-light'>With a clear vision for the future of Web3, he transforms ideas into real-world success and helps businesses thrive in the decentralized economy.
                         </p>
 
                         {/* Social Icons */}
