@@ -4,25 +4,34 @@ import Image from "next/image";
 
 export default function Portfolio() {
   const images = [
-    { src: "/portfolio1.png", name: "IDEEZA" },
-    { src: "/portfolio2.png", name: "Laxce" },
-    { src: "/portfolio3.png", name: "Joystix" },
-    { src: "/portfolio4.png", name: "Suistakes" },
-    { src: "/portfolio5.png", name: "Laughter Economy" },
-    { src: "/portfolio6.png", name: "Angelverse" },
-    { src: "/portfolio8.png", name: "Clementine" },
+    {id: 1, src: "/portfolio.png", name: "IDEEZA" },
+    {id: 2, src: "/portfolio1.png", name: "Angelverse" },
+    {id: 3, src: "/portfolio2.png", name: "laxce" },
+    {id: 4, src: "/portfolio4.png", name: "Laughter economy" },
+    {id: 5, src: "/portfolio5.png", name: "SImpredicts" },
+    {id: 6, src: "/portfolio6.png", name: "joystix" },
+    {id: 7, src: "/portfolio7.png", name: "TechZino" },
+    {id: 8, src: "/portfolio8.png", name: "Super" },
+    {id: 9, src: "/portfolio9.png", name: "Clementine" },
+
   ];
 
   // ✅ Define state for selected image
   const [selectedImage, setSelectedImage] = useState(images[0]); // Default to first image
 
   return (
-    <div className="relative flex flex-col justify-center items-center min-h-screen bg-[#000B18] text-white text-center px-4">
+    <div className="relative flex flex-col justify-center items-center  bg-[#000B18] text-white text-center px-4">
       {/* Gradient Effect */}
       <div
         className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]"
       ></div>
+      <div className="text-center relative mt-10">
+                <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem]
+                font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
+                    PORTFOLIO
+                </h1>
+            </div>
 
       {/* Section Header */}
       <div className="relative px-5 py-6 text-white font-medium text-center">
@@ -40,36 +49,14 @@ export default function Portfolio() {
       </div>
 
       {/* Portfolio Content */}
-      <div className="relative flex flex-col md:flex-row justify-between items-center min-h-screen bg-[#000B18] text-white text-center px-6 md:px-16">
-        {/* Left Side - Image List */}
-        <div className="w-full md:w-1/3 flex flex-col gap-3 mt-10 md:mt-0">
-          {images.map((image, index) => (
-            <button
-              key={index}
-              onClick={() => setSelectedImage(image)} // ✅ Update selected image on click
-              className={`w-full px-6 py-4 text-left font-medium 
-                rounded-lg transition ${
-                  selectedImage.src === image.src
-                    ? "bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] text-black"
-                    : "bg-gradient-to-r from-[#064d54] to-[#011b24] text-white hover:from-[#07CDFF] hover:to-[#06FFF0]"
-                }`}
-            >
-              {image.name}
-            </button>
-          ))}
+      <div className="relative flex justify-between items-center  bg-[#000B18] text-white text-center px-2 ">
+        <div>
+          
         </div>
+       
 
-        {/* Right Side - Main Image */}
-        <div className="relative w-full md:w-2/3 max-w-3xl z-10">
-          <Image
-            src={selectedImage.src}
-            alt={selectedImage.name}
-            width={928}
-            height={499}
-            className="rounded-lg shadow-lg"
-            priority
-          />
-        </div>
+        
+       
       </div>
     </div>
   );

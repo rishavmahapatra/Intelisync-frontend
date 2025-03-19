@@ -18,41 +18,28 @@ const Section = () => {
       <div className="absolute inset-0 bg-[#000B18]"></div>
 
       {/* Header Content */}
-      <header className="relative z-10 max-w-screen-xl">
-        <div className="flex justify-center items-center w-full max-w-[836px] h-auto">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[66px] leading-none font-bold text-white text-center mt-15">
-            SPECIALISING IN <br />
-            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent ">
-              WEB3
-            </span>{" "}
-            &{" "}
-            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent">
-              EMERGING TECH
-            </span>
-          </h1>
-        </div>
-      </header>
-
-      {/* Subheading */}
-      <div className="flex justify-center items-center w-full max-w-[483px] h-auto mt-3 relative z-10 py-2">
-        <h2 className="text-3xl sm:text-4xl md:text-4xl font-medium text-white text-center drop-shadow-lg">
-          Welcome to{" "}
-          <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent">
-            Intelisync
+      <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
+      <div className="flex justify-center items-center w-full h-auto mb-4">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
+          TOP{" "}
+          <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
+            WEB3 MARKETING AGENCY
           </span>
-        </h2>
+          <br />
+          <span className="uppercase">TO SUPPORT YOUR BUSINESS</span>
+        </h1>
       </div>
+    </header>
 
-      {/* Short Description */}
-      <p className="mt-1 text-gray-100 text-lg sm:text-xl md:text-3xl font-medium relative z-10 text-center max-w-screen-lg px-4">
-        Your Global Trusted Partner in WEB 3 Innovation
-      </p> 
 
       {/* Paragraph Content */}
-      <p className="mt-6 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-2xl leading-relaxed">
-        Intelisync leads in Web3, blockchain, and GenAI, providing enterprise-grade solutions. We help businesses
-        innovate, scale, and succeed in the evolving blockchain landscape. Partner with us to enhance security and
-        unlock new decentralized opportunities.
+
+      <p className="mt-4 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-2xl leading-relaxed font-normal">
+        <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent font-bold">
+          Intelisync
+        </span>
+        , a Dubai UAE based leader in Web3, blockchain and GenAI, enables brands to scale, secure, and decentralize opportunities by unlocking innovative blockchain marketing and development opportunities.We are one of the leading Web3 marketing agencies.
+
       </p>
 
       {/* Get Started Button */}
@@ -87,7 +74,7 @@ const Section = () => {
           {/* Subtle Radial Glow to Reinforce Center Light */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-[30%] h-[30px] bg-[#06FFF0] opacity-90 blur-3xl rounded-full"></div>
-          </div>    
+          </div>
         </div>
       </div>
     </section>
