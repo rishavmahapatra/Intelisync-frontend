@@ -5,18 +5,33 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 import { TextField } from '@mui/material';
-import {baseUrl} from '../../utils/Api_BaseUrl'
+import { baseUrl } from '../../utils/Api_BaseUrl'
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     firstname: '',
     lastname: '',
     email: '',
     phone: '',
+    message: ''
   });
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
-
+  const getInputProps = (customStyles = {}) => ({
+    sx: {
+      '&:before': {
+        borderBottom: '0.5px solid #000000C7',
+      },
+      '&:hover:before': {
+        borderBottom: '0.5px solid #000000C7 !important',
+      },
+      '&:after': {
+        borderBottom: '0.5px solid #000000C7',
+      },
+      sx: { color: '#000000CC' },
+      ...customStyles,
+    },
+  });
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -32,6 +47,7 @@ const ContactUs = () => {
     if (!formData.email.trim()) newErrors.email = "Email is required";
     if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = "Invalid email format";
     if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
+    if (!formData.message.trim()) newErrors.message = "Message is required"
 
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
@@ -49,10 +65,11 @@ const ContactUs = () => {
           lastName: formData.lastname,
           email: formData.email,
           contactNumber: '+' + formData.phone,
+          message: formData.message
         }),
       });
       setShowSuccessPopup(true);
-      setFormData({ firstname: "", lastname: "", email: "", phone: "" });
+      setFormData({ firstname: "", lastname: "", email: "", phone: "" ,message:''});
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Error submitting form. Please try again.");
@@ -62,12 +79,12 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-gradient-to-br from-gray-900 via-black to-gray-800">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228]">
       <div className="md:w-1/2 mb-16">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-white">
+        <h2 className="text-3xl md:text-4xl font-[500] mb-6 text-white text-[33px] leading-[38px] tracking-[-0.01em]">
           Ready to take your marketing <br /> to the next level?
         </h2>
-        <p className="text-lg text-gray-300 mb-6">Book a demo and discovery call to get a look at:</p>
+        <p className="text-lg text-gray-300 mb-6 text-[18px] leading-[30px]">Book a demo and discovery call to get a look at:</p>
         <ul className="space-y-4 text-gray-300">
           {["How Intelisync works", "How you can do marketing at scale better, faster, and cheaper", "How we’re different from agencies, freelancers, and in-house marketing teams", "The most suitable subscription plan for your needs"].map((text, index) => (
             <li key={index} className="flex items-center space-x-3">
@@ -78,29 +95,53 @@ const ContactUs = () => {
         </ul>
       </div>
 
-      <section className="flex flex-col items-center justify-center text-gray-600 font-poppins px-4 lg:px-10 py-12">
+      <section className="flex flex-col items-center justify-center text-gray-600 font-poppins px-4 lg:px-10 py-12 md:w-[50%]">
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-          <h2 className="text-2xl font-semibold text-center text-gray-900">Contact Us</h2>
-          <p className="text-gray-600 text-center mt-2">Empowering your business with Blockchain, Web3, and AI solutions.</p>
+          <h2 className="font-[600] text-center text-gray-900 text-[25px] leading-[26px]">Contact Us</h2>
+          <p className="text-gray-600 text-center mt-2 text-[11px] leading-[140%]">Empowering your business with Blockchain,<br /> Web3, and AI solutions.</p>
 
           <form className="mt-6 space-y-6 flex flex-col items-center" onSubmit={handleSubmit}>
-            <TextField label="First Name*" name="firstname" variant="standard" value={formData.firstname} onChange={handleInputChange} fullWidth />
+            <TextField label="First Name*" name="firstname" variant="standard" value={formData.firstname} onChange={handleInputChange} fullWidth
+              InputProps={getInputProps()} InputLabelProps={{
+                sx: { color: '#000000CC' },
+              }} />
             {errors.firstname && <p className="text-red-500 text-sm">{errors.firstname}</p>}
-            <TextField label="Last Name*" name="lastname" variant="standard" value={formData.lastname} onChange={handleInputChange} fullWidth />
+            <TextField label="Last Name*" name="lastname" variant="standard" value={formData.lastname} onChange={handleInputChange} fullWidth
+              InputProps={getInputProps()} InputLabelProps={{
+                sx: { color: '#000000CC' },
+              }} />
             {errors.lastname && <p className="text-red-500 text-sm">{errors.lastname}</p>}
-            <TextField label="Email*" name="email" variant="standard" value={formData.email} onChange={handleInputChange} fullWidth />
+            <TextField label="Email*" name="email" variant="standard" value={formData.email} onChange={handleInputChange} fullWidth InputProps={getInputProps()} InputLabelProps={{
+              sx: { color: '#000000CC' },
+            }} />
             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
 
-            <div className="w-full">
-              <PhoneInput country={'in'} value={formData.phone} onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))} inputProps={{ name: 'phone' }} containerStyle={{ width: '100%' }} inputStyle={{ width: '100%', borderBottom: '0.2px solid #000' }} />
+            <div className="w-full mt-3">
+              <PhoneInput country={'in'} value={formData.phone} onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))} inputProps={{ name: 'phone' }} containerStyle={{ width: '100%' }}
+                inputStyle={{
+                  width: '100%',
+                  border: 'none',
+                  borderBottom: '0.5px solid #000000C7',
+                  borderRadius: '0',
+                  outline: 'none',
+                }}
+                buttonStyle={{
+                  border: 'none',
+                  borderBottom: '0.5px solid #000000C7',
+                  borderRadius: '0',
+                  background: 'transparent',
+                }} />
               {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
             </div>
-
-            <button type="submit" className={`w-[200px] h-[50px] flex justify-center items-center text-white font-semibold rounded-[30px] bg-gradient-to-r from-[#008BB2] to-[#009E97] hover:opacity-80 transition-all duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={loading}>
+            <TextField placeholder="Let us know how we can assist you!*" name="message" variant="standard" value={formData.message} onChange={handleInputChange} fullWidth InputProps={getInputProps()} InputLabelProps={{
+              sx: { color: '#000000CC', marginTop: '2px' },
+            }} />
+            {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
+            <button type="submit" className={`w-[200px] text-[18px] leading-[26px] font-[500] h-[50px] flex justify-center items-center text-white rounded-[30px] bg-gradient-to-r from-[#008BB2] to-[#009E97] hover:opacity-80 transition-all duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={loading}>
               {loading ? 'Submitting...' : 'Book a demo'}
             </button>
           </form>
-          <p className="text-xs text-gray-500 text-center mt-4">By clicking next, you agree to our Privacy Policy.</p>
+          <p className="text-[12px] leading-[140%] text-gray-500 text-center mt-4">By clicking next, you agree to receive communications from Intelisync in accordance with our Privacy Policy.</p>
         </div>
       </section>
 
