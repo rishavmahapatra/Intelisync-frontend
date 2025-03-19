@@ -5,7 +5,13 @@ body {
   overflow-x: hidden;
   /* background-color: #000B18; */
 }
+.card_border{
+  border: 1px solid;
 
+border-image-source: linear-gradient(236.94deg, #00EEDF 9.51%, #7F7F7F 48.23%, #00A9CA 90.49%);
+border-image-slice: 1;
+
+}
 
 .outline-text {
   -webkit-text-stroke: 1px #00ffff; /* Cyan outline */

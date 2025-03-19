@@ -6,12 +6,12 @@ function Future_Ready() {
       <section className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32  ">
       <div className="max-w-4xl ">
         {/* Heading */}
-        <h2 className="text-3xl font-bold " style={{ color: "rgba(6, 255, 251, 1)" }}>
+        <h2 className="text-3xl font-[500] text-[30px] " style={{ color: "rgba(6, 255, 251, 1)" }}>
           Future-Ready Web Solutions for Growing Businesses
         </h2>
 
         {/* Description */}
-        <p className="mt-4 text-gray-300 leading-relaxed">
+        <p className="mt-4 text-gray-300 leading-relaxed font[400] text-17px ">
           Your digital presence should evolve with your business. We create
           scalable, high-performing web solutions that expand reach and elevate
           brand impact. By blending creativity with advanced technology, we
@@ -19,7 +19,7 @@ function Future_Ready() {
           long-term growth.
         </p>
 
-        <p className="mt-4 text-gray-300 leading-relaxed">
+        <p className="mt-4 text-gray-300 leading-relaxed font[400] text-17px">
           From business websites to e-commerce platforms and custom apps, we’re
           here to develop secure, results-driven sites that help brands thrive.
         </p>

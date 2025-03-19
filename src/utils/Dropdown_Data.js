@@ -20,6 +20,7 @@ export const Ourservicedata =[
   ];
  
   export const CompanyData =[
+    {title: 'About Us', link: '/company/aboutuspage'},
     {title: 'Blog', link: '/company/blog'},
     {title: 'Careers',link: '/company/careers'},
     {title: 'Terms & Condtions', link:'/company/condtions'},

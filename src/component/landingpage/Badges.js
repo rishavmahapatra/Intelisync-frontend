@@ -4,11 +4,11 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion"; // Import Framer Motion
 
 const badges = [
-  { id: 1, name: "logo", image: "/photos/logo1.png" },
-  { id: 2, name: "logo", image: "/photos/logo2.png" },
-  { id: 3, name: "logo", image: "/photos/logo3.png" },
-  { id: 4, name: "logo", image: "/photos/logo4.png" },
-  { id: 5, name: "logo", image: "/photos/logo5.png" },
+  { id: 1, name: "logo", image: "/photos/logo1.webp" },
+  { id: 2, name: "logo", image: "/photos/logo2.webp" },
+  { id: 3, name: "logo", image: "/photos/logo3.webp" },
+  { id: 4, name: "logo", image: "/photos/logo4.webp" },
+  { id: 5, name: "logo", image: "/photos/logo5.webp" },
 ];
 
 export default function BadgesSection() {

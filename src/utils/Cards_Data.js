@@ -197,32 +197,32 @@ export const StrategicCards = [
 
 export const GrowthCards = [
   {
-    title: "Customer Acquisition Strategy",
+    title: "Customer Acquisition \n Strategy",
     description:
       "We develop targeted strategies that attract and convert new customers. By leveraging SEO, PPC, and content marketing, we create campaigns designed to reach your ideal audience and increase customer acquisition.",
   },
   {
-    title: "Data-Driven Insights & Analytics",
+    title: "Data-Driven Insights \n & Analytics",
     description:
       "Our CRO services focus on enhancing the performance of your website and landing pages to increase conversions. Through A/B testing, user behavior analysis, and optimization, we help maximize your website’s potential to turn visitors into customers.",
   },
   {
-    title: "Data-Driven Marketing",
+    title: "Data-Driven \n Marketing",
     description:
       "We harness the power of analytics and insights to inform your marketing decisions. By continuously tracking and analyzing campaign performance, we ensure every marketing move is backed by data, driving optimal results and ROI.",
   },
   {
-    title: "Email Marketing Campaigns",
+    title: "Email Marketing \n Campaigns",
     description:
       "Our email marketing services are designed to nurture leads and build long-lasting customer relationships. With personalized, targeted email campaigns, we increase engagement, retention, and conversion by delivering the right message at the right time.",
   },
   {
-    title: "Content Marketing Strategy",
+    title: "Content Marketing \n  Strategy",
     description:
       "From AMAs and webinars to virtual meetups, we'll organize events that allow your team to connect directly with your audience and foster deeper engagement.",
   },
   {
-    title: "Partnership & Collaboration Management",
+    title: "Partnership & Collaboration \n Management",
     description:
       "Build strategic partnerships to strengthen your community and brand. We identify and manage collaborations with influencers, projects, and industry leaders to boost visibility and enhance engagement opportunities.",
   },
@@ -264,32 +264,33 @@ export const Artificial = [
 
 
   {
-    title: "AI Solutions for Business Innovation",
+    title: "AI Solutions for Business \n Innovation",
     description:
-      " Our AI services help businesses leverage artificial intelligence to automate processes, optimize operations, and drive strategic decision-making. We provide customized solutions that deliver measurable impact and drive long-term success."
-  },
+      "Our AI services help businesses leverage artificial intelligence to automate processes, optimize operations, and drive strategic decision-making. We provide customized solutions that deliver measurable impact and drive long-term success."
+},
+
   {
-    title: "Data-Driven Insights & Analytics",
+    title: "Data-Driven Insights  \n & Analytics",
     description:
       "Unlock actionable insights from your data using advanced AI analytics, enabling smarter decisions that boost performance and enhance customer experiences.",
   },
   {
-    title: "Natural Language Processing (NLP)",
+    title: "Natural Language \n Processing (NLP)",
     description:
       "Leverage NLP to enhance communication with customers through AI-powered chatbots, sentiment analysis, and language-based insights for improved service and engagement.",
   },
   {
-    title: "AI-Driven Innovation & Strategy",
+    title: "AI-Driven Innovation \n & Strategy",
     description:
       "Develop and implement innovative AI strategies that align with your business goals, helping you adapt quickly to changing market conditions and drive sustainable growth.",
   },
   {
-    title: "Robotic Process Automation (RPA)",
+    title: "Robotic Process \n Automation (RPA)",
     description:
       "Streamline repetitive tasks and improve operational efficiency with AI-powered robotic process automation. Our RPA solutions help businesses reduce manual effort, minimize errors, and enhance productivity across various processes.",
   },
   {
-    title: "AI-Powered Personalization",
+    title: "AI-Powered \n Personalization",
     description:
       "Deliver hyper-personalized customer experiences with AI-driven personalization strategies. We leverage advanced algorithms to tailor recommendations, content, and services that boost engagement, loyalty, and conversion rates.",
   },
