@@ -3,7 +3,7 @@
 export default function ServiceSection() {
   return (
     <div className="h-[551px] flex flex-col items-center justify-center text-white text-center px-4 bg-black"
-      style={{ backgroundImage: "url('/banner.png')", backgroundRepeat: 'no-repeat' }}>
+      style={{ backgroundImage: "url('/banner.webp')", backgroundRepeat: 'no-repeat' }}>
       <h1 className="text-[35px] md:text-[35px] leading-[47px] font-semibold">
         Revolutionizing Businesses with <br /> Scalable Tech Services
       </h1>

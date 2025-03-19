@@ -1,25 +1,29 @@
 'use client'
 import Link from "next/link";
 
-export default function Accelerate() {
+export default function Accelerate(){
     return (
         <div
-        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-[70vh] w-full text-white bg-black"
+        className="relative flex items-center justify-center w-full h-screen text-white bg-[#020B17] z-10"
         >
-            <div className="max-w-4xl">
-                <h1 className="font-poppins font-semibold text-[28px] sm:text-[36px] md:text-[48px] leading-[36px] sm:leading-[44px] md:leading-[55px] tracking-tight">
-                    Accelerate Business Growth with Expert Marketing Solutions
+            <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
+            <div className="text-center max-w-5xl ">
+                <h1 className="  font-[600] md:text-[35px] md:leading-[45px] tracking-[-0.01%] text-center min-[320px]:text-[35px] xs:leading-[10px]">
+                Accelerate Business Growth with Expert <br/>Marketing Solutions 
                 </h1>
-
-                <p className="font-poppins text-[16px] sm:text-[20px] md:text-[24px] leading-[26px] sm:leading-[32px] md:leading-[40px] mt-6">
-                    From targeted campaigns to data-driven insights, we help your business scale, attract customers, and maximize ROI.
+ 
+                <p className="  font-[500] md:text-[20px] md:leading-[40px] tracking-[-0.01%] text-center mt-2">
+                From targeted campaigns to data-driven insights, we help your business <br/>scale, attract customers, and maximize ROI
                 </p>
+ 
+                <button className="mt-6 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
 
-                <div className="mt-8">
-                    <button className="w-full sm:w-[250px] h-[55px] bg-white text-black rounded-full font-semibold shadow-md hover:bg-gray-200 transition">
-                        Book a demo
-                    </button>
-                </div>
+                   text-white rounded-full font-semibold shadow-md transition 
+                   hover:border hover:border-white hover:bg-none hover:text-white">
+                Book a demo
+                </button>
+
+ 
             </div>
         </div>
     );

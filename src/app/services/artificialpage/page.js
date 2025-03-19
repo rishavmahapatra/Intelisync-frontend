@@ -7,6 +7,7 @@ import TrustedInnovators from "@/component/branding/Trustedservice";
 import {AIfaq} from "@/utils/FAQ_Data";
 import FAQSection from "@/component/FAQ/FAQ";
 import Blog from "@/component/Blogs/Blogs";
+import ContactUs from "@/component/ContactUs/ContactUs";
 
 
 
@@ -19,6 +20,7 @@ export default function page() {
             <TrustedInnovators />
             <FAQSection faqs={AIfaq} />
             <Blog />
+            <ContactUs />
         </div>
     );
 }

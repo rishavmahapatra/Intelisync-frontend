@@ -7,18 +7,18 @@ import logo from "../../../public/photos/intelsynclogo.png";
 const blogs = [
     {
         title: "Empowering your business with innovative Blockchain, Web3, and AI solutions for a digital future.",
-        image: "/photos/blog1.png", //
+        image: "/photos/blog1.webp", //
         content: "The digital landscape is evolving rapidly, and with it comes the rise of Web 3.0 development. The terms Internet and Web are often used interchangeably, but they hold distinct meanings. As technology advances, we transition from static, text-heavy Web 1.0 to interactive Web 2.0, and now to a decentralized, user-centric Web 3.0. <br><br> Web 3.0 marks a significant leap forward by integrating decentralized systems, smart contracts, AI, and blockchain to create a secure and transparent digital environment.",
     },
     {
         title: "How to Create a Successful Meme Coin Exchange in 2025?",
-        image: "/photos/blog2.png",
+        image: "/photos/blog2.webp",
         content: "Quirky charm, viral potential, affordability, and 100x moonshot potential—this confluence of technology and entertainment is capturing millions’ imaginations (and wallets). Once dismissed as frivolous internet experiments, meme coins have carved a niche in the digital economy, boasting vibrant communities and significant market capitalization.<br><br> In 2024, these whimsical tokens experienced a whopping 500% rise from a $20 billion market capitalization to $120 million by December.",
 
     },
     {
         title: "Web3 Development Services for Business Evolution?",
-        image: "/photos/blog3.png",
+        image: "/photos/blog3.webp",
         content: "Currently, groundbreaking technologies like Web3, Blockchain, Metaverse, NFTs, and cryptocurrencies are poised to revolutionize industries. The internet, presently dominated by Web 2.0, has thrived with cloud computing and social media platforms. However, 2023 and beyond mark the advent of Web3 a decentralized ecosystem with immense potential to reshape conventional business models. <br><br> As internet meme culture and social media buzz continue to inspire new markets, dedicated platforms will emerge to support this ecosystem.",
     }
 ];
