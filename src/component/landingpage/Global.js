@@ -8,10 +8,11 @@ const globals = [
   { id: 1, name: "Dubai - UAE", image: "/photos/global1.png" },
   { id: 2, name: "Singapore", image: "/photos/global2.png" },
   { id: 3, name: "Boston", image: "/photos/global3.png" },
-  { id: 4, name: "London - United Kingdom", image: "/photos/global4.png" },
-  { id: 5, name: "Riyadh", image: "/photos/global5.png" },
+  { id: 4, name: "London - United Kingdom", image: "/photos/global5.png" },
+  { id: 5, name: "Riyadh", image: "/photos/global4.png" },
   { id: 6, name: "India-Pune", image: "/photos/global6.png" },
 ];
+
 
 function GlobalCard({ location }) {
   const ref = useRef(null);

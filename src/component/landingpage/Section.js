@@ -18,23 +18,23 @@ const Section = () => {
       <div className="absolute inset-0 bg-[#000B18]"></div>
 
       {/* Header Content */}
-      <header className="relative z-10 max-w-screen-xl">
-        <div className="flex justify-center items-center w-full  h-auto mb-2">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[66px] leading-none font-bold text-white text-center mt-16 ">
-            TOP
-            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent  uppercase">
-              Web3 Marketing Agency
-            </span>
-            <p className=" uppercase"> To Support Your Business</p>
-          </h1>
-
-        </div>
-      </header>
+      <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
+      <div className="flex justify-center items-center w-full h-auto mb-4">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
+          TOP{" "}
+          <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
+            WEB3 MARKETING AGENCY
+          </span>
+          <br />
+          <span className="uppercase">TO SUPPORT YOUR BUSINESS</span>
+        </h1>
+      </div>
+    </header>
 
 
       {/* Paragraph Content */}
 
-      <p className="mt-6 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-2xl leading-relaxed font-normal">
+      <p className="mt-4 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-2xl leading-relaxed font-normal">
         <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent font-bold">
           Intelisync
         </span>
