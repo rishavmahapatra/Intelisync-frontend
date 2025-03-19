@@ -19,17 +19,17 @@ const Section = () => {
 
       {/* Header Content */}
       <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
-      <div className="flex justify-center items-center w-full h-auto mb-4">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
-          TOP{" "}
-          <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
-            WEB3 MARKETING AGENCY
-          </span>
-          <br />
-          <span className="uppercase">TO SUPPORT YOUR BUSINESS</span>
-        </h1>
-      </div>
-    </header>
+        <div className="flex justify-center items-center w-full h-auto mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
+            TOP{" "}
+            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
+              WEB3 MARKETING AGENCY
+            </span>
+            <br />
+            <span className="uppercase">TO SUPPORT YOUR BUSINESS</span>
+          </h1>
+        </div>
+      </header>
 
 
       {/* Paragraph Content */}
@@ -45,9 +45,10 @@ const Section = () => {
       {/* Get Started Button */}
       <div className="relative flex flex-col items-center w-full z-20 mt-6">
         <div className="relative rounded-full transition duration-100 ease-in-out hover:bg-gray-100 hover:shadow-lg p-0.5">
-          <button className="px-6 sm:px-6 py-3 sm:py-2 bg-white text-black text-normal sm:text-xl md:text-xl font-semibold rounded-full shadow-xl w-auto">
-            Get started
+          <button className="w-[164px] h-[54px] bg-white text-black text-[18px] font-semibold rounded-full shadow-xl flex items-center justify-center">
+            Get Started
           </button>
+
         </div>
       </div>
 

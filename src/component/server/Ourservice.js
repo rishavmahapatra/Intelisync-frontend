@@ -74,22 +74,27 @@ function Ourservice() {
                 <div className="relative flex flex-col items-center justify-center text-center py-20 w-full max-w-screen-xl mx-auto">
 
                     {/* Large Background Text */}
-                    <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] md:text-[8rem] lg:text-[12rem] xl:text-[15rem] 
-                font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
+                    <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] md:text-[8rem] lg:text-[12rem] xl:text-[17rem] 
+                font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0 ">
                         SERVICES
                     </h1>
 
                     {/* Section Title */}
                     <div className="relative px-5 py-6 text-white font-medium z-10 text-center">
-                        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+                        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
                             <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight font-medium font-[Poppins]">
                                 Our Services
                             </h2>
                         </div>
-                        <div className="w-[8rem] h-0.5 bg-[#06FFF0] mx-auto mt-2"></div>
+                        
+                        <div className="w-[10rem] h-0.5 bg-[#06FFF0] mx-auto mt-2"></div>
 
                         <p className="relative mt-2 text-gray-300 max-w-xl mx-auto text-sm md:text-base">
-                            Empowering your business with innovative Blockchain, Web3, and AI solutions for a digital future.
+                            Empowering your business with innovative Blockchain,
+                        </p>
+                        <p className='text-gray-300'>
+                             Web3, and AI solutions for a digital future.
+
                         </p>
                     </div>
                 </div>
@@ -102,13 +107,9 @@ function Ourservice() {
                             className="relative w-full max-w-[300px] h-[300px] opacity-90 transition-all shadow-lg group mx-auto"
                         >
                             {/* Card with Gradient Border */}
-                            <div className="relative w-full  h-full p-[2px] rounded-[10px]">
-                                <div className="absolute inset-0 border-2 rounded-xl"
-                                    style={{ borderImage: "linear-gradient(43.49deg, #008EAA 6.15%, #4C4C4C 56.38%, #00EEDF 94.43%) 1" }}
-                                    >
-                                </div>
+                           < div className="relative w-full h-full p-[2px] rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
                                 {/* Inner Content */}
-                                <div className="w-full h-full p-6 flex flex-col gap-3 rounded-[8px] srvice-card"    >
+                                <div className="w-full h-full p-6 flex flex-col gap-3 rounded-2xl bg-gradient-to-t from-[#081824] to-[#022932]">
                                     {/* Icon and Title */}
                                     <div className="flex items-center gap-3">
                                         {service.icon}
