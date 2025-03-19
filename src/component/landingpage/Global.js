@@ -5,13 +5,14 @@ import { motion, useInView } from "framer-motion"; // Import motion and useInVie
 
 // Importing images from the same path
 const globals = [
-  { id: 1, name: "Dubai - UAE", image: "/photos/global1.webp" },
-  { id: 2, name: "Singapore", image: "/photos/global2.webp" },
-  { id: 3, name: "Boston", image: "/photos/global3.webp" },
-  { id: 4, name: "London - United Kingdom", image: "/photos/global4.webp" },
-  { id: 5, name: "Riyadh", image: "/photos/global5.webp" },
-  { id: 6, name: "India-Pune", image: "/photos/global6.webp" },
+  { id: 1, name: "Dubai - UAE", image: "/photos/global1.png" },
+  { id: 2, name: "Singapore", image: "/photos/global2.png" },
+  { id: 3, name: "Boston", image: "/photos/global3.png" },
+  { id: 4, name: "London - United Kingdom", image: "/photos/global5.png" },
+  { id: 5, name: "Riyadh", image: "/photos/global4.png" },
+  { id: 6, name: "India-Pune", image: "/photos/shanivarwada.png" },
 ];
+
 
 function GlobalCard({ location }) {
   const ref = useRef(null);

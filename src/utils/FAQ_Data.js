@@ -198,28 +198,27 @@ export const landingFaq = [
   {
     question: "What are your Marketing Specialities?",
     answer:
-      "We specialize in digital marketing, SEO, social media, and branding strategies.",
+      "We specialize in SEO, blockchain & Web3 marketing, social media growth, paid advertising, and brand positioning. Our strategies are data-driven and designed to maximize organic reach, engagement, and conversions. By leveraging deep industry expertise, we help businesses establish a strong digital presence.  ",
   },
 
   {
     question: "How can my business benefit from partnering with your Agency?",
     answer:
-      "Our tailored marketing approach helps you increase reach, engagement, and conversions.",
+      "Partnering with us means gaining a competitive edge through targeted marketing strategies that drive visibility, traffic, and customer engagement. We focus on measurable results, ensuring higher ROI and sustainable growth. Our team customizes solutions to align with your business goals and industry trends.",
   },
   {
-    question:
-      "How does your approach differ from traditional marketing agencies?",
+    question:"How does your approach differ from traditional marketing agencies?",
     answer:
-      "We leverage data-driven insights and innovative techniques to maximize ROI.",
+      "Unlike traditional agencies, we combine innovative digital strategies with in-depth market insights to deliver faster, more impactful results. Our approach is agile, data-driven, and tailored to evolving industry landscapes. We prioritize performance, engagement, and long-term brand growth over generic marketing tactics.",
   },
   {
     question: "Can you share success stories from previous clients?",
     answer:
-      "Yes! We have helped multiple brands achieve significant growth and revenue increases.",
+      "Intelisync has successfully delivered blockchain and Web3 projects, including RWA tokenization and carbon credit solutions, enhancing transparency and efficiency. With a proven track record in digital transformation, we help businesses achieve measurable growth and industry leadership.",
   },
   {
     question: "What industries do you specialize in?",
-    answer: "We cater to e-commerce, SaaS, real estate, healthcare, and more.",
+    answer: "At Intelisync, we specialize in blockchain, Web3, RWA tokenization, and digital transformation. Our expertise helps businesses navigate complex technological landscapes with marketing strategies that drive adoption, engagement, and growth. We bridge the gap between innovation and market readiness, ensuring impactful brand positioning.",
   },
 ];
 

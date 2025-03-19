@@ -4,10 +4,13 @@ export default function ServiceSection() {
   return (
     <div className="h-[551px] flex flex-col items-center justify-center text-white text-center px-4 bg-black"
       style={{ backgroundImage: "url('/banner.webp')", backgroundRepeat: 'no-repeat' }}>
-      <h1 className="text-[35px] md:text-[35px] leading-[47px] font-semibold">
+      <h1 className="text-[35px] md:text-[35px] leading-[47px] font-semibold tracking-[ -0.01em]">
         Revolutionizing Businesses with <br /> Scalable Tech Services
       </h1>
-      <button className="mt-6 w-[200px] h-[55px] bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] text-white rounded-full font-semibold shadow-md transition relative overflow-hidden hover:bg-transparent hover:border-2 hover:border-white">
+      <button className="mt-6 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
+ 
+                   text-white rounded-full font-[500] shadow-md transition
+                   hover:border hover:border-white hover:bg-none hover:text-white leading-[55px]">
         Book a demo
       </button>
     </div>

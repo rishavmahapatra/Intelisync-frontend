@@ -47,8 +47,7 @@ const ContactUs = () => {
     if (!formData.email.trim()) newErrors.email = "Email is required";
     if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = "Invalid email format";
     if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
-    if (!formData.message.trim()) newErrors.message = "Message is required"
- 
+
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
  
@@ -79,7 +78,7 @@ const ContactUs = () => {
   };
  
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228]">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-gradient-to-br from-gray-900 via-black to-gray-800">
       <div className="md:w-1/2 mb-16">
         <h2 className="text-3xl md:text-4xl font-[500] mb-6 text-white text-[33px] leading-[38px] tracking-[-0.01em]">
           Ready to take your marketing <br /> to the next level?
@@ -94,12 +93,12 @@ const ContactUs = () => {
           ))}
         </ul>
       </div>
- 
-      <section className="flex flex-col items-center justify-center text-gray-600 font-poppins px-4 lg:px-10 py-12 md:w-[50%]">
+
+      <section className="flex flex-col items-center justify-center text-gray-600 font-poppins px-4 lg:px-10 py-12">
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-          <h2 className="font-[600] text-center text-gray-900 text-[25px] leading-[26px]">Contact Us</h2>
-          <p className="text-gray-600 text-center mt-2 text-[11px] leading-[140%]">Empowering your business with Blockchain,<br /> Web3, and AI solutions.</p>
- 
+          <h2 className="text-2xl font-semibold text-center text-gray-900">Contact Us</h2>
+          <p className="text-gray-600 text-center mt-2">Empowering your business with Blockchain, Web3, and AI solutions.</p>
+
           <form className="mt-6 space-y-6 flex flex-col items-center" onSubmit={handleSubmit}>
             <TextField label="First Name*" name="firstname" variant="standard" value={formData.firstname} onChange={handleInputChange} fullWidth
               InputProps={getInputProps()} InputLabelProps={{
@@ -115,22 +114,9 @@ const ContactUs = () => {
               sx: { color: '#000000CC' },
             }} />
             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
- 
-            <div className="w-full mt-3">
-              <PhoneInput country={'in'} value={formData.phone} onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))} inputProps={{ name: 'phone' }} containerStyle={{ width: '100%' }}
-                inputStyle={{
-                  width: '100%',
-                  border: 'none',
-                  borderBottom: '0.5px solid #000000C7',
-                  borderRadius: '0',
-                  outline: 'none',
-                }}
-                buttonStyle={{
-                  border: 'none',
-                  borderBottom: '0.5px solid #000000C7',
-                  borderRadius: '0',
-                  background: 'transparent',
-                }} />
+
+            <div className="w-full">
+              <PhoneInput country={'in'} value={formData.phone} onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))} inputProps={{ name: 'phone' }} containerStyle={{ width: '100%' }} inputStyle={{ width: '100%', borderBottom: '0.2px solid #000' }} />
               {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
             </div>
             <TextField placeholder="Let us know how we can assist you!*" name="message" variant="standard" value={formData.message} onChange={handleInputChange} fullWidth InputProps={getInputProps()} InputLabelProps={{

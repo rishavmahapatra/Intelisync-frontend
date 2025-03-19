@@ -24,7 +24,6 @@ export default function page() {
                 <TrustedInnovators />
             </div>
             <FAQSection faqs={InfluencerMarketingfaqs} />
-            <PartnersBackers />
             <Blog />
             <ContactUs />
         </div>

@@ -1,28 +1,24 @@
-import React from 'react'
+'use client';
 
 export default function Cryptobanner() {
-  return (
-    <div className="relative flex items-center justify-start h-[70vh] text-white overflow-hidden px-10 md:px-20">
-    {/* Background Image */}
-    <div
-        className="absolute inset-0 bg-center bg-cover bg-black"
-        style={{ backgroundImage: "url('/banner.webp')" }}
-    ></div>
+    return (
+        <div className="flex items-center h-[595px] px-10 bg-black bg-no-repeat bg-cover bg-[center_top_-150px]"
+            style={{ backgroundImage: "url('/banner.webp')" }}>
+            {/* Left Content */}
+            <div className="w-3/1 pl-[2%] ml-8"> 
+                <h1 className="font-Poppins text-[35px] leading-[42px] text-white">
+                Ignite Your Blockchain & Crypto Project’s <br/>Growth and Watch It Boom!
+                </h1>
+                <p className="font-Poppins mt-4 text-gray-200 text-[20px] leading-[28px]">
+    Accelerate your blockchain and crypto project’s growth with Intelisync’s tailored <span className="block mb-1"></span>
+    marketing strategies. We focus on expanding your reach, enhancing engagement,<span className="block mb-1"></span>
+    and helping you lead in a dynamic digital landscape.
+</p>
 
-    {/* Content */}
-    <div className="relative text-left max-w-3xl z-10">
-        <h1 className="font-poppins font-semibold text-[38px] md:text-[42px] leading-[50px] md:leading-[55px] tracking-[-0.01em]">
-        Ignite Your Blockchain & Crypto Project’s Growth and Watch It Boom!
-        </h1>
-
-        <p className="font-poppins font-medium text-lg md:text-xl leading-[30px] text-gray-300 mt-4">
-        Accelerate your blockchain and crypto project’s growth with Intelisync’s tailored marketing strategies. We focus on expanding your reach, enhancing engagement, and helping you lead in a dynamic digital landscape.
-        </p>
-
-        <button className="mt-6 px-8 py-3 border border-white text-white rounded-full font-medium shadow-md hover:bg-white hover:text-black transition">
-            Book a demo
-        </button>
-    </div>
-</div>
-  )
+                <button className="mt-8 w-[200px] h-[50px] bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] text-white rounded-full font-semibold shadow-md transition relative overflow-hidden hover:bg-transparent hover:border-2 hover:border-white">
+                    Book a demo
+                </button>
+            </div>
+        </div>
+    );
 }

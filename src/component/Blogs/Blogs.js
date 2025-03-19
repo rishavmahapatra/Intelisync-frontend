@@ -25,21 +25,20 @@ const blogs = [
 
 function Blog() {
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: false, margin: "-50px" });
+    const isInView = useInView(ref, { once: true});
 
     return (
         <div className="bg-[#000B18]">
             <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
                 <div className="flex justify-center mb-10 md:mb-15">
 
-                    <button className="px-6 py-2 text-white text-lg font-semibold rounded-full
-               bg-gradient-to-r from-cyan-500 to-teal-500 shadow-lg
-                transition-all duration-300 mt-20">
-                        Blog-Our Expert Articles
-                    </button>
+                    <h2 className="min-[320px]:max-[480px]:text-[20px] text-[32px] leading-[26px] text-center inline-block relative after:content-[''] after:block after:h-[1px] after:w-full after:max-w-full after:bg-gradient-to-r after:from-[#07CDFF] after:to-[#06FFF0] after:absolute after:bottom-0 after:left-0 pb-4 text-white">
+                        Blog - Our Expert Articles
+                    </h2>
+
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
                     {blogs.map((post, index) => (
                         <motion.div
                             key={index}
@@ -47,11 +46,11 @@ function Blog() {
                             initial={{ opacity: 0, scale: 0.5 }}
                             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
                             transition={{ duration: 0.6, ease: "easeInOut" }}
-                            
+
                             // read more button addjust 
-                            className="relative border border-gray-700 rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden pb-16"
+                            className="relative border-[1px] border-[rgba(0,143,183,1)] rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden pb-13 bg-[#141E29]"
                         >
-                            <div className="relative">
+                            <div className="relative ">
                                 <Image
                                     src={post.image}
                                     alt={post.title}
@@ -60,31 +59,31 @@ function Blog() {
                                     className="w-full h-48 object-cover rounded-md brightness-110 contrast-110"
                                 />
 
-                                <div className="absolute inset-0 flex items-center justify-center bg-black/50 pt-4">
+                                <div className="absolute inset-0 flex items-center justify-center bg-[black/50] pt-4">
                                     <h3 className="text-lg font-semibold text-white text-center p-6">
                                         {post.title}
                                     </h3>
                                 </div>
 
-                                <div className="absolute -bottom-6 left-4">
+                                <div className="absolute -bottom-9 left-4">
                                     <Image
                                         src={logo}
                                         alt="Intelisync Logo"
                                         width={56}
                                         height={56}
-                                        className="w-16 h-16 rounded-full bg-black p-1 opacity-95 shadow-lg border-2 border-gray-1000"
+                                        className="w-20 h-20 rounded-full p-1 opacity-95 shadow-lg border-2 border-gray-1000"
                                     />
                                 </div>
                             </div>
                             {/* blog contain data  */}
-                            <div className="text-white mt-10 px-6 py-4">
-                                <p className="text-gray-300" dangerouslySetInnerHTML={{ __html: post.content }}></p>
+                            <div className="text-white px-6 py-4 pt-13 bg-[#141E29]">
+                                <p className="text-gray-300 text-[15px] font-[500] leading-[140%]" dangerouslySetInnerHTML={{ __html: post.content }}></p>
                             </div>
 
                             {/* read more button  */}
 
-                            <div className="absolute bottom-4 left-6">
-                                <button className="px-4 py-2 text-sm font-bold text-teal-400 rounded-md transition-all duration-300 hover:underline focus:underline">
+                            <div className="absolute bottom-8 left-2">
+                                <button className="px-4 text-[15px] font-[500] leading-[140%] text-[#2BFAFF] rounded-md transition-all duration-300 hover:underline focus:underline">
                                     Read More
                                 </button>
                             </div>

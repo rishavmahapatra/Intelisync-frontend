@@ -2,15 +2,20 @@ import Image from "next/image";
 
 export default function GrowthHealthcare() {
   return (
-    <section className="bg-[#020B17] text-white py-10 px-6 md:px-12">
+    <section className="bg-[#000B18] text-white py-10 px-6 md:px-12 ">
+      
       {/* Heading */}
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center mt-8">
         <h2 className="text-2xl md:text-3xl font-semibold mb-1 font-poppins text-[30px] leading-[40px]">
-          Propel Your Business Forward with
+          Accelerate the Growth of Your Healthcare
         </h2>
-        <h2 className="font-poppins text-2xl md:text-3xl font-semibold mb-10">
-          Our Fintech Experts To
+        <h2 className="font-poppins text-2xl md:text-3xl font-semibold mb-4">
+          Business with Our Expert Team to:
         </h2>
+        <p className="font-poppins text-[15px] text-gray-300 mb-16">
+          No matter what your marketing needs are, Intelisync’s team has the expertise to <br />
+          deliver creative, data-driven results across all channels.
+        </p>
       </div>
 
       {/* Grid Layout */}
@@ -22,20 +27,23 @@ export default function GrowthHealthcare() {
             { img: "/photos/expert2.png", text: "Build trust and establish authority in the healthcare sector." },
             { img: "/photos/expert3.png", text: "Drive revenue and improve profitability through strategic marketing." }
           ].map((item, index) => (
-            <div key={index} className="flex items-start space-x-4">
-              <Image src={item.img} alt={`Expert ${index + 1}`} width={40} height={40} />
+            <div key={index} className="flex items-center space-x-4">
+              <Image src={item.img} alt={`Expert ${index + 1}`} width={36} height={36} />
               <p className="font-poppins text-[16px] leading-[24px]">{item.text}</p>
             </div>
           ))}
         </div>
 
         {/* Right Column */}
-        <div className="space-y-8 mt-4">
+        <div className="space-y-6">
           {[
             "Strengthen your digital presence and enhance patient engagement.",
-            "Optimize your marketing approach for sustainable, long-term growth."
+            "Optimize your marketing approach for sustainable,long-term growth."
           ].map((text, index) => (
-            <p key={index} className="font-poppins text-[16px] leading-[24px]">{text}</p>
+            <div key={index} className="flex items-center space-x-4">
+              <div className="w-[36px] h-[36px]"></div>  
+              <p className="font-poppins text-[16px] leading-[24px]">{text}</p>
+            </div>
           ))}
         </div>
       </div>
