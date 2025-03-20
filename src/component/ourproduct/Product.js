@@ -42,7 +42,7 @@ function Product() {
 
 
         {/* Underline (centered & dynamic width) */}
-        <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[10rem]"></div>
+        <div className="mt-3 mx-auto h-0.5 bg-white w-[calc(100%-2rem)] max-w-[10rem]"></div>
         <p className=" text-gray-300 text-xs sm:text-sm text-opacity-80 mt-2">
           Explore Intelisync’s product suite, built to enhance performance,
         </p>

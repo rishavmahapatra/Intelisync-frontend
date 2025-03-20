@@ -19,27 +19,29 @@ const Section = () => {
 
       {/* Header Content */}
       <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
-        <div className="flex justify-center items-center w-full h-auto mb-4">
+        <div className="flex justify-center items-center w-full h-auto mb-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
             TOP{" "}
             <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
               WEB3 MARKETING AGENCY
             </span>
             <br />
-            <span className="uppercase">TO SUPPORT YOUR BUSINESS</span>
+            <span className="uppercase "> TO SUPPORT YOUR BUSINESS</span>
           </h1>
         </div>
       </header>
 
 
+
       {/* Paragraph Content */}
 
-      <p className="mt-4 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-2xl leading-relaxed font-normal">
+      <p className="mt-4 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-4xl leading-relaxed font-normal text-white">
         <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent font-bold">
           Intelisync
         </span>
-        , a Dubai UAE based leader in Web3, blockchain and GenAI, enables brands to scale, secure, and decentralize opportunities by unlocking innovative blockchain marketing and development opportunities.We are one of the leading Web3 marketing agencies.
-
+        , a Dubai UAE-based leader in Web3, blockchain, and GenAI, enables brands to scale, 
+        secure, and decentralize opportunities by unlocking innovative blockchain marketing and
+        development opportunities. We are one of the leading Web3 marketing agencies.
       </p>
 
       {/* Get Started Button */}

@@ -40,8 +40,8 @@ export default function Portfolio() {
       ></div>
 
       <div className="relative text-white font-medium text-center w-[1423px] h-[281px] mx-auto">
-        <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem]
-                font-bold uppercase tracking-wide text-transparent outline-text opacity-20 z-0">
+        <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem]
+                font-bold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
           PORTFOLIO
         </h1>
 
@@ -52,13 +52,13 @@ export default function Portfolio() {
             Our Portfolio
           </h2>
 
-          <div className="mt-2 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[10rem]"></div>
+          <div className="mt-2 mx-auto h-[2px] bg-white w-[calc(100%-1rem)] max-w-[12rem]"></div>
 
           {/* Description */}
-          <p className="mt-1 max-w-3xl mx-auto text-sm text-gray-400">
+          <p className="mt-2 max-w-3xl mx-auto text-sm text-white">
             Empowering your business with innovative Blockchain,
           </p>
-          <p className="mt-1 max-w-3xl mx-auto text-sm text-gray-400">
+          <p className="mt-1 max-w-3xl mx-auto text-sm text-white">
             Web3, and AI solutions for a digital future.
           </p>
         </div>

@@ -26,8 +26,8 @@ export default function Footer() {
             development, and strategic growth marketing.
           </p>
 
-          <div className="flex space-x-2 mt-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+          <div className="flex space-x-2 mt-4 ">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition cursor-pointer">
               <FaFacebookF className="text-lg text-[rgb(61,232,232)]" />
             </a>
 
@@ -53,8 +53,8 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-4 md:ml-23">Company</h3>
-          <ul className="space-y-3 text-gray-400 text-sm md:ml-23">
+          <h3 className="text-lg font-semibold mb-4 md:ml-23 cursor-pointer ">Company</h3>
+          <ul className="space-y-3 text-gray-400 text-sm md:ml-23 cursor-pointer">
             {[
               { name: "About", link: "/company/aboutuspage" },
               { name: "Events", link: "/events" },
