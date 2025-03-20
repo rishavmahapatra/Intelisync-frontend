@@ -14,13 +14,11 @@ export default function Marketing() {
              <Image src="/photos/industry_logo.png" alt="Fintech Icon" width={80} height={80} className="sm:w-[100px] sm:h-[100px]" />
            </div>
 
-        <div className="max-w-2xl">
-          <h1 className="font-poppins font-medium text-[30px] sm:text-[30px] leading-[40px] sm:leading-[40px] tracking-[-0.01%]">
-             Unleash Your Startup’s True Potential with
-        </h1>
-          <p className=" font-poppins font-semibold text-[30px]  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-transparent mx-auto w-[75%] sm:text-left">
-          Expert Marketing Strategies
-          </p>
+        <div className="max-w-4xl">
+          <h2 className="font-poppins font-[500] text-center text-[40px] sm:text-[30px] leading-[58px] sm:leading-[40px] tracking-[-0.01%] mb-10">
+             Unleash Your Startup’s True Potential with Expert <br/>Marketing Strategies
+        </h2>
+          
 
           {content.map((paragraph, index) => (
             <p key={index} className="font-poppins font-normal text-[17px] leading-[30px] tracking-[-0.01%] text-gray-300 mt-4">

@@ -4,22 +4,19 @@ import Link from "next/link";
 export default function PublicRelatoin(){
     return (
         <div
-        className="relative flex items-center justify-center w-full h-screen text-white bg-[#020B17] z-10"
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-screen w-full text-white bg-[#020B17]"
         >
-            <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
-            <div className="text-center max-w-5xl ">
-                <h1 className="  font-[600] md:text-[35px] md:leading-[45px] tracking-[-0.01%] text-center min-[320px]:text-[35px] xs:leading-[10px]">
-                Amplify Brand Visibility                </h1>
- 
-                <p className="  font-[500] md:text-[20px] md:leading-[30px] tracking-[-0.01%] text-center mt-2">
-                Boost Brand Visibility and Strengthen Your Reputation<br className="hidden sm:block" />                  
-                with Strategic PR Solutions                </p>
- 
-                <button className="mt-10 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
+            <div className="text-center max-w-3xl">
+                <h1 className="font-poppins font-semibold text-[32px] leading-[40px] sm:leading-[50px] md:leading-[55px] tracking-[-0.01%] text-center">
+                   Crypto PR Agency for Effective Blockchain & Web3 Public Relations
+                </h1>
 
-                   text-white rounded-full font-semibold shadow-md transition 
-                   hover:border hover:border-white hover:bg-none hover:text-white">
-                Book a demo
+                <p className="font-poppins text-[18px] leading-[28px] text-center mt-6 sm:mt-8">
+                A crypto PR agency specializing in blockchain & Web3 public relations, helping projects build credibility, gain media exposure, & connect with the right audience. 
+                </p>
+
+                <button className="mt-6 sm:mt-8 w-[160px] sm:w-[200px] h-[45px] sm:h-[55px] bg-white text-black rounded-full font-semibold shadow-md hover:bg-gray-200 transition">
+                    Book a demo
                 </button>
 
  

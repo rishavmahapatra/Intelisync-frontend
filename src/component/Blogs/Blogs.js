@@ -32,9 +32,11 @@ function Blog() {
             <section className="container bg-[#000B18] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
                 <div className="flex justify-center mb-10 md:mb-15">
 
-                    <h2 className="min-[320px]:max-[480px]:text-[20px] text-[32px] leading-[26px] text-center inline-block relative after:content-[''] after:block after:h-[1px] after:w-full after:max-w-full after:bg-gradient-to-r after:from-[#07CDFF] after:to-[#06FFF0] after:absolute after:bottom-0 after:left-0 pb-4 text-white">
-                        Blog - Our Expert Articles
-                    </h2>
+                <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+                            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
+                            Blog- Our Expert Articles
+                            </h2>
+                        </div>
 
                 </div>
 

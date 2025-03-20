@@ -45,44 +45,50 @@ export default function TestiMonial() {
     <div className="bg-[#000B18] text-white flex flex-col items-center py-12 px-4 md:px-6">
       {/* Header */}
       <div className="relative  py-6 text-white font-medium text-center">
-
-        {/* Gradient Text */}
-        <h2 className="text-[30px] leading-[46px] font-medium font-[Poppins] 
-               bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent " >
+        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+          <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
             What our Client Says
           </h2>
-
-        {/* Underline (centered & dynamic width) */}
-        <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[18rem]"></div>
-
+        </div>
       </div>
 
       {/* Testimonial Box */}
       <div className="relative bg-[rgba(217,217,217,0.05)] p-6 sm:p-8 md:p-10 rounded-lg w-full h-[400px] max-w-xl md:max-w-7xl shadow-lg border border-none mt-6">
         {/* Left Arrow */}
+        {/* Left Arrow */}
         <button
           onClick={prevTestimonial}
-          className="absolute left-2 sm:left-6 top-[50%] transform -translate-y-1/2 text-gray-400 hover:text-white"
+          className="absolute left-4 sm:left-6 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white transition cursor-pointer"
         >
           <ChevronLeft size={36} />
         </button>
 
         {/* Testimonial Content */}
-        <p className="text-center text-gray-300 text-base text-[18px] max-w-[980px] mx-auto">
-           {testimonials[currentIndex].text}
-          </p>
+        <div className="relative text-center max-w-[980px] mx-auto py-10">
+          {/* Fixed height container to prevent shifting */}
+          <div className="min-h-[120px] flex flex-col justify-center">
+            <p className="text-gray-300 text-[17px] leading-[140%] text-center font-[400] font-['poppins'] tracking-[0%]">
+              {testimonials[currentIndex].text}
+            </p>
+          </div>
 
-        <p className="text-center text-white mt-20 text-base  text-[18px] font-semibold">
-          {testimonials[currentIndex].name}
-        </p>
+          {/* Name stays fixed at the bottom */}
+          <div className="inline-block mt-6">
+            <p className="text-white text-[17px] leading-[140%] text-center font-[400] font-['poppins'] tracking-[0%]">
+              {testimonials[currentIndex].name}
+            </p>
+          </div>
+        </div>
+
 
         {/* Right Arrow */}
         <button
           onClick={nextTestimonial}
-          className="absolute right-2 sm:right-6 top-[50%] transform -translate-y-1/2 text-gray-400 hover:text-white"
+          className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white transition cursor-pointer"
         >
           <ChevronRight size={36} />
         </button>
+
 
         {/* Dots Indicator */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">

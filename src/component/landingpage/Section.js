@@ -13,13 +13,15 @@ const Section = () => {
       {/* Header Content */}
       <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
         <div className="flex justify-center items-center w-full h-auto mb-0">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
-            TOP{" "}
-            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
-              WEB3 MARKETING AGENCY
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[66px] leading-none font-bold text-white text-center mt-15">
+            SPECIALISING IN <br />
+            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent ">
+              WEB3
+            </span>{" "}
+            &{" "}
+            <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent">
+              EMERGING TECH
             </span>
-            <br />
-            <span className="uppercase "> TO SUPPORT YOUR BUSINESS</span>
           </h1>
         </div>
       </header>
@@ -74,10 +76,10 @@ const Section = () => {
         </div>
       </div>
        <div className="text-center my-4  pt-16 pb-0">
-                  <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white relative inline-block mb-6 pb-2">
+                  <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white relative inline-block mb-6 pb-2">
                     Trusted by Top Innovators
                     <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-[#06FFF0] via-[#00aaff] to-[#0192BA]"></span>
-                  </h1>
+                  </h2>
                 </div>
     </section>
   );

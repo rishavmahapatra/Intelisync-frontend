@@ -18,10 +18,10 @@ function MarketingStrategies() {
        
         {/* Text Content */}
         <div className="max-w-4xl mt-0">
-          <h1 className="font-poppins text-center font-medium text-[35px] leading-[50px] tracking-[-0.01px]">
+          <h2 className="font-poppins text-center font-medium text-[35px] leading-[50px] tracking-[-0.01px]">
           Supercharge Your Crypto Project with Dynamic  <br />
           <span className='' style={{ color: "rgba(6, 255, 251, 1)" }}>Marketing Strategies</span>
-          </h1>
+          </h2>
          
           {content.map((paragraph, index) => (
             <p key={index} className="font-poppins font-normal text-[16px] leading-[30px] tracking-[-0.05px] text-gray-300 mt-6">

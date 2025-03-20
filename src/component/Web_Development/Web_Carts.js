@@ -10,14 +10,10 @@ function Web_Carts() {
             className="text-3xl md:text-5xl  leading-tight font[500] text-30px"
             style={{ fontSize: "30px", color: "#06FFFB" }}
           >
-            Web3 Community Management Agency for Crypto Growth
+           Tailored Web Development Services to Drive Your Business Forward
           </h2>
           <p className="font-poppins font-[400] text-[17px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mb-5 ">
-            Building a community is easy, but keeping it engaged takes strategy.
-            Our crypto community management services ensure active discussions,
-            real-time support, and a loyal following on platforms like Discord
-            and Telegram. We help your project gain trust, attract investors,
-            and stand out in the Web3 space.{" "}
+          From custom solutions to platform enhancements, our web app development services help businesses stay ahead with secure, scalable, and high-performing applications.
           </p>
 
           <p className="font-poppins font-[400] text-[17px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mb-10 ">

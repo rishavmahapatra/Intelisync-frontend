@@ -15,8 +15,8 @@ function page() {
    <>
    <WebBanner />
    <CartMemorable />
-   <Future_Ready />
    <Expert_web />
+   <Future_Ready />
    <Web_Carts />
    <TrustedInnovators  />
    <FAQSection faqs={Webfaqs} />

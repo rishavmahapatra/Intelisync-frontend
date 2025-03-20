@@ -1,49 +1,56 @@
 'use client';
-import { useState,useEffect }  from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { color, motion } from 'framer-motion';
-import { Ourservicedata, IndustryData , CompanyData} from '@/utils/Dropdown_Data';
+import { Ourservicedata, IndustryData, CompanyData } from '@/utils/Dropdown_Data';
 import { GoArrowRight } from "react-icons/go";
+import Image from "next/image";
 import { useRouter } from 'next/navigation';
- 
+
 export default function Navbar() {
-  const[show, handleShow] =useState(false);
+  const [show, handleShow] = useState(false);
 
   const transitionNavBar = () => {
-    if (window.scrollY>100){
-    handleShow(true);
-    }else handleShow(false);
-  }  
-  
-   useEffect(() => {
-     window.addEventListener("scroll", transitionNavBar);
-   
-     return () => {
-       window.removeEventListener('scroll', transitionNavBar)
-     }
-   }, [])
+    if (window.scrollY > 100) {
+      handleShow(true);
+    } else handleShow(false);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", transitionNavBar);
+
+    return () => {
+      window.removeEventListener('scroll', transitionNavBar)
+    }
+  }, [])
 
 
   const [hoverIndex, setHoverIndex] = useState(null);
   const router = useRouter();
- 
+
   return (
     <nav className={` text-white py-4 fixed w-full z-50 ${show && "nav_blur"}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <Link href="/">
-          <div className="text-2xl font-bold">
-            <span className="text-white">Inteli</span>
-            <span className="text-teal-400">sync</span>
+          <div className="w-[141px] h-[33px] relative">
+            <Image
+              src="/photos/logo.png" // Replace with your actual image path
+              alt="Intelisync Logo"
+              layout="intrinsic"
+              width={141}
+              height={33}
+              priority
+            />
           </div>
         </Link>
- 
+
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-12 text-lg relative">
- 
+
           {/* <Link href="/aboutuspage" className="hover:text-teal-400">Company</Link> */}
-            
-             {/* Company Dropdown */}
+
+          {/* Company Dropdown */}
           <div className="relative group">
             <button className="hover:text-teal-400 cursor-pointer">Company</button>
             <div className="relative z-50">
@@ -71,7 +78,7 @@ export default function Navbar() {
               </motion.ul>
             </div>
           </div>
- 
+
           {/* Our Services Dropdown */}
           <div className="relative group">
             <Link href="/services" className="hover:text-teal-400 cursor-pointer">Our Services</Link>
@@ -100,9 +107,9 @@ export default function Navbar() {
               </motion.ul>
             </div>
           </div>
- 
+
           <Link href="/product" className="hover:text-teal-400">Our products</Link>
- 
+
           {/* Industry Dropdown */}
           <div className="relative group">
             <Link href="/Industry"><span className=' hover:text-teal-400 cursor-pointer'>Industry</span></Link>
@@ -133,16 +140,16 @@ export default function Navbar() {
               </motion.ul>
             </div>
           </div>
- 
-          
-         
-       
-         
+
+
+
+
+
           <Link href="/event" className="hover:text-teal-400">Events</Link>
           <button className="hover:text-teal-400 cursor-pointer" onClick={() => router.push('/company/careers')}>Careers</button>
           <button className="hover:text-teal-400 cursor-pointer" onClick={() => router.push('/company/blog')}>Blog</button>
         </div>
- 
+
         {/* Contact Button */}
         <Link href="/contact">
           <button className="cursor-pointer border border-teal-400 text-white px-4 py-2 rounded-md hover:bg-teal-400 hover:text-black transition">

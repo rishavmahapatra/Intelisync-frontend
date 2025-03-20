@@ -4,16 +4,18 @@ import Link from "next/link";
 export default function Elevate() {
     return (
         <div
-        className="relative flex items-center justify-center w-full h-screen text-white bg-[#020B17] z-0"
+        className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-screen w-full text-white bg-[#020B17]"
         >
-            <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
-            <div className="text-center max-w-5xl ">
-                <h1 className="  font-[600] md:text-[35px] md:leading-[45px] tracking-[-0.01%] text-center min-[320px]:text-[35px] xs:leading-[10px]">
-                Elevate Your Business with Expert Guidance
+        
+            <div className="text-center max-w-3xl">
+                <h1 className="font-poppins font-semibold text-[32px] leading-[40px] tracking-[-0.01%] text-center">
+                Expert Strategy Advisory  to Drive Your Business Forward
                 </h1>
  
-                <p className="  font-[500] md:text-[20px] md:leading-[40px] tracking-[-0.01%] text-center mt-2"> 
-                Unlock your companys potential with our strategic <br/> advisory services. </p>
+                <p className="font-poppins text-[18px] leading-[28px] text-center mt-6 sm:mt-8">
+                Strategy advisory to help your business grow smarter. Intelisync offers expert guidance,real world solutions, and data backed insights for sustainable success
+
+                </p>
 
                 <button className="mt-6 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
 

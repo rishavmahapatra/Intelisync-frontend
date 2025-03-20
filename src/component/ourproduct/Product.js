@@ -27,22 +27,23 @@ function Product() {
 
       {/* Large Transparent Background Text */}
       <div className="text-center relative mt-10">
-        <h1 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[15rem]
+        <h2 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[15rem]
                 font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
           PRODUCTS
-        </h1>
+        </h2>
       </div>
       <div className="relative px-5 py-6 text-white font-medium text-center">
 
         {/* Gradient Text */}
-        <h2 className="text-[24px] sm:text-[30px] leading-[26px] tracking-tight font-medium font-[Poppins] 
-                    bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
-          Our Product
-        </h2>
-
+        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+                            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
+                            Our Product
+                            </h2>
+                        </div>
+                        
 
         {/* Underline (centered & dynamic width) */}
-        <div className="mt-3 mx-auto h-0.5 bg-white w-[calc(100%-2rem)] max-w-[10rem]"></div>
+        
         <p className=" text-gray-300 text-xs sm:text-sm text-opacity-80 mt-2">
           Explore Intelisync’s product suite, built to enhance performance,
         </p>

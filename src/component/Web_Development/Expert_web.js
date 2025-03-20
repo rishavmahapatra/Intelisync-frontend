@@ -7,57 +7,43 @@ function Expert_web() {
       <div className="max-w-4xl ">
         {/* Heading */}
         <h2 className="text-3xl font[500] text-30px "  style={{ color: "rgba(6, 255, 251, 1)" }}>
-        Expert Website Development Services to Propel Your Business Growth
+        Helping Your Business Grow with Scalable Web Solutions
         </h2>
 
         {/* Description */}
         <p className="mt-4 font[400] text-17px text-gray-300 leading-relaxed">
-        Our philosophy is straightforward: we create high-performing, user-friendly websites designed to attract and retain your audience, driving lasting engagement and growth.
-        
+        Your digital presence should evolve with your business. Our web app development services focus on creating secure and scalable solutions that enhance brand impact and drive long-term growth. With a combination of creativity and advanced technology, we build web-based applications that deliver seamless performance and real business value.
         </p>
 
         <p className="mt-4 font[400] text-17px text-gray-300 leading-relaxed">
-        As a full-service web development company, we offer a comprehensive range of solutions.
+        From business management tools to custom platforms, we develop reliable web applications tailored to meet your specific needs.
         </p>
 
         {/* Bullet Points */}
         <ul className="mt-6 font[400] text-17px space-y-3">
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white  ">•</span> Custom Website Design & Development
+            <span className="text-white  ">•</span> Well-structured and user-friendly web architecture
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> E-commerce Website Solutions
+            <span className="text-white">•</span>Fully responsive designs that adapt to any device
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span>Third-Party API Integration
+            <span className="text-white">•</span>Engaging UI and UX to enhance user interaction
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> Web & Mobile App Development
+            <span className="text-white">•</span>SEO-friendly development for better search visibility
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> Intranet Solutions
+            <span className="text-white">•</span> Strategic solutions to expand your digital presence
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> HTML5 & Java Web Development
+            <span className="text-white">•</span>Dedicated support to ensure seamless operation
           </li>
 
-          <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> WordPress Website Development
-          </li>
-          <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> UX/UI Design for Enhanced User Experience
-          </li>
-          <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> CMS Integration
-          </li>
-          <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> Product Management & Digital Strategy
-          </li>
-          
         </ul>
         <p className='py-5 font[400] text-17px text-gray-300'>
-        Our tailored approach ensures every project is built to scale, meet evolving business needs, and create lasting digital impact.
-        </p>
+        As a trusted web app development company, we transform ideas into innovative digital solutions designed for growth and success.
+</p>
       </div>
     </div>
     </div>
