@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link";
+
 export default function Elevate() {
     return (
         <div
@@ -16,10 +17,14 @@ export default function Elevate() {
 
                 </p>
 
-                    <button className="mt-6 sm:mt-8 w-[160px] sm:w-[200px] h-[45px] sm:h-[55px] bg-white text-black rounded-full font-semibold shadow-md hover:bg-gray-200 transition">
-                        Book a demo
-                    </button>
+                <button className="mt-6 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
+
+                   text-white rounded-full font-semibold shadow-md transition 
+                   hover:border hover:border-white hover:bg-none hover:text-white">
+                   Book a demo
+                </button>
             </div>
         </div>
     );
 }
+

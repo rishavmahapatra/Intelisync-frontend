@@ -7,13 +7,11 @@ export default function Tailored() {
         
         <div className="bg-[#020B17] text-white py-24 px-8 md:px-32 lg:px-32">
             <div className="text-left mb-12">
-                <h1 className="text-3xl md:text-5xl font-500 leading-tight " style={{ fontSize: "30px", color: "#06FFFB" }}>
-                Tailored Growth Marketing Services
-                </h1>
+                <h2 className="text-3xl md:text-5xl font-500 leading-tight " style={{ fontSize: "30px", color: "#06FFFB" }}>
+                Smart Growth Marketing for Lasting Success
+                </h2>
                 <p className="text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-1 max-w-3xl">
-                Having a great product or service is just the start—strategic, effective growth marketing is essential to driving sustained success. 
-                     Our growth marketing services are designed to expand your reach, boost engagement, and build lasting trust with your audience across multiple channels. 
-                     Heres how we can help:
+                Great products need smart strategies. Our growth marketing services help businesses attract, engage, and retain customers. Growth marketers use innovative tactics to scale effectively. If you're wondering what is growth marketing, it's all about continuous optimization. As one of the top growth marketing companies, we help you grow smarter.
                </p>
             </div>
  

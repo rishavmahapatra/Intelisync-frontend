@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 
-export default function PublicRelatoin() {
+export default function PublicRelatoin(){
     return (
         <div
         className="flex items-center justify-center bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat h-screen w-full text-white bg-[#020B17]"
@@ -18,6 +18,8 @@ export default function PublicRelatoin() {
                 <button className="mt-6 sm:mt-8 w-[160px] sm:w-[200px] h-[45px] sm:h-[55px] bg-white text-black rounded-full font-semibold shadow-md hover:bg-gray-200 transition">
                     Book a demo
                 </button>
+
+ 
             </div>
         </div>
     );

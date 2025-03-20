@@ -65,11 +65,12 @@ const ContactUs = () => {
           lastName: formData.lastname,
           email: formData.email,
           contactNumber: '+' + formData.phone,
-          message: formData.message
+          // message: formData.message
         }),
       });
       setShowSuccessPopup(true);
-      setFormData({ firstname: "", lastname: "", email: "", phone: "", message: '' });
+      setFormData({ firstname: "", lastname: "", email: "", phone: ""});
+      // , message: '' 
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Error submitting form. Please try again.");
@@ -120,9 +121,9 @@ const ContactUs = () => {
               <PhoneInput country={'in'} value={formData.phone} onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))} inputProps={{ name: 'phone' }} containerStyle={{ width: '100%' }} inputStyle={{ width: '100%', borderBottom: '0.2px solid #000' }} />
               {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
             </div>
-            <TextField placeholder="Let us know how we can assist you!*" name="message" variant="standard" value={formData.message} onChange={handleInputChange} fullWidth InputProps={getInputProps()} InputLabelProps={{
+            {/* <TextField placeholder="Let us know how we can assist you!*" name="message" variant="standard" value={formData.message} onChange={handleInputChange} fullWidth InputProps={getInputProps()} InputLabelProps={{
               sx: { color: '#000000CC', marginTop: '2px' },
-            }} />
+            }} /> */}
             {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
             <button type="submit" className={`mt-4 w-[200px] text-[18px] leading-[26px] font-[500] h-[50px] flex justify-center items-center text-white rounded-[30px] bg-gradient-to-r from-[#008BB2] to-[#009E97] hover:opacity-80 transition-all duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={loading}>
               {loading ? 'Submitting...' : 'Book a demo'}

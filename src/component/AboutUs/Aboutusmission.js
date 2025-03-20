@@ -8,9 +8,9 @@ export default function Mission() {
     return (
       <div className="bg-[#020B17] text-white py-26 px-6 md:px-15 lg:px-32 relative flex justify-center">
         <div className="max-w-2xl">
-          <h1 className="font-poppins font-medium text-[30px] leading-[50px] tracking-tight text-white">
+          <h2 className="font-poppins font-medium text-[30px] leading-[50px] tracking-tight text-white">
             Mission
-          </h1>
+          </h2>
           <div className="relative mt-16">
             {/* Glowing Vertical Line */}
             <div className="absolute left-3 top- h-full w-[3px] bg-gradient-to-b from-[#14e266] to-transparent"></div>

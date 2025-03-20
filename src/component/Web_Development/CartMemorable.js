@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CartMemorable() {
 
   const content =[
-             "Your website should do more than just exist—it should captivate, engage, and inspire. We design sleek, responsive websites that offer intuitive navigation and exceptional user experiences, ensuring visitors stay longer and connect with your brand’s story."          
+    "A well designed web application is more than just a tool. It should be intuitive, engaging, and built to enhance user experience. We develop high-performing web applications that are easy to navigate, visually appealing, and optimized for efficiency."
   ]
    
     return (
@@ -11,19 +11,19 @@ export default function CartMemorable() {
         <div className="max-w-6xl">
 
         <div className="text-gray-400 text-sm mb-6 h-[20px] w-[389px] ">
-                <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
+                <Link href="/" className="hover:text-gray-300 transition text-[15px] font-[400]">Homepage</Link>
                 <span className="mx-1">&gt;</span>
 
-                <Link href="/service" className="hover:text-gray-300 text-[15px] transition">Services</Link>
+                <Link href="/services" className="hover:text-gray-300 text-[15px] font-[400]transition">Services</Link>
                 <span className="mx-1">&gt;</span>
 
-                <span className="text-cyan-400 font-medium text-[15px] hover:text-cyan-300 transition">
+                <span className="text-cyan-400 font-[400] text-[15px] hover:text-cyan-300 transition">
                 Web App Development 
                 </span>
             </div>
 
           <h2 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
-          Craft Memorable Digital Experiences with Custom Web Development
+          Web App Development Services for Scalable and High-Performance Solutions
           </h2>
           </div>
 

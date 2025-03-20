@@ -7,47 +7,48 @@ function Future_Ready() {
       <div className="max-w-4xl ">
         {/* Heading */}
         <h2 className="text-3xl font-[500] text-[30px] " style={{ color: "rgba(6, 255, 251, 1)" }}>
-          Future-Ready Web Solutions for Growing Businesses
+        Expert Web App Development Services to Accelerate Your Business Growth
+
         </h2>
 
         {/* Description */}
         <p className="mt-4 text-gray-300 leading-relaxed font[400] text-17px ">
-          Your digital presence should evolve with your business. We create
-          scalable, high-performing web solutions that expand reach and elevate
-          brand impact. By blending creativity with advanced technology, we
-          build websites that drive engagement, boost conversions, and ensure
-          long-term growth.
+        We build high performance, user friendly web applications designed to enhance engagement, streamline operations, and drive long-term success. Our focus is on creating scalable solutions that adapt to your evolving business needs while providing seamless user experiences.
+
         </p>
 
         <p className="mt-4 text-gray-300 leading-relaxed font[400] text-17px">
-          From business websites to e-commerce platforms and custom apps, we’re
-          here to develop secure, results-driven sites that help brands thrive.
+        As a trusted web app development company, we offer a full range of web application development services:
         </p>
 
         {/* Bullet Points */}
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-6 space-y-3 font[400] text-17px">
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white ">•</span> Intuitive web architecture
+            <span className="text-white ">•</span> Custom Web App Development
+            </li>
+          <li className="flex items-start gap-2 text-sm">
+            <span className="text-white">•</span> E-commerce Web Solutions
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> Fully responsive,
-            mobile-first designs
+            <span className="text-white">•</span> Third-Party API Integration
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> Engaging UX/UI for lasting
-            impressions
+            <span className="text-white">•</span> Mobile-Optimized Web Applications
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> SEO strategies to maximize
-            visibility
+            <span className="text-white">•</span> Enterprise Web-Based Application Development
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> Data-driven PPC campaigns
-            for growth
+            <span className="text-white">•</span>Cloud-Based Web App Development
           </li>
           <li className="flex items-start gap-2 text-sm">
-            <span className="text-white">•</span> 24/7 support to keep you
-            running smoothly
+            <span className="text-white">•</span>UX/UI Design for Enhanced User Experience
+          </li>
+          <li className="flex items-start gap-2 text-sm">
+            <span className="text-white">•</span>CMS Development & Integration
+          </li>
+          <li className="flex items-start gap-2 text-sm">
+            <span className="text-white">•</span>Product Management & Digital Strategy
           </li>
         </ul>
       </div>

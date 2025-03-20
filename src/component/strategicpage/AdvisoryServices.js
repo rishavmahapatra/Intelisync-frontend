@@ -9,24 +9,24 @@ export default function BlockchainBusiness() {
 
   return (
     <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
-      <div className="text-gray-400 text-sm mb-6">
-        <Link href="/" className="hover:text-white transition duration-200">
-          Homepage
-        </Link>
-        <span> &gt; </span>
-        <Link href="/service" className="hover:text-white transition duration-200">
-          Services
-        </Link>
-        <span> &gt; </span>
-        <span className="text-[#06FFFB]">Strategic Page</span>
-      </div>
+      <div className="text-gray-400 text-sm mb-6 h-[20px] w-[389px] ">
+                <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
+                <span className="mx-1">&gt;</span>
+
+                <Link href="/service" className="hover:text-gray-300 text-[15px] transition">Services</Link>
+                <span className="mx-1">&gt;</span>
+
+                <span className="text-cyan-400 font-medium text-[15px] hover:text-cyan-300 transition">
+                Strategic Advisory
+                </span>
+            </div>
       <div className="max-w-3xl">
         <h2 className="font-poppins font-medium text-[40px] leading-[50px] tracking-[-0.01%]">
         What Intelisync Strategy Consulting Can Do for You
         </h2>
 
         {content.map((paragraph, index) => (
-          <p key={index} className="font-poppins font-normal text-[17px] leading-[30px] tracking-[-0.01%] text-gray-300 mt-4">
+          <p key={index} className="font-poppins  text-[16px] font-[400px] leading-[30px] tracking-[-0.01%] text-gray-300 mt-4 w-[90%]">
             {paragraph}
           </p>
 
