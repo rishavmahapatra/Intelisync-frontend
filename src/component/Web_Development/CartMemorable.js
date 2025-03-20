@@ -22,9 +22,9 @@ export default function CartMemorable() {
                 </span>
             </div>
 
-          <h1 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
+          <h2 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
           Craft Memorable Digital Experiences with Custom Web Development
-          </h1>
+          </h2>
           </div>
 
           {content.map((paragraph, index) => (

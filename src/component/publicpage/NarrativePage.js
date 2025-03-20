@@ -2,9 +2,10 @@ import Link from "next/link";
 
 export default function NarrativePage() {
   const content = [
-    "Conversations about your brand are happening continuously, both online and offline whether you're aware of them or not. Don’t let third parties, who may not have your brand’s best interests at heart, dominate the narrative.",
-    "By partnering with Intelisync for targeted PR services, you can take control of the conversation surrounding your business. Many members of our PR team have roots in the media industry, which gives us a unique advantage. With our extensive network of media connections, we help clients shape and sustain a positive public image that resonates with their audience.",
-    "Our team leverages proven PR strategies to amplify your brand’s message, increase media coverage, and build lasting relationships with key influencers. Whether you're looking to enhance your reputation, manage crises, or boost brand awareness, we’re here to ensure your brand stands out in a competitive landscape. With our expertise, we guide your brand through every step of strategic communication to achieve measurable results and long-term success."
+    "In crypto, your brand’s reputation can shape its success. Conversations are happening everywhere, on social media, in investor circles, and across news platforms. If you are not actively shaping the narrative, someone else will. That is where the right crypto PR agency makes a difference.",
+    "At Intelisync, we focus on crypto public relations for blockchain projects, startups, and established crypto brands. Our team has deep industry knowledge and strong media connections, helping you get featured in top publications, build trust with your audience, and stand out in a competitive space.",
+    "From press public relations to advertising and public relations, we create strategies that keep people talking about your project for the right reasons. Whether you are launching a token, handling a PR challenge, or looking to grow your brand’s presence, we ensure your message reaches the right people.",
+    "In crypto, perception is everything. Work with a public relations agency that understands Web3 and knows how to get results. Let us put your brand in the spotlight."
   ];
 
   return (
@@ -25,9 +26,9 @@ export default function NarrativePage() {
 
       {/* Content Section */}
       <div className="max-w-4xl mx-auto">
-        <h1 className="font-poppins font-semibold text-[28px] sm:text-[32px] md:text-[38px] lg:text-[42px] leading-[34px] sm:leading-[42px] md:leading-[50px] text-[#06FFFB]">
-          Harness Our Vast Media Network to Influence and Enhance Your Brand’s Narrative
-        </h1>
+        <h2 className="font-poppins font-semibold text-[28px] sm:text-[32px] md:text-[38px] lg:text-[42px] leading-[34px] sm:leading-[42px] md:leading-[50px] text-[#06FFFB]">
+        Get Your Crypto Brand Noticed with a Leading Crypto PR Agency
+        </h2>
 
         {content.map((paragraph, index) => (
           <p key={index} className="font-poppins text-[14px] sm:text-[16px] md:text-[18px] leading-[24px] sm:leading-[26px] md:leading-[28px] text-gray-300 mt-4">

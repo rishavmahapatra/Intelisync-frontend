@@ -2,13 +2,16 @@ import { SmallBusinessCard } from "@/utils/Cards_Data";
 
 export default function DigitalMarketing() {
     return (
-        <div className="bg-[#020B17] text-white py-16 px-6 sm:px-12 md:px-20 lg:px-32">
-            {/* Heading Section */}
+        <div className="bg-[#020B17] relative text-white mt-10 py-16 px-6 sm:px-12 md:px-20 lg:px-32">
+          
+           <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+           </div>
             <div className="text-center mb-10">
-                <h1 className="font-poppins font-semibold text-[26px] sm:text-[30px] md:text-[35px] leading-[35px] sm:leading-[40px] text-gray-300 mx-auto">
+                <h2 className="font-poppins font-[600] text-[30px] sm:text-[30px] md:text-[35px] leading-[35px] sm:leading-[40px] text-white mx-auto">
                     Digital Marketing Services for Small Businesses
-                </h1>
-                <p className="font-poppins font-normal text-[15px] sm:text-[18px] md:text-[20px] leading-[24px] text-gray-400 mt-4 mx-auto max-w-3xl">
+                </h2>
+                <p className="font-poppins font-[400] text-[15px] sm:text-[18px] md:text-[20px] leading-[24px] text-gray-400 mt-4 mx-auto max-w-3xl">
                     Our tailored digital marketing solutions are designed to unlock your business full potential and fuel long-term growth. Explore our comprehensive services below:
                 </p>
             </div>

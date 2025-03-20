@@ -3,14 +3,18 @@ import { HealthcareCards } from "@/utils/Cards_Data";
 export default function GrowthSolution() {
   return (
     <div className="relative bg-[#000B18] min-h-screen text-white py-16 px-6 md:px-20 lg:px-32">
+         <div className="absolute w-[200px] h-[500px] blur-[100px] bottom-[-200px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+            </div>
       
       {/* Content Wrapper (Ensures Cards Stay Above Blur) */}
       <div className="relative z-10">
         {/* Header */}
         <div className="text-center mt-20 mb-16">
-          <h1 className="font-poppins font-normal text-[25px] leading-[30px] tracking-[-0.01%] text-gray-300 max-w-3xl mx-auto">
-            Intelisync offers a range of growth-driven <br /> solutions, including:
-          </h1>
+          <h2 className="font-poppins font-normal text-[25px] leading-[30px] tracking-[-0.01%] text-gray-300 max-w-3xl mx-auto">
+            Intelisync offers a range of growth-drive
+            n <br /> solutions, including:
+          </h2>
         </div>
 
         {/* Grid Container */}

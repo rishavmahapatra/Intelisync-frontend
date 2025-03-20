@@ -1,14 +1,17 @@
 import { FintechData } from "@/utils/Cards_Data";
 
-export default function GrowthSolution() {
+export default function Fintechcards() {
   return (
-    <div className="bg-[#000B18] min-h-screen text-white py-16 px-6 md:px-20 lg:px-32">
+    <div className="bg-[#000B18] relative min-h-screen text-white py-16 px-6 md:px-20 lg:px-32">
+         <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+      </div>
       <div className="text-center mb-10">
-        <h1>
+        <h2>
           <p className="font-poppins font-normal text-[25px] sm:text-[25px] sm:leading-[35px] tracking-[-0.01%] text-gray-200 mt-4 max-w-3xl mx-auto">
             Intelisync offers a range of growth-driven <br/>solutions, including:
           </p>
-        </h1>
+        </h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-14 gap-y-8">
