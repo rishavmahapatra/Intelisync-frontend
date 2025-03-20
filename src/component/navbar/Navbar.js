@@ -1,17 +1,34 @@
 'use client';
-import { useState } from 'react';
+import { useState,useEffect }  from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import { Ourservicedata, IndustryData , CompanyData} from '@/utils/Dropdown_Data';
 import { GoArrowRight } from "react-icons/go";
 import { useRouter } from 'next/navigation';
  
 export default function Navbar() {
+  const[show, handleShow] =useState(false);
+
+  const transitionNavBar = () => {
+    if (window.scrollY>100){
+    handleShow(true);
+    }else handleShow(false);
+  }  
+  
+   useEffect(() => {
+     window.addEventListener("scroll", transitionNavBar);
+   
+     return () => {
+       window.removeEventListener('scroll', transitionNavBar)
+     }
+   }, [])
+
+
   const [hoverIndex, setHoverIndex] = useState(null);
   const router = useRouter();
  
   return (
-    <nav className="bg-black text-white py-4">
+    <nav className={` text-white py-4 fixed w-full z-50 ${show && "nav_blur"}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <Link href="/">
@@ -29,14 +46,14 @@ export default function Navbar() {
              {/* Company Dropdown */}
           <div className="relative group">
             <button className="cursor-pointer">Company</button>
-            <div className="relative z-100">
+            <div className="relative z-50">
               <motion.ul
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}
                 animate={{ opacity: 1, y: 5, scale: 1 }}
                 exit={{ opacity: 0, y: -10, scale: 0.95 }}
                 transition={{ duration: 0.3, ease: 'easeInOut' }}
                 className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
-                style={{ background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)' }}
+                style={{ background: 'linear-gradient(135deg, rgba(16, 64, 115, 0.95) 0%, rgba(3, 240, 226, 0.95) 100%)' }}
               >
                 {CompanyData.map((company, index) => (
                   <li
@@ -65,7 +82,7 @@ export default function Navbar() {
                 exit={{ opacity: 0, y: -10, scale: 0.95 }}
                 transition={{ duration: 0.3, ease: 'easeInOut' }}
                 className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
-                style={{ background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)' }}
+                style={{ background: 'linear-gradient(135deg, rgba(16, 64, 115, 0.95) 0%, rgba(3, 240, 226, 0.95) 100%)' }}
               >
                 {Ourservicedata.map((service, index) => (
                   <li
@@ -97,7 +114,7 @@ export default function Navbar() {
                 transition={{ duration: 0.3, ease: 'easeInOut' }}
                 className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
                 style={{
-                  background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)'
+                  background: 'linear-gradient(135deg, rgba(16, 64, 115, 0.95) 0%, rgba(3, 240, 226, 0.95) 100%)'
                 }}
               >
                 {IndustryData.map((industry, index) => (

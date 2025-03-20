@@ -115,7 +115,7 @@ const ContactUs = () => {
             }} />
             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
 
-            <div className="w-full">
+            <div className="w-full mt-5">
               <PhoneInput country={'in'} value={formData.phone} onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))} inputProps={{ name: 'phone' }} containerStyle={{ width: '100%' }} inputStyle={{ width: '100%', borderBottom: '0.2px solid #000' }} />
               {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
             </div>
@@ -123,7 +123,7 @@ const ContactUs = () => {
               sx: { color: '#000000CC', marginTop: '2px' },
             }} />
             {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
-            <button type="submit" className={`w-[200px] text-[18px] leading-[26px] font-[500] h-[50px] flex justify-center items-center text-white rounded-[30px] bg-gradient-to-r from-[#008BB2] to-[#009E97] hover:opacity-80 transition-all duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={loading}>
+            <button type="submit" className={`mt-4 w-[200px] text-[18px] leading-[26px] font-[500] h-[50px] flex justify-center items-center text-white rounded-[30px] bg-gradient-to-r from-[#008BB2] to-[#009E97] hover:opacity-80 transition-all duration-300 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={loading}>
               {loading ? 'Submitting...' : 'Book a demo'}
             </button>
           </form>

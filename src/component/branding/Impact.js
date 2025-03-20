@@ -38,7 +38,7 @@ export default function BlockchainSolutions() {
                 <h1 className="text-3xl md:text-5xl font-500 leading-tight " style={{ fontSize: "30px", color: "#06FFFB" }}>
                 Strategic Branding Solutions for Unforgettable Impact                </h1>
                 <p className="text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-1 max-w-3xl">
-                Empower your business with branding solutions designed to elevate your identity, build trust, and set you apart. Our tailored strategies ensure your brand resonates with your audience and stands the test of time. Here's how we can help:             </p>
+                Empower your business with branding solutions designed to elevate your identity, build trust, and set you apart. Our tailored strategies ensure your brand resonates with your audience and stands the test of time. Here&apos;s how we can help:             </p>
  
             </div>
  

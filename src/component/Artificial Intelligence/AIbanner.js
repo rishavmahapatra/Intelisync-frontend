@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Section() {
     return (
         <div
-        className="relative flex items-center justify-center w-full h-screen text-white bg-[#020B17] z-10"
+        className="relative flex items-center justify-center w-full h-screen text-white bg-[#020B17] z-0"
         >
             <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
             <div className="text-center max-w-5xl ">
