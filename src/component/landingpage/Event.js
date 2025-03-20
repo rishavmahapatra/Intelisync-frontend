@@ -53,7 +53,7 @@ function EventGallery() {
           </h2>
 
           {/* Underline (centered & dynamic width) */}
-          <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[22rem]"></div>
+          <div className="mt-2 mx-auto h-0.5 bg-white w-[calc(100%-2rem)] max-w-[28rem]"></div>
 
         </div>
 
