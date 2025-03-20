@@ -2,9 +2,10 @@ import Link from "next/link";
 
 export default function BlockchainBusiness() {
     const content = [
-      "AI is reshaping the business landscape, unlocking new opportunities for growth and innovation. Our customized AI solutions are designed to optimize operations, improve decision-making, and enhance customer experiences, driving measurable results. By incorporating AI into your business strategy, you gain the agility and efficiency required to stay competitive in an ever-evolving market.",
-      "We provide tailored AI solutions that align with your unique business goals, empowering smarter decisions and boosting productivity. From automating processes to leveraging data-driven insights, our AI services help you stay ahead of the competition and future-proof your business.",
-      "Our approach is tailored to ensure your brand speaks directly to your target audience, fostering a deep emotional connection. We guide you through the entire branding process, making sure your business stands out and stays relevant in today’s competitive market.",
+      "AI is no longer just a futuristic concept. It is transforming businesses by making operations smarter and more efficient. Whether you are new to artificial intelligence for beginners or looking to integrate AI development services into your business, we are here to make the process smooth and effective",
+      "As a leading AI development company, we do more than just build AI solutions. We create strategies that align with your business goals and deliver measurable impact. Our artificial intelligence development services help automate processes, analyze data for better decision making, and enhance customer experiences, giving your business a competitive edge.",
+      "With deep expertise in AI driven innovation, our AI services company develops practical solutions tailored to your industry. From machine learning models that optimize performance to AI powered chatbots that improve customer interactions and automation that boosts efficiency, we ensure AI works to your advantage.",
+      "Work with a trusted AI development agency that understands both the technology and its real world impact on businesses. Let’s create intelligent solutions that drive long term growth and keep you ahead of the competition."
     ];
    
     return (
@@ -15,7 +16,7 @@ export default function BlockchainBusiness() {
                 <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
                 <span className="mx-1">&gt;</span>
 
-                <Link href="/service" className="hover:text-gray-300 text-[15px] transition">Services</Link>
+                <Link href="/services" className="hover:text-gray-300 text-[15px] transition">Services</Link>
                 <span className="mx-1">&gt;</span>
 
                 <span className="text-cyan-400 font-medium text-[15px] hover:text-cyan-300 transition">
@@ -23,9 +24,11 @@ export default function BlockchainBusiness() {
                 </span>
             </div>
 
-          <h1 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
-           Maximize Your Business&apos;s Full Potential with <br/>Customized AI Solutions and Advanced <br/>Technology
-          </h1>
+          <h2 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
+           Artificial Intelligence Development Services <br/>to Help Your Business Grow
+           
+
+          </h2>
           </div>
 
           {content.map((paragraph, index) => (

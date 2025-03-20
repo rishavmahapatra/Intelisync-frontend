@@ -2,38 +2,45 @@ import { PublicRelationCards } from "@/utils/Cards_Data";
 
 export default function PRServicesPage() {
   return (
-    <div className="bg-[#020B17] text-white py-12 px-6 sm:px-12 md:px-20 lg:px-32">
-      
+    <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32 ">
       {/* Header Section */}
-      <div className="text-center mb-10">
-        <h1 className="text-[28px] sm:text-[32px] md:text-[38px] lg:text-[42px] font-bold leading-tight text-[#06FFFB]">
+      <div className="max-w-4xl">
+        <h1
+          className="text-3xl md:text-5xl  leading-tight font[500] text-30px"
+          style={{ fontSize: "30px", color: "#06FFFB" }}
+        >
           Public Relations Services to Elevate Your Brand
         </h1>
 
-        <p className="font-poppins text-[14px] sm:text-[16px] md:text-[18px] leading-[24px] sm:leading-[26px] md:leading-[28px] text-gray-300 mt-4 max-w-3xl mx-auto">
-          Our public relations services are crafted to help your brand build trust, enhance visibility, and drive meaningful engagement. 
-          We position your business as an industry leader with targeted communication strategies. Here’s how we can support your brand:
+        <p className="font-poppins font-[400] text-[17px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mb-10 ">
+          Our public relations services are crafted to help your brand build
+          trust, enhance visibility, and drive meaningful engagement. We
+          position your business as an industry leader with targeted
+          communication strategies. Here’s how we can support your brand:
         </p>
       </div>
 
       {/* Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {PublicRelationCards.map((solution, index) => (
           <div
             key={index}
-            className="p-6 border border-cyan-400 rounded-lg bg-[#081828] shadow-lg hover:shadow-xl transition-shadow duration-300"
+            className="p-px relative rounded-2xl shadow-lg bg-[#081828] h-[250px]  "
           >
-            <h2 className="font-poppins font-semibold text-[18px] sm:text-[20px] leading-[24px] text-white">
-              {solution.title}
-            </h2>
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#7F7F7F] to-[#00A9CA]"></div>
 
-            <p className="font-poppins text-[14px] sm:text-[16px] leading-[22px] text-gray-300 mt-2">
-              {solution.description}
-            </p>
+            <div className="p-4 bg-[#0B1522] rounded-2xl relative h-full py-8 px-10">
+              <h2 className="font-poppins font-[700px] text-[19px] leading-[25px] tracking-[-0.01%] whitespace-pre-line ">
+                {solution.title}
+              </h2>
+
+              <p className="font-poppins font-[400px] text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 break-words ">
+                {solution.description}
+              </p>
+            </div>
           </div>
         ))}
       </div>
     </div>
   );
 }
-                                  

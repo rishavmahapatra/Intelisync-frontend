@@ -7,12 +7,15 @@ export default function Artificialservice() {
         
         <div className="bg-[#020B17] text-white py-24 px-8 md:px-32 lg:px-32">
             <div className="text-left mb-12">
-                <h1 className="text-3xl md:text-5xl font-500 leading-tight " style={{ fontSize: "30px", color: "#06FFFB" }}>
-                Smart AI Solutions for Business Growth
-                </h1>
+                <h2 className="text-3xl md:text-5xl font-500 leading-tight " style={{ fontSize: "30px", color: "#06FFFB" }}>
+                Artificial Intelligence Development Services for Smarter Business Growth
+                </h2>
                 <p className="text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-1 max-w-3xl">
-                Unlock the true potential of AI with solutions designed to innovate, streamline, and drive growth across your business. Our AI services are crafted to meet your unique needs and maximize impact. Here&apos;s how we can help:                </p>
- 
+                Boost efficiency and innovation with expert AI development services. Whether you are exploring artificial intelligence for beginners or seeking advanced solutions, our AI services company provides the right expertise. </p> 
+
+                <p className="text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-1 max-w-3xl">
+                As a leading AI development company, we help businesses automate processes, enhance decision-making, and leverage data-driven insights. Partner with a trusted AI development agency to bring powerful artificial intelligence development services to your business.
+                </p>                
             </div>
  
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

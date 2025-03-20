@@ -25,7 +25,7 @@ function Future_Ready() {
         </p>
 
         {/* Bullet Points */}
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-6 space-y-3 font[400] text-17px">
           <li className="flex items-start gap-2 text-sm">
             <span className="text-white ">•</span> Intuitive web architecture
           </li>

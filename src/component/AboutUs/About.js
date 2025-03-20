@@ -6,9 +6,9 @@ export default function AboutData() {
     return (
       <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 relative flex items-center justify-center">
         <div className="max-w-2xl">
-          <h1 className="font-poppins font-medium text-[30px] leading-[50px] tracking-tight  text-[#06F7FF] ">
+          <h2 className="font-poppins font-medium text-[30px] leading-[50px] tracking-tight  text-[#06F7FF] ">
             About Us
-          </h1>
+          </h2>
 
           {content.map((paragraph, index) => (
             <p

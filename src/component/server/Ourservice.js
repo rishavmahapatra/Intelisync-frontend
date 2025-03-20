@@ -74,10 +74,10 @@ function Ourservice() {
                 <div className="relative flex flex-col items-center justify-center text-center py-20 w-full max-w-screen-xl mx-auto">
 
                     {/* Large Background Text */}
-                    <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] md:text-[8rem] lg:text-[12rem] xl:text-[17rem] 
+                    <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] md:text-[8rem] lg:text-[12rem] xl:text-[17rem] 
                 font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0 ">
                         SERVICES
-                    </h1>
+                    </h2>
 
                     {/* Section Title */}
                     <div className="relative px-5 py-6 text-white font-medium z-10 text-center">

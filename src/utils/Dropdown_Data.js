@@ -21,8 +21,9 @@ export const Ourservicedata =[
  
   export const CompanyData =[
     {title: 'About Us', link: '/company/aboutuspage'},
-    {title: 'Blog', link: '/company/blog'},
+    {title: 'Event', link: 'company/event'},
     {title: 'Careers',link: '/company/careers'},
+    {title: 'Blog', link: '/company/blog'},
     {title: 'Terms & Condtions', link:'/company/condtions'},
     
   ]

@@ -45,14 +45,14 @@ export default function Navbar() {
             
              {/* Company Dropdown */}
           <div className="relative group">
-            <button className="cursor-pointer">Company</button>
+            <button className="hover:text-teal-400 cursor-pointer">Company</button>
             <div className="relative z-50">
               <motion.ul
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}
                 animate={{ opacity: 1, y: 5, scale: 1 }}
                 exit={{ opacity: 0, y: -10, scale: 0.95 }}
                 transition={{ duration: 0.3, ease: 'easeInOut' }}
-                className="absolute hidden group-hover:block left-0 -top-1 w-70 border border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
+                className="absolute hidden group-hover:block left-0 -top-1 w-70 border  border-gray-700 rounded-xl shadow-lg overflow-hidden backdrop-blur-md p-2"
                 style={{ background: 'linear-gradient(135deg, rgba(16, 64, 115, 0.95) 0%, rgba(3, 240, 226, 0.95) 100%)' }}
               >
                 {CompanyData.map((company, index) => (
@@ -74,7 +74,7 @@ export default function Navbar() {
  
           {/* Our Services Dropdown */}
           <div className="relative group">
-            <Link href="/services" className="cursor-pointer">Our Services</Link>
+            <Link href="/services" className="hover:text-teal-400 cursor-pointer">Our Services</Link>
             <div className="relative z-100">
               <motion.ul
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}
@@ -105,7 +105,7 @@ export default function Navbar() {
  
           {/* Industry Dropdown */}
           <div className="relative group">
-            <Link href="/Industry"><span className='cursor-pointer'>Industry</span></Link>
+            <Link href="/Industry"><span className=' hover:text-teal-400 cursor-pointer'>Industry</span></Link>
             <div className="relative z-100">
               <motion.ul
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}

@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function CartMemorable() {
 
   const content =[
-             "Your website should do more than just exist—it should captivate, engage, and inspire. We design sleek, responsive websites that offer intuitive navigation and exceptional user experiences, ensuring visitors stay longer and connect with your brand’s story."          
+"The crypto space is competitive, and building a strong community is essential for success. Traditional marketing is not enough to attract investors and users. Real growth happens when you create an engaged and loyal community on platforms like Telegram and Discord. A well-managed community builds trust, increases brand awareness, and strengthens your project’s credibility.",
+"As a leading Web3 community management agency, we help crypto projects foster meaningful conversations and connections. Discord provides real-time discussions for updates and announcements, while Telegram offers a secure space for active engagement. Both platforms are key to driving visibility and long-term growth.",
+"With the right strategy, a strong community becomes the foundation of your project’s success. We ensure your brand stands out, attracts new users, and keeps your audience engaged. Work with an experienced team that understands how to grow and manage Web3 communities effectively."
   ]
    
     return (
@@ -11,20 +13,20 @@ export default function CartMemorable() {
         <div className="max-w-6xl">
 
         <div className="text-gray-400 text-sm mb-6 h-[20px] w-[389px] ">
-                <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
+                <Link href="/" className="hover:text-gray-300 transition text-[15px] font-[400]">Homepage</Link>
                 <span className="mx-1">&gt;</span>
 
-                <Link href="/service" className="hover:text-gray-300 text-[15px] transition">Services</Link>
+                <Link href="/services" className="hover:text-gray-300 text-[15px] font-[400]transition">Services</Link>
                 <span className="mx-1">&gt;</span>
 
-                <span className="text-cyan-400 font-medium text-[15px] hover:text-cyan-300 transition">
+                <span className="text-cyan-400 font-[400] text-[15px] hover:text-cyan-300 transition">
                 Web App Development 
                 </span>
             </div>
 
-          <h1 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
-          Craft Memorable Digital Experiences with Custom Web Development
-          </h1>
+          <h2 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
+          Web3 Community Management Agency Helping <br/>Crypto Projects Grow and Engage
+          </h2>
           </div>
 
           {content.map((paragraph, index) => (

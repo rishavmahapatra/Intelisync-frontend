@@ -9,8 +9,8 @@ export default function Section(){
             <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
             <div className="text-center max-w-5xl ">
                 <h1 className="  font-[600] md:text-[35px] md:leading-[45px] tracking-[-0.01%] text-center min-[320px]:text-[35px] xs:leading-[10px]">
-                Craft a Unique Brand Identity with a Leading<br/>
-                Branding Agency.{" "}
+             
+                WEB3 BRANDING AGENCY
                 </h1>
  
                 <p className="  font-[500] md:text-[22px] md:leading-[40px] tracking-[-0.01%] text-center mt-2">

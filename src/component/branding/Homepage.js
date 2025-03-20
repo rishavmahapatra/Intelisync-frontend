@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function BlockchainBusiness() {
     const content = [
-      "How do you distinguish your business from competitors? Are you clearly communicating your brand’s value to your audience? These are crucial questions that every brand must address. Your brand needs to create a meaningful connection with consumers at every touchpoint of your marketing strategy, and it must remain consistent throughout.",
-      "When executed correctly, strong branding can reshape how customers perceive and interact with your company. It builds trust, boosts visibility, and drives sales, fostering loyalty and long-term engagement.",
-      "As a leading branding agency, we specialize in helping businesses navigate these challenges. We know that effective branding leads to increased market presence and long-term success.",
-      "Our approach is tailored to ensure your brand speaks directly to your target audience, fostering a deep emotional connection. We guide you through the entire branding process, making sure your business stands out and stays relevant in today’s competitive market."
+      "What makes your brand unique and how do you communicate its value to your audience? In today’s competitive landscape, branding is more than just a logo. It is about creating an identity that resonates with your audience and leaves a lasting impact.",
+      "The importance of branding in marketing cannot be overstated. A well-defined brand builds trust enhances visibility and drives customer loyalty. If you are wondering what is the importance of branding it is simple. Branding shapes how your business is perceived and ensures consistency across every interaction.",
+      "As a branding agency we specialize in crafting strategies that help businesses thrive. Our expertise spans branding and marketing ensuring your brand tells a compelling story that connects with your audience. Whether you need guidance from top branding agencies or are looking for a specialized Web3 branding agency we create impactful branding solutions that set you apart.",
+      "With our tailored approach we help businesses build strong authentic brands that stand out in today’s evolving market. Let’s create a brand that speaks directly to your audience and drives long term success. "
     ];
    
     return (
@@ -16,7 +16,7 @@ export default function BlockchainBusiness() {
               <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
               <span className="mx-1">&gt;</span>
 
-              <Link href="/service" className="hover:text-gray-300 text-[15px] transition">Services</Link>
+              <Link href="/services" className="hover:text-gray-300 text-[15px] transition">Services</Link>
               <span className="mx-1">&gt;</span>
 
               <span className="text-cyan-400 font-medium text-[15px] hover:text-cyan-300 transition">
@@ -24,9 +24,10 @@ export default function BlockchainBusiness() {
               </span>
           </div>
 
-          <h1 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
-          Supercharge Your Marketing Strategy with <br/>Powerful Branding Service <br/> 
-          What Defines Your Brand and Sets You Apart?          </h1>
+          <h2 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
+                    
+          Web3 Branding Agency Helping You Build <br/>a Powerful Digital Presence
+           </h2>
           {content.map((paragraph, index) => (
             <p key={index} className="font-poppins  text-[16px] font-[400px] leading-[30px] tracking-[-0.01%] text-gray-300 mt-4 w-[50%]">
               {paragraph}

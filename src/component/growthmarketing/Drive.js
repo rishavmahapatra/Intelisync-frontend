@@ -2,9 +2,10 @@ import Link from "next/link";
 
 export default function BlockchainBusiness() {
   const content = [
-         "Growth marketing is the key to scaling your business in today’s competitive landscape. Our tailored marketing solutions are designed to optimize your campaigns, enhance customer engagement, and deliver measurable results. By integrating innovative marketing strategies into your business approach, you gain the agility and efficiency needed to stay ahead in a constantly evolving market.",
-         "We offer growth marketing strategies that align with your unique business objectives, empowering you to make data-driven decisions and boost productivity. From refining customer acquisition strategies to leveraging advanced analytics, our services help you accelerate growth and maximize ROI.",
-         "Whether it’s increasing brand visibility, improving conversion rates, or boosting customer retention, our growth marketing solutions provide the tools you need to thrive in a digital-first world. Let us help you elevate your business’s full potential and drive long-term success.",
+         "Growth marketing is about finding what works best for your business and building strategies that attract the right audience, increase engagement, and drive long-term success.",
+         "As one of the leading growth marketing companies, we shape our approach to match your business goals, helping you refine customer acquisition, improve conversion rates, and strengthen brand loyalty. Our growth marketing services focus on real results, using practical methods to grow your business.",
+         "What is growth marketing? It’s about testing new ideas, improving campaigns, and making smart choices that help your brand stand out. Our expert growth marketers guide you through every step, ensuring your business stays ahead and continues to grow.",
+         "Whether you want to increase brand visibility, improve conversion rates, or boost customer retention, our marketing solutions give you the right strategies to succeed in today’s digital world. We focus on real, lasting growth to help your business reach its full potential and achieve long-term success."
        ];
    
     return (
@@ -15,7 +16,7 @@ export default function BlockchainBusiness() {
                 <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
                 <span className="mx-1">&gt;</span>
 
-                <Link href="/service" className="hover:text-gray-300 text-[15px] transition">Services</Link>
+                <Link href="/services" className="hover:text-gray-300 text-[15px] transition">Services</Link>
                 <span className="mx-1">&gt;</span>
 
                 <span className="text-cyan-400 font-medium text-[15px] hover:text-cyan-300 transition">
@@ -23,9 +24,9 @@ export default function BlockchainBusiness() {
                 </span>
             </div>
 
-          <h1 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
-          Drive Business Growth with Customized Marketing Solutions
-          </h1>
+          <h2 className="font-poppins font-[500px] text-[40px] leading-[50px] tracking-[-0.01%]">
+          Growth Marketing Agency Helping You <br/> Scale Smarter
+          </h2>
           </div>
 
           {content.map((paragraph, index) => (
