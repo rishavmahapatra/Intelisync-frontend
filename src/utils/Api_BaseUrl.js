@@ -1,1 +1,1 @@
-export const baseUrl = 'http://43.204.148.12:4000/api/v1';
+export const baseUrl = 'https://apii.intelisync.ai/api/v1';
