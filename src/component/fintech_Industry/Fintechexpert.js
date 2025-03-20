@@ -3,7 +3,7 @@ import { FaChartLine, FaHandshake, FaDollarSign } from "react-icons/fa";
 
 export default function FintechSection(){
   return (
-    <section className="bg-[#0B1320] text-white py-10 px-6 md:px-12">
+    <section className="bg-[#000B18] text-white py-10 px-6 md:px-12">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-semibold mb-1 font-poppins text-[30px] leading-[40px]">
           Propel Your Business Forward with

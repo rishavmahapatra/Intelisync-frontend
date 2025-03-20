@@ -53,7 +53,7 @@ function Product() {
 
 
       {/* Product Cards */}
-      <div className="relative flex items-center justify-center w-full h-[400px] mt-10">
+      <div className="relative rounded-3xl flex items-center justify-center w-full h-[400px] mt-10">
       {cards.map((card, index) => {
     const isActive = index === activeIndex;
     const position = (index - activeIndex + cards.length) % cards.length;
@@ -61,7 +61,7 @@ function Product() {
     let translateX = 0;
     let zIndex = 1;
     let scale = 0.8;
-    let opacity = 0.7;
+    let opacity = 1;
 
     if (position === 0) {
       translateX = "-350px";
@@ -93,16 +93,16 @@ function Product() {
               ease: "easeInOut",
             }}
           >
-            <div className="w-[355px] h-[394px] rounded-2xl p-2 overflow-hidden border-2 border-transparent mt-5 ">
-              <div className="relative w-full h-full bg-[rgba(46,130,149,0.07)] backdrop-blur-[50px] rounded-2xl p-[2px] flex items-center justify-center">
+            <div className="w-[355px] h-[394px] rounded-4xl p-2 overflow-hidden  mt-5 ">
+              <div className="relative w-full h-full bg-[rgba(46,130,149,0)] backdrop-blur-[50px] rounded-2xl p-[2px] flex items-center justify-center">
                 <div
-                  className="relative w-[280px] h-[320px] rounded-2xl p-6 flex flex-col items-center text-center overflow-hidden
-                   bg-[rgba(46,130,149,0.07)] backdrop-blur-[50px] shadow-lg border-2"
+                  className="relative w-[280px] h-[320px] rounded-4xl p-6 flex flex-col items-center text-center overflow-hidden
+                   bg-[rgba(46,130,149,0)] backdrop-blur-[50px] shadow-lg border-[2px] border-transparent"
                   style={{
                     borderImageSource:
-                      "linear-gradient(194.72deg, rgba(89, 220, 212, 0.01) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%)",
+                      "linear-gradient(194.72deg, rgba(89, 220, 212, 0) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%)",
                     borderImageSlice: 1,
-                    borderRadius: "10px",
+                    borderRadius: "20px",
                   }}
                 >
                   {/* Image */}

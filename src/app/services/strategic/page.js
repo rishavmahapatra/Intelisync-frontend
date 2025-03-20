@@ -1,9 +1,7 @@
 
 import ContactUs from "@/component/ContactUs/ContactUs"
 import FAQSection from "@/component/FAQ/FAQ"
-import Footer from "@/component/footer/Footer"
-import Blog from "@/component/landingpage/Blog"
-import Navbar from "@/component/navbar/Navbar"
+import Blog from '@/component/Blogs/Blogs'
 import AdvisoryServices from "@/component/strategicpage/AdvisoryServices"
 import Elevate from "@/component/strategicpage/Elevate"
 import SmartSection from "@/component/strategicpage/SmartSection"

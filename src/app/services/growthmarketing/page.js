@@ -4,7 +4,7 @@ import Navbar from '@/component/navbar/Navbar'
 import Footer from "@/component/footer/Footer";
 import Taillored from '@/component/growthmarketing/Taillored';
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
-import Blog from '@/component/landingpage/Blog';
+import Blog from '@/component/Blogs/Blogs'
 import {GrowthMarketingfaqs} from "@/utils/FAQ_Data"
 import FAQSection from '@/component/FAQ/FAQ';
 import ContactUs from '@/component/ContactUs/ContactUs';

@@ -9,10 +9,10 @@ function Section() {
 
 
             {/* Main Section */}
-            <section className="relative overflow-hidden text-white py-16 px-6 lg:px-20 
+            <section className="relative overflow-hidden text-white height-[690px] py-16 px-6 lg:px-20 
                          bg-[#000B18]">
                 <div className="max-w-7xl  flex flex-col lg:flex-row items-center justify-between gap-12">
-                    <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                    <div className="absolute w-[200px] h-[200px] blur-[100px] top-30 left-10 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
                     </div>
                     {/* Left Side: Content */}
@@ -24,8 +24,8 @@ function Section() {
                     >
                         {/* About Us Button */}
                         <div className="mb-6">
-                            <button className="flex items-center gap-3 px-8 py-2 rounded-full text-white text-lg 
-                                 bg-gradient-to-r from-[#03BEDF] to-[#06FFF0] hover:opacity-90 transition">
+                            <button className="flex items-center gap-3 px-8 py-2 rounded-full bg-gradient-to-r from-[rgba(3,190,223,0.75)] to-[rgba(6,255,240,0.75)] opacity-90 text-white text-lg 
+                                 hover:opacity-90 transition">
                                 <span className="w-10 h-[2px] bg-white"></span> About Us
                             </button>
                         </div>
@@ -34,14 +34,14 @@ function Section() {
                         <h2 className="text-4xl md:text-5xl font-bold leading-tight">
                         What  <span className="text-white">Defines Us</span>
                         </h2>
-                        <p className="mt-4 text-gray-200">
+                        <p className="mt-4 text-md text-gray-200">
                         Intelisync is a Web3 agency focusing specifically on blockchain marketing and development services. We scale businesses in the decentralized world using innovative marketing techniques, community engagement, and brand visibility.
                         </p>
-                        <p className="mt-3 text-gray-200">
+                        <p className="mt-3 text-md text-gray-200">
                         As your trusted Web3 marketing agency, we run campaigns targeted at maximizing visibility and interaction. From crypto PR and NFT marketing to crypto advertising, we do it all making us one of the top crypto marketing agencies. If you’re expanding your brand, or launching a new project, we ensure you reach the right market.
                         </p>
-                        <p className="mt-3 text-gray-200">
-                        From crypto project marketing to ICO promotions, Intelisync assists brands look for trusted associations within Web3, fostering long lasting trust. We're happy to help you scale and create an impact in the blockchain world.
+                        <p className="mt-3 text-md text-gray-200">
+                        From crypto project marketing to ICO promotions, Intelisync assists brands look for trusted associations within Web3, fostering long lasting trust. We&apos;re happy to help you scale and create an impact in the blockchain world.
 
                         </p>
                         {/* <p className="mt-3 text-gray-200">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter ,FaWhatsapp  } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -13,8 +13,8 @@ export default function Footer() {
       //   paddingTop: "200px" // Push content down
       // }}
     >
-      <div className="absolute inset-0 top-10 border-t-4 border-teal-600 rounded-t-[300px]"></div>
-      <div className="p-6 lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="h-1/2 absolute inset-0 top-10 border-t-4 border-teal-600 rounded-t-[300px]"></div>
+      <div className="p-10 lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <h2 className="text-2xl font-bold">
             <span className="text-white">Inteli</span>
@@ -29,21 +29,26 @@ export default function Footer() {
           <div className="flex space-x-2 mt-4 ">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition cursor-pointer">
               <FaFacebookF className="text-lg text-[rgb(61,232,232)]" />
-            </a>
 
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+            </a>
+            <a href="https://chat.whatsapp.com/ETtg5JskhZ884wDqE1oD7G" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-115 transition">
+              < FaWhatsapp  className="text-lg text-[rgb(61,232,232)]" />
+
+            </a>
+            
+            <Link href="https://www.instagram.com/intelisync.ai" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-115 transition">
               <FaInstagram className="text-lg text-[rgb(61,232,232)]" />
-            </a>
+            </Link>
 
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+            <a href="https://www.linkedin.com/company/intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-115 transition">
               <FaLinkedinIn className="text-lg text-[rgb(61,232,232)]" />
             </a>
 
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+            <a href="https://x.com/Intelisync_" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-115 transition">
               <FaXTwitter className="text-lg text-[rgb(61,232,232)]" />
             </a>
 
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-105 transition">
+            <a href="https://www.youtube.com/@intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-115 transition">
               <FaYoutube className="text-lg text-[rgb(61,232,232)]" />
             </a>
           </div>

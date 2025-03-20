@@ -1,16 +1,25 @@
-'use client';
 
-export default function IndustrySection() {
+
+'use client'
+import Link from "next/link";
+
+export default function IndustrySection(){
     return (
-        <div className="flex items-center justify-center h-[551px] text-white bg-black"
-            style={{ backgroundImage: "url('/banner.png')", objectFit: 'cover', backgroundRepeat: 'no-repeat' }}>
-            <div className="text-center">
-                <h1 className="font-semibold min-[320px]:max-[590px]:text-[40px] sm:text-[40px] md:text-[48px] leading-[55px] tracking-tight">
-                    Industries with Next-Gen Solutions
+        <div
+        className="relative flex items-center justify-start  w-full h-screen text-white bg-[#020B17] z-10"
+        >
+            <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
+            <div className=" ml-10 pl-10 max-w-5xl">
+                <h1 className="  font-[500] md:text-[40px]  md:leading-[45px] tracking-[-0.01%]  min-[320px]:text-[35px] xs:leading-[10px]">
+                  Industries with Next-Gen Solutions
                 </h1>
+ 
+               
+                <button className="mt-6 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
 
-                <button className="mt-6 w-[200px] h-[55px] bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] text-white rounded-full font-semibold shadow-md transition relative overflow-hidden hover:bg-transparent hover:border-2 hover:border-white">
-                    Book a demo
+                   text-white rounded-full font-semibold shadow-md transition 
+                   hover:border hover:border-white hover:bg-none hover:text-white">
+                Book a demo
                 </button>
             </div>
         </div>
