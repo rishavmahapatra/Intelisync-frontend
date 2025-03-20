@@ -15,9 +15,9 @@ export default function Marketing() {
 
       {/* Text Section */}
       <div className="max-w-2xl w-full text-center ">
-        <h1 className="font-poppins font-medium text-[24px] sm:text-[30px] leading-[36px] sm:leading-[40px] tracking-[-0.01%]">
+        <h2 className="font-poppins font-medium text-[24px] sm:text-[30px] leading-[36px] sm:leading-[40px] tracking-[-0.01%]">
           Get ahead of the competition with focused
-        </h1>
+        </h2>
         <p className="font-poppins font-semibold text-[24px] sm:text-[30px] bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-transparent mx-auto md:mx-0  text-center ">
           Fintech Marketing Strategies
         </p>

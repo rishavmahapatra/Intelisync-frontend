@@ -6,11 +6,11 @@ export default function GetAhead() {
     return (
         <div className='bg-[#000B18] text-white py-16'>
             <div className='py-3'>
-                <h1 className="font-poppins font-medium text-[35px] leading-[48px]  text-center capitalize">
+                <h2 className="font-poppins font-medium text-[35px] leading-[48px]  text-center capitalize">
                 Get ahead of the competition with tailored<br />
 
                     <span>Marketing Strategies for  <span className="text-[#00E2E7]"> The healthcare industry</span></span>
-                </h1>
+                </h2>
 
             </div>
             <div className=" flex justify-center mr-[55px] mt-6">

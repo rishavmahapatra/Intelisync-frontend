@@ -8,9 +8,9 @@ export default function WebBanner(){
         >
             <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
             <div className="text-center max-w-5xl ">
-                <h1 className="  font-semibold md:text-[40px] md:leading-[45px] tracking-[-0.01%] text-center min-[320px]:text-[35px] xs:leading-[10px]">
+                <h2 className="  font-semibold md:text-[40px] md:leading-[45px] tracking-[-0.01%] text-center min-[320px]:text-[35px] xs:leading-[10px]">
                 Bespoke Web Development Solutions Designed to <br/> Elevate Your Business
-                </h1>
+                </h2>
  
                 <p className="  font-medium md:text-[20px] md:leading-[40px] tracking-[-0.01%] text-center mt-2">
                 Elevate your brand with custom web development that creates captivating, user-focused <br/>websites designed to boost engagement and drive business growth.

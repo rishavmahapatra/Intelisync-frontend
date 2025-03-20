@@ -6,13 +6,13 @@ export default function PRServicesPage() {
       
       {/* Header Section */}
       <div className="text-center mb-10">
-        <h1 className="text-[28px] sm:text-[32px] md:text-[38px] lg:text-[42px] font-bold leading-tight text-[#06FFFB]">
-          Public Relations Services to Elevate Your Brand
-        </h1>
+        <h2 className="text-[28px] sm:text-[32px] md:text-[38px] lg:text-[42px] font-bold leading-tight text-[#06FFFB]">
+        Crypto Public Relations Agency to Elevate Your Brand
+        </h2>
 
-        <p className="font-poppins text-[14px] sm:text-[16px] md:text-[18px] leading-[24px] sm:leading-[26px] md:leading-[28px] text-gray-300 mt-4 max-w-3xl mx-auto">
-          Our public relations services are crafted to help your brand build trust, enhance visibility, and drive meaningful engagement. 
-          We position your business as an industry leader with targeted communication strategies. Here’s how we can support your brand:
+        <p className="font-poppins text-[14px] leading-[24px] text-gray-300 mt-4 max-w-3xl mx-auto">
+        In the competitive crypto space, the right PR strategy can make all the difference. Our crypto PR agency helps you build trust, boost visibility, and connect with the right audience. With strong press public relations and media outreach, we position your brand as a leader.
+        Partner with a public relations agency that understands crypto and drives real impact. Let’s put your brand in the spotlight
         </p>
       </div>
 

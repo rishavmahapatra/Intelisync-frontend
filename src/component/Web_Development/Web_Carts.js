@@ -8,9 +8,9 @@ function Web_Carts() {
     <div>
       <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
                   <div className="text-center mb-10">
-                      <h1 className="text-3xl md:text-5xl font-bold leading-tight" style={{ fontSize: "30px", color: "#06FFFB" }}>
+                      <h2 className="text-3xl md:text-5xl font-bold leading-tight" style={{ fontSize: "30px", color: "#06FFFB" }}>
                       Tailored Web Development Services to Drive Your Business Forward
-                      </h1>
+                      </h2>
                       <p className="font-poppins font-normal text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mx-auto">
                       At Intelisync, we craft high-performing, user-centric websites that captivate your audience and foster lasting engagement, helping your business thrive in a competitive digital landscape.
                       </p>

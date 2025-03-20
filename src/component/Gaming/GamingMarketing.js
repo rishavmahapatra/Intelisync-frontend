@@ -6,10 +6,10 @@ export default function GamingMarketingSection() {
     return (
         <div className='bg-[#000B18] text-white py-16'>
             <div className='py-3'>
-                <h1 className="font-poppins font-medium text-[24px] leading-[32px] tracking-tight text-center capitalize">
+                <h2 className="font-poppins font-medium text-[24px] leading-[32px] tracking-tight text-center capitalize">
                     Unlock The Full Potential Of Your Gaming Business With Our Expert <br />
                     <span>Marketing Strategies Tailored To The   <span className="text-[#00EEDF]">Gaming Industry</span></span>
-                </h1>
+                </h2>
 
             </div>
             <div className=" flex justify-center">
