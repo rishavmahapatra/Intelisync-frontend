@@ -9,7 +9,7 @@ export default function BlockchainSolutions() {
                 Bringing Your Blockchain Ideas to Life
                 </h2>
                 <p className="font-poppins font-[400] text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4">
-                Blockchain is not merely a technology it's a game-changer. Whether you're creating<br/> something new or refining what you have, we secure your blockchain project, make<br/> it efficient, and future-proof it.
+                Blockchain is not merely a technology it&apos;s a game-changer. Whether you&apos;re creating<br/> something new or refining what you have, we secure your blockchain project, make<br/> it efficient, and future-proof it.
                 </p>
 
             </div>

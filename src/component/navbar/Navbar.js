@@ -29,7 +29,7 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <nav className={` text-white py-4 fixed w-full z-50 ${show && "nav_blur"}`}>
+    <nav className={`bg-black text-white py-4 fixed w-full z-50 ${show && "nav_blur"}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <Link href="/">
@@ -145,7 +145,7 @@ export default function Navbar() {
 
 
 
-          <Link href="/event" className="hover:text-teal-400">Events</Link>
+          <Link href="/events" className="hover:text-teal-400">Events</Link>
           <button className="hover:text-teal-400 cursor-pointer" onClick={() => router.push('/company/careers')}>Careers</button>
           <button className="hover:text-teal-400 cursor-pointer" onClick={() => router.push('/company/blog')}>Blog</button>
         </div>
