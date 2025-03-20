@@ -6,7 +6,7 @@ import Ourservice from "@/component/server/Ourservice";
 import Product from "@/component/ourproduct/Product";
 import Portfolio from "@/component/footer/Portfolio";
 import Event from "@/component/landingpage/Event";
-import Blog from "@/component/landingpage/Blog";
+import Blog from "@/component//Blogs/Blogs";
 import Badges from "@/component/landingpage/Badges";
 import Client from "@/component/landingpage/Client";
 import {landingFaq} from "@/utils/FAQ_Data";
@@ -17,7 +17,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 
 export default function Home() {
   return (
-    <>
+    <div >
     <Section />
     <Trusted />
     <Section1 />
@@ -32,6 +32,6 @@ export default function Home() {
     <FAQSection faqs={landingFaq}/>
     <ContactUs/>
     <Global />
-    </>
+    </div>
   );
 }

@@ -1,28 +1,21 @@
-'use client'
+'use client';
 
-export default function Banner() {
-  return (
-    <div className="relative flex items-center justify-start min-h-screen md:min-h-[70vh] text-white overflow-hidden px-6 sm:px-10 md:px-20">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-center bg-cover bg-black"
-        style={{ backgroundImage: "url('/banner.webp')" }}
-      ></div>
-
-      {/* Content */}
-      <div className="relative max-w-3xl z-10 text-center md:text-left">
-        <h1 className="font-poppins font-semibold text-[28px] sm:text-[34px] md:text-[42px] leading-[38px] sm:leading-[45px] md:leading-[55px] tracking-[-0.01em]">
-          Drive Startup Growth with Expert Marketing Solutions
-        </h1>
-
-        <p className="font-poppins font-medium text-base sm:text-lg md:text-xl leading-[26px] sm:leading-[30px] text-gray-300 mt-4">
-          Partner with Intelisync to enhance your startup’s success. Create a strong digital presence and transform your business idea into a growth-driven reality.
-        </p>
-
-        <button className="mt-6 px-6 sm:px-8 py-3 border border-white text-white rounded-full font-medium shadow-md hover:bg-white hover:text-black transition">
-          Book a demo
-        </button>
-      </div>
-    </div>
-  );
+export default function Startupbanner() {
+    return (
+        <div className="flex items-center h-[595px] px-10 bg-black bg-no-repeat bg-cover bg-[center_top_-150px]"
+            style={{ backgroundImage: "url('/banner.webp')" }}>
+            {/* Left Content */}
+            <div className="w-3/1 pl-[2%] ml-8"> 
+                <h1 className="font-Poppins text-[45px] leading-[42px] text-white">
+                Drive Startup Growth with Expert Marketing <br/> Solutions
+                </h1>
+                <p className="font-Poppins mt-4 text-gray-200 text-[22px] leading-[28px]">
+                Partner with Intelisync to enhance your startup’s success. Create a strong digital <br/> presence and transform your business idea into a growth-driven reality
+                </p>
+                <button className="mt-8 w-[200px] h-[50px] bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] text-white rounded-full font-semibold shadow-md transition relative overflow-hidden hover:bg-transparent hover:border-2 hover:border-white">
+                    Book a demo
+                </button>
+            </div>
+        </div>
+    );
 }
