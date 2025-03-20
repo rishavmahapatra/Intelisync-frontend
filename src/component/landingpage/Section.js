@@ -6,21 +6,14 @@ const Section = () => {
   return (
     <section
       className="relative bg-[#000B18]
-       text-white min-h-screen flex flex-col justify-start items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 overflow-hidden pt-2 bg-cover bg-center"
-      style={{
-        backgroundImage: "url('/Mentahan1.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center bottom",
-        backgroundColor: "#020817",
-      }}
+       text-white min-h-screen flex flex-col justify-start items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 overflow-hidden pt-16"
+      
     >
-      {/* Background Overlay */}
-      <div className="absolute inset-0 bg-[#000B18]"></div>
-
+     
       {/* Header Content */}
       <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
         <div className="flex justify-center items-center w-full h-auto mb-4">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-white text-center leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[55px] font-bold text-white text-center leading-tight">
             TOP{" "}
             <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent uppercase">
               WEB3 MARKETING AGENCY
@@ -34,7 +27,7 @@ const Section = () => {
 
       {/* Paragraph Content */}
 
-      <p className="mt-4 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-2xl leading-relaxed font-normal">
+      <p className="mt-4 text-sm sm:text-base md:text-[18px] relative z-10 text-center max-w-2xl leading-relaxed font-normal">
         <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent font-bold">
           Intelisync
         </span>
@@ -78,6 +71,12 @@ const Section = () => {
           </div>
         </div>
       </div>
+       <div className="text-center my-4  pt-16 pb-0">
+                  <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white relative inline-block mb-6 pb-2">
+                    Trusted by Top Innovators
+                    <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-[#06FFF0] via-[#00aaff] to-[#0192BA]"></span>
+                  </h1>
+                </div>
     </section>
   );
 };

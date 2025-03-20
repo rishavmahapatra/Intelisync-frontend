@@ -11,7 +11,7 @@ export default function Artificialservice() {
                 Smart AI Solutions for Business Growth
                 </h1>
                 <p className="text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-1 max-w-3xl">
-                Unlock the true potential of AI with solutions designed to innovate, streamline, and drive growth across your business. Our AI services are crafted to meet your unique needs and maximize impact. Here's how we can help:                </p>
+                Unlock the true potential of AI with solutions designed to innovate, streamline, and drive growth across your business. Our AI services are crafted to meet your unique needs and maximize impact. Here&apos;s how we can help:                </p>
  
             </div>
  

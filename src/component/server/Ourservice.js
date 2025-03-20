@@ -64,7 +64,7 @@ const services = [
 function Ourservice() {
     return (
         <div>
-            <section className="bg-[#000B18] text-white flex flex-col items-center justify-center py-8 lg:py-16 px-5 md:px-10 lg:px-20 relative">
+            <section className="bg-[#000B18] text-white flex flex-col items-center justify-center py-8 lg:py-16 px-5 md:px-10 lg:px-30 relative">
                 {/* Background Blur */}
                 <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
@@ -100,16 +100,16 @@ function Ourservice() {
                 </div>
 
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-6 mt-6 px-2 md:px-6 lg:px-30 w-full max-w-screen-xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-12 mt-6 px-2 md:px-6 lg:px-10 w-full max-w-screen-xl mx-auto">
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="relative w-full max-w-[300px] h-[300px] opacity-90 transition-all shadow-lg group mx-auto"
+                            className="relative w-full max-w-[300px] h-[300px] opacity-90 transition-all hover:scale-104 cursor-default shadow-lg group mx-auto"
                         >
                             {/* Card with Gradient Border */}
-                           < div className="relative w-full h-full p-[2px] rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
+                           < div className="relative w-[341px] h-full p-px rounded-3xl bg-gradient-to-r from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
                                 {/* Inner Content */}
-                                <div className="w-full h-full p-6 flex flex-col gap-3 rounded-2xl bg-gradient-to-t from-[#081824] to-[#022932]">
+                                <div className="w-full h-full p-6 flex flex-col gap-3 rounded-3xl bg-gradient-to-t from-[#081824] to-[#022932]">
                                     {/* Icon and Title */}
                                     <div className="flex items-center gap-3">
                                         {service.icon}

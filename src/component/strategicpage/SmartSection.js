@@ -9,7 +9,7 @@ export default function SmartSection() {
                 Strategic Advisory Services for Smart Business Growth
                 </h1>
                 <p className="font-poppins font-normal text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mx-auto">
-                Our strategic advisory services are designed to empower your business with data-driven insights and expert guidance. We help you navigate complex challenges, make informed decisions, and achieve sustainable growth. Heres how we can support your journey:
+                Our strategic advisory services are designed to empower your business with data-driven insights and expert guidance. We help you navigate complex challenges, make informed decisions, and achieve sustainable growth. Here&apos;s how we can support your journey:
                 </p>
 
             </div>

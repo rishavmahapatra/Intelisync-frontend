@@ -41,7 +41,7 @@ function EventGallery() {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={isInView ? { opacity: 1, scale: 1 } : {}}
         transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
-        className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-14"
+        className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-2"
       >
        
         <div className="relative px-5 py-6 text-white font-medium text-center">
@@ -60,7 +60,7 @@ function EventGallery() {
 
 
         {/* Event Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-5 w-full">
           {events.map((event, index) => (
             <div
               key={index}
