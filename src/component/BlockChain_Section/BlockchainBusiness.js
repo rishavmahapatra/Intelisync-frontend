@@ -1,9 +1,9 @@
 import Link from "next/link";
 export default function BlockchainBusiness() {
   const content = [
-    "As digital transformation reshapes industries, businesses have endless opportunities to leverage advanced technologies for growth. Blockchain stands at the forefront of this change, offering a highly secure and transparent method for managing data and transactions. From enhancing financial systems to optimizing supply chains, blockchain’s potential is vast.",
-    "Our blockchain development services provide tailor-made solutions to elevate your business. With a team of experienced full-stack developers, we design and implement decentralized platforms that boost efficiency and innovation. Let us transform your vision into reality quickly, cost-effectively, and seamlessly.",
-    "We work closely with clients to understand their unique needs, delivering scalable solutions that drive both short-term results and long-term success. By integrating blockchain into your business, you’ll experience increased transparency, reduced costs, and enhanced security. "
+    "At Intelisync, we develop blockchain solutions that make business processes efficient, secure, and transparent. Need to simplify transactions, reduce expenses, or introduce a new level of trust? We've got you covered.",
+    "We deliver bespoke blockchain solutions that shine in the fields of finance, supply chain, and marketing. We simplify the integration of blockchain through an effortless integration process. Whether you're building a new blockchain platform from scratch or revamping your existing one, we can help you design solutions that bring efficiency and boost profits.",
+    "We also leverage blockchain for marketing, helping brands attain visibility through targeted campaigns, NFT launches, and token promotions. "
   ];
 
   return (
@@ -13,7 +13,7 @@ export default function BlockchainBusiness() {
           Homepage
         </Link>
         <span> &gt; </span>
-        <Link href="/service" className="hover:text-white transition duration-200">
+        <Link href="/services" className="hover:text-white transition duration-200">
           Services
         </Link>
         <span> &gt; </span>
@@ -23,9 +23,11 @@ export default function BlockchainBusiness() {
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
       </div>
       <div className="w-[60%] min-[320px]:max-[480px]:w-[95%] sm:w-[70%]">
-        <h1 className="font-medium min-[320px]:max-[480px]:text-[30px] text-[40px] leading-[50px]">
-          Unlock Greater Business<br/> Performance through<br/> Blockchain Collaboration
-        </h1>
+        <h2 className="font-medium min-[320px]:max-[480px]:text-[30px] text-[40px] leading-[50px]">
+          {/* Unlock Greater Business<br/> Performance through<br/> Blockchain Collaboration */}
+          Empowering Companies to <br/>Leverage the Full Potential <br/>of Blockchain
+
+        </h2>
 
         {content.map((paragraph, index) => (
           <p key={index} className="font-normal text-[16px] leading-[30px] tracking-[-0.01%] text-gray-300 mt-4 w-[85%]">
