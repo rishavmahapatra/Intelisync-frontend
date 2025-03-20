@@ -2,8 +2,8 @@
 
 export default function ServiceSection() {
   return (
-    <div className="h-[551px] flex flex-col items-center justify-center text-white text-center px-4 bg-black"
-      style={{ backgroundImage: "url('/banner.webp')", backgroundRepeat: 'no-repeat' }}>
+    <div className="h-screen relative flex flex-col items-center justify-center text-white text-center px-4 bg-[#020B17] z-0">
+      <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
       <h1 className="text-[35px] md:text-[35px] leading-[47px] font-semibold tracking-[ -0.01em]">
         Revolutionizing Businesses with <br /> Scalable Tech Services
       </h1>

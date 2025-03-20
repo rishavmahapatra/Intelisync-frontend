@@ -5,11 +5,12 @@ export default function SmartSection() {
     return (
         <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
             <div className="text-center mb-10">
-                <h1 className="text-3xl md:text-5xl font-bold leading-tight" style={{ fontSize: "30px", color: "#06FFFB" }}>
-                Strategic Advisory Services for Smart Business Growth
-                </h1>
+                <h2 className="text-3xl md:text-5xl font-bold leading-tight" style={{ fontSize: "30px", color: "#06FFFB" }}>
+                Strategy Consulting service for Smarter Growth
+                </h2>
                 <p className="font-poppins font-normal text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4 max-w-3xl mx-auto">
-                Our strategic advisory services are designed to empower your business with data-driven insights and expert guidance. We help you navigate complex challenges, make informed decisions, and achieve sustainable growth. Here&apos;s how we can support your journey:
+                At Intelisync, we provide strategic advisory services to help businesses tackle challenges, make informed decisions, and drive sustainable growth. Our strategy consultants offer data backed insights and practical solutions tailored to your goals. Let’s build a future ready business together.
+
                 </p>
 
             </div>

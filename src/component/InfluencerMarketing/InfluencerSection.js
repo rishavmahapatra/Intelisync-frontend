@@ -1,10 +1,12 @@
 export default function InfluencerCampaign() {
     return (
-        <div className=" md:h-[551px] text-white py-32 px-6 md:px-20 lg:px-32 text-center bg-black"
-            style={{ backgroundImage: "url('/banner.webp')", backgroundRepeat: 'no-repeat' }}>
-            <h2 className="mx-auto text-[35px] md:text-[35px] leading-[40px] md:leading-[40px] text-center font-[600]">
-                Transform Your Brand with Authentic High-Impact <br/>Influencer Campaigns
-            </h2>
+        <div className=" h-screen relative text-white py-32 px-6 md:px-20 lg:px-32 text-center bg-[#020B17] z-0">
+            <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
+            <h1 className="mx-auto text-[35px] md:text-[35px] leading-[40px] md:leading-[40px] text-center font-[600]">
+                {/* Transform Your Brand with Authentic High-Impact <br />Influencer Campaigns */}
+                Web3 Influencer Marketing Agency | Grow Your Brand & Reach
+
+            </h1>
 
 
             <p className="text-gray-100 mt-4 max-w-2xl mx-auto text-[20px] md:text-[20px] leading-[33px] md:leading-[33px] text-center">
@@ -16,8 +18,8 @@ export default function InfluencerCampaign() {
  
                    text-white rounded-full font-[500] shadow-md transition
                    hover:border hover:border-white hover:bg-none hover:text-white leading-[55px]">
-                    Book a demo
-                </button>
+                Book a demo
+            </button>
         </div>
     );
 }
