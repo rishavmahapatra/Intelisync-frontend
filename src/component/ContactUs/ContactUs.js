@@ -1,5 +1,5 @@
 'use client';
- 
+
 import { useState } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
@@ -37,22 +37,23 @@ const ContactUs = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
     setErrors((prev) => ({ ...prev, [name]: value ? '' : 'This field is required' }));
   };
- 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
- 
+
     const newErrors = {};
     if (!formData.firstname.trim()) newErrors.firstname = "First name is required";
     if (!formData.lastname.trim()) newErrors.lastname = "Last name is required";
     if (!formData.email.trim()) newErrors.email = "Email is required";
     if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = "Invalid email format";
     if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
-
+    const messageWordCount = formData.message.trim().split(/\s+/).length;
+    if (messageWordCount > 300) newErrors.message = "Message cannot exceed 300 words";
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
- 
+
     setLoading(true);
- 
+
     try {
       const response = await fetch(`${baseUrl}/contact/contactUs`, {
         method: "POST",
@@ -68,7 +69,7 @@ const ContactUs = () => {
         }),
       });
       setShowSuccessPopup(true);
-      setFormData({ firstname: "", lastname: "", email: "", phone: "" ,message:''});
+      setFormData({ firstname: "", lastname: "", email: "", phone: "", message: '' });
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Error submitting form. Please try again.");
@@ -76,7 +77,7 @@ const ContactUs = () => {
       setLoading(false);
     }
   };
- 
+
   return (
     <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228]">
       <div className="md:w-1/2 mb-16">
@@ -130,7 +131,7 @@ const ContactUs = () => {
           <p className="text-[12px] leading-[140%] text-gray-500 text-center mt-4">By clicking next, you agree to receive communications from Intelisync in accordance with our Privacy Policy.</p>
         </div>
       </section>
- 
+
       {showSuccessPopup && (
         <div className="fixed inset-0 flex items-center justify-center modal z-50">
           <div className="bg-white p-6 rounded-[20px] shadow-lg text-center">
@@ -143,5 +144,5 @@ const ContactUs = () => {
     </div>
   );
 };
- 
+
 export default ContactUs;

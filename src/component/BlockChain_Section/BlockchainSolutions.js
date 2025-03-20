@@ -5,11 +5,11 @@ export default function BlockchainSolutions() {
     return (
         <div className="bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
             <div className="mb-10">
-                <h1 className="text-3xl md:text-5xl min-[320px]:max-[480px]:leading-[40px] sm:leading-[40px] leading-[25px] font-[500]" style={{ fontSize: "30px", color: "#06FFFB" }}>
-                    Empower Your Vision with Innovative Blockchain Solutions
-                </h1>
+                <h2 className="text-3xl md:text-5xl min-[320px]:max-[480px]:leading-[40px] sm:leading-[40px] leading-[25px] font-[500]" style={{ fontSize: "30px", color: "#06FFFB" }}>
+                Bringing Your Blockchain Ideas to Life
+                </h2>
                 <p className="font-poppins font-[400] text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-4">
-                    Unlock new opportunities with blockchain technology. Our expert services cover every aspect of blockchain development,<br/> from strategy and implementation to optimization, ensuring your project stands out in today’s decentralized world.
+                Blockchain is not merely a technology it's a game-changer. Whether you're creating<br/> something new or refining what you have, we secure your blockchain project, make<br/> it efficient, and future-proof it.
                 </p>
 
             </div>

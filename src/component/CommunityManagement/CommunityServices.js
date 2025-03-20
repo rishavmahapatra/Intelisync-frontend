@@ -5,11 +5,11 @@ export default function CommunityServices() {
     return (
         <div className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32">
             <h2 className="text-[30px] font-[500] md:text-[30px] min-[320px]:max-[580px]:leading-[35px] sm:leading-[30px] leading-[25px] text-[#06FFFB] text-left">
-                Tailored Crypto Community Management Services
+                Web3 Community Management Agency for Crypto Growth
             </h2>
 
             <p className="text-gray-300 mt-4 max-w-3xl text-[13px] leading-[20px] font-[300]">
-                Simply having a Discord or Telegram group isn&apos;t enough—effective management is key to building a vibrant, engaged community. Our crypto community management services are designed to elevate your project&apos;s presence across multiple platforms, creating excitement and fostering trust. Here&apos;s how we can help:
+                Building a community is easy, but keeping it engaged takes strategy. Our crypto community management services ensure active discussions, real-time support, and a loyal following on platforms like Discord and Telegram. We help your project gain trust, attract investors, and stand out in the Web3 space.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mt-10">
