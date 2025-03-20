@@ -46,26 +46,24 @@ function GlobalData() {
         {/* Glowing Button */}
         <div className="relative px-5 py-6 text-white font-medium text-center">
 
-          {/* Gradient Text */}
-          <h2 className="text-[30px] leading-[26px] tracking-tightest font-medium font-[Poppins] 
-            bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
+          <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
             Our Global Presence
-          </h2>
-
-
-          {/* Underline (centered & dynamic width) */}
-          <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[18rem]"></div>
-            </div>
-          {/* Card Container */}
-          <div className="relative mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 px-4 bg-gray-900 rounded-xl">
-          {/* <div className="absolute inset-0  bg-yellow-400 rounded-xl "></div> */}
-            {globals.map((location) => (
-              <GlobalCard key={location.id} location={location} />
-            ))}
+            </h2>
           </div>
+
+
+        </div>
+        {/* Card Container */}
+        <div className="relative mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 px-4 bg-gray-900 rounded-xl">
+          {/* <div className="absolute inset-0  bg-yellow-400 rounded-xl "></div> */}
+          {globals.map((location) => (
+            <GlobalCard key={location.id} location={location} />
+          ))}
         </div>
       </div>
-      );
+    </div>
+  );
 }
 
-      export default GlobalData;
+export default GlobalData;

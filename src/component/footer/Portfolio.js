@@ -32,7 +32,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center px-4">
+    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center ">
       {/* Gradient Effect */}
       <div
         className="absolute w-[150px] h-[500px] blur-[100px] top-[-20px] left-0 rotate-[148.52deg] 
@@ -40,19 +40,19 @@ export default function Portfolio() {
       ></div>
 
       <div className="relative text-white font-medium text-center w-[1423px] h-[281px] mx-auto">
-        <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem]
+        
+        <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem]
                 font-bold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
           PORTFOLIO
-        </h1>
+        </h2>
 
         {/* Portfolio Heading */}
         <div className="relative text-white font-medium text-center mt-30">
-          <h2 className="text-[35px] leading-[40px] tracking-tight font-semibold font-[Poppins] 
-        bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent">
-            Our Portfolio
-          </h2>
-
-          <div className="mt-2 mx-auto h-[2px] bg-white w-[calc(100%-1rem)] max-w-[12rem]"></div>
+        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+                            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
+                            Our Porfolio
+                            </h2>
+                        </div>
 
           {/* Description */}
           <p className="mt-2 max-w-3xl mx-auto text-sm text-white">
@@ -66,7 +66,7 @@ export default function Portfolio() {
 
 
       {/* Portfolio Carousel */}
-      <div className="relative  p-0 sm:p-5 md:p-5 rounded-lg w-full h-[400px] max-w-xl md:max-w-7xl shadow-lg border border-none  min-h-screen px-0">
+      <div className="relative  p-0 sm:p-5 md:p-5 rounded-lg w-full h-[400px] max-w-xl md:max-w-7xl shadow-lg border border-none   px-0">
         {/* Left Arrow */}
         <button
           onClick={prevImage}

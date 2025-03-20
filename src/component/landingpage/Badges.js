@@ -27,18 +27,16 @@ export default function BadgesSection() {
         transition={{ duration: 0.6, ease: "easeInOut" }}
         className="flex flex-col items-center   "
       >
-       
 
-        <div className="relative  py-6 text-white font-medium text-center">
 
-          {/* Gradient Text */}
-          <h2 className="text-[30px] leading-[46px] font-medium font-[Poppins] 
-               bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] bg-clip-text text-transparent " >
+        <div className="relative z-10  py-6 text-white font-medium text-center">
+
+          <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
             Our Badges
-          </h2>
+            </h2>
+          </div>
 
-          {/* Underline (centered & dynamic width) */}
-          <div className="mt-3 mx-auto h-0.5 bg-[#06FFF0] w-[calc(100%-2rem)] max-w-[18rem]"></div>
 
         </div>
 

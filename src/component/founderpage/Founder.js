@@ -52,7 +52,7 @@ function Founder() {
 
                         </p>
                         <p className='text-gray-300  mt-1  font-light'>
-                        With deep expertise in real-world asset tokenization, multi-chain interoperability, and scalable blockchain marketing, Javed has positioned Intelisync at the forefront of the industry. Whether it’s an NFT launch, a DeFi campaign, or a tailored crypto PR strategy, Intelisync helps brands gain the visibility they need in an evolving digital space.
+                        With deep expertise in real-world asset tokenization, multi-chain interoperability, and scalable blockchain marketing, Javed has positioned Intelisync at the forefront of the industry. Whether it&apos;s an NFT launch, a DeFi campaign, or a tailored crypto PR strategy, Intelisync helps brands gain the visibility they need in an evolving digital space.
                         </p >
 
                         <p className='text-gray-300  mt-1  font-light'>With a clear vision for the future of Web3, he transforms ideas into real-world success and helps businesses thrive in the decentralized economy.
@@ -60,10 +60,10 @@ function Founder() {
 
                         {/* Social Icons */}
                         <div className="flex justify-center lg:justify-start gap-4 mt-6 ">
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
+                            <a href="https://www.linkedin.com/company/intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
                                 <FaLinkedin className="  text-2xl text-[rgb(61,232,232)]" />
                             </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"  className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
+                            <a href="https://x.com/Intelisync_" target="_blank" rel="noopener noreferrer"  className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
                                 <FaXTwitter className="text-2xl text-[rgb(61,232,232)]" />
                             </a>
                         </div>

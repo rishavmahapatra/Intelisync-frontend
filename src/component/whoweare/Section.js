@@ -38,7 +38,7 @@ function Section() {
                         Intelisync is a Web3 agency focusing specifically on blockchain marketing and development services. We scale businesses in the decentralized world using innovative marketing techniques, community engagement, and brand visibility.
                         </p>
                         <p className="mt-3 text-md text-gray-200">
-                        As your trusted Web3 marketing agency, we run campaigns targeted at maximizing visibility and interaction. From crypto PR and NFT marketing to crypto advertising, we do it all making us one of the top crypto marketing agencies. If you’re expanding your brand, or launching a new project, we ensure you reach the right market.
+                        As your trusted Web3 marketing agency, we run campaigns targeted at maximizing visibility and interaction. From crypto PR and NFT marketing to crypto advertising, we do it all making us one of the top crypto marketing agencies. If you&apos;re expanding your brand, or launching a new project, we ensure you reach the right market.
                         </p>
                         <p className="mt-3 text-md text-gray-200">
                         From crypto project marketing to ICO promotions, Intelisync assists brands look for trusted associations within Web3, fostering long lasting trust. We&apos;re happy to help you scale and create an impact in the blockchain world.
@@ -74,8 +74,8 @@ function Section() {
 
                             {/* Front Card (Remains Straight) */}
                             <div className="relative z-10 w-full h-full bg-gradient-to-b from-[#2E8295] to-[#0F292F] 
-    rounded-[30px] shadow-2xl flex items-center justify-center transition-transform 
-    duration-300 hover:scale-105 hover:z-20 rotate-0">
+                                rounded-[30px] shadow-2xl flex items-center justify-center transition-transform 
+                                duration-300 hover:scale-105 hover:z-20 rotate-0">
 
                                 {/* Inner Border for Front Card */}
                                 <div className="absolute w-[92%] h-[92%] rounded-[30px] flex items-center justify-center">
