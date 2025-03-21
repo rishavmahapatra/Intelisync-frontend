@@ -19,7 +19,7 @@ export default function TrustedInnovators() {
                 <div className="absolute w-[200px] h-[500px] blur-[100px] top-[50%] left-[50%] rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
                 </div>
-                <h2 className="min-[320px]:max-[480px]:text-[20px] text-[32px] leading-[26px] text-center relative after:content-[''] after:block after:h-[1px] after:w-full after:bg-gradient-to-r after:from-[#07CDFF] after:to-[#06FFF0] after:absolute after:bottom-0 after:left-0 pb-4">
+                <h2 className="text-[20px] md:text-[32px] leading-[26px] text-center relative after:content-[''] after:block after:h-[1px] after:w-full after:bg-gradient-to-r after:from-[#07CDFF] after:to-[#06FFF0] after:absolute after:bottom-0 after:left-0 pb-4">
                     Trusted by Top Innovators
                 </h2>
             </div>

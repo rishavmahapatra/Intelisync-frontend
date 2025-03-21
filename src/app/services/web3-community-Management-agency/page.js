@@ -11,6 +11,24 @@ import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Communityfaqs } from "@/utils/FAQ_Data";
 
+export const metadata = {
+    title: "Web3 Community Management | Grow & Engage Your Project",
+    description: "Our Web3 community management agency helps blockchain projects grow by building active, loyal communities across Discord, Telegram, and social platforms.",
+    keywords: "Community Management Development Services",
+    openGraph: {
+        title: "Web3 Community Management | Grow & Engage Your Project",
+        description: "Our Web3 community management agency helps blockchain projects grow by building active, loyal communities across Discord, Telegram, and social platforms.",
+        url: "https://intelisync.ai/services/web3-community-Management-agency",
+    },
+    alternates: {
+        canonical: "https://intelisync.ai/services/web3-community-Management-agency",
+    }
+    // robots: "follow, index",
+    // verification: {
+    //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
+    // }
+};
+
 export default function page() {
     return (
         <div>

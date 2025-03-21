@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://intelisync.ai/sitemap.xml
