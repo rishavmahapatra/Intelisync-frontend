@@ -9,6 +9,24 @@ import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Servicesfaqs } from "@/utils/FAQ_Data";
 
+export const metadata = {
+    title: "Top Digital Services | AI, Marketing, Blockchain Development services",
+    description: "Explore our expert services, including AI, growth marketing, blockchain, PR, web development, branding, and influencer marketing. Scale your business today",
+    keywords: "Blockchain Development Services",
+    openGraph: {
+        title: "Top Digital Services | AI, Marketing, Blockchain Development services",
+        description: "Explore our expert services, including AI, growth marketing, blockchain, PR, web development, branding, and influencer marketing. Scale your business today",
+        url: "https://intelisync.ai/services",
+    },
+    alternates: {
+        canonical: "https://intelisync.ai/services",
+    }
+    // robots: "follow, index",
+    // verification: {
+    //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
+    // }
+};
+
 export default function page() {
     return (
         <div>

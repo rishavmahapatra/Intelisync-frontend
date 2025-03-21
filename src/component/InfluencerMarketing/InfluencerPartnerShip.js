@@ -20,7 +20,7 @@ export default function InfluencerPartnerShip() {
             </div>
             {/* Heading */}
             <h2
-                className="font-[500] text-[40px] leading-[50px] text-white"
+                className="font-[500] text-[30px] md:text-[40px] leading-[45px] md:leading-[50px] text-white"
             >
                 {/* Tap into unique influencer partnerships to spark<br/> meaningful connections
                 with your perfect audience. */}

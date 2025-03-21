@@ -1,27 +1,27 @@
 export const Ourservicedata =[
-    { title: 'Artificial Intelligence (AI)', link: '/services/artificialpage' },
-    { title: 'Growth Marketing', link: '/services/growthmarketing' },
-    { title: 'Blockchain Services', link: '/services/blockchain' },
-    { title: 'Public Relations', link: '/services/publicrelation' },
-    { title: 'Strategic Advisory', link: '/services/strategic' },
-    { title: 'Community Management', link: '/services/communityManagement' },
-    { title: 'Web App Development', link: '/services/webdevelopment' },
-    { title: 'Influencer Marketing', link: '/services/InfluencerMarketing' },
-    { title: 'Branding', link: '/services/brandingpage' }
+    { title: 'Artificial Intelligence (AI)', link: '/services/ai-development-services' },
+    { title: 'Growth Marketing', link: '/services/growth-marketing-agency' },
+    { title: 'Blockchain Services', link: '/services/blockchain-development-services' },
+    { title: 'Public Relations', link: '/services/public-relation' },
+    { title: 'Strategic Advisory', link: '/services/strategy-advisor' },
+    { title: 'Community Management', link: '/services/web3-community-Management-agency' },
+    { title: 'Web App Development', link: '/services/web-app-development' },
+    { title: 'Influencer Marketing', link: '/services/web3-influencer-marketing' },
+    { title: 'Branding', link: '/services/web3-branding-agency' }
   ];
 
   export const IndustryData =[
-    { title: 'Fintech', link: '/Industry/fintechpage' },
-    { title: 'Healthcare', link: '/Industry/healthcare' },
-    { title: 'Gaming', link: '/Industry/Gaming' },
-    { title: 'Crypto', link: '/Industry/crypto' },
-    { title: 'Small business', link: '/Industry/smallbusiness' },
-    { title: 'Startup', link: '/Industry/startuppage' },
+    { title: 'Fintech', link: '/Industry/fintech-marketing-agency' },
+    { title: 'Healthcare', link: '/Industry/healthcare-marketing-agency' },
+    { title: 'Gaming', link: '/Industry/Gaming-marketing-solutions' },
+    { title: 'Crypto', link: '/Industry/crypto-marketing' },
+    { title: 'Small business', link: '/Industry/small-business-digital-marketing' },
+    { title: 'Startup', link: '/Industry/startup-marketing-solutions' },
   ];
  
   export const CompanyData =[
     {title: 'About Us', link: '/company/aboutuspage'},
-    {title: 'Event', link: 'company/event'},
+    {title: 'Event', link: '/events'},
     {title: 'Careers',link: '/company/careers'},
     {title: 'Blog', link: '/company/blog'},
     {title: 'Terms & Condtions', link:'/company/condtions'},
