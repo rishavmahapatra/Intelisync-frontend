@@ -8,13 +8,21 @@ import Blog from '@/component/Blogs/Blogs'
 import {GrowthMarketingfaqs} from "@/utils/FAQ_Data"
 import FAQSection from '@/component/FAQ/FAQ';
 import ContactUs from '@/component/ContactUs/ContactUs';
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
+
 function page() {
   return (
     <>
     <Accelerate />
     <Drive />
     <Taillored />
-    <TrustedInnovators />
+     <div className="block md:hidden">
+            <TrustedBrands />
+          </div>
+
+          <div className="hidden md:block">
+            <TrustedInnovators />
+          </div>
     <FAQSection faqs={GrowthMarketingfaqs} />
     <Blog />
     <ContactUs />
