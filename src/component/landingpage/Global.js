@@ -41,7 +41,7 @@ function GlobalCard({ location }) {
 
 function GlobalData() {
   return (
-    <div className="relative bg-[#000B18] ">
+    <div id="global" className="relative bg-[#000B18] ">
       <div className="min-h-screen flex flex-col items-center py-12 pb-20">
         {/* Glowing Button */}
         <div className="relative px-5 py-6 text-white font-medium text-center">

@@ -4,14 +4,14 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 const locations = [
-    { image: "/photos/dubai.png", name: "Dubai-UAE" },
-    { image: "/photos/singapore.png", name: "Singapore" },
-    { image: "/photos/boston.png", name: "Boston" },
-    { image: "/photos/uk.png", name: "London-United Kingdom" },
-    { image: "/photos/riyadh.png", name: "Riyadh" },
-    { image: "/photos/india.png", name: "India-Pune" },
-  ];
-  
+  { image: "/photos/dubai.png", name: "Dubai-UAE" },
+  { image: "/photos/singapore.png", name: "Singapore" },
+  { image: "/photos/boston.png", name: "Boston" },
+  { image: "/photos/uk.png", name: "London-United Kingdom" },
+  { image: "/photos/riyadh.png", name: "Riyadh" },
+  { image: "/photos/india.png", name: "India-Pune" },
+];
+
 
 const Global = () => {
   const settings = {
