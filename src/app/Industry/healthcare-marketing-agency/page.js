@@ -12,6 +12,23 @@ import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators"
 import { HealthcareCards } from "@/utils/Cards_Data"
 import { Healthcarefaqs } from "@/utils/FAQ_Data"
 
+export const metadata = {
+  title: " Top Healthcare Marketing Agency | Driving Growth & Innovation",
+  description: "Intelisync.ai drives growth for healthcare practices, hospitals, and health tech firms with expert marketing strategies for branding, SEO, and patient engagement.",
+  keywords: "Healthcare Marketing Agency",
+  openGraph: {
+      title: " Top Healthcare Marketing Agency | Driving Growth & Innovation",
+      description: "Intelisync.ai drives growth for healthcare practices, hospitals, and health tech firms with expert marketing strategies for branding, SEO, and patient engagement.",
+      url: "https://intelisync.ai/Industry/healthcare-marketing-agency",
+  },
+  alternates: {
+      canonical: "https://intelisync.ai/Industry/healthcare-marketing-agency",
+  }
+  // robots: "follow, index",
+  // verification: {
+  //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
+  // }
+};
 
 function page() {
   return (

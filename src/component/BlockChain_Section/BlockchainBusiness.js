@@ -22,8 +22,8 @@ export default function BlockchainBusiness() {
       <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
       </div>
-      <div className="w-[60%] min-[320px]:max-[480px]:w-[95%] sm:w-[70%]">
-        <h2 className="font-medium min-[320px]:max-[480px]:text-[30px] text-[40px] leading-[50px]">
+      <div className="md:w-[60%]">
+        <h2 className="font-medium text-[28px] leading-[45px] md:text-[40px] md:leading-[50px]">
           {/* Unlock Greater Business<br/> Performance through<br/> Blockchain Collaboration */}
           Empowering Companies to <br/>Leverage the Full Potential <br/>of Blockchain
 

@@ -19,7 +19,7 @@ export default function CryptoCommunityManagement() {
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
             </div>
             {/* Title */}
-            <h2 className=" max-w-3xl min-[320px]:max-[480px]:text-[30px] sm-text-[30px] md:text-[40px] leading-[50px] tracking-[-0.01em] text-white">
+            <h2 className=" max-w-3xl text-[28px] leading-[40px] md:text-[40px] md:leading-[50px] tracking-[-0.01em] text-white">
                 {/* Turbocharge Your Crypto Project with Expert Telegram & Discord Community Management */}
                 Web3 Community Management Agency Helping Crypto Projects Grow and Engage
 
@@ -27,7 +27,7 @@ export default function CryptoCommunityManagement() {
 
 
             {/* Subheading */}
-            <h2 className="min-[320px]:max-[480px]:text-[20px] md:text-[26px] min-[320px]:max-[480px]:leading-[30px] font-[500] leading-[50px] tracking-[-0.01em] text-[#fff] mt-4">
+            <h2 className="text-[18px] md:text-[26px] leading-[30px] font-[500] md:leading-[50px] tracking-[-0.01em] text-[#fff] mt-4">
                 Stand Out in the Crypto Space with Engaged Communities
             </h2>
 

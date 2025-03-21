@@ -10,6 +10,24 @@ import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Industryfaqs } from "@/utils/FAQ_Data";
 
+export const metadata = {
+    title: "Next-Gen Solutions for Modern Industries | Intelisync",
+    description: "Explore next-gen solutions for modern industries with Intelisync. Drive innovation, efficiency, and growth with our cutting-edge AI-driven strategies.",
+    keywords: "Fintech, HealthCare, Gaming, Crypto, Small Bussiness, StartUp",
+    openGraph: {
+        title: "Next-Gen Solutions for Modern Industries | Intelisync",
+        description: "Explore next-gen solutions for modern industries with Intelisync. Drive innovation, efficiency, and growth with our cutting-edge AI-driven strategies.",
+        url: "https://intelisync.ai/Industry",
+    },
+    alternates: {
+        canonical: "https://intelisync.ai/Industry",
+    }
+    // robots: "follow, index",
+    // verification: {
+    //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
+    // }
+  };
+
 export default function page() {
     return (
         <div>
