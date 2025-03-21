@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { events } from "@/utils/Event_Data.js";
 import { RiArrowUpSLine } from "react-icons/ri";
 
-const page = () => {
+const Page = () => {
 
 
   const [filtersOpen, setFiltersOpen] = useState({
@@ -316,4 +316,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

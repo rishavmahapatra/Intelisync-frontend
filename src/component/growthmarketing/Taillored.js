@@ -11,7 +11,7 @@ export default function Tailored() {
                 Smart Growth Marketing for Lasting Success
                 </h2>
                 <p className="text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-1 max-w-3xl">
-                Great products need smart strategies. Our growth marketing services help businesses attract, engage, and retain customers. Growth marketers use innovative tactics to scale effectively. If you're wondering what is growth marketing, it's all about continuous optimization. As one of the top growth marketing companies, we help you grow smarter.
+                Great products need smart strategies. Our growth marketing services help businesses attract, engage, and retain customers. Growth marketers use innovative tactics to scale effectively. If you&apos;re wondering what is growth marketing, it&apos;s all about continuous optimization. As one of the top growth marketing companies, we help you grow smarter.
                </p>
             </div>
  
