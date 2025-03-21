@@ -5,13 +5,10 @@ import React from "react";
 const Section = () => {
   return (
     <section
-      className="relative bg-[#000B18]
-       text-white min-h-screen flex flex-col justify-start items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 overflow-hidden pt-16"
-      
+      className="relative bg-[#000B18] text-white  flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 overflow-hidden pt-16"
     >
-     
       {/* Header Content */}
-      <header className="relative z-10 max-w-screen-xl mx-auto px-4 mt-22">
+      <header className="relative z-10 max-w-screen-xl mx-auto  mt-22">
         <div className="flex justify-center items-center w-full h-auto mb-0">
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[66px] leading-none font-bold text-white text-center mt-15">
             SPECIALISING IN <br />
@@ -25,11 +22,7 @@ const Section = () => {
           </h1>
         </div>
       </header>
-
-
-
       {/* Paragraph Content */}
-
       <p className="mt-4 text-sm sm:text-base md:text-lg relative z-10 text-center max-w-4xl leading-relaxed font-normal text-white">
         <span className="bg-gradient-to-r from-[#06FFF0] to-[#0192BA] bg-clip-text text-transparent font-bold">
           Intelisync

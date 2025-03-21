@@ -32,15 +32,15 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center ">
+    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center px-4 sm:px-6 md:px-12 lg:px-20  ">
       {/* Gradient Effect */}
       <div
         className="absolute w-[150px] h-[500px] blur-[100px] top-[-20px] left-0 rotate-[148.52deg] 
                     bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]"
       ></div>
 
-      <div className="relative text-white font-medium text-center w-[1423px] h-[281px] mx-auto">
-        
+      <div className="relative text-white font-medium text-center w-full max-w-6xl mx-auto">
+
         <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem]
                 font-bold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
           PORTFOLIO
@@ -48,11 +48,11 @@ export default function Portfolio() {
 
         {/* Portfolio Heading */}
         <div className="relative text-white font-medium text-center mt-30">
-        <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
-                            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
-                            Our Porfolio
-                            </h2>
-                        </div>
+          <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
+              Our Porfolio
+            </h2>
+          </div>
 
           {/* Description */}
           <p className="mt-2 max-w-3xl mx-auto text-sm text-white">

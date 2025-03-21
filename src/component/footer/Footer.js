@@ -1,10 +1,11 @@
-import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter, FaWhatsapp, FaQuora, FaReddit } from "react-icons/fa6";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer
-      className="py-20 bg-[#000B18] text-white relative min-h-[300px] "
+      className="py-20 bg-[#000B18] text-white relative min-h-[300px] z-50"
     // style={{
     //   backgroundImage: `url('/footerimage.png')`,
     //   backgroundPosition: "center 30%",
@@ -13,13 +14,19 @@ export default function Footer() {
     //   paddingTop: "200px" // Push content down
     // }}
     >
-      <div className="h-1/2 absolute inset-0 top-10 border-t-4 border-teal-600 rounded-t-[300px]"></div>
+      <div className="h-1/2 absolute inset-0 top-10 border-t-4 border-teal-600 rounded-t-[300px] -z-10"></div>
       <div className="p-10 lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <h2 className="text-2xl font-bold">
-            <span className="text-white">Inteli</span>
-            <span className="text-teal-400">sync</span>
-          </h2>
+          <div className="w-[141px] h-[33px] relative">
+            <Image
+              src="/photos/logo.png" // Replace with your actual image path
+              alt="Intelisync Logo"
+              layout="intrinsic"
+              width={141}
+              height={33}
+              priority
+            />
+          </div>
           <p className="mt-4 text-sm text-gray-400 leading-relaxed">
             Intelisync leads the way in transformative solutions across blockchain, Web3, and AI.
             We empower companies to innovate with decentralized technologies, custom blockchain
@@ -62,46 +69,54 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-4 md:ml-23 cursor-pointer ">Company</h3>
-          <ul className="space-y-3 text-gray-400 text-sm md:ml-23 cursor-pointer">
+          <h3 className="text-lg font-semibold mb-4 md:ml-23 ">Company</h3>
+          <ul className="space-y-3 text-gray-400 text-sm md:ml-23">
             {[
               { name: "About", link: "/company/aboutuspage" },
               { name: "Events", link: "/events" },
               { name: "Blog", link: "/company/blog" },
               { name: "Careers", link: "/company/careers" },
-              { name: "Global Presence", link: "/global-presence" },
+              { name: "Global Presence", link: "#global" },
               { name: "Contact", link: "/contact" },
-              { name: "FAQs", link: "/FAQSection" },
+              { name: "FAQs", link: "#faq" },
               { name: "Terms & Conditions", link: "/company/condtions" },
               { name: "Privacy Policy", link: "/privacy-policy" }
             ].map((item, index) => (
-              <li key={index} className="hover:text-teal-400 transition-all">
-                <Link href={item.link}>{item.name}</Link>
+              <li key={index} className="hover:text-teal-400 transition-all ">
+                <Link href={item.link} className="cursor-pointer hover:text-teal-400 ">
+                  {item.name}
+                </Link>
+
               </li>
             ))}
           </ul>
         </div>
+
 
 
         <div>
           <h3 className="text-lg font-semibold mb-4">Services</h3>
           <ul className="space-y-3 text-gray-400 text-sm">
             {[
-              "Artificial Intelligence (AI)",
-              "Growth Marketing",
-              "Blockchain Services",
-              "Public Relations",
-              "Strategic Advisory",
-              "Branding",
-              "Community Management",
-              "Influencer Marketing",
+              { name: "Artificial Intelligence (AI)", link: "/services/artificialpage" },
+              { name: "Growth Marketing", link: "/services/growthmarketing" },
+              { name: "Blockchain Services", link: "/services/blockchain" },
+              { name: "Public Relations", link: "/services/publicrelation" },
+              { name: "Strategic Advisory", link: "/services/strategic" },
+              { name: "Branding", link: "/services/brandingpage" },
+              { name: "Community Management", link: "/services/communityManagement" },
+              { name: "Influencer Marketing", link: "/services/InfluencerMarketing" },
             ].map((item, index) => (
               <li key={index} className="hover:text-teal-400 transition-all">
-                <Link href="/">{item}</Link>
+                <Link href={item.link} className="cursor-pointer hover:text-teal-400">
+                  {item.name}
+                </Link>
               </li>
             ))}
           </ul>
+
         </div>
+
 
         <div>
           <h3 className="text-lg font-semibold mb-4">Global Services</h3>

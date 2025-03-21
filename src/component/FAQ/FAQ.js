@@ -11,7 +11,7 @@ export default function FAQSection({ faqs }) {
   };
 
   return (
-    <div className="relative bg-[#000B18]">
+    <div id="faq" className="relative bg-[#000B18]">
       <div className="absolute hidden md:block w-[200px] h-[300px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
       </div>

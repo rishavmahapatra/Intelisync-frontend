@@ -67,7 +67,7 @@ function Ourservice() {
             <section className="bg-[#000B18] text-white flex flex-col items-center justify-center py-8 lg:py-16 px-5 md:px-10 lg:px-30 relative">
 
                 {/* Background Blur */}
-                <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-0 rotate-[148.52deg] 
+                <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] right-25 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
                 </div>
 
