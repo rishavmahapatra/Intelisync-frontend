@@ -15,7 +15,7 @@ export default function Fintechbanner() {
                     Leading Marketing Agency for Fintech and <br className="hidden md:block" /> Financial Technology
                 </h1>
                 <p className="font-Poppins font-[400] mt-4 text-gray-200 text-[16px] sm:text-[18px] md:text-[20px] leading-[24px] sm:leading-[26px] md:leading-[28px]">
-                    Count on our fintech strategies to fuel your bank’s growth and profitability.
+                    Count on our fintech strategies to fuel your bank&apos;s growth and profitability.
                 </p>
                 
                 {/* Button */}

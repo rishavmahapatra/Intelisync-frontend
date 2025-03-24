@@ -11,7 +11,7 @@ export default function GameSuccess() {
 
       {/* Heading */}
       <h2 className="text-center font-semibold text-[24px] sm:text-[28px] md:text-[30px] leading-[34px] sm:leading-[38px] md:leading-[40px]">
-        Fuel Your Game’s Success with Our <br />
+        Fuel Your Game&apos;s Success with Our <br />
         <span>Experts To&nbsp;:</span>
       </h2>
 
