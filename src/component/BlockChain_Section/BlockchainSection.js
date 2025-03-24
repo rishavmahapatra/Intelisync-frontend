@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 export default function Section() {
     return (
         <div
@@ -13,11 +14,12 @@ export default function Section() {
                     Simplify Your Path to Blockchain Success
                 </p>
 
-                <button className="mt-6 w-[220px] md:w-[227px] md:h-[55px] text-[18px] md:text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
- 
-                   text-white rounded-full font-[500] shadow-md transition
-                   hover:border hover:border-white hover:bg-none hover:text-white leading-[55px]">
-                    Book a demo
+                < button className="mt-6 w-[227px] h-[55px] text-[20px] bg-[linear-gradient(90.08deg,#00CBE2_0.07%,#148FBC_62.33%,#006AFF_140.3%)]
+
+                   text-white rounded-full font-[500px] shadow-md transition 
+                   hover:border hover:border-white hover:bg-none hover:text-white">
+                    <Link href='/contact' >Book a demo</Link>
+                
                 </button>
 
             </div>

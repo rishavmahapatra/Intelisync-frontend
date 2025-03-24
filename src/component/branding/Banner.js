@@ -20,7 +20,7 @@ export default function Section(){
 
                    text-white rounded-full font-semibold shadow-md transition 
                    hover:border hover:border-white hover:bg-none hover:text-white">
-                Book a demo
+                <Link href='/contact' >Book a demo</Link>
                 </button>
 
  

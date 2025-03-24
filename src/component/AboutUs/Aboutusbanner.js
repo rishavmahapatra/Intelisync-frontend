@@ -9,8 +9,8 @@ export default function GradientBackground() {
 
       {/* Content */}
       <h1 className="relative text-center md:text-left font-poppins font-medium text-[26px] sm:text-[30px] md:text-[35px] leading-[32px] sm:leading-[38px] md:leading-[40px] text-white">
-        <span className="text-[#00B8D4]">Intelisync:</span> Redefining Digital Transformation <br />
-        with Web3 Technologies
+        <span className="text-[#06FFF0]">Intelisync</span> <br/> Redefining Digital Transformation with<br />
+         Web3 Technologies
       </h1>
     </div>
   );
