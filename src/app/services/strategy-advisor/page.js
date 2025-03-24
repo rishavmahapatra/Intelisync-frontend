@@ -15,10 +15,10 @@ export const metadata = {
   openGraph: {
       title: "Expert Strategy Advisory  to Drive Your Business Forward",
       description: "Strategy advisory to help your business grow smarter. Intelisync offers expert guidance, real world solutions, and data backed insights for sustainable success",
-      url: "https://intelisync.ai/services/strategy-advisor",
+      url: "https://intelisync.ai/services/strategy-advisor/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/services/strategy-advisor",
+      canonical: "https://intelisync.ai/services/strategy-advisor/",
   }
   // robots: "follow, index",
   // verification: {

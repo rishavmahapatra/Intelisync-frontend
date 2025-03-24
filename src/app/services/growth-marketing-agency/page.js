@@ -16,10 +16,10 @@ export const metadata = {
   openGraph: {
       title: "Growth Marketing Agency | Smart Strategies for Business Success",
       description: "As a Growth Marketing Agency, we help your business grow with smart strategies that attract the right audience, boost engagement, and drive real results.",
-      url: "https://intelisync.ai/services/growth-marketing-agency",
+      url: "https://intelisync.ai/services/growth-marketing-agency/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/services/growth-marketing-agency",
+      canonical: "https://intelisync.ai/services/growth-marketing-agency/",
   }
   // robots: "follow, index",
   // verification: {

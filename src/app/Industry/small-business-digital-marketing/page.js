@@ -14,10 +14,10 @@ export const metadata = {
   openGraph: {
       title: "Small Business Digital Marketing  | Intelisync.ai",
       description: "Fuel your small business growth with Intelisync.ai. Partner with experts who understand your needs and deliver results-driven marketing strategies.",
-      url: "https://intelisync.ai/Industry/small-business-digital-marketing",
+      url: "https://intelisync.ai/Industry/small-business-digital-marketing/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/Industry/small-business-digital-marketing",
+      canonical: "https://intelisync.ai/Industry/small-business-digital-marketing/",
   }
   // robots: "follow, index",
   // verification: {

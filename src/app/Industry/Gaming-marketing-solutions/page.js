@@ -17,10 +17,10 @@ export const metadata = {
     openGraph: {
         title: " Gaming Marketing Solutions | Intelisync.ai",
         description: "Boost your game’s growth and impact with Intelisync.ai. We offer expert gaming marketing solutions, including branding, user acquisition, and engagement.",
-        url: "https://intelisync.ai/Industry/Gaming-marketing-solutions",
+        url: "https://intelisync.ai/Industry/Gaming-marketing-solutions/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/Industry/Gaming-marketing-solutions",
+        canonical: "https://intelisync.ai/Industry/Gaming-marketing-solutions/",
     }
     // robots: "follow, index",
     // verification: {

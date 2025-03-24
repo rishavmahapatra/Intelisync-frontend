@@ -23,15 +23,14 @@ function Founder() {
             
                    
                 >
-                <div className="bg-gradient-to-r from-[#000B18] to-[#031A26] opacity-90 max-w-8xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-20 border border-none  p-5">
+                <div className="bg-gradient-to-r from-[#000B18] to-[#031A26] opacity-90 max-w-7xl w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-10 border border-none  p-5">
                     {/* Image Section */}
-                    <div className="relative w-[312px] h-[532px] rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
+                    <div className="relative w-[70%] h-[60vh] rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
                         <Image
                             src="/founderimage.png"
                             alt="Javed Khan"
                             fill
-                            // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"  // Helps Next.js optimize image loading
-                            className="object-contain"
+                            className="object-cover"
                         />
                     </div>
                     

@@ -16,10 +16,10 @@ export const metadata = {
     openGraph: {
         title: "Top Digital Services | AI, Marketing, Blockchain Development services",
         description: "Explore our expert services, including AI, growth marketing, blockchain, PR, web development, branding, and influencer marketing. Scale your business today",
-        url: "https://intelisync.ai/services",
+        url: "https://intelisync.ai/services/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/services",
+        canonical: "https://intelisync.ai/services/",
     }
     // robots: "follow, index",
     // verification: {

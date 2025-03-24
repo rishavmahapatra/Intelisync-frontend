@@ -19,10 +19,10 @@ export const metadata = {
   openGraph: {
       title: " Top Healthcare Marketing Agency | Driving Growth & Innovation",
       description: "Intelisync.ai drives growth for healthcare practices, hospitals, and health tech firms with expert marketing strategies for branding, SEO, and patient engagement.",
-      url: "https://intelisync.ai/Industry/healthcare-marketing-agency",
+      url: "https://intelisync.ai/Industry/healthcare-marketing-agency/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/Industry/healthcare-marketing-agency",
+      canonical: "https://intelisync.ai/Industry/healthcare-marketing-agency/",
   }
   // robots: "follow, index",
   // verification: {

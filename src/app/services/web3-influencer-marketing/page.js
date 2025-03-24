@@ -18,10 +18,10 @@ export const metadata = {
     openGraph: {
         title: "Web3 Influencer Marketing Agency | Grow Your Brand & Reach",
         description: "The best Web3 influencer marketing agency to help grow your brand with trusted influencers. Increase visibility, engagement, and reach in the Web3 space.",
-        url: "https://intelisync.ai/services/web3-influencer-marketing",
+        url: "https://intelisync.ai/services/web3-influencer-marketing/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/services/web3-influencer-marketing",
+        canonical: "https://intelisync.ai/services/web3-influencer-marketing/",
     }
     // robots: "follow, index",
     // verification: {
