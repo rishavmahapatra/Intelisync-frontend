@@ -103,7 +103,7 @@ const ContactUs = () => {
 
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228]">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228] ">
       <div className="md:w-1/2 mb-16">
         <h2 className="font-[500] mb-6 text-white text-[30px] md:text-[33px] leading-[38px] tracking-[-0.01em]">
           Ready to take your marketing <br /> to the next level?

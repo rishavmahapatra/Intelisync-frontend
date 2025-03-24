@@ -18,7 +18,7 @@ const brands = [
 
 export default function TrustedBrands() {
   return (
-    <div className="flex flex-col justify-center items-center  bg-[#000B18] overflow-hidden">
+    <div className="flex flex-col justify-center items-center  bg-[#000B18] overflow-hidden ">
       
       <div className="w-full relative">
         <motion.div

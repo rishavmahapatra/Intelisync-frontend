@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 
 function Section() {
     return (
-        <div className="relative">
+        <div className="relative  ">
             {/* Background Gradient Shape */}
 
 
             {/* Main Section */}
-            <section className="relative overflow-hidden text-white height-[690px] py-16 px-6 lg:px-20 
-                         bg-[#000B18]">
-                <div className="max-w-7xl  flex flex-col lg:flex-row items-center justify-between gap-12">
+            <section className="relative overflow-hidden text-white min-h-[690px] py-12 px-4 sm:px-6 lg:px-20 bg-[#000B18]">
+                <div className="max-w-7xl  flex flex-col lg:flex-row items-center justify-between gap-12 mx-auto">
                     <div className="absolute w-[200px] h-[200px] blur-[100px] top-30 left-10 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
                     </div>
