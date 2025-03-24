@@ -24,7 +24,8 @@ border-image-slice: 1;
   background-color: rgba(0,0,0,0.8);
 }
 .nav_blur{
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
+  background-color: black;
   
 }
 .glow-effect {

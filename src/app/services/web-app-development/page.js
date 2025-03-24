@@ -17,10 +17,10 @@ export const metadata = {
   openGraph: {
       title: "Expert Web App Development | Fast, Secure & Custom Solutions",
       description: "Get expert web app development services to build fast,  and scalable applications. We create custom solutions that enhance user experience and drive growth.",
-      url: "https://intelisync.ai/services/web-development",
+      url: "https://intelisync.ai/services/web-development/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/services/web-development",
+      canonical: "https://intelisync.ai/services/web-development/",
   }
   // robots: "follow, index",
   // verification: {

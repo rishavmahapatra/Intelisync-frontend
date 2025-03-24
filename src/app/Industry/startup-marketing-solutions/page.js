@@ -13,10 +13,10 @@ export const metadata = {
     openGraph: {
         title: "Startup Marketing Solutions | Intelisync.ai",
         description: "Accelerate your startup’s growth with Intelisync.ai. Our expert startup marketing solutions drive visibility, engagement, and success for emerging businesses",
-        url: "https://intelisync.ai/Industry/startup-marketing-solutions",
+        url: "https://intelisync.ai/Industry/startup-marketing-solutions/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/Industry/startup-marketing-solutions",
+        canonical: "https://intelisync.ai/Industry/startup-marketing-solutions/",
     }
     // robots: "follow, index",
     // verification: {

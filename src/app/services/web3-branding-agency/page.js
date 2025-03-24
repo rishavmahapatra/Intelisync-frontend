@@ -16,10 +16,10 @@ export const metadata = {
   openGraph: {
       title: "Intelisync | Web3 Branding Agency for Strong Digital Identity",
       description: "Get expert branding solutions from a top Web3 agency. We help businesses build trust, stand out, and create a strong digital identity in the competitive Web3 space.",
-      url: "https://intelisync.ai/services/web3-branding-agency",
+      url: "https://intelisync.ai/services/web3-branding-agency/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/services/web3-branding-agency",
+      canonical: "https://intelisync.ai/services/web3-branding-agency/",
   }
   // robots: "follow, index",
   // verification: {

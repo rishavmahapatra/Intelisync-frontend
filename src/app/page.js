@@ -14,6 +14,23 @@ import Global from "@/component/landingpage/Global";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import FAQSection from "@/component/FAQ/FAQ";
 
+export const metadata = {
+  title: "Intelisync | Web3 & Blockchain Marketing in Dubai",
+  description: "Intelisync helps brands grow with Web3, blockchain, and GenAI marketing. Explore new opportunities with Dubai’s leading Web3 agency",
+  // keywords: "Community Management Development Services",
+  openGraph: {
+      title: "Intelisync | Web3 & Blockchain Marketing in Dubai",
+      description: "Intelisync helps brands grow with Web3, blockchain, and GenAI marketing. Explore new opportunities with Dubai’s leading Web3 agency",
+      url: "https://intelisync.ai/",
+  },
+  alternates: {
+      canonical: "https://intelisync.ai/",
+  }
+  // robots: "follow, index",
+  // verification: {
+  //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
+  // }
+};
 
 export default function Home() {
   return (

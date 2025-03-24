@@ -18,10 +18,10 @@ export const metadata = {
     openGraph: {
         title: "Web3 Community Management | Grow & Engage Your Project",
         description: "Our Web3 community management agency helps blockchain projects grow by building active, loyal communities across Discord, Telegram, and social platforms.",
-        url: "https://intelisync.ai/services/web3-community-Management-agency",
+        url: "https://intelisync.ai/services/web3-community-Management-agency/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/services/web3-community-Management-agency",
+        canonical: "https://intelisync.ai/services/web3-community-Management-agency/",
     }
     // robots: "follow, index",
     // verification: {

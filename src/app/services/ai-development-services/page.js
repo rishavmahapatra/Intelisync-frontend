@@ -17,10 +17,10 @@ export const metadata = {
     openGraph: {
         title: "AI Development Services for Web3 | Automate, Grow & Innovate",
         description: "Our AI development services help your Web3 business grow, streamline tasks, and make smarter decisions with ease for maximum efficiency.",
-        url: "https://intelisync.ai/services/ai-development-services",
+        url: "https://intelisync.ai/services/ai-development-services/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/services/ai-development-services",
+        canonical: "https://intelisync.ai/services/ai-development-services/",
     }
     // robots: "follow, index",
     // verification: {

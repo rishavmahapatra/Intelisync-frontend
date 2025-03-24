@@ -16,10 +16,10 @@ export const metadata = {
   openGraph: {
       title: "Crypto PR Agency for Effective Blockchain & Web3 Public Relations",
       description: "A crypto PR agency specializing in blockchain & Web3 public relations, helping projects build credibility, gain media exposure, & connect with the right audience.",
-      url: "https://intelisync.ai/services/public-relation",
+      url: "https://intelisync.ai/services/public-relation/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/services/public-relation",
+      canonical: "https://intelisync.ai/services/public-relation/",
   }
   // robots: "follow, index",
   // verification: {
