@@ -11,7 +11,7 @@ export default function GamingSection() {
       {/* Content Container */}
       <div className="w-full max-w-3xl md:max-w-4xl text-center md:text-left">
         <h1 className="font-poppins font-medium text-[28px] sm:text-[35px] leading-[36px] sm:leading-[42px] text-white">
-          Gaming Marketing Solutions Fuel Your <br className="hidden md:block"/> Game’s Growth and Impact
+          Gaming Marketing Solutions Fuel Your <br className="hidden md:block"/> Game&apos;s Growth and Impact
         </h1>
         <p className="font-poppins font-normal mt-4 text-gray-200 text-[16px] sm:text-[18px] leading-[24px] sm:leading-[28px]">
           Unlock the full potential of your gaming business with our expert marketing <br className="hidden md:block"/> strategies tailored to the gaming industry.
