@@ -2,7 +2,7 @@ import Link from "next/link";
 import { termsData } from "../../utils/terms_Condtions_Data";
 export default function Condtionspage() {
   return (
-    <div className=" text-black py-16 px-6 md:px-20 lg:px-32 bg-white text">
+    <div className=" text-black py-16 px-6 pt-30 md:px-20 lg:px-32 bg-white text">
       <div className="max-w-6xl mx-auto">
         <div className="text-gray-400 text-sm mb-6">
           <Link href="/" className="hover:text-gray-300 transition">

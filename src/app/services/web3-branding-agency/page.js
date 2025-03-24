@@ -1,13 +1,13 @@
 import Banner from "@/component/branding/Banner";
 import Homepage from "@/component/branding/Homepage";
 import Impact from "@/component/branding/Impact";
-import Trustedservice from "@/component/branding/Trustedservice";
-import Blogservice from "@/component/branding/Blogservice";
+import Blog from "@/component/Blogs/Blogs";
 import Contactservice from "@/component/branding/Contactservice";
-import Footer from "@/component/footer/Footer";
-import Navbar from "@/component/navbar/Navbar";
 import FAQSection from "@/component/FAQ/FAQ";
 import {Brandingfaqs} from "@/utils/FAQ_Data";
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
+import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+
 
 export const metadata = {
   title: "Intelisync | Web3 Branding Agency for Strong Digital Identity",
@@ -34,9 +34,16 @@ export default function Home() {
       <Banner />
       <Homepage />
       <Impact />
-      <Trustedservice />
+     <div className="block md:hidden">
+                               <TrustedBrands />
+                             </div>
+                       
+                             <div className="hidden md:block">
+                               <TrustedInnovators />
+                             </div>
       <FAQSection faqs={Brandingfaqs} />
-      <Blogservice />
+      
+      <Blog />
       <Contactservice />
       </>
     );

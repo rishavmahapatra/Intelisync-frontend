@@ -12,7 +12,7 @@ export default function Tailored() {
                </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {GrowthCards.map((solution, index) => (
                     <div key={index} className="relative p-px rounded-2xl shadow-lg bg-[#081828] min-h-[250px]">
                         {/* Gradient Overlay */}
@@ -34,4 +34,5 @@ export default function Tailored() {
         </div>
     );
 }
+
 

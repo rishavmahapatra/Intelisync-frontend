@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Accelerate() {
     return (
-        <div className="relative flex items-center justify-center w-full min-h-screen text-white bg-[#020B17] z-10 px-4 sm:px-6">
+        <div className="relative flex items-center justify-center w-full min-h-screen text-white bg-[#020B17] z-10 sm:px-6 py-16 px-6 md:px-20 lg:px-32">
             {/* Background Image */}
             <div className="absolute inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
 
@@ -24,7 +24,8 @@ export default function Accelerate() {
 
                    text-white rounded-full font-[500px] shadow-md transition 
                    hover:border hover:border-white hover:bg-none hover:text-white">
-                Book a demo
+               
+                <Link href='/contact' >Book a demo</Link>
                 </button>
             </div>
         </div>

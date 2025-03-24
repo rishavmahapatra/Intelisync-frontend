@@ -24,7 +24,7 @@ export default function WebBanner() {
 
                    text-white rounded-full font-[500px] shadow-md transition 
                    hover:border hover:border-white hover:bg-none hover:text-white">
-                Book a demo
+                   <Link href='/contact' >Book a demo</Link>
                 </button>
             </div>
         </div>
