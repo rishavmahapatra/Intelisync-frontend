@@ -17,7 +17,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 
 export default function Home() {
   return (
-    <div >
+    <div className=" " >
     <Section />
     <Trusted />
     <Section1 />
