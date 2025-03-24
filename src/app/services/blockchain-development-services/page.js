@@ -18,10 +18,10 @@ export const metadata = {
     openGraph: {
         title: "Reliable Blockchain Development Services for Your Business",
         description: "We offer scalable, secure, and transparent blockchain development services to help your business grow with trust and efficiency. Get future-ready today",
-        url: "https://intelisync.ai/services/blockchain-development-services",
+        url: "https://intelisync.ai/services/blockchain-development-services/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/services/blockchain-development-services",
+        canonical: "https://intelisync.ai/services/blockchain-development-services/",
     }
     // robots: "follow, index",
     // verification: {

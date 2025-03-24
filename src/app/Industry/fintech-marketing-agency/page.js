@@ -16,10 +16,10 @@ export const metadata = {
     openGraph: {
         title: " Leading Fintech Marketing Agency | Intelisync.ai",
         description: "Intelisync.ai is a leading fintech marketing agency helping brands grow with SEO, PPC, content marketing, and AI-driven strategies for maximum impact.",
-        url: "https://intelisync.ai/Industry/fintech-marketing-agency",
+        url: "https://intelisync.ai/Industry/fintech-marketing-agency/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/Industry/fintech-marketing-agency",
+        canonical: "https://intelisync.ai/Industry/fintech-marketing-agency/",
     }
     // robots: "follow, index",
     // verification: {

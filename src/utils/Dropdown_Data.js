@@ -1,22 +1,22 @@
 export const Ourservicedata =[
-    { title: 'Artificial Intelligence (AI)', link: '/services/ai-development-services' },
-    { title: 'Growth Marketing', link: '/services/growth-marketing-agency' },
-    { title: 'Blockchain Services', link: '/services/blockchain-development-services' },
-    { title: 'Public Relations', link: '/services/public-relation' },
-    { title: 'Strategic Advisory', link: '/services/strategy-advisor' },
-    { title: 'Community Management', link: '/services/web3-community-Management-agency' },
-    { title: 'Web App Development', link: '/services/web-app-development' },
-    { title: 'Influencer Marketing', link: '/services/web3-influencer-marketing' },
-    { title: 'Branding', link: '/services/web3-branding-agency' }
+    { title: 'Artificial Intelligence (AI)', link: '/services/ai-development-services/' },
+    { title: 'Growth Marketing', link: '/services/growth-marketing-agency/' },
+    { title: 'Blockchain Services', link: '/services/blockchain-development-services/' },
+    { title: 'Public Relations', link: '/services/public-relation/' },
+    { title: 'Strategic Advisory', link: '/services/strategy-advisor/' },
+    { title: 'Community Management', link: '/services/web3-community-Management-agency/' },
+    { title: 'Web App Development', link: '/services/web-app-development/' },
+    { title: 'Influencer Marketing', link: '/services/web3-influencer-marketing/' },
+    { title: 'Branding', link: '/services/web3-branding-agency/' }
   ];
 
   export const IndustryData =[
-    { title: 'Fintech', link: '/Industry/fintech-marketing-agency' },
-    { title: 'Healthcare', link: '/Industry/healthcare-marketing-agency' },
-    { title: 'Gaming', link: '/Industry/Gaming-marketing-solutions' },
-    { title: 'Crypto', link: '/Industry/crypto-marketing' },
-    { title: 'Small business', link: '/Industry/small-business-digital-marketing' },
-    { title: 'Startup', link: '/Industry/startup-marketing-solutions' },
+    { title: 'Fintech', link: '/Industry/fintech-marketing-agency/' },
+    { title: 'Healthcare', link: '/Industry/healthcare-marketing-agency/' },
+    { title: 'Gaming', link: '/Industry/Gaming-marketing-solutions/' },
+    { title: 'Crypto', link: '/Industry/crypto-marketing/' },
+    { title: 'Small business', link: '/Industry/small-business-digital-marketing/' },
+    { title: 'Startup', link: '/Industry/startup-marketing-solutions/' },
   ];
  
   export const CompanyData =[

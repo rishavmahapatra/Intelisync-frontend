@@ -17,10 +17,10 @@ export const metadata = {
     openGraph: {
         title: "Next-Gen Solutions for Modern Industries | Intelisync",
         description: "Explore next-gen solutions for modern industries with Intelisync. Drive innovation, efficiency, and growth with our cutting-edge AI-driven strategies.",
-        url: "https://intelisync.ai/Industry",
+        url: "https://intelisync.ai/Industry/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/Industry",
+        canonical: "https://intelisync.ai/Industry/",
     }
     // robots: "follow, index",
     // verification: {

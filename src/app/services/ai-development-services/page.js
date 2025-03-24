@@ -3,11 +3,12 @@ import AIbanner from "@/component/Artificial Intelligence/AIbanner";
 import AIhomepage from "@/component/Artificial Intelligence/AIhomepage";
 import AIsmart from "@/component/Artificial Intelligence/AIsmart"
 import Footer from "@/component/footer/Footer";
-import TrustedInnovators from "@/component/branding/Trustedservice";
 import {AIfaq} from "@/utils/FAQ_Data";
 import FAQSection from "@/component/FAQ/FAQ";
 import Blog from "@/component/Blogs/Blogs";
 import ContactUs from "@/component/ContactUs/ContactUs";
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
+import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 
 
 export const metadata = {
@@ -17,10 +18,10 @@ export const metadata = {
     openGraph: {
         title: "AI Development Services for Web3 | Automate, Grow & Innovate",
         description: "Our AI development services help your Web3 business grow, streamline tasks, and make smarter decisions with ease for maximum efficiency.",
-        url: "https://intelisync.ai/services/ai-development-services",
+        url: "https://intelisync.ai/services/ai-development-services/",
     },
     alternates: {
-        canonical: "https://intelisync.ai/services/ai-development-services",
+        canonical: "https://intelisync.ai/services/ai-development-services/",
     }
     // robots: "follow, index",
     // verification: {
@@ -34,7 +35,13 @@ export default function page() {
             <AIbanner />
             <AIhomepage />
             <AIsmart />
-            <TrustedInnovators />
+             <div className="block md:hidden">
+                    <TrustedBrands />
+                  </div>
+            
+                  <div className="hidden md:block">
+                    <TrustedInnovators />
+                  </div>
             <FAQSection faqs={AIfaq} />
             <Blog />
             <ContactUs />

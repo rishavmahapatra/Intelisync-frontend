@@ -5,8 +5,10 @@ import Blog from '@/component/Blogs/Blogs'
 import AdvisoryServices from "@/component/strategicpage/AdvisoryServices"
 import Elevate from "@/component/strategicpage/Elevate"
 import SmartSection from "@/component/strategicpage/SmartSection"
-import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Startegicfaqs } from "@/utils/FAQ_Data"
+import TrustedBrands from "@/component/TrustedInnovators/Trusted";
+import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+
 
 export const metadata = {
   title: "Expert Strategy Advisory  to Drive Your Business Forward",
@@ -15,10 +17,10 @@ export const metadata = {
   openGraph: {
       title: "Expert Strategy Advisory  to Drive Your Business Forward",
       description: "Strategy advisory to help your business grow smarter. Intelisync offers expert guidance, real world solutions, and data backed insights for sustainable success",
-      url: "https://intelisync.ai/services/strategy-advisor",
+      url: "https://intelisync.ai/services/strategy-advisor/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/services/strategy-advisor",
+      canonical: "https://intelisync.ai/services/strategy-advisor/",
   }
   // robots: "follow, index",
   // verification: {
@@ -32,7 +34,13 @@ function page() {
    <Elevate />
    <AdvisoryServices />
    <SmartSection />
-   <TrustedInnovators />
+   <div className="block md:hidden">
+                      <TrustedBrands />
+                    </div>
+          
+                    <div className="hidden md:block">
+                      <TrustedInnovators />
+                    </div>
    <FAQSection faqs={Startegicfaqs} />
     <Blog />
     <ContactUs />
