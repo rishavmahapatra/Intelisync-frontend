@@ -34,7 +34,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className=" " >
+    <div  >
     <Section />
     <Trusted />
     <Section1 />

@@ -1,10 +1,12 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,  } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 function Product() {
   const [activeIndex, setActiveIndex] = useState(1);
+  
+
   const cards = [
     { id: 1, img: "/removebg.png", title: "RWA", text: "Intelisync’s RWA solutions enable tokenization of real-world assets for enhanced liquidity and transparency." },
     { id: 2, img: "/Group.png", title: "GPU.NET", text: "Intelisync’s GPU.NET delivers scalable GPU cloud computing for AI, analytics, and 3D rendering." },
