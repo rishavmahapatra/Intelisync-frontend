@@ -2,9 +2,10 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { events } from "@/utils/Event_Data.js";
+
 import { RiArrowUpSLine } from "react-icons/ri";
 
-const Page = () => {
+const page = () => {
 
 
   const [filtersOpen, setFiltersOpen] = useState({
@@ -104,24 +105,24 @@ const Page = () => {
   return (
     <div className="bg-white">
       {/* Banner Design Start */}
-      <div className="banner relative max-h-[665px]">
+      <div className="banner relative h-auto ma x-h-[665px]">
         <div className="absolute bg-black top-0 right-0 left-0 w-full h-full opacity-40"></div>
 
-        <div className="absolute top-[50%] left-7 text-white z-10 text-[90px] font-medium ">
-          Events
+        <div className="absolute top-[50%] left-7 text-white z-10 text-[60px]  sm:text-[90px] font-medium ">
+          <h1> Event</h1>
         </div>
         <Image
-          src="./Event/eventBanner.svg"
+          src="/Event/eventBanner.svg"
           width={100}
           height={100}
-          className="w-[100%] "
+          className="w-[100%] h-full"
           alt="banner"
         />
       </div>
       {/* Banner Design end */}
-{/* MainSection Start */}
+      {/* MainSection Start */}
       <div className="MainSection flex gap-9 p-5 font-medium h-[1000vh] mt-10">
-        <div className="left w-[20%] bg -amber-100 p-5">
+        <div className="left w-[20%] hidden lg:block bg -amber-100 p-5">
           {/* All filters Start */}
 
           {/* Industry Filter */}
@@ -152,11 +153,14 @@ const Page = () => {
                   onClick={() =>
                     setFilters((prev) => ({
                       ...prev,
-                      Industry: industry
+                      Industry: industry,
                     }))
                   }
-                  className={`py-2 px-2 mt-2 rounded-lg cursor-pointer capitalize  ${ filters.Industry===industry ? "bg-blue-600 text-white":"bg-blue-50"} transition-all duration-200`}
-                  
+                  className={`py-2 px-2 mt-2 rounded-lg cursor-pointer capitalize  ${
+                    filters.Industry === industry
+                      ? "bg-blue-600 text-white"
+                      : "bg-blue-50"
+                  } transition-all duration-200`}
                 >
                   {industry}
                 </p>
@@ -185,18 +189,21 @@ const Page = () => {
               className={`${
                 filtersOpen.Month ? "h-auto opacity-100" : "h-0 opacity-0"
               } transition-all duration-700 overflow-hidden`}
-            
-            
             >
               {months.map((month, index) => (
-                <p key={index} 
-                onClick={() =>
-                  setFilters((prev) => ({
-                    ...prev,
-                    Month: month
-                  }))
-                }
-                className={`py-2 px-2 mt-2 rounded-lg cursor-pointer capitalize  ${ filters.Month===month ? "bg-blue-600 text-white":"bg-blue-50"} transition-all duration-200`}
+                <p
+                  key={index}
+                  onClick={() =>
+                    setFilters((prev) => ({
+                      ...prev,
+                      Month: month,
+                    }))
+                  }
+                  className={`py-2 px-2 mt-2 rounded-lg cursor-pointer capitalize  ${
+                    filters.Month === month
+                      ? "bg-blue-600 text-white"
+                      : "bg-blue-50"
+                  } transition-all duration-200`}
                 >
                   {month}
                 </p>
@@ -209,8 +216,9 @@ const Page = () => {
             <div className="flex justify-between items-center">
               <p className="font-medium">Country</p>
               <RiArrowUpSLine
-                className={`text-[1.4rem] cursor-pointer transform transition-transform duration-300 ${filtersOpen.Country ? "rotate-0" : "rotate-180"
-                  }`}
+                className={`text-[1.4rem] cursor-pointer transform transition-transform duration-300 ${
+                  filtersOpen.Country ? "rotate-0" : "rotate-180"
+                }`}
                 onClick={() =>
                   setFiltersOpen((prev) => ({
                     ...prev,
@@ -221,21 +229,24 @@ const Page = () => {
             </div>
 
             <div
-              className={`${filtersOpen.Country ? "h-auto opacity-100" : "h-0 opacity-0"
-                } transition-all duration-700 overflow-hidden`}
+              className={`${
+                filtersOpen.Country ? "h-auto opacity-100" : "h-0 opacity-0"
+              } transition-all duration-700 overflow-hidden`}
             >
               {countries.map((country, index) => (
-                <p key={index} 
-                
-                onClick={() =>
-                  setFilters((prev) => ({
-                    ...prev,
-                    Country: country
-                  }))
-                }
-                className={`py-2 px-2 mt-2 rounded-lg cursor-pointer capitalize  ${ filters.Country===country ? "bg-blue-600 text-white":"bg-blue-50"} transition-all duration-200`}
-               
-                
+                <p
+                  key={index}
+                  onClick={() =>
+                    setFilters((prev) => ({
+                      ...prev,
+                      Country: country,
+                    }))
+                  }
+                  className={`py-2 px-2 mt-2 rounded-lg cursor-pointer capitalize  ${
+                    filters.Country === country
+                      ? "bg-blue-600 text-white"
+                      : "bg-blue-50"
+                  } transition-all duration-200`}
                 >
                   {country}
                 </p>
@@ -246,12 +257,11 @@ const Page = () => {
           {/* All filters End */}
         </div>
 
-        <div className="right w-[80%] allEventDetails">
-
-
-
+        <div className="right w-full lg:w-[80%] allEventDetails">
           {eventsCopy.length === 0 ? (
-            <p className="text-center text-gray-500 mt-6">No events available</p>
+            <p className="text-center text-gray-500 mt-6">
+              No events available
+            </p>
           ) : (
             eventsCopy.map((monthData) => (
               <div key={monthData.month} className="EventDetails">
@@ -267,21 +277,31 @@ const Page = () => {
                       key={index}
                       className="bg-[#4BBAFF1A] mt-5 rounded-[5px] py-3 px-6"
                     >
-                      <div className="flex justify-between items-center font-medium">
-                        <p>{event.name}</p>
-                        <p className="text-[15px]">{event.date}</p>
-                        <p className="text-[15px]">{event.location}</p>
+                      <div className="flex sm:space-y-0 items-center space-y-6 sm:flex-row flex-col flex-wrap sm:flex-nowrap justify-between ite ms-center font-medium">
+                        
+
+                        <div className="sm:w-[200px] sm:mx-0 mx-auto text-center sm:text-left h-auto">
+                          <p className="">{event.name}</p>
+                          <p className="mt-2  mx-auto sm:mx-0 text-xs text-blue-700 rounded p-1 bg-[#06DEFF26] w-fit">
+                            {event.category}
+                          </p>
+                        </div>
+                        <p className="text-[15px] sm:text-center  sm:w-[200px]">
+                          {event.date}
+                        </p>
+                        <p className="text-[15px] sm:w-[200px] sm:text-right">
+                          {event.location}
+                        </p>
                       </div>
-                      <p className="mt-2 text-xs text-blue-700 rounded p-1 bg-[#06DEFF26] w-fit">
+                      {/* <p className="mt-2 text-xs text-blue-700 rounded p-1 bg-[#06DEFF26] w-fit">
                         {event.category}
-                      </p>
+                      </p> */}
                     </div>
                   ))
                 )}
               </div>
             ))
           )}
-
 
           {/* { eventsCopy.map((monthData) => (
             <div key={monthData.month} className="EventDetails">
@@ -306,14 +326,15 @@ const Page = () => {
               ))}
             </div>
           ))} */}
-
         </div>
       </div>
-
-{/* MainSection Start */}
+  
+      {/* MainSection End */}
+        
+   
 
     </div>
   );
 };
 
-export default Page;
+export default page;
