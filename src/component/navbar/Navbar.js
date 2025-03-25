@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { GoArrowRight } from 'react-icons/go';
 import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi';
-import { Ourservicedata, IndustryData, CompanyData } from '@/utils/Dropdown_Data';
+import { Ourservicedata, IndustryData, CompanyData, OurProductsData } from '@/utils/Dropdown_Data';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -64,7 +64,7 @@ export default function Navbar() {
 
   return (
     <nav className={` text-white py-4 w-full top-0 z-70 sticky ${show && "nav_blur"}`}>
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-0">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 xl:px-0">
         <Link href="/">
           <div className="text-2xl font-bold cursor-pointer">
             <span className="text-white">Inteli</span>
@@ -94,7 +94,15 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/product" className="hover:text-teal-400">Our Products</Link>
+          
+          <div className="relative group">
+            <Link href="/Industry" className="cursor-pointer flex items-center gap-1 hover:text-teal-400">Our Products</Link>
+            <div className="absolute inset-4 left-0 invisible group-hover:visible group-hover:pointer-events-auto">
+              {renderDropdown(OurProductsData)}
+            </div>
+          </div>
+
+
           <Link href="/events" className="hover:text-teal-400">Events</Link>
           <Link href="/company/careers" className="hover:text-teal-400">Careers</Link>
           <Link href="/company/blog" className="hover:text-teal-400">Blog</Link>
