@@ -764,3 +764,36 @@ export const StartupData = [
     description: 'Embrace the future with blockchain technology, creating secure, transparent, and efficient systems that transform your business operations and enhance trust.',
   },
 ];
+
+export const Brandingcards = [
+  {
+      title: "Social media branding",
+      description:
+          "From vision to execution, we help you develop and implement actionable strategies that achieve measurable results. Our approach ensures that your business strategy is effective and aligned with your long-term goals."
+  },
+  {
+      title: "Website branding",
+      description:
+          "Build a website that converts leads into loyal customers with our expert design and marketing strategies. We create cross-platform sites that boost brand exposure and drive growth."
+  },
+  {
+      title: "NFT Branding",
+      description:
+          "Prepare for the unexpected with our proactive crisis management services. We develop and execute crisis response strategies that protect your brand’s reputation, minimize negative impact, and rebuild trust with key stakeholders."
+  },
+  {
+      title: "Community-driven Branding",
+      description:
+          "Focuses on building a brand with the active participation and contribution of the community, leveraging Web3's emphasis on peer-to-peer collaboration."
+  },
+  {
+      title: "Metaverse Branding",
+      description:
+          "Position your brand as an industry leader with our thought leadership services. We craft compelling narratives, develop executive visibility plans, and publication opportunities to enhance your brand’s authority and influence."
+  },
+  {
+      title: "DAO (Decentralized Autonomous Organization) Branding",
+      description:
+          "Building a brand around the principles of DAOs, where community members have a direct role in decision-making and governance."
+  },
+];
