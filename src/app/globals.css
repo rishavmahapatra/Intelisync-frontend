@@ -25,7 +25,7 @@ border-image-slice: 1;
 }
 .nav_blur{
   /* backdrop-filter: blur(10px); */
-  background-color: black;
+  background-color: rgba(18, 18, 18, .5);
   
 }
 .glow-effect {
@@ -62,6 +62,18 @@ border-image-slice: 1;
 }
 
 
+/* // Ownly Market Place start  */
+.hexagone {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+/* text gradient  */
+.text-gradient {
+  background: linear-gradient(to top right, #0078B9, #00E3EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* // Ownly Market Place ends  */
 
 .moveToTop {
   animation: moveToTop 2s infinite ;

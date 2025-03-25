@@ -21,10 +21,18 @@ export const Ourservicedata =[
  
   export const CompanyData =[
     {title: 'About Us', link: '/company/aboutuspage'},
-    {title: 'Event', link: '/events'},
+    {title: 'Event Gallery', link: '/events/EventGallery'},
     {title: 'Careers',link: '/company/careers'},
     {title: 'Blog', link: '/company/blog'},
     {title: 'Terms & Condtions', link:'/company/condtions'},
+    
+  ]
+
+
+  export const OurProductsData =[
+    {title: 'RWA',link: '/products/rwa-1'},
+    {title: 'GPU.net', link: '/products/gpunet'},
+    {title: 'Ownly Marketplace', link: '/products/OwnlyMarketPlace'},
     
   ]
   

@@ -6,7 +6,9 @@ import 'react-phone-input-2/lib/style.css';
 import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 import { TextField } from '@mui/material';
 import { baseUrl } from '../../utils/Api_BaseUrl'
-import Modal from '../Model/Model';
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     firstname: '',
@@ -17,10 +19,7 @@ const ContactUs = () => {
   });
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
-  const [showSuccessPopup, setShowSuccessPopup] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
-  const [message, setMessage] = useState("");
-  const [messageType, setMessageType] = useState("");
+ 
   const getInputProps = (customStyles = {}) => ({
     sx: {
       '&:before': {
@@ -81,21 +80,14 @@ const ContactUs = () => {
 
       // Handle API response correctly
       if (data?.success && data?.message.includes("already exists")) {
-        setMessage(data?.message);
-        setMessageType("error");
-        setIsOpen(true);
+        toast.error(data?.message);
       } else {
-        setShowSuccessPopup(true);
-        setMessage(data?.message || "Form submitted successfully!");
-        setMessageType("success");
-        setIsOpen(true);
+        toast.success("Contact Form submitted successfully!");
         setFormData({ firstname: "", lastname: "", email: "", phone: "", message: "" }); // Reset fields
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      setMessage(error?.message);
-      setMessageType("error");
-      setIsOpen(true);
+      toast.error(error);
     } finally {
       setLoading(false);
     }
@@ -103,7 +95,7 @@ const ContactUs = () => {
 
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#1E2228] ">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 py-12 bg-[#000B18] ">
       <div className="md:w-1/2 mb-16">
         <h2 className="font-[500] mb-6 text-white text-[30px] md:text-[33px] leading-[38px] tracking-[-0.01em]">
           Ready to take your marketing <br /> to the next level?
@@ -155,13 +147,10 @@ const ContactUs = () => {
           <p className="text-[12px] leading-[140%] text-gray-500 text-center mt-4">By clicking next, you agree to receive communications from Intelisync in accordance with our Privacy Policy.</p>
         </div>
       </section>
-      <Modal
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-        title="Notification"
-        message={message}
-        messageType={messageType}
-      />
+      <ToastContainer position="top-right" autoClose={3000} toastStyle={{
+        fontSize: "15px",
+        fontWeight: "500",
+      }} />
     </div>
   );
 };

@@ -6,11 +6,11 @@ export default function CartMemorable() {
   ]
 
   return (
-    <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 w-full max-w-full">
+    <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 w-full max-w-full relative">
       
       <div className="max-w-6xl">
         {/* Breadcrumbs */}
-        <div className="text-gray-400 text-sm mb-6 flex flex-wrap gap-1">
+        <div className="text-gray-400 text-sm mb-6 flex flex-wrap gap-1 ">
           <Link href="/" className="hover:text-gray-300 transition text-[14px] sm:text-[15px]">
             Homepage
           </Link>
@@ -23,7 +23,9 @@ export default function CartMemorable() {
           Web App Development
           </span>
         </div>
-
+        <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+        </div>
         {/* Title */}
         <h2 className="font-poppins font-[500px] text-[28px] sm:text-[35px] md:text-[40px] leading-[38px] sm:leading-[45px] md:leading-[50px] tracking-tight">
         Web App Development Services for Scalable and High-Performance Solutions
