@@ -1,26 +1,33 @@
 "use client";
 
 import { useState } from "react";
-import Modal from "../Model/Model";
+import { toast, ToastContainer } from "react-toastify";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css"; // Import default styles
 import { baseUrl } from "@/utils/Api_BaseUrl";
 
-const inputFields = ["Full Name", "Email", "Phone Number"];
+const inputFields = ["Full Name", "Email"];
 const linkFields = ["Link your CV", "Link your portfolio"];
 const otherFields = ["What are your salary expectations", "How soon can you start working in Intellisync"];
 
 export default function ApplicationForm() {
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({ phone: "" });
   const [errors, setErrors] = useState({});
-  const [isOpen, setIsOpen] = useState(false);
-  const [message, setMessage] = useState("");
-  const [messageType, setMessageType] = useState("");
 
-  // Function to format field names for formData
-  const formatFieldKey = (field) => field.toLowerCase().replace(/\s+/g, "_");
+  // Mapping long field labels to API-compatible short keys
+  const fieldMappings = {
+    "Full Name": "name",
+    Email: "email",
+    "Phone Number": "phone",
+    "Link your CV": "cv",
+    "Link your portfolio": "portfolio",
+    "What are your salary expectations": "salary",
+    "How soon can you start working in Intellisync": "joining",
+  };
 
   const handleChange = (field, value) => {
-    const formattedKey = formatFieldKey(field);
-    setFormData({ ...formData, [formattedKey]: value });
+    const key = fieldMappings[field];
+    setFormData({ ...formData, [key]: value });
     setErrors({ ...errors, [field]: "" });
   };
 
@@ -28,10 +35,9 @@ export default function ApplicationForm() {
     e.preventDefault();
 
     const newErrors = {};
-
-    [...inputFields, ...linkFields, ...otherFields].forEach((field) => {
-      const formattedKey = formatFieldKey(field);
-      if (!formData[formattedKey]) {
+    [...inputFields, ...linkFields, ...otherFields, "Phone Number"].forEach((field) => {
+      const key = fieldMappings[field];
+      if (!formData[key]) {
         newErrors[field] = `${field} is required`;
       }
     });
@@ -48,37 +54,31 @@ export default function ApplicationForm() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          fullName: formData?.full_name,
-          email: formData?.email,
-          phoneNumber: formData?.phone_number,
-          cv: formData?.link_your_cv,
-          portfolio: formData.link_your_portfolio,
-          salary: formData.what_are_your_salary_expectations,
-          joining: formData.how_soon_can_you_start_working_in_intellisync
+          fullName: formData.name,
+          email: formData.email,
+          phoneNumber: `+${formData.phone}`, // Ensuring country code
+          cv: formData.cv,
+          portfolio: formData.portfolio,
+          salary: formData.salary,
+          joining: formData.joining
         }),
       });
 
       const result = await response.json();
 
       if (response.ok) {
-        setMessage(result?.message || "Form submitted successfully!");
-        setMessageType("success");
-        setIsOpen(true);
-        setFormData({});
+        toast.success("Form submitted successfully!");
+        setFormData({ phone: "" });
       } else {
-        throw new Error(result?.message || "Something went wrong");
+        toast.error(result?.message || "Something went wrong. Please try again.");
       }
     } catch (error) {
-      setMessage(error?.message || "Failed to submit form.");
-      setMessageType("error");
-      setIsOpen(true);
+      toast.error(error?.message || "Failed to submit form.");
     }
   };
 
-  console.log("formadata",formData)
-
   return (
-    <div className="flex items-end bg-white w-full justify-center min-h-screen ">
+    <div className="flex items-end bg-white w-full justify-center min-h-screen">
       <div className="p-8">
         <h2 className="text-xl font-semibold mb-6">
           Join Intellisync and be part of a dynamic team shaping the future of blockchain and digital transformation.
@@ -91,24 +91,43 @@ export default function ApplicationForm() {
               <label className="mb-2 text-[15px]">{field}<span className="text-red-500">*</span></label>
               <input
                 type="text"
-                value={formData[formatFieldKey(field)] || ""}
+                value={formData[fieldMappings[field]] || ""}
                 onChange={(e) => handleChange(field, e.target.value)}
-                className="w-full p-1.5 border border-gray-300 rounded-md bg-blue-50"
+                className="w-full p-1.5 border border-gray-300 rounded-md"
               />
               {errors[field] && <span className="text-red-500 mt-1">{errors[field]}</span>}
             </div>
           ))}
 
-          {/* Link Fields (Two-Column Layout) */}
+          {/* Phone Number Field */}
+          <div className="flex flex-col items-start">
+            <label className="mb-2 text-[15px]">Phone Number<span className="text-red-500">*</span></label>
+            <PhoneInput
+              country={"in"}
+              value={formData.phone}
+              onChange={(phone) => setFormData((prev) => ({ ...prev, phone }))}
+              inputProps={{ name: "phone" }}
+              containerStyle={{ width: "100%" }}
+              inputStyle={{
+                width: "100%",
+                padding: "10px",
+                borderRadius: "5px",
+                paddingLeft:'45px'
+              }}
+            />
+            {errors["Phone Number"] && <span className="text-red-500 mt-1">{errors["Phone Number"]}</span>}
+          </div>
+
+          {/* Link Fields */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {linkFields.map((field) => (
               <div key={field} className="flex flex-col items-start">
                 <label className="mb-2 text-[15px]">{field}<span className="text-red-500">*</span></label>
                 <input
                   type="text"
-                  value={formData[formatFieldKey(field)] || ""}
+                  value={formData[fieldMappings[field]] || ""}
                   onChange={(e) => handleChange(field, e.target.value)}
-                  className="w-full p-1.5 border border-gray-300 rounded-md bg-blue-50"
+                  className="w-full p-1.5 border border-gray-300 rounded-md"
                 />
                 {errors[field] && <span className="text-red-500 mt-1">{errors[field]}</span>}
               </div>
@@ -121,9 +140,9 @@ export default function ApplicationForm() {
               <label className="mb-2 text-[15px]">{field}<span className="text-red-500">*</span></label>
               <input
                 type="text"
-                value={formData[formatFieldKey(field)] || ""}
+                value={formData[fieldMappings[field]] || ""}
                 onChange={(e) => handleChange(field, e.target.value)}
-                className="w-full p-1.5 border border-gray-300 rounded-md bg-blue-50"
+                className="w-full p-1.5 border border-gray-300 rounded-md"
               />
               {errors[field] && <span className="text-red-500 mt-1">{errors[field]}</span>}
             </div>
@@ -139,12 +158,10 @@ export default function ApplicationForm() {
         </form>
       </div>
 
-      <Modal
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-        title="Notification"
-        message={message}
-        messageType={messageType}
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        toastStyle={{ fontSize: "15px", fontWeight: "500" }}
       />
     </div>
   );
