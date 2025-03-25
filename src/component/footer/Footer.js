@@ -14,12 +14,15 @@ export default function Footer() {
     //   paddingTop: "200px" // Push content down
     // }}
     >
-      <div className="h-1/2 absolute inset-0 top-10 border-t-4 border-teal-600 rounded-t-[300px] -z-10"></div>
+      <div className="absolute inset-0 top-13 border-t-2 sm:border-t-3 md:border-t-4 border-teal-600 
+                rounded-t-[100px] sm:rounded-t-[150px] md:rounded-t-[300px] -z-10 h-1/4 sm:h-1/3 md:h-1/2">
+</div>
+
       <div className="p-10 lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="w-[141px] h-[33px] relative">
             <Image
-              src="/photos/logo.png" // Replace with your actual image path
+              src="/photos/logo.png" 
               alt="Intelisync Logo"
               layout="intrinsic"
               width={141}
