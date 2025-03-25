@@ -25,7 +25,7 @@ border-image-slice: 1;
 }
 .nav_blur{
   /* backdrop-filter: blur(10px); */
-  background-color: black;
+  background-color: rgba(18, 18, 18, .5);
   
 }
 .glow-effect {
@@ -75,3 +75,59 @@ border-image-slice: 1;
 }
 /* // Ownly Market Place ends  */
 
+.moveToTop {
+  animation: moveToTop 2s infinite ;
+}
+
+.moveToBottom {
+  animation: moveToBottom 2s infinite ;
+  
+}
+
+@keyframes moveToTop {
+  0% {
+    z-index: 0;
+    transform: translateX(0);
+    opacity: 0.3;
+    transform: scale(0.5);
+  }
+
+  40% {
+    transform: translate(60%);
+    z-index: 0;
+  }
+
+  100% {
+    transform: scale(1);
+
+    transform: translateX(0);
+    z-index: 1000;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@keyframes moveToBottom {
+  0% {
+    transform: scale(1);
+    transform: translateX(0);
+    z-index: 1000;
+    opacity: 1;
+    z-index: 0;
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translate(-60%);
+    z-index: 0;
+  }
+
+  100% {
+    z-index: 0;
+    transform: translateX(0);
+    opacity: 0.3;
+    top: 40px;
+    left: 40px;
+  }
+}

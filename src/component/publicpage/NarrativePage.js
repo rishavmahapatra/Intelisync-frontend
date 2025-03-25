@@ -9,7 +9,7 @@ export default function NarrativePage() {
        ];
 
     return (
-        <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
+        <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 relative">
             <div className="max-w-6xl">
                 {/* Breadcrumb Navigation */}
                 <div className="text-gray-400 text-sm mb-6">
@@ -23,7 +23,9 @@ export default function NarrativePage() {
                     Public Relation
                     </span>
                 </div>
-
+                <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+                </div>
                 {/* Title */}
                 <h2 className="font-poppins font-[500px] text-[28px] sm:text-[40px] leading-[35px] sm:leading-[50px] tracking-tight">
                 Get Your Crypto Brand Noticed with a Leading Crypto PR Agency
