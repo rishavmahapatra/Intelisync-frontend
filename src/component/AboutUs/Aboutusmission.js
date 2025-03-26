@@ -6,7 +6,7 @@ export default function Mission() {
     ];
   
     return (
-      <div className="bg-[#020B17] text-white py-26 px-6 md:px-15 lg:px-32 relative flex justify-center">
+      <div className="bg-[#020B17] text-white pb-20 px-6 md:px-15 lg:px-32 relative flex justify-center">
         <div className="max-w-2xl">
           <h2 className="font-poppins font-medium text-[30px] leading-[50px] tracking-tight text-white">
             Mission
