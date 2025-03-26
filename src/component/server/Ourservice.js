@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 const services = [
@@ -7,6 +8,7 @@ const services = [
         description:
             "Intelisync delivers advanced AI development services, integrating machine learning, predictive analytics, and intelligent automation to optimize business processes. As a leading AI development company, we create scalable AI solutions that enhance decision-making and efficiency across industries.",
         icon: <img src="/AIimage.png" alt="AI Icon" className="w-7 h-7" />,
+        link: "/services/ai-development-services",
     },
     {
         title: "Growth Marketing",
@@ -15,6 +17,8 @@ const services = [
         icon: (
             <img src="/Growth Marketing.png" alt="growth icon" className="w-7 h-7" />
         ),
+        link: "/services/growth-marketing-agency"
+
     },
     {
         title: "Blockchain Services",
@@ -27,12 +31,14 @@ const services = [
                 className="w-7 h-7"
             />
         ),
+        link: "/services/blockchain-development-services"
     },
     {
         title: "Public Relations",
         description:
             "Build credibility and industry presence with our public relation agency. We craft strategic PR campaigns, manage advertising/public relations, and connect brands with media and influencers to amplify their reach and impact.",
         icon: <img src="/Public Relations.png" alt="pr icon" className="w-7 h-7" />,
+        link: "/services/public-relation"
     },
     {
         title: "Strategic Advisory",
@@ -45,12 +51,14 @@ const services = [
                 className="w-7 h-7"
             />
         ),
+        link: "/services/strategy-advisor"
     },
     {
         title: "Branding",
         description:
             "Your brand is your identity. We create a strong market presence with strategic storytelling and design. Understanding the importance of branding in marketing, we help businesses build trust and stand out. As a leading branding agency, we ensure your branding and marketing drive real impact.",
         icon: <img src="/Branding.png" alt="branding icon" className="w-7 h-7" />,
+        link: "/services/web3-branding-agency/"
     },
     {
         title: "Community Management",
@@ -63,6 +71,7 @@ const services = [
                 className="w-7 h-7"
             />
         ),
+        link: "/services/web3-community-Management-agency"
     },
     {
         title: "Influencer Marketing",
@@ -75,6 +84,7 @@ const services = [
                 className="w-7 h-7"
             />
         ),
+        link: "/services/web3-influencer-marketing/"
     },
     {
         title: "Web App Development",
@@ -87,7 +97,9 @@ const services = [
                 className="w-7 h-7"
             />
         ),
+        link: "/services/web-app-development/"
     },
+
 ];
 
 function Ourservice() {
@@ -124,20 +136,27 @@ function Ourservice() {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="relative w-full max-w-[341px] min-h-[250px] sm:h-[319px] opacity-90 transition-all cursor-default shadow-lg group mx-auto rounded-3xl hover:shadow-cyan-400"
+                            className="relative w-full max-w-[341px] min-h-[250px] sm:h-[319px] opacity-90 transition-all cursor-default shadow-lg group mx-auto rounded-3xl 
+                        hover:shadow-[4px_7px_22.7px_rgba(6,255,240,0.35)] hover:bg-gradient-to-bl hover:from-[#175351] hover:via-[#18374B] hover:to-[#24292B]"
                         >
-                            <div className="relative w-full h-auto sm:h-full p-px rounded-3xl bg-gradient-to-r from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
-                                <div className="w-full h-[250px] sm:h-full p-6 flex flex-col gap-3 rounded-3xl bg-gradient-to-t from-[#081824] to-[#022932]">
+                            {/* Border Effect */}
+                            <div className="relative w-full h-auto sm:h-full p-px rounded-3xl bg-gradient-to-bl from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
+                                {/* Inner Content */}
+                                <div
+                                    className="w-full h-[250px] sm:h-full p-6 flex flex-col gap-3 rounded-3xl bg-gradient-to-t from-[#081824] to-[#022932] 
+                            transition-all duration-300 group-hover:bg-gradient-to-bl group-hover:from-[#175351] group-hover:via-[#18374B] group-hover:to-[#24292B]">
                                     <div className="flex items-center gap-3 min-h-[20%]">
                                         {service.icon}
-                                        <h3 className="text-lg font-semibold text-white">
+                                        <Link href={service.link} className="text-lg font-semibold text-white">
                                             {service.title}
-                                        </h3>
+                                        </Link>
                                     </div>
                                     <p className="text-gray-300 text-sm">{service.description}</p>
                                 </div>
                             </div>
                         </div>
+
+
                     ))}
                 </div>
             </section>

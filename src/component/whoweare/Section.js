@@ -27,7 +27,7 @@ function Section() {
 
     const gradientFront = "bg-[linear-gradient(180deg,#2E8295_-41.1%,#0F292F_100%)]";
     const gradientBack = "bg-[rgba(46,130,149,0.13)]";
-    
+
 
     return (
         <div className="relative">
@@ -78,8 +78,9 @@ function Section() {
 
                             <div className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientBack}`} >
 
-                            <div className="relative w-[230px] h-[250px] sm:w-[280px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
-                                <span className="text-sm sm:text-lg font-semibold">{services[index]}</span>
+                                <div className="relative w-[230px] h-[250px] sm:w-[280px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
+
+                                    <span className="text-sm sm:text-lg font-semibold">{services[index]}</span>
                                 </div>
                             </div>
                         </motion.div>
@@ -90,20 +91,20 @@ function Section() {
                             animate={{ opacity: 1, rotateY: 0 }}
                             exit={{ opacity: 0, rotateY: -180 }}
                             transition={{ duration: 1.2, ease: "easeInOut" }}
-                            className="BottomBox moveToTop absolute top-5 left-5 z-40 flex w-fit items-center justify-center rounded-3xl p-[2px]"
+                            className="BottomBox moveToTop absolute top-5 left-5 z-40 flex w-fit items-center justify-center rounded-3xl p-[2px] "
                         >
                             {/* Front Card with Gradient */}
                             <div className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientFront}`}
                             >
                                 {/* Inner Card with Custom Border */}
-                                <div className="relative w-[230px] h-[250px] sm:w-[260px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
+                                <div className="relative w-[230px] h-[250px] sm:w-[260px] sm:h-[290px] rounded-3xl p-[3px] border-custom  flex items-center justify-center">
+                                
 
-                                    {/* Centered Text */}
-                                    <span className="text-sm sm:text-lg font-semibold text-center">
-                                        {services[(index + 1) % services.length]}
-                                    </span>
-
+                                <span className="text-sm sm:text-lg font-semibold text-center">
+                                    {services[(index + 1) % services.length]}
+                                </span>
                                 </div>
+
                             </div>
                         </motion.div>
                     </div>

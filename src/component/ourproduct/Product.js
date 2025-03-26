@@ -47,7 +47,7 @@ function Product() {
         </p>
       </div>
 
-      <div className="relative flex items-center justify-center w-full max-w-[95%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[70%] h-[400px] mt-10 overflow-hidden">
+      <div className="relative flex items-center justify-center w-full max-w-[95%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[70%] h-[400px] mt-10 ">
         {cards.map((card, index) => {
           const isActive = index === activeIndex;
           const position = (index - activeIndex + cards.length) % cards.length;
@@ -87,17 +87,9 @@ function Product() {
                 ease: "easeInOut",
               }}
             >
-              <div className="w-[260px] sm:w-[300px] md:w-[320px] h-[350px] rounded-4xl p-2 overflow-hidden mt-5">
-                <div className="relative w-full h-full bg-[rgba(46,130,149,0)] backdrop-blur-[50px] rounded-2xl p-[2px] flex items-center justify-center">
-                  <div className="relative w-[240px] sm:w-[270px] md:w-[290px] h-[320px] rounded-4xl p-6 flex flex-col items-center text-center overflow-hidden
-                   bg-[rgba(46,130,149,0)] backdrop-blur-[50px] shadow-lg border-[2px] border-transparent"
-                    style={{
-                      borderImageSource:
-                        "linear-gradient(194.72deg, rgba(89, 220, 212, 0) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%)",
-                      borderImageSlice: 1,
-                      borderRadius: "20px",
-                    }}
-                  >
+              <div className="w-[260px] sm:w-[300px] md:w-[320px] h-[350px] rounded-4xl p-2  mt-5 ">
+                <div className="relative w-full h-full bg-[rgba(46,130,149,0)] backdrop-blur-[50px] rounded-2xl p-[2px] flex items-center justify-center border-cyan-500 shadow-lg shadow-cyan-500/40 ">
+                  <div className="relative w-[240px] sm:w-[270px] md:w-[290px] h-[320px] p-6 flex flex-col items-center text-center  bg-[rgba(46,130,149,0)]  shadow-lg border-custom" >
                     <div className="flex justify-center items-center mt-5">
                       <Image src={card.img} alt={card.title} width={60} height={60} className="sm:w-[70px] sm:h-[70px]" />
                     </div>

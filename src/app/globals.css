@@ -3,31 +3,37 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-  background-color: #000B18;  
+  background-color: #000B18;
 }
-.card_border{
+
+.card_border {
   border: 1px solid;
 
-border-image-source: linear-gradient(236.94deg, #00EEDF 9.51%, #7F7F7F 48.23%, #00A9CA 90.49%);
-border-image-slice: 1;
+  border-image-source: linear-gradient(236.94deg, #00EEDF 9.51%, #7F7F7F 48.23%, #00A9CA 90.49%);
+  border-image-slice: 1;
 
 }
 
 .outline-text {
-  -webkit-text-stroke: 1px #00ffff; /* Cyan outline */
+  -webkit-text-stroke: 1px #00ffff;
+  /* Cyan outline */
   -webkit-text-stroke: 2px #00ffff;
   color: transparent;
-  
+
 }
+
 .modal {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8);
 }
-.nav_blur{
+
+.nav_blur {
   /* backdrop-filter: blur(10px); */
   background-color: rgba(18, 18, 18, .5);
-  
+
 }
+
 .glow-effect {
   position: absolute;
   top: -50px;
@@ -57,27 +63,35 @@ border-image-slice: 1;
 } */
 
 
-.border-gradient {
+.border-custom {
   position: relative;
-  border-radius: 24px; /* Rounded corners */
-  padding: 2px;
-  border: linear-gradient(194.72deg, rgba(89, 220, 212, 0.01) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%);
+  border-radius: 24px;
+  overflow: hidden;
 }
 
-.border-gradient::before {
+.border-custom::before {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  background: #00162a; /* Your card background */
-  border-radius: 22px; /* Should be slightly smaller than outer border */
+  inset: 0;
+  padding: 2px;
+  border-radius: inherit;
+  background: linear-gradient(194.72deg, rgba(89, 220, 212, 0.01) 11.57%,
+      rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%,
+      #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
   z-index: -1;
 }
 
 
-.srvice-card{
+
+.srvice-card {
 
   background: linear-gradient(180.52deg, rgba(6, 255, 240, 0.13) 0.45%, rgba(65, 65, 65, 0.13) 99.55%);
 }
@@ -94,15 +108,16 @@ border-image-slice: 1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /* // Ownly Market Place ends  */
 
 .moveToTop {
-  animation: moveToTop 2s infinite ;
+  animation: moveToTop 2s ease-out infinite;
 }
 
 .moveToBottom {
-  animation: moveToBottom 2s infinite ;
-  
+  animation: moveToBottom 2s ease-out infinite;
+
 }
 
 @keyframes moveToTop {
