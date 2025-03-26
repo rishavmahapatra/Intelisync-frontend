@@ -236,8 +236,72 @@ const services = [
     link: "/services/blockchain-development-services",
   },
 ];
-
+ 
 function Ourservice() {
+<<<<<<< HEAD
+    return (
+        <div>
+            <section className="bg-black text-white flex flex-col items-center justify-center py-1 px-6 lg:px-10 relative">
+                <div className="relative flex flex-col items-center justify-center text-center py-20 bg-black">
+                <div className="glow-effect2"></div>
+                    {/* Large Background "SERVICES" Text with Outline Effect */}
+                    <h1 className="text-[15rem] font-bold uppercase tracking-wide text-transparent outline-text opacity-20 ">  
+                        SERVICES
+                    </h1>
+ 
+                    <div className="absolute top-1/2 transform -translate-y-1/2 flex flex-col items-center  ">
+                    {/* Button Positioned Over "SERVICES" */}
+                    <button className="relative px-9 py-2 text-white font-medium rounded-full
+                             bg-gradient-to-r from-[#06deff] to-[#00a2bb]
+                     shadow-[0px_0px_10px_#06deff] border border-cyan-400
+                        hover:scale-105 transition-all z-20">
+                        Our Services
+                    </button>
+ 
+                    {/* Description Text Positioned Below the Button */}
+                    <p className="relative mt-4 text-gray-300 max-w-xl z-10">
+                        Empowering your business with innovative Blockchain,
+                    </p>
+                    <p className="relative mt-0 text-gray-300 max-w-xl z-10">
+                    Web3, and AI solutions for a digital future.
+                   
+                    </p>
+                    </div>
+                </div>
+ 
+ 
+ 
+                {/* Services Grid */}
+                <div className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-0">
+                    {services.map((service, index) => (
+                        <div
+                            key={index}
+                            className="relative w-[341px] h-[300px] rounded-[25px] p-[2px] opacity-90  transition-all shadow-lg duration-300 group group-hover:backdrop-blur-sm hover:backdrop-blur-none hover:scale-105"
+                        >
+                            {/* Gradient Border */}
+                            <div className="absolute inset-0 bg-gradient-to-r from-[#008EAA] via-[#4C4C4C] to-[#00EEDF] rounded-[25px]
+                  opacity-50 group-hover:opacity-100 transition-all duration-300"></div>
+ 
+                            {/* Card Content */}
+                            <div className="relative w-full h-full bg-gradient-to-t from-[#252525] to-[#026a7f] rounded-[25px] p-6 flex flex-col gap-4  group-hover:blur-sm hover:blur-none
+                      group-hover:shadow-none hover:shadow-[0_0_20px_rgba(6,255,240,0.5)]
+                      transition-all duration-300">
+                                {/* Icon and Title */}
+                                <div className="flex items-center gap-3">
+                                    {service.icon}
+                                    <h3 className="text-lg font-semibold text-white">{service.title}</h3>
+                                </div>
+ 
+                                {/* Description - No Extra Space */}
+                                <p className="text-gray-200 text-sm">{service.description}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
+        </div>
+    )
+=======
   return (
     <div className="w-full max-w-[1440px] mx-auto">
       <section className="bg-[#000B18] overflow-x-hidden text-white flex flex-col items-center justify-center py-8 lg:py-16 px-5 md:px-10 lg:px-20 xl:px-32 relative">
@@ -290,6 +354,8 @@ function Ourservice() {
       </section>
     </div>
   );
+>>>>>>> d07745cd2b1dd3687ceb56c42dea1b0470603c02
 }
-
-export default Ourservice;
+ 
+export default Ourservice
+ 
