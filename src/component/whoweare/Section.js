@@ -27,7 +27,7 @@ function Section() {
 
     const gradientFront = "bg-[linear-gradient(180deg,#2E8295_-41.1%,#0F292F_100%)]";
     const gradientBack = "bg-[rgba(46,130,149,0.13)]";
-    const borderGradient = "bg-[linear-gradient(194.72deg, rgba(89, 220, 212, 0.01) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%)]";
+    
 
     return (
         <div className="relative">
