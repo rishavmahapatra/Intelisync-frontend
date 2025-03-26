@@ -82,8 +82,7 @@ function Ourservice() {
                 <div className="relative flex flex-col items-center justify-center text-center py-20 w-full max-w-screen-xl mx-auto">
 
                     {/* Large Background Text */}
-                    <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[10rem] xl:text-[13rem] 
-                font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
+                    <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[10rem] xl:text-[13rem] font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
                         SERVICES
                     </h2>
 
