@@ -105,7 +105,7 @@ const page = () => {
   return (
     <div className="bg-white">
       {/* Banner Design Start */}
-      <div className="banner relative h-[350px] sm:h-full ">
+      <div className="banner relative h-screen [350px] sm:h-full ">
         <div className="absolute z-10 bg-black top-0 right-0 left-0 w-full h-full opacity-40"></div>
 
         <div className="absolute top-[50%] left-7 text-white z-10 text-[60px]  sm:text-[90px] font-medium ">
@@ -113,8 +113,10 @@ const page = () => {
         </div>
         <img
           src="/Event/eventBanner.svg"
-       
-          className="w-full object-cover h-full "
+           width={100}
+           height={100}
+
+          className="w-full object-cover  h-full"
           alt="banner"
         />
       </div>
