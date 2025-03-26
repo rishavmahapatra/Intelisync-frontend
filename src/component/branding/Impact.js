@@ -14,7 +14,7 @@ export default function Impact() {
     };
 
     return (
-        <div className="relative bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
+        <div className="relative bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
             <div className="text-left mb-12">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-[500px] leading-tight text-[#06FFFB]">
                     Strategic Branding Solutions for Unforgettable Impact

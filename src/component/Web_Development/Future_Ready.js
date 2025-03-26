@@ -3,7 +3,7 @@ import React from 'react';
 function FutureReady() {
   return (
     <div>
-      <section className="bg-[#000B18] text-white py-16 px-6 md:px-20 lg:px-32 w-full max-w-full">
+      <section className="bg-[#000B18] text-white py-8 px-6 md:px-20 lg:px-32 w-full max-w-full">
         <div className="max-w-4xl ">
           {/* Heading */}
           <h2 className="text-[24px]  font[500] sm:text-[26px] md:text-[30px] font-medium leading-[32px] sm:leading-[38px] md:leading-[45px] tracking-tight" style={{ color: "rgba(6, 255, 251, 1)" }}>
