@@ -25,7 +25,7 @@ border-image-slice: 1;
 }
 .nav_blur{
   /* backdrop-filter: blur(10px); */
-  background-color: black;
+  background-color: rgba(18, 18, 18, .5);
   
 }
 .glow-effect {
@@ -40,7 +40,7 @@ border-image-slice: 1;
   z-index: 0;
 }
 
-.custom-border {
+/* .custom-border {
   position: relative;
   width: 90%;
   height: 90%;
@@ -54,7 +54,40 @@ border-image-slice: 1;
   );
   border-image-slice: 1;
   clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+} */
+.border-custom {
+  position: relative;
+    border-radius: 24px;
+ 
 }
+
+.border-custom::before,
+.border-custom::after {
+  content: "";
+  position: absolute;
+  width: 50%; /* Half width to cover only corners */
+  height: 50%;
+  border: 2px solid #02C4EF; /* Border color */
+   
+}
+
+.border-custom::before {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-top-right-radius: 24px;
+}
+
+.border-custom::after {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+  border-bottom-left-radius: 24px;
+
+}
+
 
 .srvice-card{
 
@@ -62,4 +95,72 @@ border-image-slice: 1;
 }
 
 
+/* // Ownly Market Place start  */
+.hexagone {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
 
+/* text gradient  */
+.text-gradient {
+  background: linear-gradient(to top right, #0078B9, #00E3EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* // Ownly Market Place ends  */
+
+.moveToTop {
+  animation: moveToTop 2s infinite ;
+}
+
+.moveToBottom {
+  animation: moveToBottom 2s infinite ;
+  
+}
+
+@keyframes moveToTop {
+  0% {
+    z-index: 0;
+    transform: translateX(0);
+    opacity: 0.3;
+    transform: scale(0.5);
+  }
+
+  40% {
+    transform: translate(60%);
+    z-index: 0;
+  }
+
+  100% {
+    transform: scale(1);
+
+    transform: translateX(0);
+    z-index: 1000;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@keyframes moveToBottom {
+  0% {
+    transform: scale(1);
+    transform: translateX(0);
+    z-index: 1000;
+    opacity: 1;
+    z-index: 0;
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translate(-60%);
+    z-index: 0;
+  }
+
+  100% {
+    z-index: 0;
+    transform: translateX(0);
+    opacity: 0.3;
+    top: 40px;
+    left: 40px;
+  }
+}

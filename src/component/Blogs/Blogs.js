@@ -43,14 +43,12 @@ function Blog() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {blogs.map((post, index) => (
                         <motion.div
-                            key={index}
-                            ref={ref}
-                            initial={{ opacity: 0, scale: 0.5 }}
-                            animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
-                            transition={{ duration: 0.6, ease: "easeInOut" }}
-
-                            // read more button addjust 
-                            className="relative border-[1px] border-[rgba(0,143,183,1)] rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden pb-13 bg-[#141E29]"
+                        key={index}
+                        ref={ref}
+                        initial={{ opacity: 0, scale: 0.5 }}
+                        animate={isInView ? { opacity: 1, scale: 1 } :{}}
+                        transition={{ duration: 0.15, ease: "easeOut" }}
+                        className="relative border-[1px] border-[rgba(0,143,183,1)] rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden pb-13 bg-[#141E29]"
                         >
                             <div className="relative ">
                                 <Image

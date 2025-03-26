@@ -4,8 +4,14 @@ export default function AboutData() {
     ];
   
     return (
-      <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 relative flex items-center justify-center">
-        <div className="max-w-2xl">
+      <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 relative flex items-center justify-center ">
+        <div className="max-w-2xl relative ">
+          
+        {/*  background effect   */}
+        <div className="absolute w-[300px] h-[300px] blur-[100px] top-[0px] -left-50 rotate-[148.52deg] 
+                      bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
+         </div>
+
           <h2 className="font-poppins font-medium text-[30px] leading-[50px] tracking-tight  text-[#06FFF0] ">
             About Us
           </h2>

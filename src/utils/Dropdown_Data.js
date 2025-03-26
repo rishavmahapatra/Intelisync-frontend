@@ -32,9 +32,9 @@ export const Ourservicedata =[
 
 
   export const OurProductsData =[
-    {title: 'RWA',link: '/products/rwa'},
+    {title: 'RWA',link: '/products/rwa-1'},
     {title: 'GPU.net', link: '/products/gpunet'},
-    {title: 'Ownly Marketplace', link: '/products/marketplace'},
+    {title: 'Ownly Marketplace', link: '/products/OwnlyMarketPlace'},
     
   ]
   
