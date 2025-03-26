@@ -16,13 +16,13 @@ export default function Footer() {
     >
       <div className="absolute inset-0 top-13 border-t-2 sm:border-t-3 md:border-t-4 border-teal-600 
                 rounded-t-[100px] sm:rounded-t-[150px] md:rounded-t-[300px] -z-10 h-1/4 sm:h-1/3 md:h-1/2">
-</div>
+      </div>
 
       <div className="p-10 lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="w-[141px] h-[33px] relative">
             <Image
-              src="/photos/logo.png" 
+              src="/photos/logo.png"
               alt="Intelisync Logo"
               layout="intrinsic"
               width={141}
@@ -101,14 +101,14 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Services</h3>
           <ul className="space-y-3 text-gray-400 text-sm">
             {[
-              { name: "Artificial Intelligence (AI)", link: "/services/artificialpage" },
-              { name: "Growth Marketing", link: "/services/growthmarketing" },
-              { name: "Blockchain Services", link: "/services/blockchain" },
-              { name: "Public Relations", link: "/services/publicrelation" },
-              { name: "Strategic Advisory", link: "/services/strategic" },
-              { name: "Branding", link: "/services/brandingpage" },
-              { name: "Community Management", link: "/services/communityManagement" },
-              { name: "Influencer Marketing", link: "/services/InfluencerMarketing" },
+              { name: "Artificial Intelligence (AI)", link: "/services/ai-development-services/" },
+              { name: "Growth Marketing", link: "/services/growth-marketing-agency/" },
+              { name: "Blockchain Services", link: "/services/blockchain-development-services/" },
+              { name: "Public Relations", link: "/services/public-relation/" },
+              { name: "Strategic Advisory", link: "/services/strategy-advisor/" },
+              { name: "Branding", link: "/services/web3-branding-agency/" },
+              { name: "Community Management", link: "/services/web3-community-Management-agency/" },
+              { name: "Influencer Marketing", link: "/services/web3-influencer-marketing/" },
             ].map((item, index) => (
               <li key={index} className="hover:text-teal-400 transition-all">
                 <Link href={item.link} className="cursor-pointer hover:text-teal-400">

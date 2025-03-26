@@ -281,6 +281,11 @@ const page = () => {
       {/* <FAQSection/> */}
 
       {/* Blog and Our Exprt Guidance start  */}
+      <div className="text-center text-white mt-10">
+        <h2 className="min-[320px]:max-[480px]:text-[20px] text-[32px] leading-[26px] text-center inline-block relative after:content-[''] after:block after:h-[1px] after:w-full after:max-w-full after:bg-gradient-to-r after:from-[#07CDFF] after:to-[#06FFF0] after:absolute after:bottom-0 after:left-0 pb-4">
+        Blog- Our Expert Articles
+        </h2>
+      </div>
       <Blog />
       {/* Blog and Our Exprt Guidance ends */}
       {/* Contact Form Start  */}
