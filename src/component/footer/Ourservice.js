@@ -102,16 +102,15 @@ function Ourservice() {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="relative w-[341px] h-[300px] rounded-[25px] p-[2px] opacity-90  transition-all shadow-lg duration-300 group group-hover:backdrop-blur-sm hover:backdrop-blur-none hover:scale-105"
-                        >
+                            className="relative w-[341px] h-[300px] rounded-[25px] p-[2px] opacity-90  transition-all shadow-lg duration-300 group group-hover:backdrop-blur-sm hover:backdrop-blur-none hover:scale-105">
                             {/* Gradient Border */}
                             <div className="absolute inset-0 bg-gradient-to-r from-[#008EAA] via-[#4C4C4C] to-[#00EEDF] rounded-[25px]
-                  opacity-50 group-hover:opacity-100 transition-all duration-300"></div>
+                             opacity-50 group-hover:opacity-100 transition-all duration-300"></div>
  
                             {/* Card Content */}
                             <div className="relative w-full h-full bg-gradient-to-t from-[#252525] to-[#026a7f] rounded-[25px] p-6 flex flex-col gap-4  group-hover:blur-sm hover:blur-none
-                      group-hover:shadow-none hover:shadow-[0_0_20px_rgba(6,255,240,0.5)]
-                      transition-all duration-300">
+                                    group-hover:shadow-none hover:shadow-[0_0_20px_rgba(6,255,240,0.5)]
+                                    transition-all duration-300">
                                 {/* Icon and Title */}
                                 <div className="flex items-center gap-3">
                                     {service.icon}

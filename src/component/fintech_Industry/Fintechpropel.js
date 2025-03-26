@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function StayAhead() {
   return (
-    <section className="bg-[#000B18] text-white py-16 px-6 sm:px-10 md:px-12">
+    <section className="bg-[#000B18] text-white py-8 sm:py-8 px-6 sm:px-10 md:px-12">
       <div className="max-w-6xl mx-auto text-center md:text-left md:ml-20">
         <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-10">
           <span className="block font-bold font-poppins">

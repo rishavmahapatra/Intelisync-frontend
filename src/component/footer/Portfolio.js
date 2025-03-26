@@ -51,13 +51,13 @@ export default function Portfolio() {
 
       <div className="relative text-white font-medium text-center w-full max-w-6xl mx-auto">
 
-        <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[9rem] xl:text-[12rem]
+        <h2 className="absolute top-3 sm:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[9rem] xl:text-[12rem]
                 font-bold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
           PORTFOLIO
         </h2>
 
         {/* Portfolio Heading */}
-        <div className="relative text-white font-medium text-center mt-0">
+        <div className="relative text-white font-medium text-center mt-0 mb-6">
           <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
             <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
               Our Porfolio

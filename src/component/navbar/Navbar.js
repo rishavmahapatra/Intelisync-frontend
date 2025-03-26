@@ -17,16 +17,6 @@ export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState("");
   const [hoverIndex, setHoverIndex] = useState(null);
   const [show, handleShow] = useState(false);
-  const [global, setGlobal] = useState(false);
-
-  const [hoveredText, setHoveredText] = useState("");
-
-  const handleHover = (e) => {
-    setHoveredText(e.target.innerText); // Get inner text on hover
-  };
-  const handleHoverLeave = () => {
-    setHoveredText(""); // Get inner text on hover
-  };
 
   const transitionNavBar = () => {
     if (window.scrollY > 100) {
@@ -65,139 +55,21 @@ export default function Navbar() {
       }}
     >
       {data.map((item, index) => (
-        <div key={index} className="wrapper">
-          <li
-            key={index}
-            onMouseEnter={() => {
-              setHoverIndex(index);
-              console.log("the index is this ", index);
-              if (item.title == "Global Presence") {
-                setGlobal(true);
-              }
-            }}
-            onMouseLeave={() => {
-              setHoverIndex(null);
-              if (item.title == "Global Presence") {
-                setGlobal(false);
-              }
-            }}
-            className="relative z-40 flex items-center px-4 py-2 md:py-3 text-white transition
-           duration-300 cursor-pointer"
-          >
-            {hoverIndex === index && <GoArrowRight className="mr-2" />}
-            <Link href={item.link}>{item.title}</Link>
-            <motion.ul
-              initial={{ opacity: 0, y: -10, scale: 0.95 }}
-              animate={{ opacity: 1, y: 5, scale: 1 }}
-              exit={{ opacity: 0, y: -10, scale: 0.95 }}
-              transition={{ duration: 0.3, ease: "easeInOut" }}
-              // className="absolute left-0 md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg backdrop-blur-md"
-              style={{
-                background:
-                  "linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)",
-              }}
-            >
-              {/* { global &&  */}
-
-              {/* }  */}
-            </motion.ul>
-          </li>
-
-          <div
-            onMouseEnter={() => setGlobal(true)}
-            onMouseOver={() => setGlobal(true)}
-            onMouseLeave={() => setGlobal(false)}
-            className={`
-                 ${
-                   global && item.title == "Global Presence"
-                     ? "block"
-                     : "hidden"
-                 }
-              absolute  z-50 top-[50%] left-[100%] md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg backdrop-blur-[400px] py-[17px] px-[21px] bg-[linear-gradient(189.87deg,_rgba(16,64,115,0.55)_-3.49%,_rgba(3,240,226,0.55)_155.64%)]`}
-          >
-            {/* ${
-                item.title == "Global Presence" ? " block" : "hidden"
-              }  */}
-
-            <li className="group border-b h-fit relative z-[9999] border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer ">
-              <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${
-                  hoveredText === "India"
-                    ? "opacity-100 duration-200"
-                    : "opacity-0"
-                }`}
-              />
-              <span
-                onMouseEnter={handleHover}
-                onMouseLeave={handleHoverLeave}
-                className=""
-              >
-                India
-              </span>
-            </li>
-
-            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-              <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${
-                  hoveredText === "Dubai"
-                    ? "opacity-100 duration-200"
-                    : "opacity-0"
-                }`}
-              />
-              <span
-                onMouseEnter={handleHover}
-                onMouseLeave={handleHoverLeave}
-                className=""
-              >
-                Dubai
-              </span>
-            </li>
-
-            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-              <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${
-                  hoveredText === "United States (UK)"
-                    ? "opacity-100 duration-200"
-                    : "opacity-0"
-                }`}
-              />
-              <span
-                onMouseEnter={handleHover}
-                onMouseLeave={handleHoverLeave}
-                className=""
-              >
-                United States (UK)
-              </span>
-            </li>
-
-            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-              <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${
-                  hoveredText === "Riyadh"
-                    ? "opacity-100 duration-200"
-                    : "opacity-0"
-                }`}
-              />
-              <span
-                onMouseEnter={handleHover}
-                onMouseLeave={handleHoverLeave}
-                className=""
-              >
-                Riyadh
-              </span>
-            </li>
-          </div>
-        </div>
+        <li
+          key={index}
+          onMouseEnter={() => setHoverIndex(index)}
+          onMouseLeave={() => setHoverIndex(null)}
+          className="flex items-center px-4 py-2 md:py-3 text-white transition duration-300 cursor-pointer"
+        >
+          {hoverIndex === index && <GoArrowRight className="mr-2" />}
+          <Link href={item.link} onClick={() => { setMenuOpen(false); setDropdownOpen(''); }}>{item.title}</Link>
+        </li>
       ))}
     </motion.ul>
   );
 
   return (
-    <nav
-      className={` text-white py-4 w-full top-0 z-70 sticky ${
-        show && "nav_blur"
-      }`}
-    >
+    <nav className={` text-white py-4 w-full top-0 z-70 sticky ${show && "nav_blur"}`} >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 xl:px-0">
         <Link href="/">
           <div className="text-2xl font-bold cursor-pointer">
@@ -208,12 +80,7 @@ export default function Navbar() {
 
         <div className="max-lg:hidden lg:flex space-x-8 md:items-center lg:items-center xl:space-x-12 text-lg relative">
           <div className="relative group">
-            <Link
-              href="/company/aboutuspage"
-              className="cursor-pointer flex items-center gap-1 hover:text-teal-400"
-            >
-              Company
-            </Link>
+            <Link href="/company/aboutuspage" className="cursor-pointer flex items-center gap-1 hover:text-teal-400" >Company</Link>
             <div className="absolute inset-4 left-0 invisible group-hover:visible group-hover:pointer-events-auto">
               {renderDropdown(CompanyData)}
             </div>
@@ -281,48 +148,33 @@ export default function Navbar() {
 
       {menuOpen && (
         <div className="max-lg:block lg:hidden bg-[#020B17] text-white py-6 px-4 space-y-4">
-          <div
-            onClick={() => toggleDropdown("company")}
-            className="cursor-pointer flex items-center gap-1"
-          >
-            <Link href="/company/aboutuspage">Company</Link>
-            <FiChevronDown size={16} />
+          <div className="cursor-pointer flex items-center gap-1">
+            <Link href="/company/aboutuspage" onClick={() => setMenuOpen(false)}>Company</Link>
+            <FiChevronDown size={16} onClick={() => toggleDropdown('company')} />
           </div>
           {dropdownOpen === "company" && renderDropdown(CompanyData)}
 
-          <div
-            onClick={() => toggleDropdown("services")}
-            className="cursor-pointer flex items-center gap-1"
-          >
-            <Link href="/services">Our Services</Link>
-            <FiChevronDown size={16} />
+          <div className="cursor-pointer flex items-center gap-1">
+            <Link href="/services" onClick={() => setMenuOpen(false)}>Our Services</Link>
+            <FiChevronDown size={16} onClick={() => toggleDropdown('services')} />
           </div>
           {dropdownOpen === "services" && renderDropdown(Ourservicedata)}
 
-          <div
-            onClick={() => toggleDropdown("industry")}
-            className="cursor-pointer flex items-center gap-1"
-          >
-            <Link href="/Industry">Industry</Link>
-            <FiChevronDown size={16} />
+          <div className="cursor-pointer flex items-center gap-1">
+            <Link href="/Industry" onClick={() => setMenuOpen(false)}>Industry</Link>
+            <FiChevronDown size={16} onClick={() => toggleDropdown('industry')} />
           </div>
           {dropdownOpen === "industry" && renderDropdown(IndustryData)}
 
-          <Link href="/product" className="block hover:text-teal-400">
-            Our Products
-          </Link>
-          <Link href="/events" className="block hover:text-teal-400">
-            Events
-          </Link>
-          <Link href="/company/careers" className="block hover:text-teal-400">
-            Careers
-          </Link>
-          <Link href="/company/blog" className="block hover:text-teal-400">
-            Blog
-          </Link>
-          <Link href="/contact" className="block hover:text-teal-400">
-            Contact
-          </Link>
+          <div className="cursor-pointer flex items-center gap-1">
+            <Link href="/product" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Our Products</Link>
+            <FiChevronDown size={16} onClick={() => toggleDropdown('products')} />
+          </div>
+          {dropdownOpen === 'products' && renderDropdown(OurProductsData)}
+          <Link href="/events" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Events</Link>
+          <Link href="/company/careers" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Careers</Link>
+          <Link href="/company/blog" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Blog</Link>
+          <Link href="/contact" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Contact</Link>
         </div>
       )}
     </nav>

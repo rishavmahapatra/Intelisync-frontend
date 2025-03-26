@@ -19,6 +19,13 @@ export default function page() {
             <Aboutvision />
             <Aboutmission />
             <Badges />
+            <div className="text-center pt-16 md:hidden block">
+                <h2 className="text-[20px] md:text-2xl font-[500] text-white relative inline-block mb-6 pb-2 tracking-[-0.01%]">
+                    Trusted by Top Innovators
+                    <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-[#06FFF0] via-[#00aaff] to-[#0192BA]"></span>
+                </h2>
+            </div>
+            
              <div className="block md:hidden">
                                 <TrustedBrands />
                               </div>

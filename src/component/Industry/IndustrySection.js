@@ -9,7 +9,7 @@ export default function IndustrySection(){
         className="relative flex items-center justify-start  w-full h-screen text-white bg-[#020B17] z-10"
         >
             <div className="absolute -top-40 inset-0 bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat -z-10"></div>
-            <div className=" ml-10 pl-10 max-w-5xl">
+            <div className="pl-10 max-w-5xl">
                 <h1 className="  font-[500] md:text-[40px]  md:leading-[45px] tracking-[-0.01%]  min-[320px]:text-[35px] xs:leading-[10px]">
                   Industries with Next-Gen Solutions
                 </h1>
