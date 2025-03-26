@@ -1,15 +1,20 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { GoArrowRight } from 'react-icons/go';
-import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi';
-import { Ourservicedata, IndustryData, CompanyData, OurProductsData } from '@/utils/Dropdown_Data';
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { GoArrowRight } from "react-icons/go";
+import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+import {
+  Ourservicedata,
+  IndustryData,
+  CompanyData,
+  OurProductsData,
+} from "@/utils/Dropdown_Data";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState('');
+  const [dropdownOpen, setDropdownOpen] = useState("");
   const [hoverIndex, setHoverIndex] = useState(null);
   const [show, handleShow] = useState(false);
 
@@ -17,26 +22,25 @@ export default function Navbar() {
     if (window.scrollY > 100) {
       handleShow(true);
     } else handleShow(false);
-  }
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", transitionNavBar);
 
     return () => {
-      window.removeEventListener('scroll', transitionNavBar)
-    }
-  }, [])
-
+      window.removeEventListener("scroll", transitionNavBar);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => {
-      if (prev) setDropdownOpen('');
+      if (prev) setDropdownOpen("");
       return !prev;
     });
   };
 
   const toggleDropdown = (key) => {
-    setDropdownOpen((prev) => (prev === key ? '' : key));
+    setDropdownOpen((prev) => (prev === key ? "" : key));
   };
 
   const renderDropdown = (data) => (
@@ -44,9 +48,11 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -10, scale: 0.95 }}
       animate={{ opacity: 1, y: 5, scale: 1 }}
       exit={{ opacity: 0, y: -10, scale: 0.95 }}
-      transition={{ duration: 0.3, ease: 'easeInOut' }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
       className="absolute left-0 md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg backdrop-blur-md"
-      style={{ background: 'linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)' }}
+      style={{
+        background: "linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)",
+      }}
     >
       {data.map((item, index) => (
         <li
@@ -81,36 +87,57 @@ export default function Navbar() {
           </div>
 
           <div className="relative group">
-            <Link href="/services" className="cursor-pointer flex items-center gap-1 hover:text-teal-400">Our Services</Link>
+            <Link
+              href="/services"
+              className="cursor-pointer flex items-center gap-1 hover:text-teal-400"
+            >
+              Our Services
+            </Link>
             <div className="absolute inset-4 left-0 invisible group-hover:visible group-hover:pointer-events-auto">
               {renderDropdown(Ourservicedata)}
             </div>
           </div>
 
           <div className="relative group">
-            <Link href="/Industry" className="cursor-pointer flex items-center gap-1 hover:text-teal-400">Industry</Link>
+            <Link
+              href="/Industry"
+              className="cursor-pointer flex items-center gap-1 hover:text-teal-400"
+            >
+              Industry
+            </Link>
             <div className="absolute inset-4 left-0 invisible group-hover:visible group-hover:pointer-events-auto">
               {renderDropdown(IndustryData)}
             </div>
           </div>
 
-
           <div className="relative group">
-            <Link href="/Industry" className="cursor-pointer flex items-center gap-1 hover:text-teal-400">Our Products</Link>
+            <Link
+              href="/Industry"
+              className="cursor-pointer flex items-center gap-1 hover:text-teal-400"
+            >
+              Our Products
+            </Link>
             <div className="absolute inset-4 left-0 invisible group-hover:visible group-hover:pointer-events-auto">
               {renderDropdown(OurProductsData)}
             </div>
           </div>
 
-
-          <Link href="/events" className="hover:text-teal-400">Events</Link>
-          <Link href="/company/careers" className="hover:text-teal-400">Careers</Link>
-          <Link href="/company/blog" className="hover:text-teal-400">Blog</Link>
+          <Link href="/events" className="hover:text-teal-400">
+            Events
+          </Link>
+          <Link href="/company/careers" className="hover:text-teal-400">
+            Careers
+          </Link>
+          <Link href="/company/blog" className="hover:text-teal-400">
+            Blog
+          </Link>
         </div>
 
         <div className="max-lg:hidden lg:flex space-x-8 lg:items-center xl:space-x-12 text-lg relative">
           <Link href="/contact">
-            <button className="border border-teal-400 px-4 py-2 rounded-md hover:bg-teal-400 hover:text-black transition">Contact</button>
+            <button className="border border-teal-400 px-4 py-2 rounded-md hover:bg-teal-400 hover:text-black transition">
+              Contact
+            </button>
           </Link>
         </div>
 
@@ -125,19 +152,19 @@ export default function Navbar() {
             <Link href="/company/aboutuspage" onClick={() => setMenuOpen(false)}>Company</Link>
             <FiChevronDown size={16} onClick={() => toggleDropdown('company')} />
           </div>
-          {dropdownOpen === 'company' && renderDropdown(CompanyData)}
+          {dropdownOpen === "company" && renderDropdown(CompanyData)}
 
           <div className="cursor-pointer flex items-center gap-1">
             <Link href="/services" onClick={() => setMenuOpen(false)}>Our Services</Link>
             <FiChevronDown size={16} onClick={() => toggleDropdown('services')} />
           </div>
-          {dropdownOpen === 'services' && renderDropdown(Ourservicedata)}
+          {dropdownOpen === "services" && renderDropdown(Ourservicedata)}
 
           <div className="cursor-pointer flex items-center gap-1">
             <Link href="/Industry" onClick={() => setMenuOpen(false)}>Industry</Link>
             <FiChevronDown size={16} onClick={() => toggleDropdown('industry')} />
           </div>
-          {dropdownOpen === 'industry' && renderDropdown(IndustryData)}
+          {dropdownOpen === "industry" && renderDropdown(IndustryData)}
 
           <div className="cursor-pointer flex items-center gap-1">
             <Link href="/product" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Our Products</Link>

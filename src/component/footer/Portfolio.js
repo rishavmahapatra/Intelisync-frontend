@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Portfolio() {
   const images = [
-    { id: 1, src: "/portfolio.png", name: "IDEEZA" },
+    { id: 1, src: "/portfolio10.png", name: "IDEEZA" },
     { id: 2, src: "/portfolio1.png", name: "Angelverse" },
     { id: 3, src: "/portfolio2.png", name: "Laxce" },
     { id: 4, src: "/portfolio4.png", name: "Laughter Economy" },
@@ -42,7 +42,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center px-4 sm:px-6 md:px-12 lg:px-20   min-h-screen ">
+    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center px-4 sm:px-6 md:px-12 lg:px-20  my-12 sm:my-0 sm:min-h-screen ">
       {/* Gradient Effect */}
       <div
         className="absolute w-[150px] h-[500px] blur-[100px] top-[-20px] left-0 rotate-[148.52deg] 
