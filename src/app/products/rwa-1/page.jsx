@@ -11,7 +11,7 @@ import Blog from "@/component/Blogs/Blogs";
 const page = () => {
   return (
     // page wrapper start
-    <div className="h-[100vh] w-[100vw]  text-white overflow-x-hidden overflow-y-auto bg-[#020202] ">
+    <div className="h-[100vh] w-[100vw]  text-white overflow-x-hidden bg-[#020202] ">
 
       {/* herosection start  */}
       <ProductBanner />

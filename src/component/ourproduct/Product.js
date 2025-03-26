@@ -21,19 +21,19 @@ function Product() {
   }, [cards.length]);
 
   return (
-    <div className="relative min-h-screen bg-[#000B18] flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-12 ">
+    <div className="relative h-auto sm:min-h-screen bg-[#000B18] flex flex-col items-center justify-baseline sm:justify-center overflow-hidden px-4 sm:px-6 lg:px-12 ">
       <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
       </div>
 
       <div className="text-center relative mt-10">
-        <h2 className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[12rem]
+        <h2 className="absolute top-4 sm:top-15 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[12rem]
                 font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0">
           PRODUCTS
         </h2>
       </div>
 
-      <div className="relative px-5 py-6 text-white font-medium text-center">
+      <div className="relative px-5 py-1 sm:py-6 text-white font-medium text-center">
         <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
           <h2 className="text-[20px] sm:text-[24px] md:text-[28px] leading-[26px] tracking-tight font-semibold font-[Poppins] border-b border-white pb-2">
             Our Product
@@ -47,7 +47,7 @@ function Product() {
         </p>
       </div>
 
-      <div className="relative flex items-center justify-center w-full max-w-[95%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[70%] h-[400px] mt-10 overflow-hidden">
+      <div className="relative flex items-center justify-center w-full max-w-[95%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[70%] h-[400px] mt-2 sm:mt-10 overflow-hidden">
         {cards.map((card, index) => {
           const isActive = index === activeIndex;
           const position = (index - activeIndex + cards.length) % cards.length;

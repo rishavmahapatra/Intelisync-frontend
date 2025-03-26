@@ -35,7 +35,7 @@ function EventGallery() {
   const isInView = useInView(ref, { once: true, threshold: 0.2 });
 
   return (
-    <div className="bg-[#000B18] relative  text-white font-medium text-center min-h-screen py-20  ">
+    <div className="bg-[#000B18] relative  text-white font-medium text-center h-auto sm:min-h-screen pb-0 pt-10 sm:py-20  ">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, scale: 0.5 }}

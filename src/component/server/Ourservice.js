@@ -104,16 +104,16 @@ function Ourservice() {
         <div className="relative flex flex-col items-center justify-center text-center mb-10 w-full max-w-screen-xl mx-auto">
           {/* Large Background Text */}
           <h2
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[10rem] xl:text-[13rem] 
+            className="absolute top-5 sm:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[10rem] xl:text-[13rem] 
                 font-semibold uppercase tracking-wide text-transparent outline-text opacity-5 z-0"
           >
             SERVICES
           </h2>
 
           {/* Section Title */}
-          <div className="relative px-5 py-6 text-white font-medium z-10 text-center">
+          <div className="relative px-5 py-2 sm:py-6 text-white font-medium z-10 text-center">
             <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
-              <h2 className="text-lg sm:text-xl md:text-2xl leading-[26px] tracking-tight font-semibold font-[Poppins] border-b border-white pb-2">
+              <h2 className=" text-lg sm:text-xl md:text-2xl leading-[26px] tracking-tight font-semibold font-[Poppins] border-b border-white pb-2">
                 Our Services
               </h2>
             </div>
