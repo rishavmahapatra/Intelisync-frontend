@@ -64,7 +64,7 @@ export default function BadgesSection() {
             </motion.div>
           ))}
         </div>
-      </div>
-    </div>
+      </div>   
+    </div>  
   );
 }

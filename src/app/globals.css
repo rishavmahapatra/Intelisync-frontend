@@ -24,9 +24,10 @@ border-image-slice: 1;
   background-color: rgba(0,0,0,0.8);
 }
 .nav_blur{
-  /* backdrop-filter: blur(10px); */
-  background-color: rgba(18, 18, 18, .5);
-  
+  backdrop-filter: blur(10px); 
+  /* background-color: rgba(18, 18, 18, 0.5); */
+  background-color: rgba(30, 30, 30, 0.5);
+    
 }
 .glow-effect {
   position: absolute;
