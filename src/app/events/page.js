@@ -105,23 +105,23 @@ const page = () => {
   return (
     <div className="bg-white">
       {/* Banner Design Start */}
-      <div className="banner relative h-auto ma x-h-[665px]">
-        <div className="absolute bg-black top-0 right-0 left-0 w-full h-full opacity-40"></div>
+      <div className="banner relative h-[350px] sm:h-full ">
+        <div className="absolute z-10 bg-black top-0 right-0 left-0 w-full h-full opacity-40"></div>
 
         <div className="absolute top-[50%] left-7 text-white z-10 text-[60px]  sm:text-[90px] font-medium ">
           <h1> Event</h1>
         </div>
-        <Image
+        <img
           src="/Event/eventBanner.svg"
-          width={100}
-          height={100}
-          className="w-[100%] h-full"
+       
+          className="w-full object-cover h-full "
           alt="banner"
         />
       </div>
       {/* Banner Design end */}
+
       {/* MainSection Start */}
-      <div className="MainSection flex gap-9 p-5 font-medium h-[1000vh] mt-10">
+      <div className="MainSection flex gap-9 p-5 font-medium h-auto mt-10">
         <div className="left w-[20%] hidden lg:block bg -amber-100 p-5">
           {/* All filters Start */}
 
@@ -265,7 +265,7 @@ const page = () => {
           ) : (
             eventsCopy.map((monthData) => (
               <div key={monthData.month} className="EventDetails">
-                <h2 className="text-[35px] mt-6 font-medium">
+                <h2 className="text-[22px] sm:text-[35px] mt-6 font-medium">
                   {monthData.month}
                 </h2>
 
