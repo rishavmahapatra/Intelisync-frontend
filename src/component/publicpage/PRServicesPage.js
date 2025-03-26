@@ -14,7 +14,7 @@ export default function Artificialservice() {
   };
 
   return (
-    <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32">
+    <div className="bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
       <div className="text-left mb-12">
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight text-[#06FFFB]">
           Crypto Public Relations Agency to Elevate Your Brand

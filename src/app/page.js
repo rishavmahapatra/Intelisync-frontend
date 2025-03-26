@@ -9,23 +9,25 @@ import Event from "@/component/landingpage/Event";
 import Blog from "@/component//Blogs/Blogs";
 import Badges from "@/component/landingpage/Badges";
 import Client from "@/component/landingpage/Client";
-import {landingFaq} from "@/utils/FAQ_Data";
+import { landingFaq } from "@/utils/FAQ_Data";
 import Global from "@/component/landingpage/Global";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import FAQSection from "@/component/FAQ/FAQ";
 
 export const metadata = {
   title: "Intelisync | Web3 & Blockchain Marketing in Dubai",
-  description: "Intelisync helps brands grow with Web3, blockchain, and GenAI marketing. Explore new opportunities with Dubai’s leading Web3 agency",
+  description:
+    "Intelisync helps brands grow with Web3, blockchain, and GenAI marketing. Explore new opportunities with Dubai’s leading Web3 agency",
   // keywords: "Community Management Development Services",
   openGraph: {
-      title: "Intelisync | Web3 & Blockchain Marketing in Dubai",
-      description: "Intelisync helps brands grow with Web3, blockchain, and GenAI marketing. Explore new opportunities with Dubai’s leading Web3 agency",
-      url: "https://intelisync.ai/",
+    title: "Intelisync | Web3 & Blockchain Marketing in Dubai",
+    description:
+      "Intelisync helps brands grow with Web3, blockchain, and GenAI marketing. Explore new opportunities with Dubai’s leading Web3 agency",
+    url: "https://intelisync.ai/",
   },
   alternates: {
-      canonical: "https://intelisync.ai/",
-  }
+    canonical: "https://intelisync.ai/",
+  },
   // robots: "follow, index",
   // verification: {
   //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
@@ -34,21 +36,28 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div  >
-    <Section />
-    <Trusted />
-    <Section1 />
-    <Founder />
-    <Ourservice />
-    <Product />
-    <Portfolio />
-    <Event />
-    <Blog />
-    <Badges />
-    <Client />
-    <FAQSection faqs={landingFaq}/>
-    <ContactUs/>
-    <Global />
+    <div>
+      <Section />
+      <Trusted />
+      <Section1 />
+      <Founder />
+      <Ourservice />
+      <Product />
+      <Portfolio />
+      <Event />
+      <div className="flex justify-center">
+          <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
+            <h2 className="text-[24px] md:text-[30px] leading-[26px] tracking-tight  font-semibold font-[Poppins] border-b border-white pb-2">
+              Blog- Our Expert Articles
+            </h2>
+          </div>
+        </div>
+      <Blog />
+      <Badges />
+      <Client />
+      <FAQSection faqs={landingFaq} />
+      <ContactUs />
+      <Global />
     </div>
   );
 }

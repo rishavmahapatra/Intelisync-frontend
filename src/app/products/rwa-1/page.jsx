@@ -2,7 +2,7 @@ import ContactUs from "@/component/ContactUs/ContactUs";
 import ButtonAndDescription from "@/component/ProductPage/ButtonAndDescription";
 import ButtonTitle from "@/component/ProductPage/ButtonTitleWithMargin";
 import Features_card from "@/component/ProductPage/Features_card";
-import ProductBanner from "../../../component/ProductPage/ProductBanner"
+import ProductBanner from "../../../component/ProductPage/ProductBanner";
 import Rwa_works_card from "@/component/ProductPage/Rwa_works_card";
 // import { TokenizePropertiyData, WorkCardData } from "@/utils/Cards_Data";
 import { TokenizePropertiyData, WorkCardData } from "@/utils/Products_Data";
@@ -313,13 +313,17 @@ const page = () => {
       {/* FAQ's Ends  */}
 
       {/* Blog and Our Exprt Guidance start  */}
+      <div className="text-center text-white mt-10">
+        <h2 className="min-[320px]:max-[480px]:text-[20px] text-[32px] leading-[26px] text-center inline-block relative after:content-[''] after:block after:h-[1px] after:w-full after:max-w-full after:bg-gradient-to-r after:from-[#07CDFF] after:to-[#06FFF0] after:absolute after:bottom-0 after:left-0 pb-4">
+          Blog- Our Expert Articles
+        </h2>
+      </div>
       <Blog />
       {/* Blog and Our Exprt Guidance ends */}
 
       {/* Contact Form Start  */}
       <ContactUs />
       {/* COntact form ends  */}
-
     </div>
     // Page wrapper ends
   );
