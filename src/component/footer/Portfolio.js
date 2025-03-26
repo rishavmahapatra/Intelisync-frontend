@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Portfolio() {
   const images = [
-    { id: 1, src: "/portfolio.png", name: "IDEEZA" },
+    { id: 1, src: "/portfolio10.png", name: "IDEEZA" },
     { id: 2, src: "/portfolio1.png", name: "Angelverse" },
     { id: 3, src: "/portfolio2.png", name: "Laxce" },
     { id: 4, src: "/portfolio4.png", name: "Laughter Economy" },
