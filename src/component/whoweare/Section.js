@@ -145,7 +145,6 @@ function Section() {
                     </div>
 
                 </div>
-            </section>
         </div>
       </section>
     </div>
