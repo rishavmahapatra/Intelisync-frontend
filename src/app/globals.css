@@ -41,7 +41,7 @@ border-image-slice: 1;
   z-index: 0;
 }
 
-.custom-border {
+/* .custom-border {
   position: relative;
   width: 90%;
   height: 90%;
@@ -55,7 +55,28 @@ border-image-slice: 1;
   );
   border-image-slice: 1;
   clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+} */
+
+
+.border-gradient {
+  position: relative;
+  border-radius: 24px; /* Rounded corners */
+  padding: 2px;
+  border: linear-gradient(194.72deg, rgba(89, 220, 212, 0.01) 11.57%, rgba(26, 202, 232, 0.73475) 25.1%, #02C4EF 34.5%, #00FAFA 47.86%, #02C4EF 63.2%, rgba(151, 239, 253, 0.01) 92.73%);
 }
+
+.border-gradient::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: #00162a; /* Your card background */
+  border-radius: 22px; /* Should be slightly smaller than outer border */
+  z-index: -1;
+}
+
 
 .srvice-card{
 
