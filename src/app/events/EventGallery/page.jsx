@@ -11,10 +11,10 @@ const page = () => {
     <div className="max-w-[100vw] min-h-[100vh] text-white overflow-x-hidden bg-[#020202] ">
 
       {/* Event Banner start   */}
-      <div className="event-banner h-[35vh] sm:h-[90vh]">
+      <div className="event-banner h-screen [350px] sm:h-[90vh]">
         <img
           src="/EventGallery/EventGalleryBanner.svg"
-          className="object-cover w-[100%] h-[100%]"
+          className="object-cover  w-[100%] h-[100%]"
           alt=""
         />
       </div>
@@ -23,7 +23,7 @@ const page = () => {
       {EventGalleryImages.map((item,index) => (
         <div key={index} className="px-2">
           {/*  photo section button title start */}
-          <div  className="photoSection1 my-20 mt-28 flex justify-center items-center w-[100%] ">
+          <div  className="photoSection1 my-14 sm:my-20 flex justify-center items-center w-[100%] ">
             <EventGalleryButton buttonTitle={item.buttonTitle} gradientDirection={index % 2!=0 ? "left" : "right"} />
           </div>
           {/* /*  photo section button title ends  */}
@@ -44,7 +44,7 @@ const page = () => {
       ))}
 
       {/* contact us form start  */}
-      <div className="contactus my-12">
+      <div className="contactus my-10 sm:my-12">
       <ContactUs/>
       </div>
       {/* contact us form ends  */}
