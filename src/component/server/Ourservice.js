@@ -132,33 +132,37 @@ function Ourservice() {
                 </div>
 
                 {/* Services Grid */}
-                <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 md:gap-10 mt-6 px-2 md:px-6 w-full max-w-screen-xl mx-auto">
-                    {services.map((service, index) => (
-                        <div
-                            key={index}
-                            className="relative w-full max-w-[341px] min-h-[250px] sm:h-[319px] opacity-90 transition-all cursor-default shadow-lg group mx-auto rounded-3xl 
-                        hover:shadow-[4px_7px_22.7px_rgba(6,255,240,0.35)] hover:bg-gradient-to-bl hover:from-[#175351] hover:via-[#18374B] hover:to-[#24292B]"
-                        >
-                            {/* Border Effect */}
-                            <div className="relative w-full h-auto sm:h-full p-px rounded-3xl bg-gradient-to-bl from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
-                                {/* Inner Content */}
-                                <div
-                                    className="w-full h-[250px] sm:h-full p-6 flex flex-col gap-3 rounded-3xl bg-gradient-to-t from-[#081824] to-[#022932] 
-                            transition-all duration-300 group-hover:bg-gradient-to-bl group-hover:from-[#175351] group-hover:via-[#18374B] group-hover:to-[#24292B]">
-                                    <div className="flex items-center gap-3 min-h-[20%]">
-                                        {service.icon}
-                                        <Link href={service.link} className="text-lg font-semibold text-white">
-                                            {service.title}
-                                        </Link>
+                {/* Services Grid */}
+                <div className="relative w-full md:w-auto overflow-x-auto md:overflow-visible scrollbar-hide">
+                    <div className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 mt-6 px-2 md:px-6 w-full max-w-screen-xl mx-auto">
+                        {services.map((service, index) => (
+                            <div
+                                key={index}
+                                className="relative min-w-[80%] sm:min-w-[45%] md:min-w-0 max-w-[341px] min-h-[250px] sm:h-[319px] opacity-90 transition-all cursor-default shadow-lg group mx-auto rounded-3xl 
+        hover:shadow-[4px_7px_22.7px_rgba(6,255,240,0.35)] hover:bg-gradient-to-bl hover:from-[#175351] hover:via-[#18374B] hover:to-[#24292B]"
+                            >
+                                {/* Border Effect */}
+                                <div className="relative w-full h-auto sm:h-full p-px rounded-3xl bg-gradient-to-bl from-[#00EEDF] via-[#4C4C4C] to-[#008EAA]">
+                                    {/* Inner Content */}
+                                    <div
+                                        className="w-full h-[250px] sm:h-full p-6 flex flex-col gap-3 rounded-3xl bg-gradient-to-t from-[#081824] to-[#022932] 
+            transition-all duration-300 group-hover:bg-gradient-to-bl group-hover:from-[#175351] group-hover:via-[#18374B] group-hover:to-[#24292B]">
+                                        <div className="flex items-center gap-3 min-h-[20%]">
+                                            {service.icon}
+                                            <Link href={service.link} className="text-lg font-semibold text-white">
+                                                {service.title}
+                                            </Link>
+                                        </div>
+                                        <p className="text-gray-300 text-sm line-clamp-2 sm:line-clamp-none">
+                                            {service.description}
+                                        </p>
                                     </div>
-                                    <p className="text-gray-300 text-sm">{service.description}</p>
                                 </div>
                             </div>
-                        </div>
-
-
-                    ))}
+                        ))}
+                    </div>
                 </div>
+
             </section>
         </div>
     );
