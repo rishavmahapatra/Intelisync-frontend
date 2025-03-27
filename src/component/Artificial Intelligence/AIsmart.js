@@ -3,6 +3,7 @@
 import { Artificial } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function SmartSection() {
   const scrollRef = useRef(null);
@@ -21,7 +22,7 @@ export default function SmartSection() {
 
         </h2>
         <p className="text-[13px] sm:text-[16px] leading-[20px] tracking-tight text-gray-300 mt-2 max-w-3xl">
-            Boost efficiency and innovation with expert AI development services. Whether you are exploring artificial intelligence for beginners or seeking advanced solutions, our AI services company provides the right expertise.
+            Boost efficiency and innovation with expert AI development services. Whether you are exploring artificial intelligence for beginners or seeking advanced solutions, our <Link href='/services/blockchain-development-services/'>AI services</Link>  company provides the right expertise.
         </p>
 
 
