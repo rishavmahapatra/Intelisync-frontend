@@ -59,7 +59,7 @@ export default function Footer() {
               <a href="https://www.youtube.com/@intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
                 <FaYoutube className="text-lg text-[rgb(61,232,232)]" />
               </a>
-              <a href="https://www.reddit.com/user/Intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
+              <a href="https://www.reddit.com/user/intelisync_ai/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
                 <FaReddit className="text-lg text-[rgb(61,232,232)]" />
               </a>
               <a href="https://www.quora.com/profile/Intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
