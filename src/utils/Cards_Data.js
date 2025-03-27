@@ -43,118 +43,127 @@ export const BlockchainSolution = [
 
 
 export const services = [
-    {
-      title: "Artificial Intelligence (AI)",
-      description:
-        "Unlock efficiency and innovation with AI and machine learning models. Leverage natural language processing, computer vision, and intelligent automation to drive smarter business decisions.",
-    },
-    {
-      title: "Growth Marketing",
-      description:
-        "Social Media Management, Community Management, Influencers & AMAs, Campaigns & Activations & more.",
-    },
-    {
-      title: "Blockchain Services",
-      description:
-        "Build secure, scalable, and decentralized solutions with custom blockchain development, including smart contracts, tokenization, multi-chain interoperability, and DeFi integration to power the future of digital innovation.",
-    },
-    {
-      title: "Public Relations",
-      description:
-        "Enhance your brand’s reputation and visibility with strategic PR campaigns, media outreach, crisis management, and influencer collaborations, ensuring impactful storytelling and strong industry presence.",
-    },
-    {
-      title: "Strategic Advisory",
-      description:
-        "Personalized advisory services designed to help you overcome the challenges that come with running a successful business.",
-    },
-    {
-      title: "Branding",
-      description:
-        "Craft a powerful and distinctive brand identity with strategic positioning, compelling storytelling, and cutting-edge design, ensuring your brand stands out in the digital era.",
-    },
-    {
-      title: "Community Management",
-      description:
-        "Build a vibrant, loyal community with proactive engagement and meaningful interactions. Our community management services enhance brand trust, improve customer retention, and turn followers into long-term brand advocates.",
-    },
-    {
-      title: "Influencer Marketing",
-      description:
-        "Boost your brand’s visibility with tailored influencer marketing strategies. We connect you with influencers who align with your brand, helping to expand reach, drive engagement, and increase brand trust with your target audience.",
-    },
-    {
-      title: "Web App Development",
-      description:
-        "Elevate your online presence with innovative, user-centric web design from a proven web development company. We specialize in creating high-performing, visually captivating websites that reflect your brand’s identity and drive engagement.",
-    },
-  ];
+  {
+    title: "Artificial Intelligence (AI)",
+    description:
+      "Unlock efficiency and innovation with AI and machine learning models. Leverage natural language processing, computer vision, and intelligent automation to drive smarter business decisions.",
+    link: "/services/ai-development-services",
+  },
+  {
+    title: "Growth Marketing",
+    description:
+      "Social Media Management, Community Management, Influencers & AMAs, Campaigns & Activations & more.",
+    link: "/services/growth-marketing-agency"
+  },
+  {
+    title: "Blockchain Services",
+    description:
+      "Build secure, scalable, and decentralized solutions with custom blockchain development, including smart contracts, tokenization, multi-chain interoperability, and DeFi integration to power the future of digital innovation.",
+    link: "/services/blockchain-development-services"
+  },
+  {
+    title: "Public Relations",
+    description:
+      "Enhance your brand’s reputation and visibility with strategic PR campaigns, media outreach, crisis management, and influencer collaborations, ensuring impactful storytelling and strong industry presence.",
+    link: "/services/public-relation"
+  },
+  {
+    title: "Strategic Advisory",
+    description:
+      "Personalized advisory services designed to help you overcome the challenges that come with running a successful business.",
+    link: "/services/strategy-advisor"
+  },
+  {
+    title: "Branding",
+    description:
+      "Craft a powerful and distinctive brand identity with strategic positioning, compelling storytelling, and cutting-edge design, ensuring your brand stands out in the digital era.",
+    link: "/services/web3-branding-agency/"
+  },
+  {
+    title: "Community Management",
+    description:
+      "Build a vibrant, loyal community with proactive engagement and meaningful interactions. Our community management services enhance brand trust, improve customer retention, and turn followers into long-term brand advocates.",
+    link: "/services/web3-community-Management-agency"
+  },
+  {
+    title: "Influencer Marketing",
+    description:
+      "Boost your brand’s visibility with tailored influencer marketing strategies. We connect you with influencers who align with your brand, helping to expand reach, drive engagement, and increase brand trust with your target audience.",
+    link: "/services/web3-influencer-marketing/"
+  },
+  {
+    title: "Web App Development",
+    description:
+      "Elevate your online presence with innovative, user-centric web design from a proven web development company. We specialize in creating high-performing, visually captivating websites that reflect your brand’s identity and drive engagement.",
+    link: "/services/web-app-development/"
+  },
+];
 
-  export const CommunityManagementservices = [
-    {
-      title: "Group Setup & Management",
-      description:
-        "We'll set up and manage your Discord or Telegram community, establishing rules, setting guidelines, implementing moderation tools, and integrating bots for smooth operation.",
-    },
-    {
-      title: "Content Creation & Curation",
-      description:
-        "Our team will craft engaging content like announcements, updates, guides, and FAQs to keep your community informed and excited about your project.",
-    },
-    {
-      title: "Member Engagement",
-      description:
-        "We actively engage with your members, answer questions, resolve issues, and create a welcoming space for all.",
-    },
-    {
-      title: "Community Growth",
-      description:
-        "We focus on attracting new, high-value members to expand your community and amplify your project’s reach.",
-    },
-    {
-      title: "Event Planning & Execution",
-      description:
-        "From AMAs and webinars to virtual meetups, we'll organize events that allow your team to connect directly with your audience and foster deeper engagement.",
-    },
-    {
-      title: "Partnership & Collaboration Management",
-      description:
-        "Build strategic partnerships to strengthen your community and brand. We identify and manage collaborations with influencers, projects, and industry leaders to boost visibility and enhance engagement opportunities.",
-    },
-  ];
+export const CommunityManagementservices = [
+  {
+    title: "Group Setup & Management",
+    description:
+      "We'll set up and manage your Discord or Telegram community, establishing rules, setting guidelines, implementing moderation tools, and integrating bots for smooth operation.",
+  },
+  {
+    title: "Content Creation & Curation",
+    description:
+      "Our team will craft engaging content like announcements, updates, guides, and FAQs to keep your community informed and excited about your project.",
+  },
+  {
+    title: "Member Engagement",
+    description:
+      "We actively engage with your members, answer questions, resolve issues, and create a welcoming space for all.",
+  },
+  {
+    title: "Community Growth",
+    description:
+      "We focus on attracting new, high-value members to expand your community and amplify your project’s reach.",
+  },
+  {
+    title: "Event Planning & Execution",
+    description:
+      "From AMAs and webinars to virtual meetups, we'll organize events that allow your team to connect directly with your audience and foster deeper engagement.",
+  },
+  {
+    title: "Partnership & Collaboration Management",
+    description:
+      "Build strategic partnerships to strengthen your community and brand. We identify and manage collaborations with influencers, projects, and industry leaders to boost visibility and enhance engagement opportunities.",
+  },
+];
 
-  export const MarketingStrategies = [
-    "Attract and captivate new audiences with engaging, high-value content.",
-    "Strengthen brand credibility and position your business as an authority in your niche.",
-    "Drive high-impact ICO marketing campaigns to enhance visibility and raise capital.",
-    "Break through ad fatigue with innovative techniques that optimize marketing ROI and boost conversions.",
+export const MarketingStrategies = [
+  "Attract and captivate new audiences with engaging, high-value content.",
+  "Strengthen brand credibility and position your business as an authority in your niche.",
+  "Drive high-impact ICO marketing campaigns to enhance visibility and raise capital.",
+  "Break through ad fatigue with innovative techniques that optimize marketing ROI and boost conversions.",
 ];
 
 export const InfluencerMarketingservices = [
-    {
-        title: "Create Authentic, Engaging Content",
-        description: "Leverage influencer-driven content that resonates with your target audience and boosts brand engagement."
-    },
-    {
-        title: "Expand Audience Reach",
-        description: "Connect with influencers who can tap into new, highly engaged audiences to increase brand visibility and awareness."
-    },
-    {
-        title: "Enhance Brand Credibility",
-        description: "Build trust by partnering with influencers who have authentic connections and authority in your niche."
-    },
-    {
-        title: "Maximize ROI with Data-Driven Strategies",
-        description: "Use actionable insights to optimize influencer campaigns for higher engagement, increased conversions, and measurable business growth."
-    },
-    {
-        title: "Multi-Channel Promotion",
-        description: "Amplify your brand’s message across multiple platforms with coordinated influencer campaigns."
-    },
-    {
-        title: "Influencer Performance Tracking",
-        description: "Monitor and analyze influencer campaign performance with real-time data and detailed insights."
-    }
+  {
+    title: "Create Authentic, Engaging Content",
+    description: "Leverage influencer-driven content that resonates with your target audience and boosts brand engagement."
+  },
+  {
+    title: "Expand Audience Reach",
+    description: "Connect with influencers who can tap into new, highly engaged audiences to increase brand visibility and awareness."
+  },
+  {
+    title: "Enhance Brand Credibility",
+    description: "Build trust by partnering with influencers who have authentic connections and authority in your niche."
+  },
+  {
+    title: "Maximize ROI with Data-Driven Strategies",
+    description: "Use actionable insights to optimize influencer campaigns for higher engagement, increased conversions, and measurable business growth."
+  },
+  {
+    title: "Multi-Channel Promotion",
+    description: "Amplify your brand’s message across multiple platforms with coordinated influencer campaigns."
+  },
+  {
+    title: "Influencer Performance Tracking",
+    description: "Monitor and analyze influencer campaign performance with real-time data and detailed insights."
+  }
 ];
 
 export const StrategicCards = [
@@ -262,7 +271,7 @@ export const Artificial = [
     title: "AI Solutions for Business \n Innovation",
     description:
       "Our AI services help businesses leverage artificial intelligence to automate processes, optimize operations, and drive strategic decision-making. We provide customized solutions that deliver measurable impact and drive long-term success."
-},
+  },
 
   {
     title: "Data-Driven Insights  \n & Analytics",
@@ -341,7 +350,7 @@ export const Webdevelopment = [
 
 
 
-export const Crypto =[
+export const Crypto = [
   {
     title: "ICO Marketing",
     description:
@@ -376,34 +385,34 @@ export const Crypto =[
 
 export const IndustryOurservices = [
   {
-      title: "FinTech",
-      description:
-          "Drive growth and profitability with data-driven fintech marketing. Strengthen your brand, attract high-quality leads, and enhance customer engagement.",
+    title: "FinTech",
+    description:
+      "Drive growth and profitability with data-driven fintech marketing. Strengthen your brand, attract high-quality leads, and enhance customer engagement.",
   },
   {
-      title: "Healthcare",
-      description:
-          "Boost patient acquisition and engagement with tailored healthcare marketing. Build trust, establish authority, and connect with the right audience.",
+    title: "Healthcare",
+    description:
+      "Boost patient acquisition and engagement with tailored healthcare marketing. Build trust, establish authority, and connect with the right audience.",
   },
   {
-      title: "Gaming",
-      description:
-          "Expand your player base and maximize in-game revenue with strategic marketing. Leverage targeted campaigns to enhance engagement.",
+    title: "Gaming",
+    description:
+      "Expand your player base and maximize in-game revenue with strategic marketing. Leverage targeted campaigns to enhance engagement.",
   },
   {
-      title: "Crypto",
-      description:
-          "Accelerate your crypto projects with expert marketing strategies. Navigate the evolving blockchain landscape with confidence.",
+    title: "Crypto",
+    description:
+      "Accelerate your crypto projects with expert marketing strategies. Navigate the evolving blockchain landscape with confidence.",
   },
   {
-      title: "Startup",
-      description:
-          "Scale your startup with growth-focused marketing solutions. Build brand awareness, engage customers, and drive sustainable success.",
+    title: "Startup",
+    description:
+      "Scale your startup with growth-focused marketing solutions. Build brand awareness, engage customers, and drive sustainable success.",
   },
   {
-      title: "Small Business",
-      description:
-          "Unlock your small business’s full potential with strategic marketing. Increase visibility, attract customers, and boost long-term growth.",
+    title: "Small Business",
+    description:
+      "Unlock your small business’s full potential with strategic marketing. Increase visibility, attract customers, and boost long-term growth.",
   },
 ];
 
@@ -442,7 +451,7 @@ export const HealthcareCards = [
       "Display Advertising",
       "Email Campaigns",
       "SEO for Fintech",
-     
+
     ],
   },
   {
@@ -499,11 +508,11 @@ export const HealthcareCards = [
       "Fintech PR",
     ],
   },
-  
-  
+
+
 ];
 
-export const SmallBusinessCard= [
+export const SmallBusinessCard = [
   {
     title: "Social Media",
     items: [
@@ -767,33 +776,33 @@ export const StartupData = [
 
 export const Brandingcards = [
   {
-      title: "Social media branding",
-      description:
-          "From vision to execution, we help you develop and implement actionable strategies that achieve measurable results. Our approach ensures that your business strategy is effective and aligned with your long-term goals."
+    title: "Social media branding",
+    description:
+      "From vision to execution, we help you develop and implement actionable strategies that achieve measurable results. Our approach ensures that your business strategy is effective and aligned with your long-term goals."
   },
   {
-      title: "Website branding",
-      description:
-          "Build a website that converts leads into loyal customers with our expert design and marketing strategies. We create cross-platform sites that boost brand exposure and drive growth."
+    title: "Website branding",
+    description:
+      "Build a website that converts leads into loyal customers with our expert design and marketing strategies. We create cross-platform sites that boost brand exposure and drive growth."
   },
   {
-      title: "NFT Branding",
-      description:
-          "Prepare for the unexpected with our proactive crisis management services. We develop and execute crisis response strategies that protect your brand’s reputation, minimize negative impact, and rebuild trust with key stakeholders."
+    title: "NFT Branding",
+    description:
+      "Prepare for the unexpected with our proactive crisis management services. We develop and execute crisis response strategies that protect your brand’s reputation, minimize negative impact, and rebuild trust with key stakeholders."
   },
   {
-      title: "Community-driven Branding",
-      description:
-          "Focuses on building a brand with the active participation and contribution of the community, leveraging Web3's emphasis on peer-to-peer collaboration."
+    title: "Community-driven Branding",
+    description:
+      "Focuses on building a brand with the active participation and contribution of the community, leveraging Web3's emphasis on peer-to-peer collaboration."
   },
   {
-      title: "Metaverse Branding",
-      description:
-          "Position your brand as an industry leader with our thought leadership services. We craft compelling narratives, develop executive visibility plans, and publication opportunities to enhance your brand’s authority and influence."
+    title: "Metaverse Branding",
+    description:
+      "Position your brand as an industry leader with our thought leadership services. We craft compelling narratives, develop executive visibility plans, and publication opportunities to enhance your brand’s authority and influence."
   },
   {
-      title: "DAO (Decentralized Autonomous Organization) Branding",
-      description:
-          "Building a brand around the principles of DAOs, where community members have a direct role in decision-making and governance."
+    title: "DAO (Decentralized Autonomous Organization) Branding",
+    description:
+      "Building a brand around the principles of DAOs, where community members have a direct role in decision-making and governance."
   },
 ];

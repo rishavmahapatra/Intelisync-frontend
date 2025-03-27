@@ -21,7 +21,7 @@ export const Ourservicedata =[
  
   export const CompanyData =[
     {title: 'About Us', link: '/company/aboutuspage'},
-    {title: 'Event Gallery', link: '/events/gallery'},
+    {title: 'Event Gallery', link: '/events/EventGallery'},
     {title: 'Careers',link: '/company/careers'}, 
     {title: 'Global Presence', link: '/company/blog'},
     {title: 'Blog', link: '/company/blog'},
@@ -36,6 +36,14 @@ export const Ourservicedata =[
     {title: 'GPU.net', link: '/products/gpunet'},
     {title: 'Ownly Marketplace', link: '/products/OwnlyMarketPlace'},
     
+  ]
+
+  export const globalPresenceData =[
+    {title: 'Singapore',link: '/singapore'},
+    {title: 'Dubai', link: '/dubai'},
+    {title: 'UK', link: '/uk'},
+    {title: 'Riyadh', link: '/riyadh'},
+    {title: 'Boston', link: '/boston'},
   ]
   
 

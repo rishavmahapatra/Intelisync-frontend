@@ -4,12 +4,12 @@ import React from 'react'
 
 function GlobalData() {
     const locations = [
-        { name: "Dubai-UAE", image: "/image26.png", text:'Pune Pan card club' },
-        { name: "Singapore", image: "/image25.png" },
-        { name: "Boston", image: "/image24.png" },
-        { name: "London-United Kingdom", image: "/image23.png" },
-        { name: "Riyadh", image: "/image21.png" },
-        { name: "India-Pune", image: "/image22.png" },
+        { name: "Dubai-UAE", image: "/image26.png", text:'Web3 Marketing in Dubai' },
+        { name: "Singapore", image: "/image25.png",text:'Web3 Marketing in Singapore' },
+        { name: "Boston", image: "/image24.png" ,text:'Web3 Marketing in Boston'},
+        { name: "London-United Kingdom", image: "/image23.png",text:'Web3 Marketing in United Kingdom' },
+        { name: "Riyadh", image: "/image21.png",text:'Web3 Marketing in Riyadh' },
+        { name: "India-Pune", image: "/image22.png",text:'Web3 Marketing in India' },
     ]; 
   return (
     <div className='relative bg-[#000B18] '>
@@ -29,7 +29,7 @@ function GlobalData() {
                             <div key={index} className="bg-gray-900 border border-gray-700  rounded-2xl p-4 shadow-lg flex flex-col items-center">
                                 <img
                                     src={location.image}
-                                    alt={location.name}
+                                    alt={location.text}
                                     className="w-40 h-70 object-cover rounded-lg"
                                 />
                                 <p className="text-white text-center mt-2 font-semibold">{location.name}</p>

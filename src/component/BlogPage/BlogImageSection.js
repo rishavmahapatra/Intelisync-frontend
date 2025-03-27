@@ -22,7 +22,7 @@ export default function BlogImageSection({ blogs, categories, selectedCategory }
                 <ul className="space-y-4 text-gray-700 flex flex-col items-left"> 
                     {categories.map((category, index) => (
                         <li key={index} className="cursor-pointer hover:text-black">
-                            <Link href={`?category=${category}`} className="block">
+                            <Link href='' className="block">
                                 {category}
                             </Link>
                         </li>

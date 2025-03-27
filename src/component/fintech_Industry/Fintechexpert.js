@@ -19,15 +19,15 @@ export default function FintechSection(){
         {/* Left Column */}
         <div className="space-y-8 sm:space-y-12">
           <div className="flex items-center space-x-4 sm:space-x-5">
-            <Image src="/photos/expert1.png" alt="Expert 1" width={40} height={40} />
+            <Image src="/photos/expert1.png" alt="Fintech Marketing Agency" width={40} height={40} />
             <p className="font-poppins text-[16px] sm:text-[18px]">Boost website traffic and enhance lead conversion.</p>
           </div>
           <div className="flex items-center space-x-4 sm:space-x-5">
-            <Image src="/photos/expert2.png" alt="Expert 2" width={40} height={40} />
+            <Image src="/photos/expert2.png" alt="Fintech Marketing Agency" width={40} height={40} />
             <p className="font-poppins text-[16px] sm:text-[18px]">Build trust and establish authority in your industry.</p>
           </div>
           <div className="flex items-center space-x-4 sm:space-x-5">
-            <Image src="/photos/expert3.png" alt="Expert 3" width={40} height={40} />
+            <Image src="/photos/expert3.png" alt="Fintech Marketing Agency" width={40} height={40} />
             <p className="font-poppins text-[16px] sm:text-[18px]">Increase revenue and maximize business profitability.</p>
           </div>
         </div>

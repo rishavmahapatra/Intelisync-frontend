@@ -10,6 +10,7 @@ import {
   IndustryData,
   CompanyData,
   OurProductsData,
+  globalPresenceData,
 } from "@/utils/Dropdown_Data";
 
 export default function Navbar() {
@@ -18,6 +19,14 @@ export default function Navbar() {
   const [hoverIndex, setHoverIndex] = useState(null);
   const [show, handleShow] = useState(false);
   const [global, setGlobal] = useState(false);
+  const [nestedDropDown, setNestedDropDown] = useState(false)
+
+  const menuItems = [
+    { key: "company", title: "Company", data: CompanyData, link: '/company/aboutuspage' },
+    { key: "services", title: "Services", data: Ourservicedata, link: '/services' },
+    { key: "industry", title: "Industry", data: IndustryData, link: '/Industry' },
+    { key: "products", title: "Our Products", data: OurProductsData, link: '' },
+  ];
 
   const [hoveredText, setHoveredText] = useState("");
 
@@ -235,7 +244,7 @@ export default function Navbar() {
 
           <div className="relative group">
             <Link
-              href="/Industry"
+              href=""
               className="cursor-pointer flex items-center gap-1 hover:text-teal-400"
             >
               Our Products
@@ -270,36 +279,93 @@ export default function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className="max-lg:block lg:hidden bg-[#020B17] text-white py-6 px-4 space-y-4">
-          <div className="cursor-pointer flex items-center gap-1">
-            <Link href="/company/aboutuspage" onClick={() => setMenuOpen(false)}>Company</Link>
-            <FiChevronDown size={16} onClick={() => toggleDropdown('company')} />
-          </div>
-          {dropdownOpen === "company" && renderDropdown(CompanyData)}
+        <div className="lg:hidden bg-[#020B17] text-white py-6 px-4 ">
+          {menuItems.map((item) => (
+            <div key={item.key} className="mb-2">
+              <div
+                className="flex justify-between items-center cursor-pointer py-2 font-medium"
 
-          <div className="cursor-pointer flex items-center gap-1">
-            <Link href="/services" onClick={() => setMenuOpen(false)}>Our Services</Link>
-            <FiChevronDown size={16} onClick={() => toggleDropdown('services')} />
-          </div>
-          {dropdownOpen === "services" && renderDropdown(Ourservicedata)}
+              >
+                <Link href={item?.link} className={dropdownOpen === item.key ? "text-white-600" : ""} onClick={() => {
+                  setMenuOpen(false);
+                  setDropdownOpen("");
+                }}
+                >{item.title}</Link>
+                <FiChevronDown
+                  size={16}
+                  className={`transition-transform ${dropdownOpen === item.key ? "rotate-180 text-white-600" : ""
+                    }`} onClick={() => toggleDropdown(item.key)}
+                />
+              </div>
+              {dropdownOpen === item.key && (
+                <ul className="ml-4 border-l border-gray-300 pl-3 space-y-2">
+                  {item.data.map((subItem, index) => (
+                    <li key={index}>
+                      <div className="flex justify-between items-center">
+                        <Link href={subItem.link} className="block py-1 text-white-700" onClick={() => {
+                          setMenuOpen(false);
+                          setDropdownOpen("");
+                        }}
+                        >
+                          {subItem.title}
+                        </Link>
+                        {
+                          subItem.title === "Global Presence" && (
+                            <FiChevronDown
+                              size={16}
+                              className={`transition-transform ${nestedDropDown ? "rotate-180 text-white-600" : ""
+                                }`} onClick={() => setNestedDropDown(!nestedDropDown)}
+                            />
+                          )
+                        }
+                      </div>
+                      {subItem.title === "Global Presence" &&
+                        nestedDropDown && (
+                          <ul className="ml-4 border-l border-gray-300 pl-3 space-y-2">
+                            {globalPresenceData.map((country, idx) => (
+                              <li key={idx}>
+                                <Link
+                                  href={country.link}
+                                  className="block py-1 text-white-500"
+                                  onClick={() => {
+                                    setMenuOpen(false);
+                                    setDropdownOpen("");
+                                    setNestedDropDown(false);
+                                  }}
+                                >
+                                  {country.title}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
 
-          <div className="cursor-pointer flex items-center gap-1">
-            <Link href="/Industry" onClick={() => setMenuOpen(false)}>Industry</Link>
-            <FiChevronDown size={16} onClick={() => toggleDropdown('industry')} />
-          </div>
-          {dropdownOpen === "industry" && renderDropdown(IndustryData)}
-
-          <div className="cursor-pointer flex items-center gap-1">
-            <Link href="/product" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Our Products</Link>
-            <FiChevronDown size={16} onClick={() => toggleDropdown('products')} />
-          </div>
-          {dropdownOpen === 'products' && renderDropdown(OurProductsData)}
-          <Link href="/events" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Events</Link>
-          <Link href="/company/careers" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Careers</Link>
-          <Link href="/company/blog" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Blog</Link>
-          <Link href="/contact" className="block hover:text-teal-400" onClick={() => setMenuOpen(false)}>Contact</Link>
+          {/* Other Links */}
+          <Link href="/events" className="block py-2" onClick={() => {
+            setMenuOpen(false);
+            setDropdownOpen("");
+          }}>Events</Link>
+          <Link href="/company/careers" className="block py-2" onClick={() => {
+            setMenuOpen(false);
+            setDropdownOpen("");
+          }}>Careers</Link>
+          <Link href="/company/blog" className="block py-2" onClick={() => {
+            setMenuOpen(false);
+            setDropdownOpen("");
+          }}>Blog</Link>
+          <Link href="/contact" className="block py-2" onClick={() => {
+            setMenuOpen(false);
+            setDropdownOpen("");
+          }} >Contact</Link>
         </div>
       )}
+
     </nav>
   );
 }

@@ -7,7 +7,7 @@ export default function BlogBanner() {
         <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
             <Image 
                 src="/Blog_Assets/BlogImage.webp"
-                alt="Blog Banner"
+                alt="Web3 Marketing"
                 fill
                 className="object-cover"
                 priority

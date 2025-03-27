@@ -18,7 +18,7 @@ export default function GamingMarketingSection() {
                 
                 {/* Left Side - Image */}
                 <div className="w-[70px] sm:w-[80px] h-[70px] sm:h-[80px] flex justify-center md:justify-start">
-                    <Image src="/gamingMarketingLogo.png" alt="Gaming Icon" width={64} height={64} />
+                    <Image src="/gamingMarketingLogo.png" alt="Gaming Marketing Solutions" width={64} height={64} />
                 </div>
 
                 {/* Right Side - Text */}

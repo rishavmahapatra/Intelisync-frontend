@@ -3,6 +3,7 @@
 import { services } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function OurServices() {
   const scrollRef = useRef(null);
@@ -37,9 +38,9 @@ export default function OurServices() {
                 key={index}
                 className="bg-[#001e2a] border-b border-cyan-400 rounded-2xl p-6 text-left transition-all duration-500 hover:shadow-[0px_0_15px_0px] hover:bg-gradient-to-b from-[#000B18] to-[rgba(0,11,24,0.3)] hover:shadow-cyan-400 min-w-[280px] sm:min-w-[300px] md:min-w-0"
               >
-                <h3 className="text-[19px] font-semibold leading-[30px] tracking-[-0.01em]">
+                <Link href={service.link} className="text-[19px] font-semibold leading-[30px] tracking-[-0.01em]">
                   {service.title}
-                </h3>
+                </Link>
                 <p className="mt-2 text-[13px] leading-[20px] text-gray-300 tracking-[-0.01em]">
                   {service.description}
                 </p>
