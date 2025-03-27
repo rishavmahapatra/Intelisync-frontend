@@ -4,12 +4,12 @@ import React from "react";
 
 // Importing images from the same path
 const globals = [
-  { id: 1, name: "Dubai - UAE", image: "/photos/global1.webp" },
-  { id: 2, name: "Singapore", image: "/photos/global2.webp" },
-  { id: 3, name: "Boston", image: "/photos/global3.webp" },
-  { id: 4, name: "London - United Kingdom", image: "/photos/global5.webp" },
-  { id: 5, name: "Riyadh", image: "/photos/global4.webp" },
-  { id: 6, name: "India-Pune", image: "/photos/shanivarwada.png" },
+  { id: 1, name: "Dubai - UAE", image: "/photos/global1.webp", text: 'Web3 Marketing in Dubai' },
+  { id: 2, name: "Singapore", image: "/photos/global2.webp", text: 'Web3 Marketing in Singapore' },
+  { id: 3, name: "Boston", image: "/photos/global3.webp", text: 'Web3 Marketing in Boston' },
+  { id: 4, name: "London - United Kingdom", image: "/photos/global5.webp", text: 'Web3 Marketing in United Kingdom' },
+  { id: 5, name: "Riyadh", image: "/photos/global4.webp", text: 'Web3 Marketing in Riyadh' },
+  { id: 6, name: "India-Pune", image: "/photos/shanivarwada.png", text: 'Web3 Marketing in India' },
 ];
 
 function GlobalCard({ location }) {
@@ -18,10 +18,10 @@ function GlobalCard({ location }) {
       {/* Using Next.js <Image> component */}
       <Image
         src={location.image}
-        alt={location.name}
+        alt={location.text}
         width={300} // Default size
         height={400}
-        className="rounded-lg object-cover w-[95%] max-w-[250px] sm:max-w-[200px]" 
+        className="rounded-lg object-cover w-[95%] max-w-[250px] sm:max-w-[200px]"
       />
       <p className="text-white text-center mt-5 font-normal">{location.name}</p>
     </div>

@@ -19,7 +19,7 @@ const Hero_section = () => {
         <img
           src="/ProductPage/ProductBanner.png"
           className="object-cover w-[400px]"
-          alt=""
+          alt="RWA Marketing"
         />
       </div>
       {/* // real state image ends  */}

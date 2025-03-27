@@ -31,7 +31,7 @@ export default function GrowthHealthcare() {
             { img: "/photos/expert3.png", text: "Drive revenue and improve profitability through strategic marketing." }
           ].map((item, index) => (
             <div key={index} className="flex items-center space-x-4 w-full">
-              <Image src={item.img} alt={`Expert ${index + 1}`} width={36} height={36} className="min-w-[36px]" />
+              <Image src={item.img} alt='HealthCare Marketing Agency' width={36} height={36} className="min-w-[36px]" />
               <p className="font-poppins text-[16px] leading-[24px]">{item.text}</p>
             </div>
           ))}

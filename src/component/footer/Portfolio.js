@@ -97,7 +97,7 @@ export default function Portfolio() {
         >
           <Image
             src={images[currentIndex].src}
-            alt={images[currentIndex].name}
+            alt='Web3 Marketing'
             width={928}
             height={499}
             className="rounded-lg"

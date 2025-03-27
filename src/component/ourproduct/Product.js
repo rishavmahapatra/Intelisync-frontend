@@ -91,7 +91,7 @@ function Product() {
                 <div className="relative w-full h-full bg-[rgba(46,130,149,0)] backdrop-blur-[50px] rounded-2xl p-[2px] flex items-center justify-center border-cyan-500 shadow-lg shadow-cyan-500/40 ">
                   <div className="relative w-[240px] sm:w-[270px] md:w-[290px] h-[320px] p-6 flex flex-col items-center text-center  bg-[rgba(46,130,149,0)]  shadow-lg border-custom" >
                     <div className="flex justify-center items-center mt-5">
-                      <Image src={card.img} alt={card.title} width={60} height={60} className="sm:w-[70px] sm:h-[70px]" />
+                      <Image src={card.img} alt='Web3 Marketing' width={60} height={60} className="sm:w-[70px] sm:h-[70px]" />
                     </div>
                     <h3 className={`font-semibold text-white transition-all ${isActive ? "text-xl sm:text-2xl" : "text-lg sm:text-xl"}`}>
                       {card.title}

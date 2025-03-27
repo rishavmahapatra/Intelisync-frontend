@@ -18,7 +18,7 @@ const PhotoLayout = ({
       <div className="leftImage  h-[100%]  flex flex-1 justify-center items-center w-[100%] lg:w-[70%]">
         <img
           src={leftImg}
-          alt=""
+          alt="Blockchain Technology"
           className="object-cover lg:rounded-[20px] h-[100%] rounded-[10px]"
         />
       </div>
@@ -44,7 +44,7 @@ const PhotoLayout = ({
           >
             <img
               src={miniWindowImg1}
-              alt=""
+              alt="Crypto Marketing"
               className="object-cover lg:rounded-[20px] rounded-[10px] h-[100%] "
             />
           </div>
@@ -58,7 +58,7 @@ const PhotoLayout = ({
           >
             <img
               src={miniWindowImg2}
-              alt=""
+              alt="Blockchain Technology"
               className="object-cover lg:rounded-[20px] rounded-[10px] h-[100%]"
             />
           </div>
@@ -80,7 +80,7 @@ const PhotoLayout = ({
           >
             <img
               src={miniWindowImg3}
-              alt=""
+              alt="Crypto Marketing"
               className="object-cover lg:rounded-[20px] rounded-[10px] h-[100%]"
             />
           </div>
@@ -94,7 +94,7 @@ const PhotoLayout = ({
           >
             <img
               src={miniWindowImg4}
-              alt=""
+              alt="Crypto Marketing"
               className="object-cover lg:rounded-[20px] rounded-[10px] h-[100%]"
             />
           </div>

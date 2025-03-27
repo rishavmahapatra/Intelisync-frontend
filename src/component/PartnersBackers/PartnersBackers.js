@@ -78,7 +78,7 @@ export default function TrustedBrands() {
             <div key={index} className="flex-shrink-0 cursor-pointer">
               <Image
                 src={partners.src}
-                alt={`Logo ${partners.name}`}
+                alt='Web3 Marketing'
                 width={200}
                 height={100}
                 className="w-[100px] md:w-[200px]"

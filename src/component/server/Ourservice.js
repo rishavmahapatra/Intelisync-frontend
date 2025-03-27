@@ -7,7 +7,7 @@ const services = [
         title: "Artificial Intelligence",
         description:
             "Intelisync delivers advanced AI development services, integrating machine learning, predictive analytics, and intelligent automation to optimize business processes. As a leading AI development company, we create scalable AI solutions that enhance decision-making and efficiency across industries.",
-        icon: <img src="/AIimage.png" alt="AI Icon" className="w-7 h-7" />,
+        icon: <img src="/AIimage.png" alt="Web3 Marketing" className="w-7 h-7" />,
         link: "/services/ai-development-services",
     },
     {
@@ -15,7 +15,7 @@ const services = [
         description:
             "Boost your brand with growth marketing services, including social media,     community management, influencer collaborations, and campaign activations. As   a leading growth marketing company, we drive engagement, visibility, and conversions. ",
         icon: (
-            <img src="/Growth Marketing.png" alt="growth icon" className="w-7 h-7" />
+            <img src="/Growth Marketing.png" alt="Web3 Marketing" className="w-7 h-7" />
         ),
         link: "/services/growth-marketing-agency"
 
@@ -27,7 +27,7 @@ const services = [
         icon: (
             <img
                 src="/Blockchain Services.png"
-                alt="blockchain icon"
+                alt="Web3 Marketing"
                 className="w-7 h-7"
             />
         ),
@@ -37,7 +37,7 @@ const services = [
         title: "Public Relations",
         description:
             "Build credibility and industry presence with our public relation agency. We craft strategic PR campaigns, manage advertising/public relations, and connect brands with media and influencers to amplify their reach and impact.",
-        icon: <img src="/Public Relations.png" alt="pr icon" className="w-7 h-7" />,
+        icon: <img src="/Public Relations.png" alt="Web3 Marketing" className="w-7 h-7" />,
         link: "/services/public-relation"
     },
     {
@@ -47,7 +47,7 @@ const services = [
         icon: (
             <img
                 src="/Strategic Advisory.png"
-                alt="advisory icon"
+                alt="Web3 Marketing"
                 className="w-7 h-7"
             />
         ),
@@ -57,7 +57,7 @@ const services = [
         title: "Branding",
         description:
             "Your brand is your identity. We create a strong market presence with strategic storytelling and design. Understanding the importance of branding in marketing, we help businesses build trust and stand out. As a leading branding agency, we ensure your branding and marketing drive real impact.",
-        icon: <img src="/Branding.png" alt="branding icon" className="w-7 h-7" />,
+        icon: <img src="/Branding.png" alt="Web3 Marketing" className="w-7 h-7" />,
         link: "/services/web3-branding-agency/"
     },
     {
@@ -67,7 +67,7 @@ const services = [
         icon: (
             <img
                 src="/Community Management.png"
-                alt="community icon"
+                alt="Web3 Marketing"
                 className="w-7 h-7"
             />
         ),
@@ -80,7 +80,7 @@ const services = [
         icon: (
             <img
                 src="/Influencer Marketing.png"
-                alt="influencer icon"
+                alt="Web3 Marketing"
                 className="w-7 h-7"
             />
         ),
@@ -93,7 +93,7 @@ const services = [
         icon: (
             <img
                 src="/Web App Development.png"
-                alt="web app icon"
+                alt="Web3 Marketing"
                 className="w-7 h-7"
             />
         ),

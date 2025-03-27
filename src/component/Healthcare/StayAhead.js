@@ -26,7 +26,7 @@ export default function StayAhead() {
 
             {/* Image Container */}
             <div className="bg-[#00C7E6] p-4 rounded-lg inline-flex items-center justify-center mt-10 sm:ml-0 md:ml-20">
-              <Image src={item.image} alt={item.title} width={55} height={55} />
+              <Image src={item.image} alt='HealthCare Marketing Agency' width={55} height={55} />
             </div>
 
             {/* Title & Description */}
