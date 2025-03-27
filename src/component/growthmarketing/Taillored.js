@@ -3,6 +3,7 @@
 import { GrowthCards } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function SmartSection() {
   const scrollRef = useRef(null);
@@ -23,7 +24,7 @@ export default function SmartSection() {
              Great products need smart strategies. Our growth marketing services
              help businesses attract, engage, and retain customers. Growth
              marketers use innovative tactics to scale effectively. If you&apos;re
-             wondering what is growth marketing, it&apos;s all about continuous
+             wondering what is <Link href='/Industry/small-business-digital-marketing/'>growth marketing,</Link> it&apos;s all about continuous
              optimization. As one of the top growth marketing companies, we help
              you grow smarter.        
       </p>
