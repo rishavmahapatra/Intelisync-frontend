@@ -11,7 +11,7 @@ import Blog from "@/component/Blogs/Blogs";
 const page = () => {
   return (
     // page wrapper start
-    <div className="h-[100vh] w-[100vw]  text-white overflow-x-hidden bg-[#020202] ">
+    <div className="h-auto w-[100vw]  text-white overflow-x-hidden bg-[#020202] ">
 
       {/* herosection start  */}
       <ProductBanner />
@@ -40,7 +40,7 @@ const page = () => {
       {/* buttons-heading and description ends  */}
 
       {/* How it works Section start  */}
-      <div className="works-cards-wrapper-fullWidth my-24 relative px-4">
+      <div className="works-cards-wrapper-fullWidth my-0 sm:my-8 relative px-4">
         {/* gradient design start  */}
         <div className="blurGradient w-[550px]  h-[550px]  bg-gradient-to-r from-[#049EBC] via-[#00375A] to-[#490074] blur-[180px] rounded-full absolute z-[1]  right-16 -bottom-16"></div>
         {/* gradient design ends  */}
@@ -66,7 +66,7 @@ const page = () => {
         {/* cards wrapper shrink wrapper start */}
 
         {/* key feautures start */}
-        <div className=" max-w-[812px] mx-auto my-24 relative z-20">
+        <div className=" max-w-[812px] mx-auto my-8 relative z-20">
           {/* button heading start  */}
           <div className="text-center mt-12">
             <ButtonTitle buttonTitle={"Key features"} />
@@ -74,7 +74,7 @@ const page = () => {
           {/* button heading ends  */}
 
           {/* Features card wrapper start */}
-          <div className="features-cards py-10 flex flex-wrap gap-10 justify-center md:justify-between items-center ">
+          <div className="features-cards py-4 sm:py-5 flex flex-wrap gap-10 justify-center md:justify-between items-center ">
             {FeaturesCardsData.map((item, index) => (
               <Features_card
                 key={index}
@@ -90,7 +90,7 @@ const page = () => {
       {/* How it works Section ends  */}
 
       {/* Target Audiance start  */}
-      <div className="Target-audience max-w-[1300px] mx-auto mt-24 space-y-8 relative px-4">
+      <div className="Target-audience flex flex-col items-center justify-baseline sm:block max-w-[850px] mx-auto mt-0 sm:mt-2 space-y-8 relative px-4">
         {/* gradient design start  */}
         <div className="blurGradient w-[500px]  h-[500px]  bg-gradient-to-r from-[#049EBC] via-[#00375A] to-[#490074] blur-[190px] rounded-full absolute z-[1]  -left-36 -top-2"></div>
         {/* gradient design ends  */}
@@ -102,7 +102,7 @@ const page = () => {
         {/* Hwading ends  */}
 
         {/* content 1  */}
-        <div className="content space-y-8 relative z-20">
+        <div className="content space-y-8max- relative z-20 w-[308px] sm:w-auto">
           {/* heading  */}
           <li className="text-[#00EFE1] text-[18px]">
             {" "}
@@ -110,14 +110,14 @@ const page = () => {
           </li>
 
           {/* description  */}
-          <p className="mb-2 text-[14px] text-[#FFFFFFCC] w-[70%]">
+          <p className="mb-2 text-[14px] text-[#FFFFFFCC] w-[100%] sm:w-[70%]">
             Raise capital faster by tokenizing upcoming projects and attracting
             global investors. 
           </p>
         </div>
 
         {/* content 2 */}
-        <div className="content space-y-4 relative z-20">
+        <div className="content space-y-4 relative z-20 max-w-[308px] sm:w-auto">
           {/* heading  */}
           <li className="text-[#00EFE1] text-[18px]">
             {" "}
@@ -125,19 +125,19 @@ const page = () => {
           </li>
 
           {/* description  */}
-          <p className="mb-2 text-[14px] text-[#FFFFFFCC] w-[70%]">
+          <p className="mb-2 text-[14px] text-[#FFFFFFCC] w-[100%] sm:w-[70%]">
             Diversify portfolios with fractional ownership of high-value
             properties. 
           </p>
         </div>
 
         {/* content 3  */}
-        <div className="content space-y-4 relative z-20">
+        <div className="content space-y-4 relative z-20 max-w-[308px] sm:w-auto">
           {/* heading  */}
           <li className="text-[#00EFE1] text-[18px]"> Property Managers </li>
 
           {/* description  */}
-          <p className="mb-2 text-[14px] text-[#FFFFFFCC] w-[70%]">
+          <p className="mb-2 text-[14px] text-[#FFFFFFCC] w-[100%] sm:w-[70%]">
             Automate rent collection, maintenance fees, and profit distribution
             via smart contracts. 
           </p>
@@ -147,9 +147,9 @@ const page = () => {
       {/* Target Audiance Ends  */}
 
       {/* Benefites start  */}
-      <div className="benefites max-w-[1300px] mx-auto mt-24 px-4">
+      <div className="benefites max-w-[1300px] mx-auto mt-8 px-4">
         {/* button heading start  */}
-        <div className="text-center my-12 ">
+        <div className="text-center my-8 ">
           <ButtonTitle buttonTitle={"Benefits"} />
         </div>
         {/* button heading ends  */}
@@ -244,7 +244,7 @@ const page = () => {
       {/* Benefites ends  */}
 
       {/* Why Choose Section start  */}
-      <div className="whychoose-wrapper relative my-24 max-w-[1300px] mx-auto px-4">
+      <div className="whychoose-wrapper relative my-4 max-w-[1300px] mx-auto px-4">
         {/* gradient design start  */}
         <div className="blurGradient w-[500px]  h-[500px]  bg-gradient-to-r from-[#049EBC] via-[#00375A] to-[#490074] blur-[210px] rounded-full absolute z-[1]   left-[30%] "></div>
         {/* gradient design ends  */}
@@ -256,7 +256,7 @@ const page = () => {
         {/* button title ends  */}
 
         {/* tokenize card wrapper start  */}
-        <div className="features-cards py-10 relative z-40 flex flex-wrap gap-10 justify-center items-center mx-auto w-[90%] ">
+        <div className="features-cards py-4 sm:py-5 relative z-40 flex flex-wrap gap-10 justify-center items-center mx-auto w-[90%] ">
           {TokenizePropertiyData.map((item, index) => (
             <Features_card
               key={index}
@@ -270,7 +270,7 @@ const page = () => {
       {/* Why choose section ends  */}
 
       {/* Call To Action start  */}
-      <div className="callToAction my-24 max-w-[1300px] mx-auto px-4">
+      <div className="callToAction my-0 sm:my-4 max-w-[1300px] mx-auto px-4">
         {/* button title start  */}
         <div className="Title text-center relative z-40">
           <ButtonTitle buttonTitle={"Call to action "} />
@@ -278,7 +278,7 @@ const page = () => {
         {/* button title ends  */}
 
         {/* text content of action start  */}
-        <div className="actionContent my-12 py-[20px] px-[55px] text-center rounded-[20px] border-2 bg-[#37ADFC26] border-[#06FFF0]">
+        <div className="actionContent my-8 py-[20px] px-[55px] text-center rounded-[20px] border-2 bg-[#37ADFC26] border-[#06FFF0]">
           "Unlock the Future of Real Estate Investment. Tokenize Your Property
           or Start Investing Today!" 
         </div>
@@ -287,7 +287,7 @@ const page = () => {
       {/* Call To Action ends  */}
 
       {/* conclusion start  */}
-      <div className="conclusion my-24 max-w-[1300px] mx-auto px-4">
+      <div className="conclusion my-8 max-w-[1300px] mx-auto px-4">
         {/* button title start  */}
         <div className="Title text-center relative z-40">
           <ButtonTitle buttonTitle={"Conclusion "} />

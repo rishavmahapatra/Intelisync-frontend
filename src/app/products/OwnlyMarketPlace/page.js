@@ -8,7 +8,7 @@ import Blog from "@/component/Blogs/Blogs";
 
 const page = () => {
   return (
-    <div className="bg-[#020202] text-white h-[100vh] w-[100vw] overflow-x-hidden overflow-y-auto">
+    <div className="bg-[#020202] text-white h-auto w-[100vw] overflow-x-hidden overflow-y-auto">
     
       {/* herosection (Banner) start  */}
       <ProductBanner />

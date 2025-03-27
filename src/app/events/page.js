@@ -111,14 +111,16 @@ const Page = () => {
         <div className="absolute top-[50%] left-7 text-white z-10 text-[60px]  sm:text-[90px] font-medium ">
           <h1> Event</h1>
         </div>
-        <img
+
+        <div className="w-full  h-full">
+        <Image
           src="/Event/eventBanner.svg"
            width={100}
            height={100}
-
+           quality={10}
           className="w-full object-cover  h-full"
           alt="banner"
-        />
+        /></div>
       </div>
       {/* Banner Design end */}
 
