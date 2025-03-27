@@ -17,7 +17,7 @@ export default function GetAhead() {
 
                     {/* Left Side - Image */}
                     <div className="w-[80px] h-[80px] flex justify-center md:justify-start">
-                        <Image src="/gamingMarketingLogo.png" alt="Gaming Icon" width={94} height={94} />
+                        <Image src="/gamingMarketingLogo.png" alt="Small Business Digital Marketing" width={94} height={94} />
                     </div>
 
                     {/* Right Side - Text */}

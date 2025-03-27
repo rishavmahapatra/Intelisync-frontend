@@ -64,7 +64,7 @@ export default function BadgesSection() {
                   <div className="w-[120px] h-auto flex items-center justify-center">
                     <Image
                       src={badge.image}
-                      alt={badge.name}
+                      alt='Web3 Marketing'
                       width={120}
                       height={120}
                       className="mx-auto"
@@ -92,7 +92,7 @@ export default function BadgesSection() {
                 <div className="w-[120px] sm:w-[150px] h-auto flex items-center justify-center p-2 sm:p-4">
                   <Image
                     src={badge.image}
-                    alt={badge.name}
+                    alt='Web3 Marketing'
                     width={150}
                     height={150}
                     className="mx-auto transition-transform duration-300"

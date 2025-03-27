@@ -9,24 +9,28 @@ const events = [
     description:
       "Immersing in the Future of Web3, Forging Global Alliances, and Driving the Next Wave of Blockchain Innovation!",
     image: "/photos/event1.webp",
+    text:'BlockChain Technology'
   },
   {
     title: `Token 2049 Dubai –\nApril 2024`,
     description:
       "Intelisync at Token 2049 Dubai, Connecting with Industry Leaders, and Accelerating the Evolution of Blockchain.",
     image: "/photos/event2.webp",
+    text:'Crypto Marketing'
   },
   {
     title: "Cyber Security Exhibition",
     description:
       "Bridging Innovation and Strategy to Shape the Web3 Landscape, and Build a Decentralized Future.",
     image: "/photos/event3.webp",
+    text:'BlockChain Technology'
   },
   {
     title: "Global Blockchain Congress",
     description:
       "Intelisync at Future Blockchain Summit, Collaborating with Visionaries, Exploring Disruptive Technologies, and Defining the Next Era of Blockchain.",
     image: "/photos/event4.webp",
+    text:'Crypto Marketing'
   },
 ];
 
@@ -62,7 +66,7 @@ function EventGallery() {
               <div className="relative w-full h-full">
                 <Image
                   src={event.image}
-                  alt={event.title}
+                  alt={event.text}
                   className="object-cover w-full h-full" fill
                 />
               </div>

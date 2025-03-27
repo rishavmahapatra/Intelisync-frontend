@@ -13,7 +13,7 @@ export default function Marketing() {
       <div className="mt-4 md:ml-8 flex-shrink-0">
         <Image 
           src="/photos/industry_logo.png" 
-          alt="Fintech Icon" 
+          alt="Fintech Marketing Agency" 
           width={80} 
           height={80} 
           className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] mx-auto md:mx-0"

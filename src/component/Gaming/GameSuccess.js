@@ -26,7 +26,7 @@ export default function GameSuccess() {
             { img: "/Gaming_Assets/revenue.webp", text: "Boost revenue and improve in-game purchases." }
           ].map((item, index) => (
             <div key={index} className="flex items-center gap-4">
-              <Image src={item.img} alt="Feature Icon" width={28} height={28} className="min-w-[28px]" />
+              <Image src={item.img} alt="Gaming Marketing Solutions" width={28} height={28} className="min-w-[28px]" />
               <p className="text-gray-300 text-[16px] leading-[24px]">{item.text}</p>
             </div>
           ))}

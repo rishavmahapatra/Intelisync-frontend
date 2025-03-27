@@ -34,7 +34,7 @@ export default function TrustedInnovators() {
                       ${index % 3 !== 2 ? "border-r-2 border-gray-700" : ""}
                       ${index % 3 === 1 ? "border-l-2 border-gray-700" : ""}`}
                     >
-                        <Image src={brand.src} alt={brand.name} width={150} height={100} />
+                        <Image src={brand.src} alt='Web3 Marketing' width={150} height={100} />
                     </div>
                 ))}
             </div>

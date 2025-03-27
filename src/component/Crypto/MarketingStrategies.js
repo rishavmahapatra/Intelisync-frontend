@@ -18,7 +18,7 @@ export default function MarketingStrategies() {
                     
                     {/* Left Side - Image */}
                     <div className="w-[80px] sm:w-[94px] h-[80px] sm:h-[94px] flex justify-center md:justify-start">
-                        <Image src="/gamingMarketingLogo.png" alt="Gaming Icon" width={94} height={94} />
+                        <Image src="/gamingMarketingLogo.png" alt="Crypto Marketing" width={94} height={94} />
                     </div>
 
                     {/* Right Side - Text */}
