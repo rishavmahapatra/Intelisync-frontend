@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { Brandingcards } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
+import Link from 'next/link'
 
 export default function Impact() {
     const scrollRef = useRef(null);
@@ -17,7 +18,7 @@ export default function Impact() {
         <div className="relative bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
             <div className="text-left mb-12">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-[500px] leading-tight text-[#06FFFB]">
-                    Strategic Branding Solutions for Unforgettable Impact
+                    <Link href='/services/strategy-advisor/' className='underline'>Strategic</Link> Branding Solutions for Unforgettable Impact
                 </h2>
                 <p className="text-[14px] sm:text-[16px] leading-[22px] tracking-tight text-gray-300 mt-2 max-w-3xl">
                     Empower your business with branding solutions designed to elevate your identity, build trust, and set you apart. Our tailored strategies ensure your brand resonates with your audience and stands the test of time. Here&apos;s how we can help:

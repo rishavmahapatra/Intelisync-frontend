@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import { IndustryOurservices } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react"; // Import right arrow icon
+import Link from 'next/link'
 
 export default function OurServices() {
     const scrollRef = useRef(null);
@@ -23,9 +24,9 @@ export default function OurServices() {
             {/* Heading Section */}
             <div className="max-w-5xl mx-auto text-center">
                 <div className="inline-block bg-gradient-to-r from-[#07CDFF] to-[#06FFF0] opacity-100 bg-clip-text text-transparent">
-                    <h2 className="text-lg sm:text-xl md:text-2xl leading-[26px] tracking-tight font-semibold font-[Poppins] border-b border-white pb-2">
+                    <Link href='/services/' className="text-lg sm:text-xl md:text-2xl leading-[26px] tracking-tight font-semibold font-[Poppins] border-b border-white pb-2">
                         Our Services
-                    </h2>
+                    </Link>
                 </div>
                 <p className="mt-4 w-[70%] mx-auto text-gray-300 text-[17px] leading-[25px] text-center">
                     From automation to decentralization, our solutions redefine industry standards.
@@ -49,9 +50,9 @@ export default function OurServices() {
                                        hover:bg-gradient-to-b from-[#000B18] to-[rgba(0,11,24,0.3)] 
                                        hover:shadow-cyan-400 min-w-[80%] sm:min-w-0 snap-start"
                         >
-                            <h3 className="text-[19px] leading-[30px] font-semibold text-center">
+                            <Link href={service.link} className="text-[19px] underline leading-[30px] font-semibold text-center">
                                 {service.title}
-                            </h3>
+                            </Link>
                             <p className="mt-2 text-gray-300 text-[13px] leading-[20px]">{service.description}</p>
                         </div>
                     ))}

@@ -3,6 +3,7 @@
 import { BlockchainSolution } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function BlockchainSolutions() {
     const scrollRef = useRef(null);
@@ -27,20 +28,20 @@ export default function BlockchainSolutions() {
 
                 {/* Card Container with Scrolling for Mobile */}
                 <div className="relative">
-                <div
-    ref={scrollRef}
-    className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-x-auto md:overflow-visible snap-x snap-mandatory scrollbar-hide"
-    style={{ scrollSnapType: "x mandatory" }}  // Added inline styling for scroll snap type
->
+                    <div
+                        ref={scrollRef}
+                        className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-x-auto md:overflow-visible snap-x snap-mandatory scrollbar-hide"
+                        style={{ scrollSnapType: "x mandatory" }}  // Added inline styling for scroll snap type
+                    >
 
                         {BlockchainSolution.map((solution, index) => (
                             <div
                                 key={index}
                                 className="p-6 border border-cyan-400 rounded-lg bg-[#D9D9D908] shadow-lg min-w-[280px] md:min-w-0 snap-start"
                             >
-                                <h2 className="font-[500] text-[17px] md:text-[19px] leading-[25px] tracking-[-0.01em] w-[80%]">
+                                <Link  href={solution.link} className="font-[500] text-[17px] md:text-[19px] leading-[25px] tracking-[-0.01em] w-[80%]">
                                     {solution.title}
-                                </h2>
+                                </Link>
                                 <p className="font-poppins font-normal text-[13px] leading-[20px] tracking-[-0.01%] text-gray-300 mt-2">
                                     {solution.description}
                                 </p>
