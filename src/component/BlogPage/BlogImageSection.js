@@ -45,9 +45,9 @@ export default function BlogImageSection({ blogs, categories, selectedCategory }
                                 <p className="text-gray-500 text-sm leading-tight">
                                     {blog.date} <span className="ml-4">• {blog.readTime}</span> 
                                 </p>
-                                <h2 className="text-[18px] font-semibold hover:underline cursor-pointer mt-4 leading-snug">
+                                <Link href={blog.link} className="text-[18px] font-semibold hover:underline cursor-pointer mt-4 leading-snug">
                                     {blog.title}
-                                </h2>
+                                </Link>
                                 <p className="text-gray-500 text-sm mt-4 md:mt-8 leading-tight">
                                     {blog.description}
                                 </p>
@@ -60,4 +60,4 @@ export default function BlogImageSection({ blogs, categories, selectedCategory }
             </div>
         </div>
     );
-}
+} 
