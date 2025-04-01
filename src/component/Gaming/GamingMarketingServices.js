@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { GamingServices } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react"; // Icon for arrow
+import Link from 'next/link'
 
 export default function GamingMarketingServices() {
   const scrollRef = useRef(null);
@@ -23,7 +24,7 @@ export default function GamingMarketingServices() {
       {/* Heading */}
       <div className="text-center max-w-4xl mx-auto">
         <h2 className="font-semibold text-[24px] sm:text-[25px] leading-[32px] sm:leading-[40px]">
-          Intelisync&apos;s Gaming Marketing Services
+          Intelisync&apos;s Gaming Marketing <Link href='/blockchain-development-services/' className='underline'>Services</Link>
         </h2>
         <p className="text-gray-400 mt-3 text-[14px] sm:text-[15px] leading-[24px] max-w-lg mx-auto">
           We specialize in crafting marketing strategies that resonate with gamers and elevate your

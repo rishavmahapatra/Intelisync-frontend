@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function GetAhead() {
     return (
@@ -8,7 +9,7 @@ export default function GetAhead() {
             <div className='py-3'>
                 <h2 className="font-poppins font-medium text-[28px] sm:text-[32px] md:text-[35px] leading-[38px] sm:leading-[42px] md:leading-[48px] text-center capitalize">
                     Get ahead of the competition with tailored <br className="hidden md:block" />
-                    <span>Marketing Strategies for <span className="text-[#00E2E7]">The healthcare industry</span></span>
+                    <span>Marketing <Link href='/services/strategy-advisor/' className='underline'>Strategies</Link> for <span className="text-[#00E2E7]">The healthcare industry</span></span>
                 </h2>
             </div>
 

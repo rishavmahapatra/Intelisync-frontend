@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Marketing() {
   const content = [
@@ -25,8 +26,8 @@ export default function Marketing() {
         <h2 className="font-poppins font-medium text-[24px] sm:text-[30px] leading-[36px] sm:leading-[40px] tracking-[-0.01%]">
           Get ahead of the competition with focused
         </h2>
-        <p className="font-poppins font-semibold text-[24px] sm:text-[30px] bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-transparent mx-auto md:mx-0">
-          Fintech Marketing Strategies
+        <p className="font-poppins decoration-cyan-500 decoration-2 font-semibold text-[24px] sm:text-[30px] bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text text-transparent mx-auto md:mx-0">
+          Fintech <Link href='/services/web3-influencer-marketing/' className='underline'>Marketing</Link>  Strategies
         </p>
 
         {content.map((paragraph, index) => (

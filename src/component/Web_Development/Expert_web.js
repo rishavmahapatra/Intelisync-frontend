@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 function ExpertWeb() {
   return (
@@ -12,7 +13,7 @@ function ExpertWeb() {
 
         {/* Description */}
         <p className="mt-4 text-[14px]  font[400] sm:text-[16px] md:text-[17px] text-gray-300 leading-relaxed">
-          Your digital presence should evolve with your business. Our web app development services focus on creating secure and scalable solutions that enhance brand impact and drive long-term growth. With a combination of creativity and advanced technology, we build web-based applications that deliver seamless performance and real business value.
+          Your <Link href='/Industry/small-business-digital-marketing/' className='underline'>digital presence</Link> should evolve with your business. Our web app development services focus on creating secure and scalable solutions that enhance brand impact and drive long-term growth. With a combination of creativity and advanced technology, we build web-based applications that deliver seamless performance and real business value.
         </p>
 
         <p className="mt-4 text-[14px] font[400]  sm:text-[16px] md:text-[17px] text-gray-300 leading-relaxed">

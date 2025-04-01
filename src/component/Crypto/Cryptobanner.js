@@ -10,7 +10,7 @@ export default function Cryptobanner() {
 
             <div className="w-full max-w-4xl text-center md:text-left">
                 <h1 className="font-poppins font-[500] text-[28px] sm:text-[35px] leading-[36px] sm:leading-[42px] text-white">
-                    Ignite Your Blockchain & Crypto Project&apos;s <br className="hidden md:block"/> Growth and Watch It Boom!
+                    Ignite Your Blockchain & Crypto Project&apos;s <br className="hidden md:block"/> <Link href='/services/growth-marketing-agency/' className="underline">Growth</Link> and Watch It Boom!
                 </h1>
                 <p className="font-poppins font-[400] mt-4 text-gray-200 text-[16px] sm:text-[20px] leading-[24px] sm:leading-[28px]">
                     Accelerate your blockchain and crypto project&apos;s growth with Intelisync&apos;s tailored <br className="hidden md:block"/> 

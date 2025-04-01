@@ -3,6 +3,7 @@
 import { StrategicCards } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function SmartSection() {
   const scrollRef = useRef(null);
@@ -17,7 +18,7 @@ export default function SmartSection() {
     <div className="bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
       <div className="text-left mb-12">
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight text-[#06FFFB]">
-        Strategy Consulting service for Smarter Growth
+        Strategy Consulting service for Smarter <Link href='/services/growth-marketing-agency/' className='underline'>Growth</Link>
         </h2>
         <p className="text-[14px] sm:text-[16px] leading-[22px] tracking-tight text-gray-300 mt-2 max-w-3xl">
               At Intelisync, we provide strategic advisory services to help businesses tackle challenges, make informed decisions, and drive sustainable growth. Our strategy consultants offer data backed insights and practical solutions tailored to your goals. Let’s build a future ready business together.
