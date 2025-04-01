@@ -806,3 +806,125 @@ export const Brandingcards = [
       "Building a brand around the principles of DAOs, where community members have a direct role in decision-making and governance."
   },
 ];
+
+export const Dubai_services=[
+  {
+    title:"Enterprise Blockchain & AI Synergy",
+    description:"Merge blockchain’s tamper-proof ledgers with AI’s real-time analytics to optimize supply chains, luxury retail, and financial forecasting. In 2025, our AI models predict demand shifts for Dubai’s tourism sector, while blockchain ensures transparent carbon tracking. "
+  },
+
+  {
+    title:"Real-World Asset (RWA) Tokenization ",
+    description:"Tokenize high-value assets—real estate, yachts, even rare Emirati art—into fractional, liquid investments. With 2025’s trend toward green tokenization, we’re pioneering eco-friendly asset platforms aligned with Dubai’s sustainability goals. "
+  },
+
+  {
+    title:"Decentralized Finance (DeFi) Innovation",
+    description:"Build institutional-grade DeFi platforms with cross-chain interoperability and privacy layers, compliant with VARA’s 2025 regulations. Our solutions support Dubai’s rise as a global DeFi hub, integrating stablecoins and ESG-focused yield farming.  "
+  },
+  {
+    title:"Web3 Marketing Mastery",
+    description:"Launch AI-optimized campaigns on X, Telegram, and Discord, leveraging Dubai’s elite influencers and metaverse activations. In 2025, we’re tapping virtual events in Decentraland to boost brand engagement. "
+  },
+  {
+    title:"Blockchain PR & Influence",
+    description:"Craft narratives around sustainability and innovation, securing placements in top-tier Middle Eastern media. Our 2025 focus includes thought leadership on AI-blockchain convergence, positioning clients as Dubai’s digital pioneers." 
+  },
+  {
+    title:"Community Engagement Powerhouse ",
+    description:"Foster vibrant ecosystems with gamified loyalty programs, staking rewards tied to tokenized assets, and AI-driven AMAs that personalize user experiences—a must in 2025’s community-centric Web3 landscape. "
+  },
+]
+
+
+
+export const Singapore_services=[
+  {
+    title:"Blockchain & AI Fusion ",
+    description:"Blend blockchain’s security with AI’s agility to enhance trade finance, gaming ecosystems, and carbon-neutral supply chains. Our 2025 AI tools cut trade delays by 20%.  "
+  },
+
+  {
+    title:"RWA Tokenization Innovation ",
+    description:"Tokenize real estate, trade assets, and green bonds, aligning with Singapore’s 2025 push for sustainable finance and tokenized ESG assets.  "
+  },
+
+  {
+    title:"DeFi NextGen ",
+    description:"Engineer DeFi platforms with privacy layers and multi-chain support, meeting MAS standards and 2025’s institutional demand for secure yield options."
+  },
+  {
+    title:"Web3 Marketing Precision ",
+    description:"Skyrocket reach with AI-optimized campaigns, Singapore’s Web3 influencers, and 2025 metaverse events in platforms like The Sandbox."
+  },
+  {
+    title:"Blockchain PR & Influence",
+    description:"Build authority with media on 2025’s green blockchain trends, targeting Asia’s tech-forward audience and outlets like The Straits Times."
+    },
+  {
+    title:"Community Engagement Edge",
+    description:"Grow communities with staking tied to green tokens, AMAs, and AI-driven gamification a 2025 staple for Asia’s digital natives. "
+  },
+]
+
+export const London_services=[
+  {
+    title:"Blockchain & AI Integration",
+    description:"Combine blockchain’s audit trails with AI’s adaptability to optimize trading, creative IP management, and supply chain resilience. Our 2025 solutions include AI-driven fraud detection for London’s banks."
+  },
+
+  {
+    title:"RWA Tokenization Ventures",
+    description:"Tokenize art, property, and bonds, creating liquid assets for London’s investors. We’re integrating 2025’s ESG token trend to meet Europe’s sustainability demands. "
+  },
+
+  {
+    title:"DeFi Evolution",
+    description:"Build DeFi ecosystems with privacy-first features and cross-chain bridges, compliant with FCA rules—a 2025 priority as institutions adopt decentralized finance."
+  },
+  {
+    title:"Web3 Marketing Excellence",
+    description:"Dominate with AI-crafted campaigns and London’s top influencers, plus 2025 metaverse activations in platforms like Somnium Space for immersive brand experiences. "
+  },
+  {
+    title:"Blockchain PR & Visibility",
+    description:"Amplify your brand with PR on 2025 trends like sustainable blockchain, securing coverage in Financial Times and beyond."
+    },
+  {
+    title:"Community Growth Dynamics",
+    description:"Forge communities with gamified NFTs, live AMAs, and AI-personalized engagement—key to 2025’s Web3 loyalty strategies "
+  },
+]
+
+export const Riyadh_services=[
+  {
+    title:"Blockchain & AI Transformation",
+    description:"Integrate blockchain and AI to optimize energy trading, smart city grids, and financial systems. Our 2025 solutions include AI-driven energy forecasts reducing costs by 15%."
+  },
+
+  {
+    title:"RWA Tokenization Pioneers",
+    description:"Tokenize oil reserves, cultural artifacts, and real estate, with 2025’s green tokenization trend supporting Abu Dhabi’s net-zero ambitions."
+  },
+
+  {
+    title:"DeFi for Tomorrow",
+    description:"Create DeFi platforms with privacy-first designs and cross-chain functionality, compliant with ADGM rules and 2025’s institutional adoption wave."
+  },
+
+  {
+    title:"Web3 Growth Strategie",
+    description:"Target Boston’s tech-savvy audience with AI-personalized campaigns and local influencers. Our 2025 metaverse pop-ups in platforms like Sandbox drive virtual engagement. "
+  },
+
+  {
+    title:"PR & Thought Leadership",
+    description:"Position your brand as a 2025 innovator with media outreach on AI-blockchain use cases, tailored to Boston’s academic and tech communities. "
+  },
+  
+  {
+    title:"Community Building Expertise",
+    description:"Grow loyal followings with virtual hackathons, staking tied to tokenized IP, and AI-driven chatbots that enhance user trust a 2025 must-have."
+  },
+]
+

@@ -127,22 +127,6 @@ export default function Navbar() {
               item.title == "Global Presence" ? " block" : "hidden"
             }  */}
 
-          <li className="group border-b h-fit relative z-[9999] border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer ">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "India"
-                  ? "opacity-100 duration-200"
-                  : "opacity-0"
-              }`}
-            />
-            <span
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              India
-            </span>
-          </li>
 
           <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
             <GoArrowRight
@@ -152,13 +136,30 @@ export default function Navbar() {
                   : "opacity-0"
               }`}
             />
-            <span
+            <Link href='/global-presence/dubai'
               onMouseEnter={handleHover}
               onMouseLeave={handleHoverLeave}
               className=""
             >
               Dubai
-            </span>
+            </Link>
+          </li>
+
+          <li className="group border-b h-fit relative z-[9999] border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer ">
+            <GoArrowRight
+              className={` mr-2 transition-colors duration-200  ${
+                hoveredText === "India"
+                  ? "opacity-100 duration-200"
+                  : "opacity-0"
+              }`}
+            />
+            <Link href='/global-presence/singapore'
+              onMouseEnter={handleHover}
+              onMouseLeave={handleHoverLeave}
+              className=""
+            >
+              Singapore
+            </Link>
           </li>
 
           <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
@@ -174,7 +175,7 @@ export default function Navbar() {
               onMouseLeave={handleHoverLeave}
               className=""
             >
-              United States (UK)
+              Boston
             </span>
           </li>
 
@@ -186,13 +187,45 @@ export default function Navbar() {
                   : "opacity-0"
               }`}
             />
-            <span
+            <Link href='/global-presence/uk'
+              onMouseEnter={handleHover}
+              onMouseLeave={handleHoverLeave}
+              className=""
+            >
+              London
+            </Link>
+          </li>
+          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+            <GoArrowRight
+              className={` mr-2 transition-colors duration-200  ${
+                hoveredText === "United States (UK)"
+                  ? "opacity-100 duration-200"
+                  : "opacity-0"
+              }`}
+            />
+            <Link href='/global-presence/riyadh'
               onMouseEnter={handleHover}
               onMouseLeave={handleHoverLeave}
               className=""
             >
               Riyadh
-            </span>
+            </Link>
+          </li>
+          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+            <GoArrowRight
+              className={` mr-2 transition-colors duration-200  ${
+                hoveredText === "United States (UK)"
+                  ? "opacity-100 duration-200"
+                  : "opacity-0"
+              }`}
+            />
+            <Link href='/'
+              onMouseEnter={handleHover}
+              onMouseLeave={handleHoverLeave}
+              className=""
+            >
+              India
+            </Link>
           </li>
         </div>
       </div>
