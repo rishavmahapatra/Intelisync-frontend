@@ -3,6 +3,7 @@
 import { PublicRelationCards } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function Artificialservice() {
   const scrollRef = useRef(null);
@@ -20,7 +21,7 @@ export default function Artificialservice() {
           Crypto Public Relations Agency to Elevate Your Brand
         </h2>
         <p className="text-[14px] sm:text-[16px] leading-[22px] tracking-tight text-gray-300 mt-2 max-w-3xl">
-          In the competitive crypto space, the right PR strategy can make all the difference. Our crypto PR agency helps you build trust, boost visibility, and connect with the right audience. With strong press public relations and media outreach, we position your brand as a leader.
+          In the competitive crypto space, the right PR <Link href='/services/strategy-advisor/' className="underline">strategy</Link> can make all the difference. Our crypto PR agency helps you build trust, boost visibility, and connect with the right audience. With strong press public relations and media outreach, we position your brand as a leader.
           Partner with a public relations agency that understands crypto and drives real impact. Let’s put your brand in the spotlight.
         </p>
       </div>

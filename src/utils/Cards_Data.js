@@ -3,41 +3,49 @@ export const BlockchainSolution = [
     title: "Blockchain Development and Integration",
     description:
       "We develop secure and scalable blockchain solutions that integrate well within your business. Whether it is increasing security or automating workflows, our solutions help businesses work smarter.",
+    link: ''
   },
   {
     title: "NFT Development",
     description:
       "NFTs are not merely digital assets; they represent uniqueness and ownership. We help businesses create unique NFTs that make them stand out in the market.",
+    link: ''
   },
   {
     title: "Security Token Offerings (STOs)",
     description:
       "Do you need to tokenize physical assets? We assist you in creating STOs with our experience, offering better liquidity and access to global markets.",
+    link: ''
   },
   {
     title: "Play-to-Earn Game Development",
     description:
       "Gaming is evolving, and we're here to help you build play-to-earn (P2E) games that reward players and retain them.",
+    link: ''
   },
   {
     title: "Enterprise Blockchain Development",
     description:
       "Big companies need scalable and secure solutions. We offer enterprise blockchain solution development that streamlines business, makes it safer, and more reliable.",
+    link: ''
   },
   {
     title: "Decentralized Finance (DeFi) Development",
     description:
       "We build DeFi apps to allow users to enjoy secure, transparent financial transactions without the intervention of middlemen.",
+    link: ''
   },
   {
     title: "Cryptocurrency Wallet Development",
     description:
       "Streamline the handling of digital assets using a custom-made cryptocurrency wallet. We create secure and easy-to-use desktop and mobile wallets.",
+    link: '/Industry/crypto-marketing/'
   },
   {
     title: "Smart Contract Development and Audits",
     description:
       "We design and test our contracts to be bug-free, secure, and highly optimized so that transactions happen without any problems.",
+    link: ''
   },
 ];
 
@@ -388,31 +396,37 @@ export const IndustryOurservices = [
     title: "FinTech",
     description:
       "Drive growth and profitability with data-driven fintech marketing. Strengthen your brand, attract high-quality leads, and enhance customer engagement.",
+    link: '/Industry/fintech-marketing-agency/'
   },
   {
     title: "Healthcare",
     description:
       "Boost patient acquisition and engagement with tailored healthcare marketing. Build trust, establish authority, and connect with the right audience.",
+    link: '/Industry/healthcare-marketing-agency/'
   },
   {
     title: "Gaming",
     description:
       "Expand your player base and maximize in-game revenue with strategic marketing. Leverage targeted campaigns to enhance engagement.",
+    link: '/Industry/Gaming-marketing-solutions/'
   },
   {
     title: "Crypto",
     description:
       "Accelerate your crypto projects with expert marketing strategies. Navigate the evolving blockchain landscape with confidence.",
+    link: '/Industry/crypto-marketing/'
   },
   {
     title: "Startup",
     description:
       "Scale your startup with growth-focused marketing solutions. Build brand awareness, engage customers, and drive sustainable success.",
+    link: '/Industry/startup-marketing-solutions/'
   },
   {
     title: "Small Business",
     description:
       "Unlock your small business’s full potential with strategic marketing. Increase visibility, attract customers, and boost long-term growth.",
+    link: '/Industry/small-business-digital-marketing/'
   },
 ];
 

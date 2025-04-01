@@ -3,6 +3,7 @@
 import { CommunityManagementservices } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
+import Link from 'next/link'
 
 export default function SmartSection() {
   const scrollRef = useRef(null);
@@ -20,7 +21,7 @@ export default function SmartSection() {
         Web3 Community Management Agency for Crypto Growth
         </h2>
         <p className="text-[14px] sm:text-[16px] leading-[22px] tracking-tight text-gray-300 mt-2 max-w-3xl">
-             Building a community is easy, but keeping it engaged takes strategy. Our crypto community management services ensure active discussions, real-time support, and a loyal following on platforms like Discord and Telegram. We help your project gain trust, attract investors, and stand out in the Web3 space.
+             Building a community is easy, but keeping it engaged takes strategy. Our crypto community management services ensure active discussions, real-time support, and a loyal following on platforms like Discord and Telegram. We help your project gain trust, attract investors, and stand out in the <Link href='/services/web3-influencer-marketing/' className='underline'>Web3</Link> space.
         </p>
       </div>
 

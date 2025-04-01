@@ -1,2 +1,3 @@
 User-agent: *
 Sitemap: https://intelisync.ai/sitemap.xml
+Sitemap: https://intelisync.ai/services/sitemap.xml

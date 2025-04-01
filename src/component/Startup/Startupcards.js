@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import { StartupData } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react"; // Import right arrow icon
+import Link from 'next/link'
 
 export default function GrowthSolution() {
     const scrollRef = useRef(null);
@@ -23,7 +24,7 @@ export default function GrowthSolution() {
             {/* Heading Section */}
             <div className="text-center mb-10">
                 <h2 className="font-poppins font-[500] text-[25px] sm:text-[30px] sm:leading-[40px] tracking-[-0.01%] text-white mt-4 max-w-4xl mx-auto">
-                    We offer a comprehensive suite of services designed to<br className="hidden sm:block"/> fuel growth and expand your digital footprint
+                    We offer a comprehensive suite of <Link href='/services/public-relation/' className='underline'>services</Link> designed to<br className="hidden sm:block"/> fuel growth and expand your digital footprint
                 </h2>
             </div>
 

@@ -34,7 +34,7 @@ export default function InfluencerPartnerShip() {
             </p>
 
             <p className="text-gray-300 mt-4 text-[16px] leading-[26px] max-w-3xl">
-                At Intelisync, our campaign influencer marketing connects brands with the right crypto influencers to amplify their message and build credibility. Whether you are looking for top crypto influencers to boost visibility or niche experts to reach a specific audience, our crypto influencer marketing agency has got you covered. Our influencer marketing services focus on creating real connections that not only increase brand awareness but also drive long term loyalty.
+                At Intelisync, our campaign influencer marketing connects brands with the right <Link href='/Industry/crypto-marketing/' className="underline">crypto influencers </Link>to amplify their message and build credibility. Whether you are looking for top crypto influencers to boost visibility or niche experts to reach a specific audience, our crypto influencer marketing agency has got you covered. Our influencer marketing services focus on creating real connections that not only increase brand awareness but also drive long term loyalty.
             </p>
             <p className="text-gray-300 mt-4 text-[16px] leading-[26px] max-w-3xl">
                 With our deep understanding of Web3, we ensure every influencer partnership is authentic, impactful, and results driven. Let us help you grow your brand and make a lasting impact in the crypto and blockchain space.

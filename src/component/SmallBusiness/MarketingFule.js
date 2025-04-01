@@ -15,7 +15,7 @@ export default function MarketingFule() {
                 </h1>
                 <p className="font-poppins font-[400] mt-4 text-gray-200 text-[16px] sm:text-[20px] leading-[24px] sm:leading-[28px]">
                     Elevate your business with a dedicated marketing partner that specializes in small business success. <br className="hidden md:block" />
-                    We&apos;ll help you enhance your online visibility, connect with more customers, and drive <br className="hidden md:block" />
+                    We&apos;ll help you enhance your <Link href='/services/web3-branding-agency/' className="underline">online visibility</Link>, connect with more customers, and drive <br className="hidden md:block" />
                     sustainable growth.
                 </p>
                 <button className="mt-6 sm:mt-8 px-6 py-3 sm:w-[200px] sm:h-[50px] bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] text-white rounded-full font-semibold shadow-md transition-all hover:bg-transparent hover:border-2 hover:border-white">
