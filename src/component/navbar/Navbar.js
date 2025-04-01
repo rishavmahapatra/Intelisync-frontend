@@ -25,7 +25,7 @@ export default function Navbar() {
     { key: "company", title: "Company", data: CompanyData, link: '/company/aboutuspage' },
     { key: "services", title: "Services", data: Ourservicedata, link: '/services' },
     { key: "industry", title: "Industry", data: IndustryData, link: '/Industry' },
-    { key: "products", title: "Our Products", data: OurProductsData, link: '' },
+    { key: "products", title: "Our Products", data: OurProductsData, link: '/products' },
   ];
 
   const [hoveredText, setHoveredText] = useState("");
@@ -244,7 +244,7 @@ export default function Navbar() {
 
           <div className="relative group">
             <Link
-              href=""
+              href="/products"
               className="cursor-pointer flex items-center gap-1 hover:text-teal-400"
             >
               Our Products
