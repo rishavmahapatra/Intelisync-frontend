@@ -1,19 +1,30 @@
-import WEB3_Marketing_Blog from "@/component/Blogs_Conatin/WEB3_Marketing_Blog/WEB3_Marketing_Blog ";
-import Blockchain_Blog from "@/component/Blogs_Conatin/Blockchain_Blog/Blockchain_Blog";
-import Community_Management_Blog from "@/component/Blogs_Conatin/Community_Management_Blog/Community_Management_Blog";
-import Crypto_Marketing_Blog from "@/component/Blogs_Conatin/Crypto_Marketing_Blog/Crypto_Marketing_Blog";
-import Crypto_Influencer_Marketing_Blog from "@/component/Blogs_Conatin/Crypto_Influencer_Marketing_Blog/Crypto_Influencer_Marketing_Blog";
-import Web3_Community_Growth_Blog from "@/component/Blogs_Conatin/Web3_Community_Growth_Blog/Web3_Community_Growth_Blog";
-import ICO_marketing_Blog from "@/component/Blogs_Conatin/ICO_marketing_Blog/ICO_marketing_Blog";
-import ICO_Marketing_Proven_Blog from "@/component/Blogs_Conatin/ICO_Marketing_Proven_Blog/ICO_Marketing_Proven_Blog";
-import IDO_Crypto_Launchpads_Blog from "@/component/Blogs_Conatin/IDO_Crypto_Launchpads_Blog/IDO_Crypto_Launchpads_Blog";
-import Comprehensive_Guide_Blog from "@/component/Blogs_Conatin/Comprehensive_Guide_Blog/Comprehensive_Guide_Blog";
+import React from 'react'
+import Blockchain_Blog from "@/component/Blogs_Conatin/Blockchain_Blog/Blockchain_Blog"
+export const metadata = {
+  title: "Blockchain Marketing  Strategies for Growth in the Web3 Era",
+  description:
+    "Explore blockchain marketing tactics that build trust, prevent ad fraud, and engage customers with NFTs, smart contracts, and token-based rewards.",
+  keywords: "Blockchain Marketing",
+  openGraph: {
+    title: "Blockchain Marketing  Strategies for Growth in the Web3 Era",
+    description:
+      "Explore blockchain marketing tactics that build trust, prevent ad fraud, and engage customers with NFTs, smart contracts, and token-based rewards.",
+    url: "https://intelisync.ai/blogpage/Blockchain_Blog/",
+  },
+  alternates: {
+    canonical: "https://intelisync.ai/blogpage/Blockchain_Blog/",
+  },
+  // robots: "follow, index",
+  // verification: {
+  //     google: "4mQzwqWNPRYEif77XJ2YEz25DRLcrmsRpXuiA2dFa5Q"
+  // }
+};
 function page() {
   return (
-    <>
+    <div>
       <Blockchain_Blog />
-    </>
-  );
+    </div>
+  )
 }
 
-export default page;
+export default page
