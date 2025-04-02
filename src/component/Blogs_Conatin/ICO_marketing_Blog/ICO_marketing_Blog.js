@@ -6,8 +6,6 @@ import remarkGfm from 'remark-gfm';
 
 const markdownContent = `
 
-# **ICO marketing**
-
 # **ICO Ignition: Launch Beyond Hype, Secure Capital with Precision**
 
 ## How to Successfully Launch an ICO: A Comprehensive Guide
@@ -101,7 +99,7 @@ Understanding the dynamic nature of the crypto market, continuous engagement wit
 
 const Community = () => {
   return (
-    <div className="p-8 bg-gray-100 rounded-lg shadow-lg space-y-6 leading-[30px] max-w-7xl mx-auto ">
+    <div className="p-8 bg-gray-100 rounded-lg shadow-lg space-y-6 leading-[30px]  mx-auto ">
           <div className="w-full lg:w-1/2 mx-auto mt-10">
             <img
               src="/Blog_Assets/BlockchainMarketing.png"

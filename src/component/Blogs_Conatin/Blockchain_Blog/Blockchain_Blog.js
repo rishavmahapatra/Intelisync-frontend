@@ -118,12 +118,13 @@ Blockchain is transforming digital marketing by creating more transparent, secur
 
 const BlockchainMarketingPage = () => {
   return (
-    <div className="p-8 bg-gray-100 rounded-lg shadow-lg space-y-6 leading-[30px] max-w-7xl mx-auto ">
+    <div className="p-8 bg-gray-100 rounded-lg shadow-lg space-y-6 leading-[30px] mx-auto ">
+      {/* max-w-7xl */}
           <div className="w-full lg:w-1/2 mx-auto mt-10">
             <img
               src="/Blog_Assets/BlockchainMarketing.png"
               alt="Blog Banner"
-              className="w-full mx-auto rounded-lg shadow-md mb-7"
+              className="w-full mx-auto rounded-lg shadow-md  mb-7"
             />
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdownContent}</ReactMarkdown>
           </div>
@@ -132,3 +133,7 @@ const BlockchainMarketingPage = () => {
 };
 
 export default BlockchainMarketingPage;
+
+
+
+
