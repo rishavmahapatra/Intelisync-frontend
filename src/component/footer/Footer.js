@@ -122,20 +122,24 @@ export default function Footer() {
 
 
         <div>
-          <h3 className="text-lg font-semibold mb-4">Global Services</h3>
-          <ul className="space-y-3 text-gray-400 text-sm mr-10">
-            {[
-              "Dubai - UAE | Intelisync",
-              "Singapore | Intelisync Pvt Ltd",
-              "Boston | USA",
-              "London | United Kingdom",
-              "Riyadh | Intelisync",
-              "India - Pune | Intelisync Technology Pvt Ltd",
-            ].map((location, index) => (
-              <li key={index} className="hover:text-teal-400 transition-all">{location}</li>
-            ))}
-          </ul>
-        </div>
+        <h3 className="text-lg font-semibold mb-4">Global Services</h3>
+        <ul className="space-y-3 text-gray-400 text-sm mr-10">
+          {[
+            { name: "Dubai - UAE | Intelisync", link: "/global-presence/dubai" },
+            { name: "Singapore | Intelisync Pvt Ltd", link: "/global-presence/singapore" },
+            { name: "Boston | USA", link: "/global-presence/boston" },
+            { name: "London | United Kingdom", link: "/global-presence/uk" },
+            { name: "Riyadh | Intelisync", link: "/global-presence/riyadh" },
+            { name: "India - Pune | Intelisync Technology Pvt Ltd", link: "/global-presence/india" },
+          ].map((location, index) => (
+            <li key={index} className="hover:text-teal-400 transition-all">
+              <Link href={location.link} className="cursor-pointer hover:text-teal-400">
+                {location.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
       </div>
 
       <div className="text-center text-gray-500 text-sm mt-10">

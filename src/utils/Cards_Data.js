@@ -829,7 +829,7 @@ export const Dubai_services=[
 
   {
     title:"Real-World Asset (RWA) Tokenization ",
-    description:"Tokenize high-value assets—real estate, yachts, even rare Emirati art—into fractional, liquid investments. With 2025’s trend toward green tokenization, we’re pioneering eco-friendly asset platforms aligned with Dubai’s sustainability goals. "
+    description:"Tokenize high-value assets—real estate, yachts, even rare Emirati art—into fractional, liquid investments. With 2025’s trend toward green tokenization, we’re pioneering eco-friendly asset platforms aligned with Dubai’s sustainability goals.  "
   },
 
   {
@@ -855,7 +855,7 @@ export const Dubai_services=[
 export const Singapore_services=[
   {
     title:"Blockchain & AI Fusion ",
-    description:"Blend blockchain’s security with AI’s agility to enhance trade finance, gaming ecosystems, and carbon-neutral supply chains. Our 2025 AI tools cut trade delays by 20%.  "
+    description:" Blend blockchain’s security with AI’s agility to enhance trade finance, gaming ecosystems, and carbon-neutral supply chains. Our 2025 AI tools cut trade delays by 20%.  "
   },
 
   {

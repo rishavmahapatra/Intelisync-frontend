@@ -215,16 +215,16 @@ export default function Navbar() {
                 className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-                  }`}
-              />
-              <Link href='/'
-                onMouseEnter={handleHover}
-                onMouseLeave={handleHoverLeave}
-                className=""
-              >
-                India
-              </Link>
-            </li>
+              }`}
+            />
+            <Link href='/global-presence/india'
+              onMouseEnter={handleHover}
+              onMouseLeave={handleHoverLeave}
+              className=""
+            >
+              India
+            </Link>
+          </li>
           </div>
         </div>
       ))}

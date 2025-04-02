@@ -18,7 +18,7 @@ export default function Services() {
     <div className="bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
       <div className="text-left mb-12">
         <h2 className="font-poppins font-[500px] text-[40px] sm:text-[40px] leading-[40px] sm:leading-[50px] tracking-tight ">
-        Our Services in Singapore
+        Our Services in Riyadh 
         </h2>
          
       </div>
@@ -38,7 +38,7 @@ export default function Services() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#7F7F7F] to-[#00A9CA]"></div>
 
               {/* Card Content */}
-              <div className="p-4 bg-[#0B1522] rounded-2xl relative h-full py-6 sm:py-8 px-6 sm:px-10">
+              <div className="p-4 bg-[#07121E] rounded-2xl relative h-full py-6 sm:py-8 px-6 sm:px-10">
                 <h2 className="font-poppins font-semibold text-[17px] sm:text-[19px] md:text-[20px] leading-[25px] tracking-tight">
                   {solution.title}
                 </h2>
