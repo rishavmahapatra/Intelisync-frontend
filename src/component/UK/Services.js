@@ -1,6 +1,6 @@
 "use client";
 
-import { Singapore_services } from "@/utils/Cards_Data";
+import { London_services } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
 import Link from 'next/link'
@@ -29,7 +29,7 @@ export default function Services() {
           ref={scrollRef}
           className="flex overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 scrollbar-hide snap-x snap-mandatory"
         >
-          {Singapore_services.map((solution, index) => (
+          {London_services.map((solution, index) => (
             <div
               key={index}
               className="relative min-w-[240px] sm:min-w-[300px] md:min-w-0 p-px rounded-2xl shadow-lg bg-[#081828] snap-start"
@@ -38,7 +38,7 @@ export default function Services() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#7F7F7F] to-[#00A9CA]"></div>
 
               {/* Card Content */}
-              <div className="p-4 bg-[#0B1522] rounded-2xl relative h-full py-6 sm:py-8 px-6 sm:px-10">
+              <div className="p-4 bg-[#07121E] rounded-2xl relative h-full py-6 sm:py-8 px-6 sm:px-10">
                 <h2 className="font-poppins font-semibold text-[17px] sm:text-[19px] md:text-[20px] leading-[25px] tracking-tight">
                   {solution.title}
                 </h2>

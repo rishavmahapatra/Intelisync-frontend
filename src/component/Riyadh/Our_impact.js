@@ -11,7 +11,8 @@ export default function Ourimpact() {
 
     return (
         <div className="bg-[#020B17] text-white py-16 px-6 md:px-20 lg:px-32 relative ">
-             
+             <div className="absolute top-0 left-0 w-[300px] h-[300px] rounded-full opacity-80 z-[50] blur-[90px] 
+        bg-[radial-gradient(circle,_rgba(4,158,188,0.8)_20%,_rgba(0,55,90,0.7)_50%,_rgba(73,0,116,0.6)_80%)]"></div>
             <div className="max-w-4xl">
        
                 {/* Title */}

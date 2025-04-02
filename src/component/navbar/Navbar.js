@@ -219,7 +219,7 @@ export default function Navbar() {
                   : "opacity-0"
               }`}
             />
-            <Link href='/'
+            <Link href='/global-presence/india'
               onMouseEnter={handleHover}
               onMouseLeave={handleHoverLeave}
               className=""
