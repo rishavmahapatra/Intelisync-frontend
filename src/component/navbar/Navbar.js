@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { GoArrowRight } from "react-icons/go";
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+import Image from "next/image";
 import {
   Ourservicedata,
   IndustryData,
@@ -73,162 +74,159 @@ export default function Navbar() {
       }}
     >
       {data.map((item, index) => (
-        <div key={index} className="wrapper">
-        <li
-          key={index}
-          onMouseEnter={() => {
-            setHoverIndex(index);
-            console.log("the index is this ", index);
-            if (item.title == "Global Presence") {
-              setGlobal(true);
-            }
-          }}
-          onMouseLeave={() => {
-            setHoverIndex(null);
-            if (item.title == "Global Presence") {
-              setGlobal(false);
-            }
-          }}
-          className="relative z-40 flex items-center px-4 py-2 md:py-3 text-white transition
-         duration-300 cursor-pointer"
-        >
-          {hoverIndex === index && <GoArrowRight className="mr-2" />}
-          <Link href={item.link}>{item.title}</Link>
-          <motion.ul
-            initial={{ opacity: 0, y: -10, scale: 0.95 }}
-            animate={{ opacity: 1, y: 5, scale: 1 }}
-            exit={{ opacity: 0, y: -10, scale: 0.95 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
-            // className="absolute left-0 md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg backdrop-blur-md"
+        <div key={index} className="wrapper px-2">
+          <li
+            key={index}
+            onMouseEnter={() => {
+              setHoverIndex(index);
+              console.log("the index is this ", index);
+              if (item.title == "Global Presence") {
+                setGlobal(true);
+              }
+            }}
+            onMouseLeave={() => {
+              setHoverIndex(null);
+              if (item.title == "Global Presence") {
+                setGlobal(false);
+              }
+            }}
+            className="relative z-40 flex items-center px-4 py-2 md:py-3 text-white transition
+         duration-300 cursor-pointer border-b border-b-[#707070] "
+          >
+            {hoverIndex === index && <GoArrowRight className="mr-2" />}
+            <Link href={item.link}>{item.title}</Link>
+            <motion.ul
+              initial={{ opacity: 0, y: -10, scale: 0.95 }}
+              animate={{ opacity: 1, y: 5, scale: 1 }}
+              exit={{ opacity: 0, y: -10, scale: 0.95 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              // className=" rounded-xl shadow-lg backdrop-blur-md"
+              style={{
+                background:
+                  "linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)",
+              }}
+            >
+              {/* { global &&  */}
+
+              {/* }  */}
+            </motion.ul>
+          </li>
+
+          <div
+            onMouseEnter={() => setGlobal(true)}
+            onMouseOver={() => setGlobal(true)}
+            onMouseLeave={() => setGlobal(false)}
+            className={`
+               ${global && item.title == "Global Presence"
+                ? "block"
+                : "hidden"
+              }
+            absolute  z-50 top-[50%] left-[100%] md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg py-[17px] px-[21px]`}
             style={{
               background:
                 "linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)",
             }}
           >
-            {/* { global &&  */}
-
-            {/* }  */}
-          </motion.ul>
-        </li>
-
-        <div
-          onMouseEnter={() => setGlobal(true)}
-          onMouseOver={() => setGlobal(true)}
-          onMouseLeave={() => setGlobal(false)}
-          className={`
-               ${
-                 global && item.title == "Global Presence"
-                   ? "block"
-                   : "hidden"
-               }
-            absolute  z-50 top-[50%] left-[100%] md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg backdrop-blur-[400px] py-[17px] px-[21px] bg-[linear-gradient(189.87deg,_rgba(16,64,115,0.55)_-3.49%,_rgba(3,240,226,0.55)_155.64%)]`}
-        >
-          {/* ${
+            {/* ${
               item.title == "Global Presence" ? " block" : "hidden"
             }  */}
 
 
-          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "Dubai"
+            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+              <GoArrowRight
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "Dubai"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-              }`}
-            />
-            <Link href='/global-presence/dubai'
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              Dubai
-            </Link>
-          </li>
+                  }`}
+              />
+              <Link href='/global-presence/dubai'
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHoverLeave}
+                className=""
+              >
+                Dubai
+              </Link>
+            </li>
 
-          <li className="group border-b h-fit relative z-[9999] border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer ">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "India"
+            <li className="group border-b h-fit relative z-[9999] border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer ">
+              <GoArrowRight
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "India"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-              }`}
-            />
-            <Link href='/global-presence/singapore'
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              Singapore
-            </Link>
-          </li>
+                  }`}
+              />
+              <Link href='/global-presence/singapore'
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHoverLeave}
+                className=""
+              >
+                Singapore
+              </Link>
+            </li>
 
-          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "United States (UK)"
+            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+              <GoArrowRight
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-              }`}
-            />
-            <span
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              Boston
-            </span>
-          </li>
+                  }`}
+              />
+              <span
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHoverLeave}
+                className=""
+              >
+                Boston
+              </span>
+            </li>
 
-          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "Riyadh"
+            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+              <GoArrowRight
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "Riyadh"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-              }`}
-            />
-            <Link href='/global-presence/uk'
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              London
-            </Link>
-          </li>
-          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "United States (UK)"
+                  }`}
+              />
+              <Link href='/global-presence/uk'
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHoverLeave}
+                className=""
+              >
+                London
+              </Link>
+            </li>
+            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+              <GoArrowRight
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-              }`}
-            />
-            <Link href='/global-presence/riyadh'
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              Riyadh
-            </Link>
-          </li>
-          <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
-            <GoArrowRight
-              className={` mr-2 transition-colors duration-200  ${
-                hoveredText === "United States (UK)"
+                  }`}
+              />
+              <Link href='/global-presence/riyadh'
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHoverLeave}
+                className=""
+              >
+                Riyadh
+              </Link>
+            </li>
+            <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
+              <GoArrowRight
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
-              }`}
-            />
-            <Link href='/'
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHoverLeave}
-              className=""
-            >
-              India
-            </Link>
-          </li>
+                  }`}
+              />
+              <Link href='/'
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHoverLeave}
+                className=""
+              >
+                India
+              </Link>
+            </li>
+          </div>
         </div>
-      </div>
       ))}
     </motion.ul>
   );
@@ -237,9 +235,15 @@ export default function Navbar() {
     <nav className={` text-white py-4 w-full top-0 z-70 sticky ${show && "nav_blur"}`} >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 ">
         <Link href="/">
-          <div className="text-2xl font-bold cursor-pointer">
-            <span className="text-white">Inteli</span>
-            <span className="text-teal-400">sync</span>
+          <div className="text-2xl font-bold cursor-pointer ">
+            <Image
+              src="/photos/logo.png"
+              alt="Intelisync Logo"
+              layout="intrinsic"
+              width={135}
+              height={33}
+              priority
+            />
           </div>
         </Link>
 
@@ -287,20 +291,20 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/events" className="hover:text-teal-400">
+          <Link href="/events" className="hover:text-teal-400 cursor-pointer">
             Events
           </Link>
-          <Link href="/company/careers" className="hover:text-teal-400">
+          <Link href="/company/careers" className="hover:text-teal-400 cursor-pointer">
             Careers
           </Link>
-          <Link href="/company/blog" className="hover:text-teal-400">
+          <Link href="/company/blog" className="hover:text-teal-400 cursor-pointer">
             Blog
           </Link>
         </div>
 
         <div className="max-lg:hidden lg:flex space-x-8 lg:items-center xl:space-x-12 text-lg relative">
           <Link href="/contact">
-            <button className="border border-teal-400 px-4 py-2 rounded-md hover:bg-teal-400 hover:text-black transition">
+            <button className="border border-teal-400 cursor-pointer px-4 py-2 rounded-md hover:bg-teal-400 hover:text-black transition">
               Contact
             </button>
           </Link>
