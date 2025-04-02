@@ -96,7 +96,7 @@ Launching an ICO is a multi-layered process that demands careful planning, techn
 
 const Community = () => {
   return (
-    <div className="p-8 bg-gray-100 rounded-lg shadow-lg space-y-6 leading-[30px] max-w-7xl mx-auto ">
+    <div className="p-8 bg-gray-100 rounded-lg shadow-lg space-y-6 leading-[30px]  mx-auto ">
           <div className="w-full lg:w-1/2 mx-auto mt-10">
             <img
               src="/Blog_Assets/BlockchainMarketing.png"

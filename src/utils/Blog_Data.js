@@ -98,106 +98,97 @@ export const blogs = [
         link:'/blogpage/Web3_Community_Growth_Blog/'
        
     },
-    // {
-    //     id: 11,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Web3 Fundraising & Marketing Guide: Navigating the New Era of Decentralized Capital",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
+    {
+        id: 11,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "FinTech Frontier: Rewire Finance, Sync with Tomorrow’s Economy",
+        description: "A complete guide",
+        link:'/blogpage/Fintech_Blog/'    
+    },
+    {
+        id: 12,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Fintech Marketing Strategies: How to Cut Through the Noise and Drive Adoption",
+        description: "A complete guide",
+        link:'/blogpage/Fintech_Events_Blog/'   
+    },
+    {
+        id: 13,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Casino Marketing in the Digital Age: How to Attract High Rollers & Boost Engagement",
+        description: "A complete guide",
+        link:'/blogpage/Casino_Marketing_Blog/'    
+     },
+    {
+        id: 14,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Game On: Where Play-to-Earn Meets Community-Powered Economies",
+        description: "A complete guide",
+        link:'/blogpage/Game_On_Blog/'
        
-    // },
-    // {
-    //     id: 12,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Fintech Marketing Strategies: How to Cut Through the Noise and Drive Adoption",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 13,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Must-Attend Fintech Events & Conferences to Stay Ahead in the Game",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 14,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Casino Marketing in the Digital Age: How to Attract High Rollers & Boost Engagement",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 15,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Play-to-Earn Games Revolution: Top Projects Redefining Digital Rewards",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 16,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Brand Marketing Unplugged: How to Build Stories That Resonate in the Web3 World",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 17,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Content is King: Why Blogs, Newsletters & Podcasts Matter for Web3 Brands",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 18,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "NFT Marketing: How to Launch, Promote, and Sell Digital Collectibles",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 19,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "Top NFT Marketplaces to Showcase, Trade & Monetize Your Digital Art",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
-    // {
-    //     id: 20,
-    //     image: "/Blog_Assets/Web3Image.webp",
-    //     date: "February 27, 2025",
-    //     readTime: "18 mins read",
-    //     title: "DeFi Staking Platforms: How to Earn Passive Income in the Crypto Economy",
-    //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
-    // },
+    },
+    {
+        id: 15,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Brand Synergy: Craft Stories That Resonate, Not Just Relate ",
+        description: "A complete guide",
+        link:'/blogpage/Brand_Synergy_Blog/'
+    },
+    {
+        id: 16,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Content is King: Why Blogs, Newsletters & Podcasts Matter for Web3 Brands",
+        description: "A complete guide",
+        link:'/blogpage/Content_is_King_Blog/'   
+    },
+    {
+        id: 17,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "NFT Narratives: From Pixels to Legacy—Own the Digital Renaissance",
+        description: "A complete guide",
+        link:'/blogpage/NFT_Narratives_Blog/'  
+    },
+    {
+        id: 18,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Top NFT Marketplaces to Showcase, Trade & Monetize Your Digital Art",
+        description: "A complete guide",
+        link:'/blogpage/Top_NFT_Blog/'    
+    },
+    {
+        id: 19,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "DeFi Reimagined: Unlock Yield, Liquidity, and Decentralized Power",
+        description: "A complete guide",
+        link:'/blogpage/DeFi_Reimagined_Blog/'   
+    },
+    {
+        id: 20,
+        image: "/Blog_Assets/Web3Image.webp",
+        date: "February 27, 2025",
+        readTime: "18 mins read",
+        title: "Tokenization in Banking: The Future of Digital Assets and Real-World Value",
+        description: "A complete guide",
+        link:'/blogpage/Tokenization_Blog/'    
+    },
     // {
     //     id: 21,
     //     image: "/Blog_Assets/Web3Image.webp",
@@ -205,8 +196,7 @@ export const blogs = [
     //     readTime: "18 mins read",
     //     title: "Tokenization in Banking: The Future of Digital Assets and Real-World Value",
     //     description: "A complete guide",
-    //     link:'/blogpage/Blockchain_Blog/'
-       
+    //     link:'/blogpage/Blockchain_Blog/'     
     // },
 ];
 
