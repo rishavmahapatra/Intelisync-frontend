@@ -942,3 +942,35 @@ export const Riyadh_services=[
   },
 ]
 
+export const Boston_services=[
+  {
+    title:"Blockchain & AI for Enterprises",
+    description:"Integrate zero-knowledge proofs (a 2025 privacy trend) with AI to secure healthcare data and enhance financial modeling. Our solutions cut research costs for Boston’s biotech firms by 25% using predictive AI."
+  },
+
+  {
+    title:"RWA Tokenization Pioneers",
+    description:"Tokenize startup equity, patents, and real estate, creating liquid markets for Boston’s investors. In 2025, we’re adding ESG-compliant tokens to attract institutional capital."
+  },
+
+  {
+    title:"DeFi for Future",
+    description:"Develop DeFi platforms with multi-chain support and privacy layers, meeting U.S. compliance while serving institutional clientsa key 2025 trend as banks enter the space."
+  },
+
+  {
+    title:"Web3 Growth Strategie",
+    description:"Target Boston’s tech-savvy audience with AI-personalized campaigns and local influencers. Our 2025 metaverse pop-ups in platforms like Sandbox drive virtual engagement."
+  },
+
+  {
+    title:"PR & Thought Leadership",
+    description:"Position your brand as a 2025 innovator with media outreach on AI-blockchain use cases, tailored to Boston’s academic and tech communities."
+  },
+  
+  {
+    title:"Community Building Expertise",
+    description:"Grow loyal followings with virtual hackathons, staking tied to tokenized IP, and AI-driven chatbots that enhance user trust a 2025 must-have."
+  },
+]
+

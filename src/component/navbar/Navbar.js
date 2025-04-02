@@ -173,6 +173,7 @@ export default function Navbar() {
               />
               <span
                 onMouseEnter={handleHover}
+                
                 onMouseLeave={handleHoverLeave}
                 className=""
               >
