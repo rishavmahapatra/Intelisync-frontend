@@ -7,7 +7,7 @@ const services = [
         title: "Artificial Intelligence",
         description:
             "Intelisync delivers advanced AI development services, integrating machine learning, predictive analytics, and intelligent automation to optimize business processes. As a leading AI development company, we create scalable AI solutions that enhance decision-making and efficiency across industries.",
-        icon: <img src="/AIimage.png" alt="Web3 Marketing" className="w-7 h-7" />,
+        icon: <img src="/AIimage.webp" alt="Web3 Marketing" className="w-7 h-7" />,
         link: "/services/ai-development-services",
     },
     {
@@ -15,7 +15,7 @@ const services = [
         description:
             "Boost your brand with growth marketing services, including social media,     community management, influencer collaborations, and campaign activations. As   a leading growth marketing company, we drive engagement, visibility, and conversions. ",
         icon: (
-            <img src="/Growth Marketing.png" alt="Web3 Marketing" className="w-7 h-7" />
+            <img src="/Growth Marketing.webp" alt="Web3 Marketing" className="w-7 h-7" />
         ),
         link: "/services/growth-marketing-agency"
  
@@ -26,7 +26,7 @@ const services = [
             "We help businesses integrate blockchain for secure, efficient, and scalable solutions. From blockchain app development services to smart contracts and DeFi, our blockchain development agency builds real world solutions that drive growth. Let’s simplify blockchain solutions development for you.",
         icon: (
             <img
-                src="/Blockchain Services.png"
+                src="/Blockchain Services.webp"
                 alt="Web3 Marketing"
                 className="w-7 h-7"
             />
@@ -37,7 +37,7 @@ const services = [
         title: "Public Relations",
         description:
             "Build credibility and industry presence with our public relation agency. We craft strategic PR campaigns, manage advertising/public relations, and connect brands with media and influencers to amplify their reach and impact.",
-        icon: <img src="/Public Relations.png" alt="Web3 Marketing" className="w-7 h-7" />,
+        icon: <img src="/Public Relations.webp" alt="Web3 Marketing" className="w-7 h-7" />,
         link: "/services/public-relation"
     },
     {
@@ -46,7 +46,7 @@ const services = [
             "Get expert strategy advisory services to tackle business challenges. Our strategic advisors offer practical insights, helping you make smart decisions, improve operations, and achieve long-term growth in a competitive market.",
         icon: (
             <img
-                src="/Strategic Advisory.png"
+                src="/Strategic Advisory.webp"
                 alt="Web3 Marketing"
                 className="w-7 h-7"
             />
@@ -57,7 +57,7 @@ const services = [
         title: "Branding",
         description:
             "Your brand is your identity. We create a strong market presence with strategic storytelling and design. Understanding the importance of branding in marketing, we help businesses build trust and stand out. As a leading branding agency, we ensure your branding and marketing drive real impact.",
-        icon: <img src="/Branding.png" alt="Web3 Marketing" className="w-7 h-7" />,
+        icon: <img src="/Branding.webp" alt="Web3 Marketing" className="w-7 h-7" />,
         link: "/services/web3-branding-agency/"
     },
     {
@@ -66,7 +66,7 @@ const services = [
             "A strong community builds a strong brand. Our community management services foster engagement, trust, and loyalty, helping businesses turn audiences into lasting advocates. Let a skilled community manager drive meaningful interactions for your brand.",
         icon: (
             <img
-                src="/Community Management.png"
+                src="/Community Management.webp"
                 alt="Web3 Marketing"
                 className="w-7 h-7"
             />
@@ -79,7 +79,7 @@ const services = [
             "Expand your reach with influencers who truly connect with your audience. Our crypto influencer marketing agency helps you partner with the top crypto influencers, driving engagement and trust for your brand.",
         icon: (
             <img
-                src="/Influencer Marketing.png"
+                src="/Influencer Marketing.webp"
                 alt="Web3 Marketing"
                 className="w-7 h-7"
             />
@@ -92,7 +92,7 @@ const services = [
             "Elevate your online presence with innovative, user-centric web design from a proven web development company. We specialize in creating high-performing, visually captivating websites that reflect your brand’s identity and drive engagement.",
         icon: (
             <img
-                src="/Web App Development.png"
+                src="/Web App Development.webp"
                 alt="Web3 Marketing"
                 className="w-7 h-7"
             />

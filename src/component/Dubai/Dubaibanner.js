@@ -8,7 +8,7 @@ export default function Dubaibanner() {
 
             {/* Background Image */}
             <div className="absolute  inset-0 bg-cover bg-center bg-no-repeat -z-10"
-                style={{ backgroundImage: "url('/Dubaiimg.svg')", height: "90vh" }}>
+                style={{ backgroundImage: "url('/Dubai.webp')", height: "90vh" }}>
 
                 {/* Right Side Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-[#00121A] via-[#002442bb] to-transparent"></div>

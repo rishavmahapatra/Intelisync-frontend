@@ -8,7 +8,7 @@ export default function Bostonbanner() {
  
             {/* Background Image */}
             <div className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10"
-                style={{ backgroundImage: "url('/Bostan.svg')" }}>
+                style={{ backgroundImage: "url('/Bostan.webp')" }}>
                 
                 {/* Right Side Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-[#00121A] via-[#002442bb] to-transparent"></div>

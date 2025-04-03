@@ -114,7 +114,7 @@ const Page = () => {
 
         <div className="w-full  h-full">
         <Image
-          src="/Event/eventBanner.svg"
+          src="/Event/Events_Banner.webp"
            width={100}
            height={100}
            quality={10}

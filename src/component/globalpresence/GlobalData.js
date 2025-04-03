@@ -4,12 +4,12 @@ import React from 'react'
 
 function GlobalData() {
     const locations = [
-        { name: "Dubai-UAE", image: "/image26.png", text:'Web3 Marketing in Dubai' },
-        { name: "Singapore", image: "/image25.png",text:'Web3 Marketing in Singapore' },
-        { name: "Boston", image: "/image24.png" ,text:'Web3 Marketing in Boston'},
-        { name: "London-United Kingdom", image: "/image23.png",text:'Web3 Marketing in United Kingdom' },
-        { name: "Riyadh", image: "/image21.png",text:'Web3 Marketing in Riyadh' },
-        { name: "India-Pune", image: "/image22.png",text:'Web3 Marketing in India' },
+        { name: "Dubai-UAE", image: "/image26.webp", text:'Web3 Marketing in Dubai' },
+        { name: "Singapore", image: "/image25.webp",text:'Web3 Marketing in Singapore' },
+        { name: "Boston", image: "/image24.webp" ,text:'Web3 Marketing in Boston'},
+        { name: "London-United Kingdom", image: "/image23.webp",text:'Web3 Marketing in United Kingdom' },
+        { name: "Riyadh", image: "/image21.webp",text:'Web3 Marketing in Riyadh' },
+        { name: "India-Pune", image: "/image22.webp",text:'Web3 Marketing in India' },
     ]; 
   return (
     <div className='relative bg-[#000B18] '>
