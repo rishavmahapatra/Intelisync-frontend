@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Link from 'next/link'
 
 const events = [
   {
@@ -9,28 +10,32 @@ const events = [
     description:
       "Immersing in the Future of Web3, Forging Global Alliances, and Driving the Next Wave of Blockchain Innovation!",
     image: "/photos/event1.webp",
-    text:'BlockChain Technology'
+    text: 'BlockChain Technology',
+    id: 'singapore'
   },
   {
     title: `Token 2049 Dubai –\nApril 2024`,
     description:
       "Intelisync at Token 2049 Dubai, Connecting with Industry Leaders, and Accelerating the Evolution of Blockchain.",
     image: "/photos/event2.webp",
-    text:'Crypto Marketing'
+    text: 'Crypto Marketing',
+    id: 'dubai'
   },
   {
     title: "Cyber Security Exhibition",
     description:
       "Bridging Innovation and Strategy to Shape the Web3 Landscape, and Build a Decentralized Future.",
     image: "/photos/event3.webp",
-    text:'BlockChain Technology'
+    text: 'BlockChain Technology',
+    id: 'cyberSecurity'
   },
   {
     title: "Global Blockchain Congress",
     description:
       "Intelisync at Future Blockchain Summit, Collaborating with Visionaries, Exploring Disruptive Technologies, and Defining the Next Era of Blockchain.",
     image: "/photos/event4.webp",
-    text:'Crypto Marketing'
+    text: 'Crypto Marketing',
+    id: 'cryptoExpo'
   },
 ];
 
@@ -64,11 +69,16 @@ function EventGallery() {
                 }`}
             >
               <div className="relative w-full h-full">
-                <Image
-                  src={event.image}
-                  alt={event.text}
-                  className="object-cover w-full h-full" fill
-                />
+                <Link href={`/events/gallery#${event.id}`}>
+                  <div className="relative w-full h-full cursor-pointer">
+                    <Image
+                      src={event.image}
+                      alt={event.text}
+                      className="object-cover w-full h-full"
+                      fill
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gray-900/60 p-4 text-white">
                 <h3 className="text-base font-bold mb-1 leading-tight whitespace-pre-line">

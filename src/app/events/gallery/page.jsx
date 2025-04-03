@@ -21,7 +21,7 @@ const page = () => {
       {/* Event Banner ends  */}
 
       {EventGalleryImages.map((item,index) => (
-        <div key={index} className="px-2">
+        <div key={index} className="px-2" id={`${item.id}`}>
           {/*  photo section button title start */}
           <div  className="photoSection1 my-14 sm:my-20 flex justify-center items-center w-[100%] ">
             <EventGalleryButton buttonTitle={item.buttonTitle} gradientDirection={index % 2!=0 ? "left" : "right"} />

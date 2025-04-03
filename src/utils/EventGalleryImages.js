@@ -9,6 +9,7 @@ export const EventGalleryImages = [
       miniWindowImg2: "/EventGallery/photoSection1/Singapore mini Window 2.svg",
       miniWindowImg3: "/EventGallery/photoSection1/Singapore mini Window 3.svg",
       miniWindowImg4: "/EventGallery/photoSection1/Singapore mini Window 4.svg",
+      id:"singapore"
     },
 
     // photo section 2
@@ -20,6 +21,7 @@ export const EventGalleryImages = [
       miniWindowImg2: "/EventGallery/photoSection2/Dubai miniWindowImg2.svg",
       miniWindowImg3: "/EventGallery/photoSection2/Dubai miniWindowImg3.svg",
       miniWindowImg4: "/EventGallery/photoSection2/Dubai miniWindowImg4.svg",
+      id:"dubai"
     },
 
     // photo section 3
@@ -35,6 +37,7 @@ export const EventGalleryImages = [
         "/EventGallery/photoSection3/Cyber Security miniWindowImg3.svg",
       miniWindowImg4:
         "/EventGallery/photoSection3/Cyber Security miniWindowImg4.svg",
+        id:"cyberSecurity"
     },
 
     // photo section 4
@@ -50,5 +53,6 @@ export const EventGalleryImages = [
         "/EventGallery/photoSection4/Crypto Expo miniWindowImg3.svg",
       miniWindowImg4:
         "/EventGallery/photoSection4/Crypto Expo miniWindowImg4.svg",
+        id:"cryptoExpo"
     },
   ];
