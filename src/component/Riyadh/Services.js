@@ -15,34 +15,33 @@ export default function Services() {
   };
 
   return (
-    <div className="bg-[#020B17] text-white py-8 px-6 md:px-20 lg:px-32">
-      <div className="text-left mb-12">
-        <h2 className="font-poppins font-[500px] text-[40px] sm:text-[40px] leading-[40px] sm:leading-[50px] tracking-tight ">
-        Our Services in Riyadh 
+    <div className="bg-[#020B17] text-white py-8 px-4 sm:px-6 md:px-20 lg:px-32">
+      <div className="text-left mb-10">
+        <h2 className="font-poppins font-semibold text-[28px] sm:text-[32px] md:text-[40px] leading-[36px] sm:leading-[42px] md:leading-[50px] tracking-tight">
+          Our Services in Riyadh
         </h2>
-         
       </div>
 
       <div className="relative">
-        {/* Card Container with responsive design */}
+        {/* Card Container with Responsive Layout */}
         <div
           ref={scrollRef}
-          className="flex overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 scrollbar-hide snap-x snap-mandatory"
+          className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-x-scroll md:overflow-hidden scrollbar-hide snap-x snap-mandatory"
         >
           {Riyadh_services.map((solution, index) => (
             <div
               key={index}
-              className="relative min-w-[240px] sm:min-w-[300px] md:min-w-0 p-px rounded-2xl shadow-lg bg-[#081828] snap-start"
+              className="relative min-w-[250px] sm:min-w-[300px] md:min-w-0 p-px rounded-2xl shadow-lg bg-[#081828] snap-start"
             >
               {/* Gradient Overlay */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#7F7F7F] to-[#00A9CA]"></div>
 
               {/* Card Content */}
-              <div className="p-4 bg-[#07121E] rounded-2xl relative h-full py-6 sm:py-8 px-6 sm:px-10">
-                <h2 className="font-poppins font-semibold text-[17px] sm:text-[19px] md:text-[20px] leading-[25px] tracking-tight">
+              <div className="p-5 bg-[#07121E] rounded-2xl relative h-full">
+                <h2 className="font-poppins font-semibold text-[16px] sm:text-[18px] md:text-[20px] leading-[24px] sm:leading-[26px] tracking-tight">
                   {solution.title}
                 </h2>
-                <p className="font-poppins font-normal text-[13px] sm:text-[15px] leading-[22px] tracking-tight text-gray-300 mt-4 break-words">
+                <p className="font-poppins font-normal text-[13px] sm:text-[15px] leading-[22px] tracking-tight text-gray-300 mt-4">
                   {solution.description}
                 </p>
               </div>
@@ -53,13 +52,11 @@ export default function Services() {
         {/* Scroll Button for Mobile View */}
         <button
           onClick={scrollRight}
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 sm:hidden w-10 h-10 flex items-center justify-center bg-transparent backdrop-blur-md"
+          className="absolute top-1/2 right-2 transform -translate-y-1/2 sm:hidden w-10 h-10 flex items-center justify-center bg-[#ffffff1a] backdrop-blur-md rounded-full"
         >
-          <ChevronRight className="text-white opacity-60" size={24} />
+          <ChevronRight className="text-white opacity-80" size={24} />
         </button>
       </div>
     </div>
   );
 }
-
-
