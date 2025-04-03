@@ -7,8 +7,8 @@ export default function Ukbanner() {
         <div className="relative flex items-center justify-center md:justify-start w-full min-h-screen text-white bg-[#000B18] z-10">
     
             {/* Background Image */}
-            <div className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10"
-                style={{ backgroundImage: "url('/Ukimage.svg')", minHeight: "90vh" }}>
+            <div className="absolute  inset-0  bg-cover bg-center bg-no-repeat -z-10"
+                style={{ backgroundImage: "url('/Ukimage.webp')", height: "90vh" }}>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#00121A] via-[#002442bb] to-transparent"></div>
             </div>
 

@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter, FaWhatsapp, FaQuora, FaReddit } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter, FaWhatsapp, FaQuora, FaReddit , FaMedium} from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,7 +22,7 @@ export default function Footer() {
         <div>
           <div className="w-[141px] h-[33px] relative">
             <Image
-              src="/photos/logo.png"
+              src="/photos/logo.webp"
               alt="Intelisync Logo"
               layout="intrinsic"
               width={141}
@@ -50,6 +50,7 @@ export default function Footer() {
             <a href="https://chat.whatsapp.com/ETtg5JskhZ884wDqE1oD7G" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
               <FaWhatsapp className="text-lg text-[rgb(61,232,232)]" />
             </a>
+           
 
             {/* Second row */}
             <div className="flex flex-wrap gap-2 w-full justify-start">
@@ -59,12 +60,13 @@ export default function Footer() {
               <a href="https://www.youtube.com/@intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
                 <FaYoutube className="text-lg text-[rgb(61,232,232)]" />
               </a>
-              <a href="https://www.reddit.com/user/intelisync_ai/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
-                <FaReddit className="text-lg text-[rgb(61,232,232)]" />
+              <a href="https://medium.com/@Intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
+                <FaMedium className="text-lg text-[rgb(61,232,232)]" />
               </a>
               <a href="https://www.quora.com/profile/Intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-2 rounded-full hover:scale-110 transition">
                 <FaQuora className="text-lg text-[rgb(61,232,232)]" />
               </a>
+              
             </div>
           </div>
 

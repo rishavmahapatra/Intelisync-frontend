@@ -3,16 +3,16 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const brands = [
-  { id: 1, name: "IDEEZA", image: "/photos/first.png" },
-  { id: 2, name: "IDEEZA", image: "/photos/second.png" },
-  { id: 3, name: "IDEEZA", image: "/photos/third.png" },
-  { id: 4, name: "IDEEZA", image: "/photos/fourth.png" },
-  { id: 5, name: "IDEEZA", image: "/photos/fifth.png" },
-  { id: 6, name: "IDEEZA", image: "/photos/six.png" },
-  { id: 7, name: "IDEEZA", image: "/photos/seven.png" },
-  { id: 8, name: "IDEEZA", image: "/photos/eight.png" },
-  { id: 9, name: "IDEEZA", image: "/photos/nine.png" },
-  { id: 10, name: "IDEEZA", image: "/photos/ten.png" },
+  { id: 1, name: "IDEEZA", image: "/photos/first.webp" },
+  { id: 2, name: "IDEEZA", image: "/photos/second.webp" },
+  { id: 3, name: "IDEEZA", image: "/photos/third.webp" },
+  { id: 4, name: "IDEEZA", image: "/photos/fourth.webp" },
+  { id: 5, name: "IDEEZA", image: "/photos/fifth.webp" },
+  { id: 6, name: "IDEEZA", image: "/photos/six.webp" },
+  { id: 7, name: "IDEEZA", image: "/photos/seven.webp" },
+  { id: 8, name: "IDEEZA", image: "/photos/eight.webp" },
+  { id: 9, name: "IDEEZA", image: "/photos/nine.webp" },
+  { id: 10, name: "IDEEZA", image: "/photos/ten.webp" },
 ];
 
 

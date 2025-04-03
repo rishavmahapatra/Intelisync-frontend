@@ -22,7 +22,7 @@ function Founder() {
                     {/* Image Section */}
                     <div className="relative w-full max-w-[312px] h-auto rounded-2xl overflow-hidden border border-gray-700 shadow-lg">
                         <Image
-                            src="/founderimage.png"
+                            src="/founderimage.webp"
                             alt="Javed Khan"
                             width={312}
                             height={532}

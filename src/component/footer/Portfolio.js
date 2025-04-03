@@ -7,15 +7,15 @@ import { motion } from 'framer-motion';
 
 export default function Portfolio() {
   const images = [
-    { id: 1, src: "/portfolio10.png", name: "IDEEZA" },
-    { id: 2, src: "/portfolio1.png", name: "Angelverse" },
-    { id: 3, src: "/portfolio2.png", name: "Laxce" },
-    { id: 4, src: "/portfolio4.png", name: "Laughter Economy" },
-    { id: 5, src: "/portfolio5.png", name: "SImpredicts" },
-    { id: 6, src: "/portfolio6.png", name: "Joystix" },
-    { id: 7, src: "/portfolio7.png", name: "TechZino" },
-    { id: 8, src: "/portfolio8.png", name: "Super" },
-    { id: 9, src: "/portfolio9.png", name: "Clementine" },
+    { id: 1, src: "/portfolio10.webp", name: "IDEEZA" },
+    { id: 2, src: "/portfolio1.webp", name: "Angelverse" },
+    { id: 3, src: "/portfolio2.webp", name: "Laxce" },
+    { id: 4, src: "/portfolio4.webp", name: "Laughter Economy" },
+    { id: 5, src: "/portfolio5.webp", name: "SImpredicts" },
+    { id: 6, src: "/portfolio6.webp", name: "Joystix" },
+    { id: 7, src: "/portfolio7.webp", name: "TechZino" },
+    { id: 8, src: "/portfolio8.webp", name: "Super" },
+    { id: 9, src: "/portfolio9.webp", name: "Clementine" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

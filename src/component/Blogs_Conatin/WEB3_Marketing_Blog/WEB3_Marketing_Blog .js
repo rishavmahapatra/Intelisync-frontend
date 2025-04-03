@@ -156,8 +156,33 @@ const Page = () => {
           rows={[["Centralized Platforms", "Decentralized Networks"], ["User Data Exploitation", "User Data Ownership"], ["Targeted Ads", "Community Incentives"], ["Brand-Centric Messaging", "Community-Driven Narratives"], ["Paid Partnerships", "DAO-Based Collaborations"]]}
         />
       </div>
+      
     </div>
   );
 };
 
 export default Page;
+
+// import Link from "next/link";
+
+// export default function Web3(){
+//     return (
+//          <div className="bg-white text-white py-16 px-6 md:px-20 lg:px-32 relative">
+
+//            <div className="max-w-6xl">
+//                <div className="text-gray-400 text-sm mb-6">
+//                    <Link href="/" className="hover:text-gray-300 transition text-[15px]">Homepage</Link>
+//                    <span className="mx-1">&gt;</span>
+
+//                    <Link href="/company/blog/" className="hover:text-gray-300 text-[15px] transition">Blog</Link>
+//                    <span className="mx-1">&gt;</span>
+
+//                    <span className="text-cyan-400 fpnt-medium text-[15px] hover:text-cyan-300 transition">
+//                    Mastering Web3 Marketing: Strategies to Build, Scale, and Engage Communities
+//                    </span>
+//                </div>
+//            </div>
+
+//          </div>
+//     );
+// }

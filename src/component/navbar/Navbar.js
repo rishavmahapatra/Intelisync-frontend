@@ -171,14 +171,14 @@ export default function Navbar() {
                   : "opacity-0"
                   }`}
               />
-              <span
+              <Link href='/global-presence/boston'
                 onMouseEnter={handleHover}
                 
                 onMouseLeave={handleHoverLeave}
                 className=""
               >
                 Boston
-              </span>
+              </Link>
             </li>
 
             <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
@@ -238,7 +238,7 @@ export default function Navbar() {
         <Link href="/">
           <div className="text-2xl font-bold cursor-pointer ">
             <Image
-              src="/photos/logo.png"
+              src="/photos/logo.webp"
               alt="Intelisync Logo"
               layout="intrinsic"
               width={135}
@@ -292,7 +292,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/events" className="hover:text-teal-400 cursor-pointer">
+          <Link href="/events/gallery" className="hover:text-teal-400 cursor-pointer">
             Events
           </Link>
           <Link href="/company/careers" className="hover:text-teal-400 cursor-pointer">
