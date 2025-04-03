@@ -3,27 +3,31 @@ import Image from "next/image";
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import logo from "../../../public/photos/intelsynclogo.png";
+import Link from "next/link";
 
 const blogs = [
   {
     title:
-      "Empowering your business with innovative Blockchain, Web3, and AI solutions for a digital future.",
+      "Mastering Web3 Marketing: Strategies to Build, Scale, and Engage Communities ",
     image: "/photos/blog1.webp",
     content:
-      "The digital landscape is evolving rapidly, and with it comes the rise of Web 3.0 development. The terms Internet and Web are often used interchangeably, but they hold distinct meanings. As technology advances, we transition from static, text-heavy Web 1.0 to interactive Web 2.0, and now to a decentralized, user-centric Web 3.0. <br><br> Web 3.0 marks a significant leap forward by integrating decentralized systems, smart contracts, AI, and blockchain to create a secure and transparent digital environment.",
+      "Mastering Web3 Marketing: Strategies to Build, Scale, and Engage CommunitiesThe digital landscape is undergoing a massive transformation with the rise of Web3 technologies. As decentralization, blockchain, and token-based ecosystems reshape industries, businesses must adapt their marketing strategies to thrive in this new paradigm. Web3 marketing introduces innovative approaches to community engagement, brand promotion, and customer interaction. This guide explores the key concepts, strategies, and best practices essential for navigating Web3 marketing.<br>  What is Web3?Web3, often referred to as the next phase of the internet, represents a decentralized ecosystem powered by blockchain technology. ",
+      link:'/blogpage/WEB3_Marketing_Blog'
   },
   {
-    title: "How to Create a Successful Meme Coin Exchange in 2025?",
+    title: "Blockchain Marketing Book: How to Position Your Project in the Decentralized Era ",
     image: "/photos/blog2.webp",
     content:
-      "Quirky charm, viral potential, affordability, and 100x moonshot potential—this confluence of technology and entertainment is capturing millions’ imaginations (and wallets). Once dismissed as frivolous internet experiments, meme coins have carved a niche in the digital economy, boasting vibrant communities and significant market capitalization.<br><br> In 2024, these whimsical tokens experienced a whopping 500% rise from a $20 billion market capitalization to $120 million by December.",
+      "Blockchain technology is changing how businesses operate and interact with customers. It brings transparency, security, and trust to digital transactions. With the rise of blockchain, marketing strategies are evolving to fit this new landscape. This guide explains blockchain marketing in simple words, offering strategies, benefits, and future trends to help businesses adapt.<br>What is Blockchain?<br> Blockchain is a digital ledger that stores information across multiple computers. It ensures that data is secure, transparent, and cannot be changed once recorded. This technology removes the need for middlemen, making transactions faster and more trustworthy.",
+      link:"/blogpage/Blockchain_Blog"
   },
   {
-    title: "Web3 Development Services for Business Evolution?",
+    title: "Crypto Wallet Marketing: Driving Adoption in the Digital Asset Economy ",
     image: "/photos/blog3.webp",
-    content:
-      "Currently, groundbreaking technologies like Web3, Blockchain, Metaverse, NFTs, and cryptocurrencies are poised to revolutionize industries. The internet, presently dominated by Web 2.0, has thrived with cloud computing and social media platforms. However, 2023 and beyond mark the advent of Web3 a decentralized ecosystem with immense potential to reshape conventional business models. <br><br> As internet meme culture and social media buzz continue to inspire new markets, dedicated platforms will emerge to support this ecosystem.",
+    content:"In the dynamic world of blockchain and cryptocurrencies, success is not solely determined by technology or market performance—it's powered by people. A vibrant crypto community can propel a project from obscurity to mainstream adoption. Community members act as the project's voice, advocates, and early adopters, making them an essential element in any crypto venture’s journey.Whether you're launching a new token, building a decentralized application, or promoting blockchain solutions, creating a strong community requires strategy, dedication, and ongoing engagement. This guide explores actionable steps to cultivate a loyal crypto community that supports your project’s vision and fuels long-term growth.",
+      link:'/blogpage/Community_Management_Blog'
   },
+  
 ];
 
 function Blog() {
@@ -85,9 +89,11 @@ function Blog() {
               {/* read more button  */}
 
               <div className="absolute bottom-8 left-2">
+                <Link href={post.link}>
                 <button className="px-4 text-[15px] font-[500] leading-[140%] text-[#2BFAFF] rounded-md transition-all duration-300 hover:underline focus:underline">
                   Read More
                 </button>
+                </Link>
               </div>
             </div>
           ))}
