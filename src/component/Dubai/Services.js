@@ -3,7 +3,7 @@
 import { Dubai_services } from "@/utils/Cards_Data";
 import { ChevronRight } from "lucide-react";
 import { useRef } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Services() {
   const scrollRef = useRef(null);
@@ -18,23 +18,21 @@ export default function Services() {
     <div className="bg-[#000B18] text-white py-8 px-6 md:px-20 lg:px-32">
        
       <div className="text-left mb-12">
-     
-        <h2 className="font-poppins font-[500px] text-[40px] sm:text-[40px] leading-[35px] sm:leading-[50px] tracking-tight ">
-        Our Services in Dubai 
+        <h2 className="font-poppins font-semibold text-[32px] sm:text-[40px] leading-[35px] sm:leading-[50px] tracking-tight">
+          Our Services in Dubai
         </h2>
-         
       </div>
 
       <div className="relative">
-        {/* Card Container with responsive design */}
+        {/* Card Container */}
         <div
           ref={scrollRef}
-          className="flex overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 scrollbar-hide snap-x snap-mandatory"
+          className="flex overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 scrollbar-hide snap-x snap-mandatory scroll-smooth overflow-hidden"
         >
           {Dubai_services.map((solution, index) => (
             <div
               key={index}
-              className="relative min-w-[240px] sm:min-w-[300px] md:min-w-0 p-px rounded-2xl shadow-lg  snap-start"
+              className="relative min-w-[240px] sm:min-w-[300px] md:min-w-0 p-px rounded-2xl shadow-lg snap-start"
             >
               {/* Gradient Overlay */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#00EEDF] via-[#7F7F7F] to-[#00A9CA]"></div>
@@ -55,13 +53,11 @@ export default function Services() {
         {/* Scroll Button for Mobile View */}
         <button
           onClick={scrollRight}
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 sm:hidden w-10 h-10 flex items-center justify-center bg-transparent backdrop-blur-md"
+          className="absolute top-1/2 right-2 transform -translate-y-1/2 sm:hidden w-10 h-10 flex items-center justify-center bg-[#07121E]/80 rounded-full backdrop-blur-md"
         >
-          <ChevronRight className="text-white opacity-60" size={24} />
+          <ChevronRight className="text-white opacity-70" size={24} />
         </button>
       </div>
     </div>
   );
 }
-
-

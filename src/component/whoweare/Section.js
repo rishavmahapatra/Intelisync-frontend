@@ -4,15 +4,17 @@ import { motion } from "framer-motion";
 
 function Section() {
   const services = [
-    "WEB 3.0",
-    "ARTIFICIAL INTELLIGENCE",
-    "PUBLIC RELATIONS",
-    "BRANDING",
-    "STRATEGIC ADVISORY",
-    "BLOCKCHAIN",
-    "GROWTH MARKETING",
-    "COMMUNITY MANAGEMENT",
-    "INFLUENCER / KOL MARKETING",
+    { fname: "WEB 3.0", lname: "" },
+    { fname: "ARTIFICIAL", lname: "INTELLIGENCE" },
+    { fname: "PUBLIC", lname: "RELATIONS" },
+    { fname: "BRANDING", lname: "" },
+    { fname: "STRATEGIC", lname: "ADVISORY" },
+    { fname: "BLOCKCHAIN", lname: "" },
+    { fname: "GROWTH", lname: "MARKETING" },
+    { fname: "COMMUNITY", lname: "MANAGEMENT" },
+    { fname: "INFLUENCER", lname: "/ KOL MARKETING" },
+
+
   ];
 
   const [index, setIndex] = useState(0);
@@ -20,7 +22,7 @@ function Section() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % services.length);
-    }, 2000); // Cards change every 2 seconds
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -78,73 +80,53 @@ function Section() {
             </p>
           </div>
 
-          {/* Right Side: 3D Styled Cards with Animation */}
+
           <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ml-4">
+
+            {/* Right Side: 3D Styled Cards with Animation */}
             {/* Back Card (Lower Layer) */}
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, rotateY: 180 }}
-              animate={{ opacity: 1, rotateY: 0 }}
-              exit={{ opacity: 0, rotateY: -180 }}
-              transition={{ duration: 1, ease: "easeInOut" }}
-              className="TopBox moveToBottom absolute top-0 left-0 z-50 flex w-fit items-center justify-center rounded-3xl p-[2px]"
-            >
-              {/* Back Card with Gradient */}
-              <div
-                className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientBack}`}
+            <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ml-4">
+              <motion.div
+                key={`back-card-${index}`}
+                initial={{ opacity: 0, rotateY: 180 }}
+                animate={{ opacity: 1, rotateY: 0 }}
+                exit={{ opacity: 0, rotateY: -180 }}
+                transition={{ duration: 1, ease: "easeInOut" }}
+                className="TopBox moveToBottom absolute top-0 left-0 z-50 flex w-fit items-center justify-center rounded-3xl p-[2px]"
               >
-                <span className="text-sm sm:text-lg font-semibold">
-                  {services[index]}
-                </span>
-              </div>
-            </motion.div>
-
-                    {/* Right Side: 3D Styled Cards with Animation */}
-                    <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ml-4">
-                        {/* Back Card (Lower Layer) */}
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, rotateY: 180 }}
-                            animate={{ opacity: 1, rotateY: 0 }}
-                            exit={{ opacity: 0, rotateY: -180 }}
-                            transition={{ duration: 1, ease: "easeInOut" }}
-                            className="TopBox moveToBottom absolute top-0 left-0 z-50 flex w-fit items-center justify-center rounded-3xl p-[2px]" >
-                            {/* Back Card with Gradient */}
-
-                            <div className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientBack}`} >
-
-                                <div className="relative w-[230px] h-[250px] sm:w-[280px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
-
-                                    <span className="text-sm sm:text-lg font-semibold">{services[index]}</span>
-                                </div>
-                            </div>
-                        </motion.div>
-
-                        <motion.div
-                            key={index + 1}
-                            initial={{ opacity: 0, rotateY: 180 }}
-                            animate={{ opacity: 1, rotateY: 0 }}
-                            exit={{ opacity: 0, rotateY: -180 }}
-                            transition={{ duration: 1.2, ease: "easeInOut" }}
-                            className="BottomBox moveToTop absolute top-5 left-5 z-40 flex w-fit items-center justify-center rounded-3xl p-[2px] "
-                        >
-                            {/* Front Card with Gradient */}
-                            <div className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientFront}`}
-                            >
-                                {/* Inner Card with Custom Border */}
-                                <div className="relative w-[230px] h-[250px] sm:w-[260px] sm:h-[290px] rounded-3xl p-[3px] border-custom  flex items-center justify-center">
-                                
-
-                                <span className="text-sm sm:text-lg font-semibold text-center">
-                                    {services[(index + 1) % services.length]}
-                                </span>
-                                </div>
-
-                            </div>
-                        </motion.div>
-                    </div>
-
+                {/* Back Card */}
+                <div className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientBack}`}>
+                  <div className="relative w-[230px] h-[250px] sm:w-[280px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
+                    {/* Display the next service name on the back card */}
+                    <span className="text-sm sm:text-lg font-semibold">
+                      {services[(index + 1) % services.length].fname} <br /> {services[(index + 1) % services.length].lname}
+                    </span>
+                  </div>
                 </div>
+              </motion.div>
+
+              <motion.div
+                key={`front-card-${index}`}
+                initial={{ opacity: 0, rotateY: 180 }}
+                animate={{ opacity: 1, rotateY: 0 }}
+                exit={{ opacity: 0, rotateY: -180 }}
+                transition={{ duration: 1.2, ease: "easeInOut" }}
+                className="BottomBox moveToTop absolute top-5 left-5 z-40 flex w-fit items-center justify-center rounded-3xl p-[2px]"
+              >
+                {/* Front Card */}
+                <div className={`relative z-40 w-[230px] h-[280px] sm:w-[260px] sm:h-[310px] overflow-hidden rounded-3xl p-6 text-white flex items-center justify-center text-center ${gradientFront}`}>
+                  <div className="relative w-[230px] h-[250px] sm:w-[260px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
+                    {/* Display the current service name on the front card */}
+                    <span className="text-sm sm:text-lg font-semibold">
+                      {services[index].fname}<br /> {services[index].lname}
+                    </span>
+                  </div>
+                </div>
+              </motion.div>
+
+            </div>
+
+          </div>
         </div>
       </section>
     </div>
