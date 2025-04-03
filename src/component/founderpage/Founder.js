@@ -55,10 +55,10 @@ function Founder() {
 
                         {/* Social Icons */}
                         <div className="flex justify-center lg:justify-start gap-4 mt-6">
-                            <a href="https://www.linkedin.com/company/intelisync" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
+                            <a href="https://www.linkedin.com/in/javed-khan11/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
                                 <FaLinkedin className="text-2xl text-[rgb(61,232,232)]" />
                             </a>
-                            <a href="https://x.com/Intelisync_" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
+                            <a href="https://x.com/Javed1109/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-full hover:scale-110 transition">
                                 <FaXTwitter className="text-2xl text-[rgb(61,232,232)]" />
                             </a>
                         </div>

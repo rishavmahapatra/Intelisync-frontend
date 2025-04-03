@@ -28,11 +28,11 @@ export default function Singaporebanner() {
                 {/* Button */}
                 <div className="mt-8 flex justify-center md:justify-start">
                     <button className="w-[200px] sm:w-[250px] h-[45px] sm:h-[50px] 
-        bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] 
-        text-white rounded-full font-medium text-lg shadow-md 
-        transition-all duration-300 border-2 border-transparent
-        hover:bg-none hover:bg-transparent hover:border-white hover:text-white">
-                        <Link href="/contact" className="block w-full h-full flex items-center justify-center">
+                            bg-gradient-to-r from-[#00CBE2] via-[#148FBC] to-[#006AFF] 
+                             rounded-full font-medium text-lg shadow-md 
+                            transition-all duration-300 border-2 border-transparent
+                            hover:bg-none hover:bg-transparent hover:border-white hover:text-white">
+                        <Link href="/contact" className=" w-full h-full flex items-center justify-center">
                             Schedule a meeting
                         </Link>
                     </button>
