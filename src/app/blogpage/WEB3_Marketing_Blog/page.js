@@ -1,6 +1,5 @@
 import React from 'react'
 import WEB3_Marketing_Blog from "@/component/Blogs_Conatin/WEB3_Marketing_Blog/WEB3_Marketing_Blog ";
-
 export const metadata = {
   title: "Master Web3 Marketing: Build, Scale & Engage Communities",
   description:
@@ -20,8 +19,7 @@ export const metadata = {
 function page() {
   return (
     <div>
-        <WEB3_Marketing_Blog />
-    </div>
+        <WEB3_Marketing_Blog />    </div>
   )
 }
 
