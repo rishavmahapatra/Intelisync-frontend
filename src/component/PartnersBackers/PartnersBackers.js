@@ -43,16 +43,16 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const partners = [
-  { name: "APTOS", src: "/BlockChain_Assets/aptos.png" },
-  { name: "MONAD", src: "/BlockChain_Assets/monad.png" },
-  { name: "MANTA NETWORK", src: "/BlockChain_Assets/manta-network.png" },
-  { name: "BINANCE", src: "/BlockChain_Assets/binance.png" },
-  { name: "SKALE", src: "/BlockChain_Assets/skale.png" },
-  { name: "Botanix", src: "/BlockChain_Assets/botanix.png" },
-  { name: "Kroma", src: "/BlockChain_Assets/kroma.png" },
-  { name: "Orochi", src: "/BlockChain_Assets/orochi.png" },
-  { name: "DQ", src: "/BlockChain_Assets/dq.png" },
-  { name: "Golden Apple", src: "/BlockChain_Assets/golden-apple.png" },
+  { name: "APTOS", src: "/BlockChain_Assets/aptos.webp" },
+  { name: "MONAD", src: "/BlockChain_Assets/monad.webp" },
+  { name: "MANTA NETWORK", src: "/BlockChain_Assets/manta-network.webp" },
+  { name: "BINANCE", src: "/BlockChain_Assets/binance.webp" },
+  { name: "SKALE", src: "/BlockChain_Assets/skale.webp" },
+  { name: "Botanix", src: "/BlockChain_Assets/botanix.webp" },
+  { name: "Kroma", src: "/BlockChain_Assets/kroma.webp" },
+  { name: "Orochi", src: "/BlockChain_Assets/orochi.webp" },
+  { name: "DQ", src: "/BlockChain_Assets/dq.webp" },
+  { name: "Golden Apple", src: "/BlockChain_Assets/golden-apple.webp" },
 ];
 
 export default function TrustedBrands() {
