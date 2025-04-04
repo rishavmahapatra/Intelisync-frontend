@@ -42,7 +42,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center px-4 sm:px-6 md:px-12 lg:px-20  my-12 sm:my-0 sm:min-h-screen ">
+    <div className="relative flex flex-col justify-center items-center bg-[#000B18] text-white text-center px-4 sm:px-6 md:px-12 lg:px-20 my-30 sm:my-20 sm:min-h-screen">
       {/* Gradient Effect */}
       <div
         className="absolute w-[150px] h-[500px] blur-[100px] top-[-20px] left-0 rotate-[148.52deg] 
@@ -76,7 +76,7 @@ export default function Portfolio() {
 
 
       {/* Portfolio Carousel */}
-      <div className="relative p-0 sm:p-5 md:p-5 rounded-lg w-full max-w-xl md:max-w-7xl mx-auto mt-10">
+      <div className="relative p-0 sm:p-5 md:p-5 rounded-lg w-full max-w-xl md:max-w-7xl mx-auto mt-10 sm:mt-20">
 
       {/* Left Arrow (Only on Large Screens) */}
       <button

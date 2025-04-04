@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 
 const Section = () => {
@@ -35,9 +36,11 @@ const Section = () => {
       {/* Get Started Button */}
       <div className="relative flex flex-col items-center w-full z-20 mt-6">
         <div className="relative rounded-full transition duration-100 ease-in-out hover:bg-gray-100 hover:shadow-lg p-0.5">
-          <button className="w-[164px] h-[54px] bg-white text-black text-[18px] font-semibold rounded-full shadow-xl flex items-center justify-center">
+         <Link href="/contact">
+          <button className="w-[164px] h-[54px] bg-white text-black text-[18px] font-semibold rounded-full shadow-xl flex items-center justify-center cursor-pointer">
             Get Started
           </button>
+         </Link>
 
         </div>
       </div>

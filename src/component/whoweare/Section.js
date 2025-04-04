@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 function Section() {
   const services = [
+
     { fname: "WEB 3.0", lname: "" },
     { fname: "ARTIFICIAL", lname: "INTELLIGENCE" },
     { fname: "PUBLIC", lname: "RELATIONS" },
@@ -18,14 +19,17 @@ function Section() {
   ];
 
   const [index, setIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState(services.length - 1);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % services.length);
+      setPrevIndex(index); // store current as previous
+      setIndex((prevIndex) => (prevIndex + 1) % services.length); // update to next
     }, 2000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [index]);
+
 
   const gradientFront =
     "bg-[linear-gradient(180deg,#2E8295_-41.1%,#0F292F_100%)]";
@@ -55,16 +59,16 @@ function Section() {
             </div>
 
             {/* Heading & Text */}
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-              What <span className="text-white">Defines Us</span>
+            <h2 className="text-[40px]  leading-tight">
+              What <span className="text-white-600">Defines Us</span>
             </h2>
-            <p className="mt-4 text-sm sm:text-md text-gray-200">
+            <p className="mt-4 text-[16px] sm:text-md text-gray-200">
               Intelisync is a Web3 agency focusing specifically on blockchain
               marketing and development services. We scale businesses in the
               decentralized world using innovative marketing techniques,
               community engagement, and brand visibility.
             </p>
-            <p className="mt-3 text-sm sm:text-md text-gray-200">
+            <p className="mt-3 text-[16px] sm:text-md text-gray-200">
               As your trusted Web3 marketing agency, we run campaigns targeted
               at maximizing visibility and interaction. From crypto PR and NFT
               marketing to crypto advertising, we do it all, making us one of
@@ -72,7 +76,7 @@ function Section() {
               brand, or launching a new project, we ensure you reach the right
               market.
             </p>
-            <p className="mt-3 text-sm sm:text-md text-gray-200">
+            <p className="mt-3 text-[16px] sm:text-md text-gray-200">
               From crypto project marketing to ICO promotions, Intelisync
               assists brands looking for trusted associations within Web3,
               fostering long-lasting trust. We&apos;re happy to help you scale
@@ -81,13 +85,12 @@ function Section() {
           </div>
 
 
-          <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ml-4">
-
-            {/* Right Side: 3D Styled Cards with Animation */}
+          {/* Right Side: 3D Styled Cards with Animation */}
+          <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ">
             {/* Back Card (Lower Layer) */}
-            <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ml-4">
+            <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ">
               <motion.div
-                key={`back-card-${index}`}
+                key={`back-card-${prevIndex}`}
                 initial={{ opacity: 0, rotateY: 180 }}
                 animate={{ opacity: 1, rotateY: 0 }}
                 exit={{ opacity: 0, rotateY: -180 }}
@@ -99,7 +102,7 @@ function Section() {
                   <div className="relative w-[230px] h-[250px] sm:w-[280px] sm:h-[290px] rounded-3xl p-[3px] border-custom flex items-center justify-center">
                     {/* Display the next service name on the back card */}
                     <span className="text-sm sm:text-lg font-semibold">
-                      {services[(index + 1) % services.length].fname} <br /> {services[(index + 1) % services.length].lname}
+                      {services[prevIndex].fname}<br />{services[prevIndex].lname}
                     </span>
                   </div>
                 </div>

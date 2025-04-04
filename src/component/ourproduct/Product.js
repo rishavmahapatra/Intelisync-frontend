@@ -2,15 +2,16 @@
 import React, { useState, useEffect,  } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from "next/link";
 
 function Product() {
   const [activeIndex, setActiveIndex] = useState(1);
   
 
   const cards = [
-    { id: 1, img: "/removebg.webp", title: "RWA", text: "Intelisync’s RWA solutions enable tokenization of real-world assets for enhanced liquidity and transparency." },
-    { id: 2, img: "/Group.webp", title: "GPU.NET", text: "Intelisync’s GPU.NET delivers scalable GPU cloud computing for AI, analytics, and 3D rendering." },
-    { id: 3, img: "/Vector.webp", title: "OWNLY MARKETPLACE", text: "Ownly Marketplace offers a decentralized platform for secure, transparent trading of tokenized assets." }
+    { id: 1, img: "/removebg.webp", title: "RWA", text: "Intelisync’s RWA solutions enable tokenization of real-world assets for enhanced liquidity and transparency.", link:"/products/rwa-1" },
+    { id: 2, img: "/Group.webp", title: "GPU.NET", text: "Intelisync’s GPU.NET delivers scalable GPU cloud computing for AI, analytics, and 3D rendering.", link:"/products/gpunet" },
+    { id: 3, img: "/Vector.webp", title: "OWNLY MARKETPLACE", text: "Ownly Marketplace offers a decentralized platform for secure, transparent trading of tokenized assets.", link:"/products/OwnlyMarketPlace" }
   ];
 
   useEffect(() => {
@@ -21,7 +22,7 @@ function Product() {
   }, [cards.length]);
 
   return (
-    <div className="relative h-auto sm:min-h-screen bg-[#000B18] flex flex-col items-center justify-baseline sm:justify-center overflow-hidden px-4 sm:px-6 lg:px-12 ">
+    <div className="relative  sm:min-h-screen bg-[#000B18] flex flex-col items-center justify-baseline sm:justify-center overflow-hidden px-4 sm:px-6 lg:px-12 ">
       <div className="absolute w-[200px] h-[500px] blur-[100px] top-[-50px] left-0 rotate-[148.52deg] 
                       bg-[linear-gradient(256.74deg,rgba(4,158,188,0.5)_47.38%,rgba(0,55,90,0.5)_61.04%,rgba(73,0,116,0.5)_70.05%)]">
       </div>
@@ -87,6 +88,8 @@ function Product() {
                 ease: "easeInOut",
               }}
             >
+              <Link href={card.link}>
+
               <div className="w-[260px] sm:w-[300px] md:w-[320px] h-[350px] rounded-4xl p-2  mt-5 ">
                 <div className="relative w-full h-full bg-[rgba(46,130,149,0)] backdrop-blur-[50px] rounded-2xl p-[2px] flex items-center justify-center border-cyan-500 shadow-lg shadow-cyan-500/40 ">
                   <div className="relative w-[240px] sm:w-[270px] md:w-[290px] h-[320px] p-6 flex flex-col items-center text-center  bg-[rgba(46,130,149,0)]  shadow-lg border-custom" >
@@ -102,6 +105,7 @@ function Product() {
                   </div>
                 </div>
               </div>
+              </Link>
             </motion.div>
           );
         })}

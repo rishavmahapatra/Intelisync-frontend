@@ -44,7 +44,7 @@ function EventGallery() {
   const isInView = useInView(ref, { once: true, threshold: 0.2 });
 
   return (
-    <div className="bg-[#000B18] relative  text-white font-medium text-center h-auto sm:min-h-screen pb-0 pt-10 sm:py-20  ">
+    <div className="bg-[#000B18] relative  text-white font-medium text-center  sm:min-h-screen pb-0 pt-10 sm:py-0  ">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, scale: 0.5 }}
@@ -68,8 +68,8 @@ function EventGallery() {
                   : ""
                 }`}
             >
-              <div className="relative w-full h-full">
-                <Link href={`/events/gallery#${event.id}`}>
+              <Link href={`/events/gallery#${event.id}`}>
+                <div className="relative w-full h-full">
                   <div className="relative w-full h-full cursor-pointer">
                     <Image
                       src={event.image}
@@ -78,14 +78,14 @@ function EventGallery() {
                       fill
                     />
                   </div>
-                </Link>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-gray-900/60 p-4 text-white">
-                <h3 className="text-base font-bold mb-1 leading-tight whitespace-pre-line">
-                  {event.title}
-                </h3>
-                <p className="text-xs leading-snug">{event.description}</p>
-              </div>
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 bg-gray-900/60 p-4 text-white">
+                  <h3 className="text-base font-bold mb-1 leading-tight whitespace-pre-line">
+                    {event.title}
+                  </h3>
+                  <p className="text-xs leading-snug">{event.description}</p>
+                </div>
+              </Link>
             </div>
           ))}
         </div>
