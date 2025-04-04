@@ -30,10 +30,8 @@ export default function Footer() {
               priority
             />
           </div>
-          <p className="mt-4 text-sm text-gray-400 leading-relaxed">
-            Intelisync leads the way in transformative solutions across blockchain, Web3, and AI.
-            We empower companies to innovate with decentralized technologies, custom blockchain
-            development, and strategic growth marketing.
+          <p className="mt-4 text-sm text-gray-400 ">
+          Intelisync is a premier blockchain and Web3 development firm, specializing in secure dApps, DeFi, RWA tokenization, and AI-driven solutions. We offer end-to-end services, including smart contracts, Layer 2 scaling, DEX/CEX development, and token launches. Our Web3 marketing expertise covers influencer campaigns, KOL partnerships, and growth strategies to maximize engagement. With a focus on cybersecurity and decentralized identity, we build scalable, future-proof platforms for startups and enterprises worldwide."
           </p>
 
           <div className="flex flex-wrap gap-2 mt-4">
