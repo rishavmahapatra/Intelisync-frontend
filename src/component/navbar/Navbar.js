@@ -121,7 +121,7 @@ export default function Navbar() {
                 ? "block"
                 : "hidden"
               }
-            absolute  z-50 top-[50%] left-[100%] md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg py-[17px] px-[21px]`}
+            absolute  z-50 top-[45%] left-[98%] md:mt-2 w-70 border border-gray-700 rounded-xl shadow-lg py-[17px] px-[21px]`}
             style={{
               background:
                 "linear-gradient(135deg, #104073 0%, #03F0E2B2 100%)",
@@ -150,7 +150,7 @@ export default function Navbar() {
 
             <li className="group border-b h-fit relative z-[9999] border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer ">
               <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${hoveredText === "India"
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "Singapore"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
                   }`}
@@ -166,7 +166,7 @@ export default function Navbar() {
 
             <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
               <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "Boston"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
                   }`}
@@ -183,7 +183,7 @@ export default function Navbar() {
 
             <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
               <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${hoveredText === "Riyadh"
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "London"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
                   }`}
@@ -198,7 +198,7 @@ export default function Navbar() {
             </li>
             <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
               <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "Riyadh"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
                   }`}
@@ -213,7 +213,7 @@ export default function Navbar() {
             </li>
             <li className="border-b border-b-[#707070] flex items-center px-4 py-2 md:py-3 transition duration-300 cursor-pointer group">
               <GoArrowRight
-                className={` mr-2 transition-colors duration-200  ${hoveredText === "United States (UK)"
+                className={` mr-2 transition-colors duration-200  ${hoveredText === "India"
                   ? "opacity-100 duration-200"
                   : "opacity-0"
               }`}
