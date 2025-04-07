@@ -39,7 +39,7 @@ function Section() {
     <div className="relative">
       {/* Main Section */}
       <section className="relative overflow-hidden text-white min-h-[600px] py-12 px-4 sm:px-6 lg:px-20 bg-[#000B18]">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between ">
+        <div className="max-w-7xl  flex flex-col lg:flex-row items-center justify-between ">
           {/* Background Gradient */}
           <div
             className="absolute w-[150px] h-[150px] blur-[100px] top-10 left-5 sm:w-[200px] sm:h-[200px] sm:top-30 sm:left-10 rotate-[148.52deg] 
@@ -62,7 +62,7 @@ function Section() {
             <h2 className="text-[40px]  leading-tight">
               What <span className="text-white-600">Defines Us</span>
             </h2>
-            <p className="mt-4 text-[16px] sm:text-md text-gray-200">
+            <p className="mt-3 text-[16px] sm:text-md text-gray-200">
               Intelisync is a Web3 agency focusing specifically on blockchain
               marketing and development services. We scale businesses in the
               decentralized world using innovative marketing techniques,
@@ -91,10 +91,10 @@ function Section() {
             <div className="relative w-[250px] sm:w-[280px] h-[300px] sm:h-[330px] ">
               <motion.div
                 key={`back-card-${prevIndex}`}
-                initial={{ opacity: 0, rotateY: 180 }}
-                animate={{ opacity: 1, rotateY: 0 }}
-                exit={{ opacity: 0, rotateY: -180 }}
-                transition={{ duration: 1, ease: "easeInOut" }}
+                initial={{ y: -30, opacity: 0.4 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.8, ease: "easeInOut" }}
                 className="TopBox moveToBottom absolute top-0 left-0 z-50 flex w-fit items-center justify-center rounded-3xl p-[2px]"
               >
                 {/* Back Card */}
@@ -109,11 +109,11 @@ function Section() {
               </motion.div>
 
               <motion.div
-                key={`front-card-${index}`}
-                initial={{ opacity: 0, rotateY: 180 }}
-                animate={{ opacity: 1, rotateY: 0 }}
-                exit={{ opacity: 0, rotateY: -180 }}
-                transition={{ duration: 1.2, ease: "easeInOut" }}
+                 key={`front-card-${index}`}
+                 initial={{ y: 30, opacity: 0.6 }}
+                 animate={{ y: 0, opacity: 1 }}
+                 exit={{ y: -20, opacity: 0 }}
+                 transition={{ duration: 1, ease: "easeInOut" }}
                 className="BottomBox moveToTop absolute top-5 left-5 z-40 flex w-fit items-center justify-center rounded-3xl p-[2px]"
               >
                 {/* Front Card */}
