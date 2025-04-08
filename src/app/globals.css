@@ -12,10 +12,8 @@ body {
 
 .card_border {
   border: 1px solid;
-
   border-image-source: linear-gradient(236.94deg, #00EEDF 9.51%, #7F7F7F 48.23%, #00A9CA 90.49%);
   border-image-slice: 1;
-
 }
 
 html {
