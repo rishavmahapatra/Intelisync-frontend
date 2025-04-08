@@ -292,7 +292,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/events/gallery" className="hover:text-teal-400 cursor-pointer">
+          <Link href="/events" className="hover:text-teal-400 cursor-pointer">
             Events
           </Link>
           <Link href="/company/careers" className="hover:text-teal-400 cursor-pointer">
