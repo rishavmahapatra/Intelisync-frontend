@@ -41,7 +41,7 @@ export default function Footer() {
               priority
             />
           </div>
-          <p className="mt-4 text-sm text-gray-400 ">
+          <div className="mt-4 text-sm text-gray-400 ">
             {/* Intelisync is a premier blockchain and Web3 development firm, specializing in secure dApps, DeFi, RWA tokenization, and AI-driven solutions. We offer end-to-end services, including smart contracts, Layer 2 scaling, DEX/CEX development, and token launches. Our Web3 marketing expertise covers influencer campaigns, KOL partnerships, and growth strategies to maximize engagement. With a focus on cybersecurity and decentralized identity, we build scalable, future-proof platforms for startups and enterprises worldwide." */}
             <p>
               Intelisync is a premier blockchain and Web3 development firm,
@@ -52,7 +52,7 @@ export default function Footer() {
               campaigns, KOL partnerships, and growth strategies to maximize
               engagement.
             </p>
-          </p>
+          </div>
 
           <div className="flex flex-wrap gap-2 mt-4">
             {/* First row */}

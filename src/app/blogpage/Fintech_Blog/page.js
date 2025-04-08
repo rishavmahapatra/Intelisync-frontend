@@ -2,7 +2,7 @@ import React from 'react'
 import Fintech_Blog from "@/component/Blogs_Conatin/Fintech_Blog/Fintech_Blog"
 function page() {
   return (
-    <div>
+    <div >
         <Fintech_Blog />
     </div>
   )
