@@ -30,32 +30,33 @@ export default function Fintech_Events_Blog() {
             </nav>
           </div>
 
-          <h1 className="text-3xl font-[500] text-[25px] ">
-            FinTech Frontier: Rewire Finance, Sync with Tomorrow’s Economy
-          </h1>
+          <h2 className=" font-semibold  text-[35px]">
+            Attend Fintech Events & Conferences to Stay Ahead in the Game
+          </h2>
           <p className="text-gray-500 font-[400] text-sm">
             Last Update: February 27, 2025 | 18 mins read
           </p>
 
-          {/* <div className="w-full h-72 relative rounded overflow-hidden"> */}
+
           <div className="w-full  relative  max-w-3xl ">
             <Image
-              src="/fintech_Blog.webp" // Replace with actual image path or use a <img> tag if static
+              src="/fintech_Blog.webp"
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
           </div>
 
           {/* Blue Highlight Box */}
-          <div className="bg-blue-100 border border-blue-300 rounded-xl p-4 shadow-sm w-full max-w-3xl mt-5">
+          <div className="bg-blue-100 border border-blue-300 rounded-tl-3xl rounded-br-3xl h-50 p-4 shadow-sm w-full max-w-3xl mt-5"
+            style={{
+              background:
+                "linear-gradient(90deg, rgba(72, 197, 250, 0.3) 0%, rgba(48, 108, 254, 0.68) 100%)",
+            }}>
             <h3 className="font-semibold text-blue-800">
               Rewire Finance, Sync with Tomorrow’s Economy
             </h3>
-            <p className="text-sm text-gray-700 mt-2">
+            <p className="text-sm text-black mt-2">
               Forget clunky financial processes. With our smart fintech solutions,
               we handle automation, real-time transactions, and AI-driven
               insights. We help you scale faster while you stay focused on growth.
@@ -70,11 +71,15 @@ export default function Fintech_Events_Blog() {
           </div>
 
           {/* Placeholder for Table of Contents */}
-          <div className="border rounded p-4 text-center text-gray-600 text-sm max-w-3xl mt-5">
-            Table of contents [ ]
+          <div className=" border border-blue-300 rounded-tl-3xl rounded-br-3xl h-15 p-4 shadow-sm text-started px-10 font-[400]  text-black text-[20px]  mt-5">
+            Table of contents
+            
+            <span className="mx-2 ">[</span>
+            <span className="text-blue-500 text-xl">↓</span>
+            <span className="mx-2">]</span>
           </div>
 
-          <div className="text-gray-700 leading-relaxed font-[400] text-base mt-5">
+          <div className="text-black leading-relaxed font-[400] text-base mt-5">
             <p>
               Imagine clinging to outdated financial systems in a world that's
               rapidly going digital FinTech isn’t just disrupting finance it’s
@@ -102,7 +107,7 @@ export default function Fintech_Events_Blog() {
           </div>
 
           <div className="font-semibold text-[35px] text-black">
-            <p> Introduction: The Future of Finance is Here </p>
+            <p> Introduction</p>
           </div>
           <div className="font-[400] text-base text-black mt-3 ">
             <p>
@@ -121,254 +126,284 @@ export default function Fintech_Events_Blog() {
           </div>
 
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p> Understanding FinTech and Its Impact </p>
+            <p> 1. The Importance of Fintech Events </p>
           </div>
-          <div className="font-[400] text-base text-black mt-3 ">
-            <p>
-              At the core of this revolution is FinTech marketing which blends
-              data analytics, content strategy, social media and customer
-              experience to engage modern consumers. In this article, we will
-              explore how companies can rewire finance and sync with tomorrow’s
-              economy by using smart FinTech marketing strategies.
-            </p>
-          </div>
-
+          <Image
+            src="/Cyber Security - 7 1.svg"
+            width={841}
+            height={437}
+            alt="FinTech"
+          />
           <div className="font-[400] text-base text-black mt-3 mb-3">
-            {/* Bullet Points Section */}
-            <p>Some key innovations in FinTech include:</p>
-
-            <ul className="list-disc list-inside space-y-4  mb-6 mt-5">
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">1. The Evolution of Fintech Events </h2>
+            <p>Fintech events have grown significantly over the past decade. From small industry meetups to large scale global summits, these conferences now play a crucial role in shaping the future of financial technology. Some key trends in fintech event evolution include: </p>
+            <ul className="list-disc list-inside space-y-2 md-3  mt-2">
               <li>
-                Mobile payments and banking. Apps like Revolut, Chime and Cash App
-                have transformed personal finance management.
+                The rise of virtual and hybrid events post-pandemic.
               </li>
               <li>
-                Blockchain and cryptocurrencies. Decentralized finance also known
-                as DeFi is opening new ways for global transactions.
+                Inclusion of blockchain, AI, and Web3 discussions.
               </li>
               <li>
-                Robo advisors and AI driven investments. Platforms like
-                Wealthfront and Betterment personalize wealth management.
+                Growing emphasis on sustainability and ethical finance.
+              </li>
+            </ul>
+          </div>
+          <div className="font-[400] text-base text-black mt-3 mb-3">
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3"> 2. Why Fintech Events Matter for Professionals </h2>
+            <p>Attending fintech events provides multiple advantages, including:  </p>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <li>
+                Networking opportunities: Meet industry leaders, investors, and fintech innovators.
               </li>
               <li>
-                Peer to peer lending. Companies like LendingClub are changing how
-                loans are issued.
+                Learning and skill development: Gain insights into emerging technologies and trends.
               </li>
-
-              <p className="mb-12 mt-5">
-                With these advancements FinTech is not just a sector. It is an
-                entirely new ecosystem.
-              </p>
+              <li>
+                Business growth: Discover new markets, partnerships, and investment opportunities
+              </li>
             </ul>
           </div>
 
-          <div className="font-semibold text-[35px] text-black mb-4 leading-tight">
-            <p>The Role of FinTech Marketing in a Digital Economy</p>
+          <div className="font-semibold text-[35px] text-black mt-3">
+            <p>2. Top Fintech Events & Conferences in 2025 </p>
+          </div>
+          <Image
+            src="/Make Your Next Event A Standout Success with Event Experience by Your Side! 1.svg"
+            width={841}
+            height={437}
+            alt="FinTech"
+          />
+          <div className="font-[400] text-base text-black mt-3 mb-3">
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Global Fintech Events  </h2>
+            <p>Some of the most influential fintech conferences include:   </p>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <li>
+                Money 20/20 (Las Vegas, USA) - October 2025 – One of the world’s biggest fintech events covering digital banking, payment innovations, and crypto trends.
+              </li>
+              <li>
+                Singapore FinTech Festival (Singapore) - November 2025 – Asia’s leading fintech event, focusing on financial inclusion, AI in finance, and digital banking.
+              </li>
+              <li>
+                Blockchain Expo Global (Amsterdam, Netherlands) - April 2025 – Covers blockchain, DeFi, Web3, and crypto regulations.
+              </li>
+              <li>
+                Future of Fintech (New York, USA) - June 2025 – Features key banking, insurance, and fintech leaders discussing AI-driven financial solutions.
+              </li>
+            </ul>
+          </div>
+          <div className="font-[400] text-base text-black mt-3 mb-3">
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Regional Fintech Conferences  </h2>
+            <p>Some of the most influential fintech conferences include:   </p>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <li>India FinTech Forum (Mumbai, India) – Focuses on fintech regulations and digital payments in India.
+              </li>
+              <li>
+                Asian Financial Forum (Hong Kong, China) – Covers cross-border fintech innovations in Asia.
+              </li>
+              <li>
+                Fintech Americas (Miami, USA) – Discusses financial inclusion and emerging fintech startups in the Americas.
+              </li>
+            </ul>
           </div>
 
-          <p className="font-[400] text-base text-black mt-3">
-            Marketing in the FinTech world is not just about selling a product. It
-            is about building trust, educating consumers and fostering long term
-            relationships. Financial services are naturally sensitive. People want
-            security, transparency and ease of use.
-          </p>
-
-          <p className="mb-3">
-            Successful{" "}
-            <a href="/blogpage/Fintech_Blog/" className="text-blue-600 underline">
-              FinTech marketing
-            </a>{" "}
-            involves:
-          </p>
-
-          <ul className="list-disc list-inside space-y-4  mb-6 mt-5">
-            <li>
-              Storytelling. People connect with stories more than features.
-              Showing real world applications of your service helps build
-              credibility.
-            </li>
-            <li>
-              Simplifying complex concepts. Finance can be intimidating. Clear
-              engaging content helps break down complicated ideas.
-            </li>
-            <li>
-              Leveraging data. Consumer behavior insights allow companies to craft
-              highly targeted campaigns.
-            </li>
-          </ul>
-
-          <p className="mb-12 mt-5">
-            FinTech marketing is the bridge between cutting edge financial
-            technology and the people who need it the most.
-          </p>
-
-          <div className="font-semibold text-[35px] text-black mb-4 leading-tight">
-            <p>Key Strategies for Successful FinTech Marketing </p>
-
-            <div className="mb-12">
-              <h2 className="text-xl font-semibold mb-4 mt-5">
-                1. Data Driven Decision Making
-              </h2>
-              <div className="mb-4">
-                <Image
-                  src="/Fintech_1.png"
-                  width={841}
-                  height={437}
-                  alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
-                />
-              </div>
-              <p className="font-[400] text-base text-black mt-3">
-                FinTech companies rely on data analytics and so should their
-                marketing. By understanding user behavior companies can predict
-                trends, personalize outreach and refine strategies in real time.
-              </p>
-              <p className="font-[400] text-base text-black mt-3">
-                <strong>For example</strong> AI driven platforms like Netflix
-                recommend shows based on past behavior. Similarly FinTech
-                marketers can offer personalized financial solutions based on a
-                user’s spending habits.
-              </p>
-            </div>
-
-            {/* Section 2 */}
-            <div>
-              <h2 className="text-xl font-semibold mb-4">
-                2. Personalization and Customer Experience
-              </h2>
-              <div className="mb-4">
-                <Image
-                  src="/Fintech_2.png"
-                  width={841}
-                  height={437}
-                  alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
-                />
-                <p className="font-[400] text-base text-black mt-3">
-                  Consumers expect tailored financial experiences. Generic
-                  marketing does not work anymore. Users want customized product
-                  recommendations, financial insights and proactive engagement.
-                </p>
-
-                <p className="font-[400] text-base text-black mt-3">
-                  <strong>For example</strong> a digital bank might send a push
-                  notification suggesting investment options based on a user’s
-                  savings pattern.
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-4">
-                3. Content Marketing: Educating and Engaging
-              </h2>
-              <p className="font-[400] text-base text-black mt-3">
-                Education is at the heart of FinTech marketing. People need to
-                trust a company before investing their money. High quality content
-                can help bridge that gap.
-              </p>
-
-              <p className="font-[400] text-base text-black mt-3">
-                Some winning content strategies include:
-              </p>
-              <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
-                <li>Informative blogs such as how to build an emergency fund</li>
-                <li>Engaging explainer videos </li>
-                <li>
-                  Interactive tools like budget calculators and investment
-                  simulators
-                </li>
-                <li>Webinars and live Q and A sessions </li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-4">
-                4. Content Marketing: Educating and Engaging
-              </h2>
-              <p className="font-[400] text-base text-black mt-3">
-                FinTech brands must actively engage on social media. Platforms
-                like Twitter, LinkedIn, Instagram and TikTok are powerful tools to
-                share insights, industry trends and customer testimonials.
-              </p>
-              <div className="mb-4">
-                <Image
-                  src="/Fintech_3.png"
-                  width={841}
-                  height={437}
-                  alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
-                />
-              </div>
-              <p className="font-[400] text-base text-black mt-3">
-                Some tips for FinTech social media include: {" "}
-              </p>
-              <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
-                <li>Share success stories and user experiences</li>
-                <li>Use short videos to explain financial concepts </li>
-                <li>Host live sessions to answer customer questions</li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-4">
-                5. Navigating Regulations and Compliance in FinTech {" "}
-              </h2>
-              <p className="font-[400] text-base text-black mt-3">
-                One of the biggest challenges for FinTech companies is compliance.
-                Regulations change frequently and failing to follow them can lead
-                to heavy fines or loss of consumer trust.
-              </p>
-
-              <p className="font-[400] text-base text-black mt-3">
-                Some key compliance areas include: {" "}
-              </p>
-              <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
-                <li>Data privacy laws such as GDPR and CCPA</li>
-                <li>Anti money laundering or AML rules </li>
-                <li>Know your customer or KYC requirements</li>
-              </ul>
-
-              <p className="font-[400] text-base text-black mt-3 mb-5">
-                Marketing messages must be accurate, transparent and compliant.
-                Misleading claims can damage credibility and lead to legal
-                trouble.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-4">
-                6. The Power of Trust: Transparency and Security in FinTech
-              </h2>
-              <p className="font-[400] text-base text-black mt-3">
-                Financial services rely on trust. Without trust users will not adopt new technologies. FinTech companies must prioritize security and transparency in their messaging.
-              </p>
-
-
-              <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
-                <li>Clearly explain security measures such as data encryption and fraud protection  </li>
-                <li>Offer customer testimonials and case studies</li>
-                <li>Maintain 24/7 customer support to address concerns</li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-4">
-                7. Emerging Trends in FinTech Marketing</h2>
-              <ul className="List-disc list-inside space-y-4 mb-6 font-[400] text-base text-black mt-3">
-                <li>AI powered marketing. Chatbots, predictive analytics and AI generated insights are optimizing FinTech marketing efforts.</li>
-                <li>Voice search optimization. More users are searching for financial solutions via voice assistants like Alexa and Siri.</li>
-                <li></li>
-              </ul>
-            </div>
-
+          <div className="font-[400] text-base text-black mt-3 mb-3">
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Niche Fintech Events  </h2>
+            <p>Some of the most influential fintech conferences include:   </p>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <li>AI in FinTech Summit – Explores the role of AI in digital finance, fraud detection, and robo advisory.
+              </li>
+              <li>
+                DeFi & Web3 Conference – Focuses on decentralized finance (DeFi) and blockchain-based financial applications.
+              </li>
+              <li>
+                InsurTech Connect – Examines technology-driven innovations in the insurance sector.
+              </li>
+            </ul>
           </div>
+
+          <div className="font-semibold text-[35px] text-black mt-3">
+            <p>3. How to Prepare for a Fintech Conference   </p>
+          </div>
+          <Image
+            src="/Businesss meeting, people conference _ Flashvector 1.svg"
+            width={841}
+            height={437}
+            alt="FinTech"
+          />
+          <div className=" mt-3 mb-3">
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Setting Your Goals </h2>
+            <p> Define your objectives: Are you attending for networking, learning, or seeking investment?   Research the event agenda and prioritize must-attend sessions.     </p>
+
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> Personal Branding Before the Event </h2>
+              <li>Update LinkedIn and other professional profiles.
+              </li>
+              <li>
+                Engage with event organizers and speakers on social media.
+              </li>
+              <li>
+                Publish relevant fintech content to position yourself as an industry expert.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> Creating a Conference Toolkit  </h2>
+              <li> Prepare business cards, a digital portfolio, and an elevator pitch.
+              </li>
+              <li>
+                Download event apps to schedule meetings in advance
+              </li>
+            </ul>
+          </div>
+          <div className="font-semibold text-[35px] text-black mt-3">
+            <p>4. Maximizing Your Experience at Fintech Conferences</p>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> Effective Networking Strategies   </h2>
+              <li>  Approach speakers and panelists with insightful questions.
+              </li>
+              <li>
+                Engage in meaningful discussions rather than sales pitches.
+              </li>
+              <li>
+                Follow up with contacts immediately after the event.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> Leveraging Social Media During the Event   </h2>
+              <li>  Use official event hashtags to gain visibility.
+              </li>
+              <li>
+                Share real-time insights and takeaways on LinkedIn and Twitter.
+              </li>
+              <li>
+                Live-tweet keynote speeches and panel discussions.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black">Learning from Keynote Speeches and Panels </h2>
+              <li> Take detailed notes and summarize key points.
+              </li>
+              <li>
+                Attend post-panel networking sessions to gain deeper insights.
+              </li>
+            </ul>
+          </div>
+          <div className="font-semibold text-[35px] text-black mt-3">
+            <p>5. Case Studies Success Stories from Fintech Events </p>
+          </div>
+          <Image
+            src="/Businesss meeting, people conference _ Flashvector 1.svg"
+            width={841}
+            height={437}
+            alt="FinTech"
+          />
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> How Startups Have Secured Investments from Conferences  </h2>
+              <li> Real-world examples of fintech startups receiving funding from pitch competitions.
+              </li>
+              <li>
+                Insights from venture capitalists on what they look for in fintech innovations.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black">Companies That Formed Strategic Partnerships at Fintech Events  </h2>
+              <li> Case studies of fintech companies that scaled through networking and collaborations.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black">  Professionals Who Transitioned Careers Through Conference Networking </h2>
+              <li>Stories of individuals who landed jobs or made career shifts through fintech events.
+              </li>
+            </ul>
+          </div>
+          <div className="font-semibold text-[35px] text-black mt-3">
+            <p>6. Post-Event Strategies & Follow-Up  </p>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black">Organizing Your Takeaways and Learnings   </h2>
+              <li> Summarizing key insights from the event.
+              </li>
+              <li>Sharing learnings with your team or on social media.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> Following Up with Connections  </h2>
+              <li> Sending personalized LinkedIn messages to new contacts.
+              </li>
+              <li> Scheduling follow-up calls or in-person meetings.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black">Implementing Learnings into Your Business Strategy  </h2>
+              <li> Applying new fintech trends and strategies to your company’s growth plan.
+              </li>
+            </ul>
+          </div>
+          <div className="font-semibold text-[35px] text-black mt-3">
+            <p>7. Future of Fintech Events </p>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> The Rise of Virtual and Hybrid Conferences  </h2>
+              <li>  The impact of digital platforms on fintech events.
+              </li>
+              <li>  How virtual events are making fintech knowledge more accessible.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black">Predictions for Fintech Events Over the Next Decade </h2>
+              <li>AI-powered networking tools.
+              </li>
+              <li>Expansion of decentralized finance (DeFi) and blockchain summits.
+              </li>
+              <li>Greater emphasis on sustainability and green fintech.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc list-inside space-y-2  md-3 mt-2">
+              <h2 className="text-[20px] font-semibold text-black"> How to Stay Updated on Upcoming Fintech Events  </h2>
+              <li> Subscribing to fintech newsletters and event platforms.
+              </li>
+              <li>
+                Following industry influencers and organizations on LinkedIn.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="font-semibold text-[25px] text-black mt-3">Conclusion: The Road Ahead for FinTech Innovators</h2>
+            <div className=" border border-blue-300 rounded-tl-3xl rounded-br-3xl h-50 p-4 shadow-sm w-full max-w-3xl mt-5"
+            >
+              <p className="text-sm text-black mt-1">
+                Attending fintech events and conferences is one of the most powerful ways to stay ahead in the ever-evolving financial technology landscape. Whether you're a startup founder, investor, or industry professional, these events offer unparalleled networking opportunities, insights into emerging trends, and chances to grow your business.   <br />
+                <br />
+                Are you planning to attend a fintech event this year? Let us know in the comments below! If you need expert guidance on preparing for a conference, networking strategies, or leveraging fintech insights for your business,  Contact us today !
+              </p>
+
+            </div>
+          </div>
+
         </div>
         {/* Sidebar */}
         <aside className="space-y-8">
@@ -376,20 +411,20 @@ export default function Fintech_Events_Blog() {
           <div>
             <h4 className="font-semibold mb-2">SHARE THIS</h4>
             <div className="flex items-center space-x-4">
-              <div className="">
-                <Image src="/facebook.png" alt="Facebook" width={30} height={30} />
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/facebook.png" alt="Facebook" fill />
               </div>
-              <div className="">
-                <Image src="/instagram.png" alt="Instagram" width={30} height={30} />
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/instagram.png" alt="Instagram" fill />
               </div>
-              <div className="">
-                <Image src="/whatsapp1.png" alt="WhatsApp" width={30} height={30} />
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/whatsapp1.png" alt="WhatsApp" fill />
               </div>
-              <div className="">
-                <Image src="/Pinterest.png" alt="Pinterest" width={30} height={30} />
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/Pinterest.png" alt="Pinterest" fill />
               </div>
-              <div className="">
-                <Image src="/Twitter_X_Icon.png" alt="X (Twitter)" width={30} height={30} />
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/Twitter_X_Icon.png" alt="X (Twitter)" fill />
               </div>
             </div>
           </div>
@@ -411,7 +446,7 @@ export default function Fintech_Events_Blog() {
           </div>
 
           {/* Intelisync Box */}
-          <div className=" p-2 bg-white">
+          <div className="sticky top-20 bg-white  z-50">
             <div className="w-full  relative  max-w-3xl ">
               <Image
                 src="/blog_Logo.webp" // Replace with actual image path or use a <img> tag if static

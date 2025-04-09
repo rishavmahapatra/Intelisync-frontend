@@ -1,11 +1,11 @@
 
-import Image from "next/image"; 
+import Image from "next/image";
 import { FaArrowDownLong } from "react-icons/fa6";
 
 export default function BlogPost() {
   return (
     <div className="bg-white">
-      <div className="max-w-7xl  mx-auto px-10 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8 bg-white mb-6">
+      <div className="max-w-7xl  mx-auto px-10 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8 bg-white">
         {/* Main Content */}
         <div className="lg:col-span-2 space-y-3 ">
           <div>
@@ -14,7 +14,7 @@ export default function BlogPost() {
                 Homepage
               </a>{" "}
               &gt;
-              <a href="/blog" className="hover:underline">
+              <a href="/company/blog" className="hover:underline">
                 {" "}
                 Blog
               </a>{" "}
@@ -103,7 +103,7 @@ export default function BlogPost() {
               banking models are evolving, new players are entering the market
               and consumers expect seamless technology driven financial
               solutions. Welcome to the FinTech frontier where innovation meets
-              opportunity and businesses must adapt to thrive. 
+              opportunity and businesses must adapt to thrive.
             </p>
 
             <p className="mt-3 ">
@@ -122,7 +122,7 @@ export default function BlogPost() {
               data analytics, content strategy, social media and customer
               experience to engage modern consumers. In this article, we will
               explore how companies can rewire finance and sync with tomorrow’s
-              economy by using smart FinTech marketing strategies. 
+              economy by using smart FinTech marketing strategies.
             </p>
           </div>
 
@@ -150,7 +150,7 @@ export default function BlogPost() {
 
               <p className="mb-12 mt-5">
                 With these advancements FinTech is not just a sector. It is an
-                entirely new ecosystem. 
+                entirely new ecosystem.
               </p>
             </ul>
           </div>
@@ -195,7 +195,7 @@ export default function BlogPost() {
 
           <p className="mb-12 mt-5">
             FinTech marketing is the bridge between cutting edge financial
-            technology and the people who need it the most. 
+            technology and the people who need it the most.
           </p>
 
           <div className="font-semibold text-[35px] text-black mb-4 leading-tight">
@@ -211,9 +211,9 @@ export default function BlogPost() {
                   width={841}
                   height={437}
                   alt="FinTech"
-                  // layout="fill"
-                  // objectFit="cover"
-                  // className="rounded"
+                // layout="fill"
+                // objectFit="cover"
+                // className="rounded"
                 />
               </div>
               <p className="font-[400] text-base text-black mt-3">
@@ -240,36 +240,36 @@ export default function BlogPost() {
                   width={841}
                   height={437}
                   alt="FinTech"
-                  // layout="fill"
-                  // objectFit="cover"
-                  // className="rounded"
+                // layout="fill"
+                // objectFit="cover"
+                // className="rounded"
                 />
                 <p className="font-[400] text-base text-black mt-3">
                   Consumers expect tailored financial experiences. Generic
                   marketing does not work anymore. Users want customized product
-                  recommendations, financial insights and proactive engagement. 
+                  recommendations, financial insights and proactive engagement.
                 </p>
 
                 <p className="font-[400] text-base text-black mt-3">
                   <strong>For example</strong> a digital bank might send a push
                   notification suggesting investment options based on a user’s
-                  savings pattern. 
+                  savings pattern.
                 </p>
               </div>
             </div>
 
             <div className="w-full max-w-3xl">
               <h2 className="text-xl font-semibold mb-4 ">
-                3. Content Marketing: Educating and Engaging 
+                3. Content Marketing: Educating and Engaging
               </h2>
               <p className="font-[400] text-base text-black mt-3">
                 Education is at the heart of FinTech marketing. People need to
                 trust a company before investing their money. High quality
-                content can help bridge that gap. 
+                content can help bridge that gap.
               </p>
 
               <p className="font-[400] text-base text-black mt-3">
-                Some winning content strategies include: 
+                Some winning content strategies include:
               </p>
               <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
                 <li>
@@ -278,7 +278,7 @@ export default function BlogPost() {
                 <li>Engaging explainer videos </li>
                 <li>
                   Interactive tools like budget calculators and investment
-                  simulators 
+                  simulators
                 </li>
                 <li>Webinars and live Q and A sessions </li>
               </ul>
@@ -286,12 +286,12 @@ export default function BlogPost() {
 
             <div className="w-full max-w-3xl">
               <h2 className="text-xl font-semibold mb-4">
-                4. Content Marketing: Educating and Engaging 
+                4. Content Marketing: Educating and Engaging
               </h2>
               <p className="font-[400] text-base text-black mt-3">
                 FinTech brands must actively engage on social media. Platforms
                 like Twitter, LinkedIn, Instagram and TikTok are powerful tools
-                to share insights, industry trends and customer testimonials. 
+                to share insights, industry trends and customer testimonials.
               </p>
               <div className="mb-4 w-full max-w-3xl">
                 <Image
@@ -299,9 +299,9 @@ export default function BlogPost() {
                   width={841}
                   height={437}
                   alt="FinTech"
-                  // layout="fill"
-                  // objectFit="cover"
-                  // className="rounded"
+                // layout="fill"
+                // objectFit="cover"
+                // className="rounded"
                 />
               </div>
               <p className="font-[400] text-base text-black mt-3">
@@ -321,7 +321,7 @@ export default function BlogPost() {
               <p className="font-[400] text-base text-black mt-3">
                 One of the biggest challenges for FinTech companies is
                 compliance. Regulations change frequently and failing to follow
-                them can lead to heavy fines or loss of consumer trust.  
+                them can lead to heavy fines or loss of consumer trust.
               </p>
 
               <p className="font-[400] text-base text-black mt-3">
@@ -336,24 +336,24 @@ export default function BlogPost() {
               <p className="font-[400] text-base text-black mt-3 mb-5">
                 Marketing messages must be accurate, transparent and compliant.
                 Misleading claims can damage credibility and lead to legal
-                trouble. 
+                trouble.
               </p>
             </div>
 
             <div className="w-full max-w-3xl">
               <h2 className="text-xl font-semibold mb-4">
-                6. The Power of Trust: Transparency and Security in FinTech 
+                6. The Power of Trust: Transparency and Security in FinTech
               </h2>
               <p className="font-[400] text-base text-black mt-3">
                 Financial services rely on trust. Without trust users will not
                 adopt new technologies. FinTech companies must prioritize
-                security and transparency in their messaging.   
+                security and transparency in their messaging.
               </p>
 
               <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
                 <li>
                   Clearly explain security measures such as data encryption and
-                  fraud protection  
+                  fraud protection
                 </li>
                 <li>Offer customer testimonials and case studies</li>
                 <li>Maintain 24/7 customer support to address concerns</li>
@@ -427,35 +427,22 @@ export default function BlogPost() {
           {/* Social Share */}
           <div>
             <h4 className="font-semibold mb-2">SHARE THIS</h4>
-            <div className="flex items-center space-x-4 text-white">
-              {/* <div className="bg-blue-600 p-2 rounded-full">
-              <FaFacebookF />
-            </div>  */}
-              <Image
-                src="/facebook.webp"
-                width={51}
-                height={51}
-                alt="FinTech"
-              />
-              <Image src="/insta.webp" width={51} height={51} alt="FinTech" />
-              <Image
-                src="/whatsapp.webp"
-                width={51}
-                height={51}
-                alt="FinTech"
-              />
-              <Image
-                src="/Pinterest.webp"
-                width={51}
-                height={51}
-                alt="FinTech"
-              />
-              <Image
-                src="/Twitter_X.webp"
-                width={51}
-                height={51}
-                alt="FinTech"
-              />
+            <div className="flex items-center space-x-4 ">
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/facebook.png" alt="Facebook" fill />
+              </div>
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/instagram.png" alt="Instagram" fill />
+              </div>
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/whatsapp1.png" alt="WhatsApp" fill />
+              </div>
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/Pinterest.png" alt="Pinterest" fill />
+              </div>
+              <div className="w-[50px] h-[50px]  relative">
+                <Image src="/Twitter_X_Icon.png" alt="X (Twitter)" fill />
+              </div>
             </div>
           </div>
 
