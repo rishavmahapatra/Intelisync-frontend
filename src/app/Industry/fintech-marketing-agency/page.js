@@ -8,6 +8,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 import { expertData } from "@/utils/FAQ_Data";
 import Blog from "@/component/Blogs/Blogs";
 import ContactUs from "@/component/ContactUs/ContactUs";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: " Leading Fintech Marketing Agency | Intelisync.ai",
@@ -18,10 +19,10 @@ export const metadata = {
     title: " Leading Fintech Marketing Agency | Intelisync.ai",
     description:
       "Intelisync.ai is a leading fintech marketing agency helping brands grow with SEO, PPC, content marketing, and AI-driven strategies for maximum impact.",
-    url: "https://intelisync.ai/Industry/fintech-marketing-agency/",
+    url: "https://www.intelisync.ai/Industry/fintech-marketing-agency/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/Industry/fintech-marketing-agency/",
+    canonical: "https://www.intelisync.ai/Industry/fintech-marketing-agency/",
   },
   // robots: "follow, index",
   // verification: {
@@ -45,6 +46,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </>
   );
 }

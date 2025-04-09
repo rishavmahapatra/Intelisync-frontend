@@ -7,6 +7,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 import { Brandingfaqs } from "@/utils/FAQ_Data";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Intelisync | Web3 Branding Agency for Strong Digital Identity",
@@ -17,10 +18,10 @@ export const metadata = {
     title: "Intelisync | Web3 Branding Agency for Strong Digital Identity",
     description:
       "Get expert branding solutions from a top Web3 agency. We help businesses build trust, stand out, and create a strong digital identity in the competitive Web3 space.",
-    url: "https://intelisync.ai/services/web3-branding-agency/",
+    url: "https://www.intelisync.ai/services/web3-branding-agency/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/services/web3-branding-agency/",
+    canonical: "https://www.intelisync.ai/services/web3-branding-agency/",
   },
   // robots: "follow, index",
   // verification: {
@@ -56,6 +57,7 @@ export default function Home() {
 
       <Blog />
       <Contactservice />
+      <SocialIcons/>
     </>
   );
 }

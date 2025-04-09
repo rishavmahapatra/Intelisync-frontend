@@ -5,6 +5,7 @@ import ProductBanner from "../../../component/ProductPage/ProductBanner"
 import React from "react";
 import FAQSection from "@/component/footer/FAQSection";
 import Blog from "@/component/Blogs/Blogs";
+import SocialIcons from "@/component/SocialIcons";
 
 const page = () => {
   return (
@@ -137,7 +138,7 @@ const page = () => {
       {/* Contact Form Start  */}
       <ContactUs />
       {/* COntact form ends  */}
-
+      <SocialIcons/>
     </div>
   );
 };

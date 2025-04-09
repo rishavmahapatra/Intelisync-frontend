@@ -10,6 +10,7 @@ import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { InfluencerMarketingfaqs } from "@/utils/FAQ_Data";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import Blog from "@/component/Blogs/Blogs";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Web3 Influencer Marketing Agency | Grow Your Brand & Reach",
@@ -20,10 +21,10 @@ export const metadata = {
     title: "Web3 Influencer Marketing Agency | Grow Your Brand & Reach",
     description:
       "The best Web3 influencer marketing agency to help grow your brand with trusted influencers. Increase visibility, engagement, and reach in the Web3 space.",
-    url: "https://intelisync.ai/services/web3-influencer-marketing/",
+    url: "https://www.intelisync.ai/services/web3-influencer-marketing/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/services/web3-influencer-marketing/",
+    canonical: "https://www.intelisync.ai/services/web3-influencer-marketing/",
   },
   // robots: "follow, index",
   // verification: {
@@ -51,6 +52,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </div>
   );
 }

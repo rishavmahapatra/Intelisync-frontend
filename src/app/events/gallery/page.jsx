@@ -1,6 +1,7 @@
 import ContactUs from "@/component/ContactUs/ContactUs";
 import EventGalleryButton from "@/component/EventGallery/EventGalleryButton";
 import PhotoLayout from "@/component/EventGallery/PhotoLayout";
+import SocialIcons from "@/component/SocialIcons";
 import { EventGalleryImages } from "@/utils/EventGalleryImages";
 import React from "react";
 
@@ -48,6 +49,7 @@ const page = () => {
       <ContactUs/>
       </div>
       {/* contact us form ends  */}
+      <SocialIcons/>
 
     </div>
   );

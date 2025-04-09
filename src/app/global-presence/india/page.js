@@ -14,6 +14,7 @@ import { landingFaq } from "@/utils/FAQ_Data";
 import Global from "@/component/landingpage/Global";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import FAQSection from "@/component/FAQ/FAQ";
+import SocialIcons from "@/component/SocialIcons";
 function page() {
   return (
     <div>
@@ -38,7 +39,7 @@ function page() {
       <FAQSection faqs={landingFaq} />
       <ContactUs />
       <Global />
-   
+      <SocialIcons/>
     </div>
   )
 }

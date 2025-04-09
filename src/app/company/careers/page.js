@@ -4,6 +4,7 @@ import Hiring from "@/component/Careers/Hiring";
 import OpenPositions from "@/component/Careers/OpenPosition";
 import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
+import SocialIcons from "@/component/SocialIcons";
 
 export default function page() {
     return (
@@ -12,6 +13,7 @@ export default function page() {
             <Hiring/>
             <OpenPositions/>
             <CareerForm/>
+            <SocialIcons/>
         </div>
     );
 }

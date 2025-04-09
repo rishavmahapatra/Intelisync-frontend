@@ -10,10 +10,10 @@ export const metadata = {
     title: "Master Web3 Community Growth: Boost Engagement & Loyalty",
     description:
       "Learn top strategies to drive Web3 community growth, boost member engagement, and foster lasting loyalty for long term success and sustainability.",
-    url: "https://intelisync.ai/blogpage/Web3_Community_Growth_Blog/",
+    url: "https://www.intelisync.ai/blogpage/Web3_Community_Growth_Blog/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/blogpage/Web3_Community_Growth_Blog/",
+    canonical: "https://www.intelisync.ai/blogpage/Web3_Community_Growth_Blog/",
   },
 }
 

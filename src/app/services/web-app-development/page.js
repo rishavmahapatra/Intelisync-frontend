@@ -11,6 +11,7 @@ import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 
 import React from "react";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Expert Web App Development | Fast, Secure & Custom Solutions",
@@ -21,10 +22,10 @@ export const metadata = {
     title: "Expert Web App Development | Fast, Secure & Custom Solutions",
     description:
       "Get expert web app development services to build fast,  and scalable applications. We create custom solutions that enhance user experience and drive growth.",
-    url: "https://intelisync.ai/services/web-app-development/",
+    url: "https://www.intelisync.ai/services/web-app-development/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/services/web-app-development/",
+    canonical: "https://www.intelisync.ai/services/web-app-development/",
   },
   // robots: "follow, index",
   // verification: {
@@ -61,6 +62,7 @@ function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </>
   );
 }

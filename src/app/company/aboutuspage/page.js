@@ -7,6 +7,7 @@ import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+import SocialIcons from "@/component/SocialIcons";
 
 
 
@@ -25,16 +26,17 @@ export default function page() {
                     <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-[#06FFF0] via-[#00aaff] to-[#0192BA]"></span>
                 </h2>
             </div>
-            
-             <div className="block md:hidden">
-                                <TrustedBrands />
-                              </div>
-                        
-                              <div className="hidden md:block">
-                                <TrustedInnovators />
-                              </div>
+
+            <div className="block md:hidden">
+                <TrustedBrands />
+            </div>
+
+            <div className="hidden md:block">
+                <TrustedInnovators />
+            </div>
             <PartnersBackers />
             <ContactUs />
-       </div>
+            <SocialIcons />
+        </div>
     );
 }
