@@ -1,5 +1,6 @@
 
 
+import { Link } from "lucide-react";
 import Image from "next/image";
 import {
   FaFacebookF,
@@ -17,7 +18,7 @@ export default function Fintech_Events_Blog() {
         <div className="lg:col-span-2 space-y-3 ">
           <div>
             <nav className="   font-[400] text-[12px] text-sm text-gray-500">
-              <a href="/" className="hover:underline">
+            <a href="/" className="hover:underline">
                 Homepage
               </a>{" "}
               &gt;
@@ -54,7 +55,7 @@ export default function Fintech_Events_Blog() {
                 "linear-gradient(90deg, rgba(72, 197, 250, 0.3) 0%, rgba(48, 108, 254, 0.68) 100%)",
             }}>
             <h3 className="font-semibold text-blue-800">
-              Rewire Finance, Sync with Tomorrow’s Economy
+              Rewire Finance, Sync with Tomorrow&apos;s Economy
             </h3>
             <p className="text-sm text-black mt-2">
               Forget clunky financial processes. With our smart fintech solutions,
@@ -81,13 +82,13 @@ export default function Fintech_Events_Blog() {
 
           <div className="text-black leading-relaxed font-[400] text-base mt-5">
             <p>
-              Imagine clinging to outdated financial systems in a world that's
-              rapidly going digital FinTech isn’t just disrupting finance it’s
+              Imagine clinging to outdated financial systems in a world that&apos;s
+              rapidly going digital FinTech isn&apos;t just disrupting finance it&apos;s
               redefining it. From AI driven banking to decentralized finance
               (DeFi), the FinTech frontier is about speed, transparency, and user
-              empowerment. It's not just innovation for the sake of it it's about
+              empowerment. It&apos;s not just innovation for the sake of it it&apos;s about
               building smarter, more inclusive financia6l systems that align with
-              tomorrow’s economy.
+              tomorrow&apos;s economy.
             </p>
 
             <p>
@@ -98,8 +99,8 @@ export default function Fintech_Events_Blog() {
 
             <p>
               In fact, companies that fail to adapt risk falling behind as
-              digital-native competitors reshape the rules of finance. "FinTech
-              Frontier" is about more than disruption—it's about connection,
+              digital-native competitors reshape the rules of finance. FinTech
+              Frontier is about more than disruption—it&apos;s about connection,
               agility, and long-term vision. The insights ahead will help you
               rewire your approach and position your brand at the core of the
               financial future.

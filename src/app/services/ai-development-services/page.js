@@ -9,6 +9,7 @@ import Blog from "@/component/Blogs/Blogs";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "AI Development Services for Web3 | Automate, Grow & Innovate",
@@ -19,10 +20,10 @@ export const metadata = {
     title: "AI Development Services for Web3 | Automate, Grow & Innovate",
     description:
       "Our AI development services help your Web3 business grow, streamline tasks, and make smarter decisions with ease for maximum efficiency.",
-    url: "https://intelisync.ai/services/ai-development-services/",
+    url: "https://www.intelisync.ai/services/ai-development-services/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/services/ai-development-services/",
+    canonical: "https://www.intelisync.ai/services/ai-development-services/",
   },
   // robots: "follow, index",
   // verification: {
@@ -59,6 +60,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </div>
   );
 }

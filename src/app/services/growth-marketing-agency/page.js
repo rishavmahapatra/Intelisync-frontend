@@ -9,6 +9,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Growth Marketing Agency | Smart Strategies for Business Success",
@@ -19,10 +20,10 @@ export const metadata = {
     title: "Growth Marketing Agency | Smart Strategies for Business Success",
     description:
       "As a Growth Marketing Agency, we help your business grow with smart strategies that attract the right audience, boost engagement, and drive real results.",
-    url: "https://intelisync.ai/services/growth-marketing-agency/",
+    url: "https://www.intelisync.ai/services/growth-marketing-agency/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/services/growth-marketing-agency/",
+    canonical: "https://www.intelisync.ai/services/growth-marketing-agency/",
   },
   // robots: "follow, index",
   // verification: {
@@ -57,6 +58,7 @@ function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </>
   );
 }

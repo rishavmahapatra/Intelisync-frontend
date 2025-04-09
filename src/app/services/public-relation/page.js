@@ -7,6 +7,7 @@ import PublicRelatoin from "@/component/publicpage/PublicRelation";
 import { PublicRelationfaqs } from "@/utils/FAQ_Data";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Crypto PR Agency for Effective Blockchain & Web3 Public Relations",
@@ -17,10 +18,10 @@ export const metadata = {
     title: "Crypto PR Agency for Effective Blockchain & Web3 Public Relations",
     description:
       "A crypto PR agency specializing in blockchain & Web3 public relations, helping projects build credibility, gain media exposure, & connect with the right audience.",
-    url: "https://intelisync.ai/services/public-relation/",
+    url: "https://www.intelisync.ai/services/public-relation/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/services/public-relation/",
+    canonical: "https://www.intelisync.ai/services/public-relation/",
   },
   // robots: "follow, index",
   // verification: {
@@ -55,6 +56,7 @@ function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </>
   );
 }
