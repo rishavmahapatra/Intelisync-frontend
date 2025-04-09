@@ -14,6 +14,8 @@
     "@heroicons/react": "^1.0.6",
     "@mui/icons-material": "^6.4.7",
     "@mui/material": "^6.4.8",
+    "deep-chat": "^2.1.1",
+    "deep-chat-react": "^2.1.1",
     "framer-motion": "^12.4.7",
     "lucide-react": "^0.477.0",
     "next": "15.2.0",

@@ -7,6 +7,7 @@ import Blog from "@/component/Blogs/Blogs";
 import Navbar from "@/component/navbar/Navbar";
 import { Cryptofaqs } from "@/utils/FAQ_Data";
 import React from "react";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Blockchain & Crypto Marketing | Intelisync.ai",
@@ -17,10 +18,10 @@ export const metadata = {
     title: "Blockchain & Crypto Marketing | Intelisync.ai",
     description:
       "Ignite your blockchain and crypto project's growth with Intelisync.ai. Drive adoption, engagement, and success with expert marketing strategies.",
-    url: "https://intelisync.ai/Industry/crypto-marketing/",
+    url: "https://www.intelisync.ai/Industry/crypto-marketing/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/Industry/crypto-marketing/",
+    canonical: "https://www.intelisync.ai/Industry/crypto-marketing/",
   },
   // robots: "follow, index",
   // verification: {
@@ -42,6 +43,7 @@ function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </>
   );
 }

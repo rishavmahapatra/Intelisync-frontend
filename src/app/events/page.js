@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { events } from "@/utils/Event_Data.js";
 
 import { RiArrowUpSLine } from "react-icons/ri";
+import SocialIcons from "@/component/SocialIcons";
 
 const Page = () => {
 
@@ -331,6 +332,7 @@ const Page = () => {
             </div>
           ))} */}
         </div>
+        <SocialIcons/>
       </div>
   
       {/* MainSection End */}

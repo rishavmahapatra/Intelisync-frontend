@@ -8,6 +8,7 @@ import Rwa_works_card from "@/component/ProductPage/Rwa_works_card";
 import { TokenizePropertiyData, WorkCardData } from "@/utils/Products_Data";
 import { FeaturesCardsData } from "@/utils/Products_Data";
 import Blog from "@/component/Blogs/Blogs";
+import SocialIcons from "@/component/SocialIcons";
 const page = () => {
   return (
     // page wrapper start
@@ -324,6 +325,7 @@ const page = () => {
       {/* Contact Form Start  */}
       <ContactUs />
       {/* COntact form ends  */}
+      <SocialIcons/>
     </div>
     // Page wrapper ends
   );

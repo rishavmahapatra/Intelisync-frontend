@@ -9,10 +9,10 @@ export const metadata = {
     title: "Master Web3 Marketing: Build, Scale & Engage Communities",
     description:
       "Discover how Web3 marketing transforms brand engagement with blockchain, DAOs, and NFTs. Learn strategies to grow and thrive in the decentralized web.",
-    url: "https://intelisync.ai/blogpage/WEB3_Marketing_Blog/",
+    url: "https://www.intelisync.ai/blogpage/WEB3_Marketing_Blog/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/blogpage/WEB3_Marketing_Blog/",
+    canonical: "https://www.intelisync.ai/blogpage/WEB3_Marketing_Blog/",
   },
 }
 

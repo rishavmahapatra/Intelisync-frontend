@@ -11,6 +11,7 @@ import FAQSection from "@/component/footer/FAQSection";
 
 import ContactUs from "@/component/ContactUs/ContactUs";
 import Blog from "@/component/Blogs/Blogs";
+import SocialIcons from "@/component/SocialIcons";
 
 const page = () => {
   return (
@@ -291,7 +292,7 @@ const page = () => {
       {/* Contact Form Start  */}
       <ContactUs />
       {/* COntact form ends  */}
-
+      <SocialIcons/>
   
     </>
   );

@@ -7,6 +7,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
 import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
+import SocialIcons from "@/component/SocialIcons";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Communityfaqs } from "@/utils/FAQ_Data";
@@ -20,11 +21,11 @@ export const metadata = {
     title: "Web3 Community Management | Grow & Engage Your Project",
     description:
       "Our Web3 community management agency helps blockchain projects grow by building active, loyal communities across Discord, Telegram, and social platforms.",
-    url: "https://intelisync.ai/services/web3-community-Management-agency/",
+    url: "https://www.intelisync.ai/services/web3-community-Management-agency/",
   },
   alternates: {
     canonical:
-      "https://intelisync.ai/services/web3-community-Management-agency/",
+      "https://www.intelisync.ai/services/web3-community-Management-agency/",
   },
   // robots: "follow, index",
   // verification: {
@@ -63,6 +64,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </div>
   );
 }

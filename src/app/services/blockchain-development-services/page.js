@@ -10,6 +10,7 @@ import { BlockChainfaqs } from "@/utils/FAQ_Data";
 import Blog from "@/component/Blogs/Blogs";
 import ContactUs from "@/component/ContactUs/ContactUs";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Reliable Blockchain Development Services for Your Business",
@@ -20,11 +21,11 @@ export const metadata = {
     title: "Reliable Blockchain Development Services for Your Business",
     description:
       "We offer scalable, secure, and transparent blockchain development services to help your business grow with trust and efficiency. Get future-ready today",
-    url: "https://intelisync.ai/services/blockchain-development-services/",
+    url: "https://www.intelisync.ai/services/blockchain-development-services/",
   },
   alternates: {
     canonical:
-      "https://intelisync.ai/services/blockchain-development-services/",
+      "https://www.intelisync.ai/services/blockchain-development-services/",
   },
   // robots: "follow, index",
   // verification: {
@@ -53,6 +54,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </div>
   );
 }

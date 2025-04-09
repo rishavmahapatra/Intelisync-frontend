@@ -5,6 +5,7 @@ import FAQSection from "@/component/FAQ/FAQ";
 import { expertData } from "@/utils/FAQ_Data";
 import Blog from "@/component/Blogs/Blogs";
 import ContactUs from "@/component/ContactUs/ContactUs";
+import SocialIcons from "@/component/SocialIcons";
 
 export const metadata = {
   title: "Startup Marketing Solutions | Intelisync.ai",
@@ -15,10 +16,10 @@ export const metadata = {
     title: "Startup Marketing Solutions | Intelisync.ai",
     description:
       "Accelerate your startup’s growth with Intelisync.ai. Our expert startup marketing solutions drive visibility, engagement, and success for emerging businesses",
-    url: "https://intelisync.ai/Industry/startup-marketing-solutions/",
+    url: "https://www.intelisync.ai/Industry/startup-marketing-solutions/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/Industry/startup-marketing-solutions/",
+    canonical: "https://www.intelisync.ai/Industry/startup-marketing-solutions/",
   },
   // robots: "follow, index",
   // verification: {
@@ -40,6 +41,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </>
   );
 }

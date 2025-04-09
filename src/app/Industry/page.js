@@ -6,6 +6,7 @@ import IndustrySection from "@/component/Industry/IndustrySection";
 import OurServices from "@/component/Industry/OurServices";
 import Navbar from "@/component/navbar/Navbar";
 import PartnersBackers from "@/component/PartnersBackers/PartnersBackers";
+import SocialIcons from "@/component/SocialIcons";
 import TrustedBrands from "@/component/TrustedInnovators/Trusted";
 import TrustedInnovators from "@/component/TrustedInnovators/TrustedInnovators";
 import { Industryfaqs } from "@/utils/FAQ_Data";
@@ -19,10 +20,10 @@ export const metadata = {
     title: "Next-Gen Solutions for Modern Industries | Intelisync",
     description:
       "Explore next-gen solutions for modern industries with Intelisync. Drive innovation, efficiency, and growth with our cutting-edge AI-driven strategies.",
-    url: "https://intelisync.ai/Industry/",
+    url: "https://www.intelisync.ai/Industry/",
   },
   alternates: {
-    canonical: "https://intelisync.ai/Industry/",
+    canonical: "https://www.intelisync.ai/Industry/",
   },
   // robots: "follow, index",
   // verification: {
@@ -50,6 +51,7 @@ export default function page() {
       </div>
       <Blog />
       <ContactUs />
+      <SocialIcons/>
     </div>
   );
 }
