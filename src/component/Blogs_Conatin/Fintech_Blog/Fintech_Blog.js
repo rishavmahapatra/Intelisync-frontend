@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import Image from "next/image";
 import { FaArrowDownLong } from "react-icons/fa6";
 
@@ -10,21 +11,21 @@ export default function BlogPost() {
         <div className="lg:col-span-2 space-y-3 ">
           <div>
             <nav className="   font-[400] text-[12px] text-sm text-gray-500">
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Homepage
-              </a>{" "}
+              </Link>{" "}
               &gt;
-              <a href="/company/blog" className="hover:underline">
+              <Link href="/company/blog" className="hover:underline">
                 {" "}
                 Blog
-              </a>{" "}
+              </Link>{" "}
               &gt;
               <span className="text-blue-500"> Mastering Web3 Marketing</span>
             </nav>
           </div>
 
           <h1 className="text-3xl font-[500] text-[25px] ">
-            FinTech Frontier: Rewire Finance, Sync with Tomorrow’s Economy
+            FinTech Frontier: Rewire Finance, Sync with Tomorrow&apos;s Economy
           </h1>
           <p className="text-gray-500 font-[400] text-sm">
             Last Update: February 27, 2025 | 18 mins read
@@ -49,7 +50,7 @@ export default function BlogPost() {
             }}
           >
             <h3 className="font-semibold text-black">
-              Rewire Finance, Sync with Tomorrow’s Economy
+              Rewire Finance, Sync with Tomorrow&apos;s Economy
             </h3>
             <p className="text-sm text-gray-700 mt-2">
               Forget clunky financial processes. With our smart fintech
@@ -69,13 +70,13 @@ export default function BlogPost() {
 
           <div className="text-gray-700 leading-relaxed font-[400] text-base mt-5">
             <p>
-              Imagine clinging to outdated financial systems in a world that's
-              rapidly going digital FinTech isn’t just disrupting finance it’s
+              Imagine clinging to outdated financial systems in a world thats&apos;
+              rapidly going digital FinTech isn&apos;t just disrupting finance it&apos;s
               redefining it. From AI driven banking to decentralized finance
               (DeFi), the FinTech frontier is about speed, transparency, and
-              user empowerment. It's not just innovation for the sake of it it's
+              user empowerment. It&apos;s not just innovation for the sake of it it&apos;s
               about building smarter, more inclusive financia6l systems that
-              align with tomorrow’s economy.
+              align with tomorrow&apos;s economy.
             </p>
 
             <p>
@@ -86,8 +87,8 @@ export default function BlogPost() {
 
             <p>
               In fact, companies that fail to adapt risk falling behind as
-              digital-native competitors reshape the rules of finance. "FinTech
-              Frontier" is about more than disruption—it's about connection,
+              digital-native competitors reshape the rules of finance. FinTech
+              Frontier is about more than disruption—it&apos;s about connection,
               agility, and long-term vision. The insights ahead will help you
               rewire your approach and position your brand at the core of the
               financial future.
@@ -95,7 +96,7 @@ export default function BlogPost() {
           </div>
 
           <div className="font-semibold text-[35px] text-black">
-            <p> Introduction: The Future of Finance is Here </p>
+            <p> Introduction: The Future of Finance is Here</p>
           </div>
           <div className="font-[400] text-base text-black mt-3 ">
             <p>
@@ -114,14 +115,14 @@ export default function BlogPost() {
           </div>
 
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p> Understanding FinTech and Its Impact </p>
+            <p> Understanding FinTech and Its Impact</p>
           </div>
           <div className="font-[400] text-base text-black mt-3 ">
             <p>
               At the core of this revolution is FinTech marketing which blends
               data analytics, content strategy, social media and customer
               experience to engage modern consumers. In this article, we will
-              explore how companies can rewire finance and sync with tomorrow’s
+              explore how companies can rewire finance and sync with tomorrow&apos;s
               economy by using smart FinTech marketing strategies.
             </p>
           </div>
@@ -225,7 +226,7 @@ export default function BlogPost() {
                 <strong>For example</strong> AI driven platforms like Netflix
                 recommend shows based on past behavior. Similarly FinTech
                 marketers can offer personalized financial solutions based on a
-                user’s spending habits.
+                user&apos;s spending habits.
               </p>
             </div>
 
@@ -252,7 +253,7 @@ export default function BlogPost() {
 
                 <p className="font-[400] text-base text-black mt-3">
                   <strong>For example</strong> a digital bank might send a push
-                  notification suggesting investment options based on a user’s
+                  notification suggesting investment options based on a user&apos;s
                   savings pattern.
                 </p>
               </div>
@@ -275,12 +276,12 @@ export default function BlogPost() {
                 <li>
                   Informative blogs such as how to build an emergency fund
                 </li>
-                <li>Engaging explainer videos </li>
+                <li>Engaging explainer videos</li>
                 <li>
                   Interactive tools like budget calculators and investment
                   simulators
                 </li>
-                <li>Webinars and live Q and A sessions </li>
+                <li>Webinars and live Q and A sessions</li>
               </ul>
             </div>
 
@@ -305,18 +306,18 @@ export default function BlogPost() {
                 />
               </div>
               <p className="font-[400] text-base text-black mt-3">
-                Some tips for FinTech social media include: {" "}
+                Some tips for FinTech social media include:{" "}
               </p>
               <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
                 <li>Share success stories and user experiences</li>
-                <li>Use short videos to explain financial concepts </li>
+                <li>Use short videos to explain financial concepts</li>
                 <li>Host live sessions to answer customer questions</li>
               </ul>
             </div>
 
             <div className="w-full max-w-3xl">
               <h2 className="text-xl font-semibold mb-4 w-full max-w-3xl">
-                5. Navigating Regulations and Compliance in FinTech {" "}
+                5. Navigating Regulations and Compliance in FinTech{" "}
               </h2>
               <p className="font-[400] text-base text-black mt-3">
                 One of the biggest challenges for FinTech companies is
@@ -325,11 +326,11 @@ export default function BlogPost() {
               </p>
 
               <p className="font-[400] text-base text-black mt-3">
-                Some key compliance areas include: {" "}
+                Some key compliance areas include:{" "}
               </p>
               <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
                 <li>Data privacy laws such as GDPR and CCPA</li>
-                <li>Anti money laundering or AML rules </li>
+                <li>Anti money laundering or AML rules</li>
                 <li>Know your customer or KYC requirements</li>
               </ul>
 
@@ -410,7 +411,7 @@ export default function BlogPost() {
                   <p className="mb-3 font-[400] text-base">
                     By leveraging data, prioritizing transparency and embracing
                     emerging trends FinTech brands can rewire finance and sync
-                    with tomorrow’s economy.
+                    with tomorrow&apos;s economy.
                   </p>
                   <p className="mb-3 font-[400] text-base">
                     The future belongs to those who innovate, educate and
@@ -452,7 +453,7 @@ export default function BlogPost() {
             <ul className="space-y-2 text-black text-sm ">
               {Array(6)
                 .fill(
-                  "FinTech Frontier: Rewire Finance, Sync with Tomorrow’s Economy"
+                  "FinTech Frontier: Rewire Finance, Sync with Tomorrow Economy"
                 )
                 .map((post, index) => (
                   <li key={index} className="hover:underline cursor-pointer">

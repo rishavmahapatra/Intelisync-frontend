@@ -1,5 +1,5 @@
 
-import { Link } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 import {
   FaFacebookF,
@@ -17,14 +17,16 @@ export default function Casino_Marketing_blog() {
         <div className="lg:col-span-2 space-y-3 ">
           <div>
             <nav className="   font-[400] text-[12px] text-sm text-gray-500">
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
                 Homepage
-              </a>{" "}
+                  
+              </Link>{" "}
               &gt;
-              <a href="/blog" className="hover:underline">
+              <Link
+              href="/blog" className="hover:underline">
                 {" "}
                 Blog
-              </a>{" "}
+              </Link>{" "}
               &gt;
               <span className="text-blue-500">Mastering Web3 Marketing: Strategies to Build, Scale, and Engage Communities</span>
             </nav>
@@ -273,11 +275,11 @@ export default function Casino_Marketing_blog() {
 
             <div>
               <h2 className="text-xl font-semibold mb-4">
-              Paid Advertising & PPC for Casinos 
+              Paid Advertising & PPC for Casinos
               </h2>
               <p className="font-[400] text-base text-black mt-3">
               Paid advertising (Google Ads, Facebook Ads) can drive 
-              targeted traffic to your casino. Best practices include: 
+              targeted traffic to your casino. Best practices include:
               </p>
               <ul className="list-disc list-inside space-y-4  mb-6 font-[400] text-base text-black mt-3">
                 <li>Using geotargeting to attract local players.</li>
@@ -296,7 +298,7 @@ export default function Casino_Marketing_blog() {
                 />
               </div> */}
               <h2 className="text-xl font-semibold mb-4">
-              Influencer Marketing in the Gambling Industry 
+              Influencer Marketing in the Gambling Industry
               </h2>
               <p className="font-[400] text-base text-black mt-3">
               Partnering with influencers can boost credibility and 
@@ -409,7 +411,7 @@ export default function Casino_Marketing_blog() {
               Social Media Campaigns That Went Viral
               </p>
               <p className="font-[400] text-base text-black mt-3 mb-5">
-              Social media has been a game changer for casino marketing. Here are a few viral case studies: 
+              Social media has been a game changer for casino marketing. Here are a few viral case studies:
               </p>
               <p className="font-[400] text-base text-black mt-3 mb-5">
               TikTok Challenges: A luxury casino in Macau created a viral TikTok 
@@ -536,7 +538,7 @@ export default function Casino_Marketing_blog() {
               </p>
 
               <p className="text-xl text-semibold text-black mt-3">
-              The Role of Web3, NFTs, and Crypto in Casinos 
+              The Role of Web3, NFTs, and Crypto in Casinos
               </p>
               <p className="font-[400] text-base text-black mt-3 mb-5">
               The introduction of blockchain technology has brought new levels of
@@ -560,7 +562,7 @@ export default function Casino_Marketing_blog() {
               </p>
 
               <p className="text-xl text-semibold text-black mt-3">
-              2. NFT Based Loyalty Programs 
+              2. NFT Based Loyalty Programs
               </p>
               <p className="font-[400] text-base text-black mt-3 mb-5">
               Casinos are experimenting with NFTs (non fungible tokens) to 
