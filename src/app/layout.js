@@ -2,11 +2,11 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/component/navbar/Navbar";
 import Footer from "@/component/footer/Footer";
-
+import Head from 'next/head';
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["200","300", "400", "600", "700"],
+  weight: ["200", "300", "400", "600", "700"],
   display: "swap",
 });
 
@@ -20,11 +20,54 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <body className={poppins.className}>
-      <Navbar />
-          {children}
-      <Footer />
-    </body>
-  </html>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://intelisync.ai/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About Us",
+                  "item": "https://intelisync.ai/about"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Services",
+                  "item": "https://intelisync.ai/services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Careers",
+                  "item": "https://intelisync.ai/company/careers"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Contact Us",
+                  "item": "https://intelisync.ai/contact"
+                }
+              ]
+            }),
+          }}
+        />
+      </head>
+      <body className={poppins.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
+    </html>
   );
 }
