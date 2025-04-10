@@ -1,6 +1,6 @@
 
 
-import { Link } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 import {
   FaFacebookF,
@@ -18,14 +18,14 @@ export default function Fintech_Events_Blog() {
         <div className="lg:col-span-2 space-y-3 ">
           <div>
             <nav className="   font-[400] text-[12px] text-sm text-gray-500">
-            <a href="/" className="hover:underline">
-                Homepage
-              </a>{" "}
+            <Link href="/" className="hover:underline">
+            <a>Home</a>
+              </Link>{" "}
               &gt;
-              <a href="/company/blog" className="hover:underline">
+              <Link href="/company/blog" className="hover:underline">
                 {" "}
                 Blog
-              </a>{" "}
+              </Link>{" "}
               &gt;
               <span className="text-blue-500"> Mastering Web3 Marketing</span>
             </nav>
@@ -127,7 +127,7 @@ export default function Fintech_Events_Blog() {
           </div>
 
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p> 1. The Importance of Fintech Events </p>
+            <p> 1. The Importance of Fintech Events</p>
           </div>
           <Image
             src="/Cyber Security - 7 1.svg"
@@ -136,8 +136,10 @@ export default function Fintech_Events_Blog() {
             alt="FinTech"
           />
           <div className="font-[400] text-base text-black mt-3 mb-3">
-            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">1. The Evolution of Fintech Events </h2>
-            <p>Fintech events have grown significantly over the past decade. From small industry meetups to large scale global summits, these conferences now play a crucial role in shaping the future of financial technology. Some key trends in fintech event evolution include: </p>
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">1. The Evolution of Fintech Events</h2>
+            <p>Fintech events have grown significantly over the past decade. From small industry meetups to large scale 
+              global summits, these conferences now play a crucial role in shaping the future of financial technology. 
+              Some key trends in fintech event evolution include: </p>
             <ul className="list-disc list-inside space-y-2 md-3  mt-2">
               <li>
                 The rise of virtual and hybrid events post-pandemic.
@@ -151,8 +153,8 @@ export default function Fintech_Events_Blog() {
             </ul>
           </div>
           <div className="font-[400] text-base text-black mt-3 mb-3">
-            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3"> 2. Why Fintech Events Matter for Professionals </h2>
-            <p>Attending fintech events provides multiple advantages, including:  </p>
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">2. Why Fintech Events Matter for Professionals</h2>
+            <p>Attending fintech events provides multiple advantages, including: </p>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <li>
                 Networking opportunities: Meet industry leaders, investors, and fintech innovators.
@@ -167,7 +169,7 @@ export default function Fintech_Events_Blog() {
           </div>
 
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p>2. Top Fintech Events & Conferences in 2025 </p>
+            <p>2. Top Fintech Events & Conferences in 2025</p>
           </div>
           <Image
             src="/Make Your Next Event A Standout Success with Event Experience by Your Side! 1.svg"
@@ -176,14 +178,14 @@ export default function Fintech_Events_Blog() {
             alt="FinTech"
           />
           <div className="font-[400] text-base text-black mt-3 mb-3">
-            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Global Fintech Events  </h2>
-            <p>Some of the most influential fintech conferences include:   </p>
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">Global Fintech Events</h2>
+            <p>Some of the most influential fintech conferences include:</p>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <li>
-                Money 20/20 (Las Vegas, USA) - October 2025 – One of the world’s biggest fintech events covering digital banking, payment innovations, and crypto trends.
+                Money 20/20 (Las Vegas, USA) - October 2025 – One of the world&apos;s biggest fintech events covering digital banking, payment innovations, and crypto trends.
               </li>
               <li>
-                Singapore FinTech Festival (Singapore) - November 2025 – Asia’s leading fintech event, focusing on financial inclusion, AI in finance, and digital banking.
+                Singapore FinTech Festival (Singapore) - November 2025 – Asia&apos;s leading fintech event, focusing on financial inclusion, AI in finance, and digital banking.
               </li>
               <li>
                 Blockchain Expo Global (Amsterdam, Netherlands) - April 2025 – Covers blockchain, DeFi, Web3, and crypto regulations.
@@ -194,8 +196,8 @@ export default function Fintech_Events_Blog() {
             </ul>
           </div>
           <div className="font-[400] text-base text-black mt-3 mb-3">
-            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Regional Fintech Conferences  </h2>
-            <p>Some of the most influential fintech conferences include:   </p>
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">Regional Fintech Conferences</h2>
+            <p>Some of the most influential fintech conferences include:</p>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <li>India FinTech Forum (Mumbai, India) – Focuses on fintech regulations and digital payments in India.
               </li>
@@ -209,8 +211,8 @@ export default function Fintech_Events_Blog() {
           </div>
 
           <div className="font-[400] text-base text-black mt-3 mb-3">
-            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Niche Fintech Events  </h2>
-            <p>Some of the most influential fintech conferences include:   </p>
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">Niche Fintech Events</h2>
+            <p>Some of the most influential fintech conferences include:</p>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <li>AI in FinTech Summit – Explores the role of AI in digital finance, fraud detection, and robo advisory.
               </li>
@@ -224,7 +226,7 @@ export default function Fintech_Events_Blog() {
           </div>
 
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p>3. How to Prepare for a Fintech Conference   </p>
+            <p>3. How to Prepare for a Fintech Conference</p>
           </div>
           <Image
             src="/Businesss meeting, people conference _ Flashvector 1.svg"
@@ -233,11 +235,11 @@ export default function Fintech_Events_Blog() {
             alt="FinTech"
           />
           <div className=" mt-3 mb-3">
-            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">  Setting Your Goals </h2>
-            <p> Define your objectives: Are you attending for networking, learning, or seeking investment?   Research the event agenda and prioritize must-attend sessions.     </p>
+            <h2 className="text-[20px] font-semibold text-black mt-3 mb-3">Setting Your Goals</h2>
+            <p>Define your objectives: Are you attending for networking, learning, or seeking investment? Research the event agenda and prioritize must-attend sessions.</p>
 
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> Personal Branding Before the Event </h2>
+              <h2 className="text-[20px] font-semibold text-black">Personal Branding Before the Event</h2>
               <li>Update LinkedIn and other professional profiles.
               </li>
               <li>
@@ -251,8 +253,8 @@ export default function Fintech_Events_Blog() {
 
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> Creating a Conference Toolkit  </h2>
-              <li> Prepare business cards, a digital portfolio, and an elevator pitch.
+              <h2 className="text-[20px] font-semibold text-black">Creating a Conference Toolkit</h2>
+              <li>Prepare business cards, a digital portfolio, and an elevator pitch.
               </li>
               <li>
                 Download event apps to schedule meetings in advance
@@ -264,8 +266,8 @@ export default function Fintech_Events_Blog() {
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> Effective Networking Strategies   </h2>
-              <li>  Approach speakers and panelists with insightful questions.
+              <h2 className="text-[20px] font-semibold text-black">Effective Networking Strategies</h2>
+              <li>Approach speakers and panelists with insightful questions.
               </li>
               <li>
                 Engage in meaningful discussions rather than sales pitches.
@@ -277,8 +279,8 @@ export default function Fintech_Events_Blog() {
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> Leveraging Social Media During the Event   </h2>
-              <li>  Use official event hashtags to gain visibility.
+              <h2 className="text-[20px] font-semibold text-black">Leveraging Social Media During the Event</h2>
+              <li>Use official event hashtags to gain visibility.
               </li>
               <li>
                 Share real-time insights and takeaways on LinkedIn and Twitter.
@@ -290,8 +292,8 @@ export default function Fintech_Events_Blog() {
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black">Learning from Keynote Speeches and Panels </h2>
-              <li> Take detailed notes and summarize key points.
+              <h2 className="text-[20px] font-semibold text-black">Learning from Keynote Speeches and Panels</h2>
+              <li>Take detailed notes and summarize key points.
               </li>
               <li>
                 Attend post-panel networking sessions to gain deeper insights.
@@ -299,7 +301,7 @@ export default function Fintech_Events_Blog() {
             </ul>
           </div>
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p>5. Case Studies Success Stories from Fintech Events </p>
+            <p>5. Case Studies Success Stories from Fintech Events</p>
           </div>
           <Image
             src="/Businesss meeting, people conference _ Flashvector 1.svg"
@@ -309,8 +311,8 @@ export default function Fintech_Events_Blog() {
           />
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> How Startups Have Secured Investments from Conferences  </h2>
-              <li> Real-world examples of fintech startups receiving funding from pitch competitions.
+              <h2 className="text-[20px] font-semibold text-black">How Startups Have Secured Investments from Conferences</h2>
+              <li>Real-world examples of fintech startups receiving funding from pitch competitions.
               </li>
               <li>
                 Insights from venture capitalists on what they look for in fintech innovations.
@@ -319,25 +321,25 @@ export default function Fintech_Events_Blog() {
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black">Companies That Formed Strategic Partnerships at Fintech Events  </h2>
-              <li> Case studies of fintech companies that scaled through networking and collaborations.
+              <h2 className="text-[20px] font-semibold text-black">Companies That Formed Strategic Partnerships at Fintech Events</h2>
+              <li>Case studies of fintech companies that scaled through networking and collaborations.
               </li>
             </ul>
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black">  Professionals Who Transitioned Careers Through Conference Networking </h2>
+              <h2 className="text-[20px] font-semibold text-black">Professionals Who Transitioned Careers Through Conference Networking</h2>
               <li>Stories of individuals who landed jobs or made career shifts through fintech events.
               </li>
             </ul>
           </div>
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p>6. Post-Event Strategies & Follow-Up  </p>
+            <p>6. Post-Event Strategies & Follow-Up</p>
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black">Organizing Your Takeaways and Learnings   </h2>
-              <li> Summarizing key insights from the event.
+              <h2 className="text-[20px] font-semibold text-black">Organizing Your Takeaways and Learnings</h2>
+              <li>Summarizing key insights from the event.
               </li>
               <li>Sharing learnings with your team or on social media.
               </li>
@@ -345,35 +347,35 @@ export default function Fintech_Events_Blog() {
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> Following Up with Connections  </h2>
-              <li> Sending personalized LinkedIn messages to new contacts.
+              <h2 className="text-[20px] font-semibold text-black">Following Up with Connections</h2>
+              <li>Sending personalized LinkedIn messages to new contacts.
               </li>
-              <li> Scheduling follow-up calls or in-person meetings.
+              <li>Scheduling follow-up calls or in-person meetings.
               </li>
             </ul>
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <h2 className="text-[20px] font-semibold text-black">Implementing Learnings into Your Business Strategy  </h2>
-              <li> Applying new fintech trends and strategies to your company’s growth plan.
+              <li>Applying new fintech trends and strategies to your company&apos;s growth plan.
               </li>
             </ul>
           </div>
           <div className="font-semibold text-[35px] text-black mt-3">
-            <p>7. Future of Fintech Events </p>
+            <p>7. Future of Fintech Events</p>
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> The Rise of Virtual and Hybrid Conferences  </h2>
-              <li>  The impact of digital platforms on fintech events.
+              <h2 className="text-[20px] font-semibold text-black">The Rise of Virtual and Hybrid Conferences</h2>
+              <li>The impact of digital platforms on fintech events.
               </li>
-              <li>  How virtual events are making fintech knowledge more accessible.
+              <li>How virtual events are making fintech knowledge more accessible.
               </li>
             </ul>
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black">Predictions for Fintech Events Over the Next Decade </h2>
+              <h2 className="text-[20px] font-semibold text-black">Predictions for Fintech Events Over the Next Decade</h2>
               <li>AI-powered networking tools.
               </li>
               <li>Expansion of decentralized finance (DeFi) and blockchain summits.
@@ -384,8 +386,8 @@ export default function Fintech_Events_Blog() {
           </div>
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
-              <h2 className="text-[20px] font-semibold text-black"> How to Stay Updated on Upcoming Fintech Events  </h2>
-              <li> Subscribing to fintech newsletters and event platforms.
+              <h2 className="text-[20px] font-semibold text-black">How to Stay Updated on Upcoming Fintech Events</h2>
+              <li>Subscribing to fintech newsletters and event platforms.
               </li>
               <li>
                 Following industry influencers and organizations on LinkedIn.
@@ -397,9 +399,9 @@ export default function Fintech_Events_Blog() {
             <div className=" border border-blue-300 rounded-tl-3xl rounded-br-3xl h-50 p-4 shadow-sm w-full max-w-3xl mt-5"
             >
               <p className="text-sm text-black mt-1">
-                Attending fintech events and conferences is one of the most powerful ways to stay ahead in the ever-evolving financial technology landscape. Whether you're a startup founder, investor, or industry professional, these events offer unparalleled networking opportunities, insights into emerging trends, and chances to grow your business.   <br />
+                Attending fintech events and conferences is one of the most powerful ways to stay ahead in the ever-evolving financial technology landscape. Whether you&apos;re a startup founder, investor, or industry professional, these events offer unparalleled networking opportunities, insights into emerging trends, and chances to grow your business.<br />
                 <br />
-                Are you planning to attend a fintech event this year? Let us know in the comments below! If you need expert guidance on preparing for a conference, networking strategies, or leveraging fintech insights for your business,  Contact us today !
+                Are you planning to attend a fintech event this year? Let us know in the comments below! If you need expert guidance on preparing for a conference, networking strategies, or leveraging fintech insights for your business, Contact us today !
               </p>
 
             </div>
