@@ -1,14 +1,9 @@
 
 
-import { Link } from "lucide-react";
+
 import Image from "next/image";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaWhatsapp,
-  FaPinterestP,
-  FaXTwitter,
-} from "react-icons/fa6";
+import Link from "next/link";
+
 
 export default function Fintech_Events_Blog() {
   return (
@@ -18,25 +13,28 @@ export default function Fintech_Events_Blog() {
         <div className="lg:col-span-2 space-y-3 ">
           <div>
             <nav className="   font-[400] text-[12px] text-sm text-gray-500">
-            <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Homepage
-              </a>{" "}
+              </Link>{" "}
               &gt;
-              <a href="/company/blog" className="hover:underline">
+              <Link href="/company/blog" className="hover:underline">
                 {" "}
                 Blog
-              </a>{" "}
+              </Link>{" "}
               &gt;
               <span className="text-blue-500"> Mastering Web3 Marketing</span>
             </nav>
           </div>
 
-          <h2 className=" font-semibold  text-[35px]">
-            Attend Fintech Events & Conferences to Stay Ahead in the Game
-          </h2>
-          <p className="text-gray-500 font-[400] text-sm">
-            Last Update: February 27, 2025 | 18 mins read
-          </p>
+          <div className="px-4 sm:px-0">
+            <h2 className="font-semibold text-2xl sm:text-3xl md:text-[35px] leading-snug">
+              Attend Fintech Events & Conferences to Stay Ahead in the Game
+            </h2>
+            <p className="text-gray-500 font-[400] text-xs sm:text-sm mt-1">
+              Last Update: February 27, 2025 | 18 mins read
+            </p>
+          </div>
+
 
 
           <div className="w-full  relative  max-w-3xl ">
@@ -49,15 +47,17 @@ export default function Fintech_Events_Blog() {
           </div>
 
           {/* Blue Highlight Box */}
-          <div className="bg-blue-100 border border-blue-300 rounded-tl-3xl rounded-br-3xl h-50 p-4 shadow-sm w-full max-w-3xl mt-5"
+          <div
+            className="bg-blue-100 border border-blue-300 rounded-tl-3xl rounded-br-3xl p-4 sm:p-6 shadow-sm w-full max-w-3xl mt-5"
             style={{
               background:
                 "linear-gradient(90deg, rgba(72, 197, 250, 0.3) 0%, rgba(48, 108, 254, 0.68) 100%)",
-            }}>
-            <h3 className="font-semibold text-blue-800">
+            }}
+          >
+            <h3 className="font-semibold text-blue-800 text-lg sm:text-xl">
               Rewire Finance, Sync with Tomorrow&apos;s Economy
             </h3>
-            <p className="text-sm text-black mt-2">
+            <p className="text-sm sm:text-base text-black mt-2">
               Forget clunky financial processes. With our smart fintech solutions,
               we handle automation, real-time transactions, and AI-driven
               insights. We help you scale faster while you stay focused on growth.
@@ -65,20 +65,21 @@ export default function Fintech_Events_Blog() {
             </p>
             <a
               href="#"
-              className="text-blue-600 underline text-sm mt-2 inline-block"
+              className="text-blue-600 underline text-sm sm:text-base mt-2 inline-block"
             >
               Click Here to Future-Proof Your Finances Now
             </a>
           </div>
 
+
           {/* Placeholder for Table of Contents */}
-          <div className=" border border-blue-300 rounded-tl-3xl rounded-br-3xl h-15 p-4 shadow-sm text-started px-10 font-[400]  text-black text-[20px]  mt-5">
-            Table of contents
-            
-            <span className="mx-2 ">[</span>
-            <span className="text-blue-500 text-xl">↓</span>
-            <span className="mx-2">]</span>
+          <div className="border border-blue-300 rounded-tl-3xl rounded-br-3xl h-auto p-4 sm:p-6 md:px-10 shadow-sm text-start font-[400] text-black text-[16px] sm:text-[18px] md:text-[20px] mt-5 flex items-center">
+            <span className="mr-2">Table of contents</span>
+            <span className="mx-1">[</span>
+            <span className="text-blue-500 text-lg sm:text-xl">↓</span>
+            <span className="mx-1">]</span>
           </div>
+
 
           <div className="text-black leading-relaxed font-[400] text-base mt-5">
             <p>
@@ -126,9 +127,10 @@ export default function Fintech_Events_Blog() {
             </p>
           </div>
 
-          <div className="font-semibold text-[35px] text-black mt-3">
-            <p> 1. The Importance of Fintech Events </p>
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
+            <p>1. The Importance of Fintech Events</p>
           </div>
+
           <Image
             src="/Cyber Security - 7 1.svg"
             width={841}
@@ -166,9 +168,10 @@ export default function Fintech_Events_Blog() {
             </ul>
           </div>
 
-          <div className="font-semibold text-[35px] text-black mt-3">
-            <p>2. Top Fintech Events & Conferences in 2025 </p>
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
+            <p>2. Top Fintech Events & Conferences in 2025</p>
           </div>
+
           <Image
             src="/Make Your Next Event A Standout Success with Event Experience by Your Side! 1.svg"
             width={841}
@@ -223,9 +226,10 @@ export default function Fintech_Events_Blog() {
             </ul>
           </div>
 
-          <div className="font-semibold text-[35px] text-black mt-3">
-            <p>3. How to Prepare for a Fintech Conference   </p>
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
+            <p>3. How to Prepare for a Fintech Conference</p>
           </div>
+
           <Image
             src="/Businesss meeting, people conference _ Flashvector 1.svg"
             width={841}
@@ -259,9 +263,10 @@ export default function Fintech_Events_Blog() {
               </li>
             </ul>
           </div>
-          <div className="font-semibold text-[35px] text-black mt-3">
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
             <p>4. Maximizing Your Experience at Fintech Conferences</p>
           </div>
+
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <h2 className="text-[20px] font-semibold text-black"> Effective Networking Strategies   </h2>
@@ -298,9 +303,10 @@ export default function Fintech_Events_Blog() {
               </li>
             </ul>
           </div>
-          <div className="font-semibold text-[35px] text-black mt-3">
-            <p>5. Case Studies Success Stories from Fintech Events </p>
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
+            <p>5. Case Studies: Success Stories from Fintech Events</p>
           </div>
+
           <Image
             src="/Businesss meeting, people conference _ Flashvector 1.svg"
             width={841}
@@ -331,9 +337,10 @@ export default function Fintech_Events_Blog() {
               </li>
             </ul>
           </div>
-          <div className="font-semibold text-[35px] text-black mt-3">
-            <p>6. Post-Event Strategies & Follow-Up  </p>
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
+            <p>6. Post-Event Strategies & Follow-Up</p>
           </div>
+
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <h2 className="text-[20px] font-semibold text-black">Organizing Your Takeaways and Learnings   </h2>
@@ -359,9 +366,10 @@ export default function Fintech_Events_Blog() {
               </li>
             </ul>
           </div>
-          <div className="font-semibold text-[35px] text-black mt-3">
-            <p>7. Future of Fintech Events </p>
+          <div className="font-semibold text-2xl sm:text-3xl md:text-[35px] text-black mt-3">
+            <p>7. Future of Fintech Events</p>
           </div>
+
           <div>
             <ul className="list-disc list-inside space-y-2  md-3 mt-2">
               <h2 className="text-[20px] font-semibold text-black"> The Rise of Virtual and Hybrid Conferences  </h2>
@@ -393,21 +401,33 @@ export default function Fintech_Events_Blog() {
             </ul>
           </div>
           <div>
-            <h2 className="font-semibold text-[25px] text-black mt-3">Conclusion: The Road Ahead for FinTech Innovators</h2>
-            <div className=" border border-blue-300 rounded-tl-3xl rounded-br-3xl h-50 p-4 shadow-sm w-full max-w-3xl mt-5"
-            >
-              <p className="text-sm text-black mt-1">
-                Attending fintech events and conferences is one of the most powerful ways to stay ahead in the ever-evolving financial technology landscape. Whether you're a startup founder, investor, or industry professional, these events offer unparalleled networking opportunities, insights into emerging trends, and chances to grow your business.   <br />
-                <br />
-                Are you planning to attend a fintech event this year? Let us know in the comments below! If you need expert guidance on preparing for a conference, networking strategies, or leveraging fintech insights for your business,  Contact us today !
-              </p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-[25px] text-black mt-3">
+              Conclusion: The Road Ahead for FinTech Innovators
+            </h2>
 
+            <div
+              className="border border-blue-300 rounded-tl-3xl rounded-br-3xl p-4 shadow-sm w-full max-w-3xl mt-5"
+            >
+              <p className="text-sm sm:text-base text-black mt-1">
+                Attending fintech events and conferences is one of the most powerful ways
+                to stay ahead in the ever-evolving financial technology landscape. Whether
+                you're a startup founder, investor, or industry professional, these events
+                offer unparalleled networking opportunities, insights into emerging trends,
+                and chances to grow your business.
+                <br />
+                <br />
+                Are you planning to attend a fintech event this year? Let us know in the
+                comments below! If you need expert guidance on preparing for a conference,
+                networking strategies, or leveraging fintech insights for your business,{" "}
+                <span className="text-blue-600 underline">Contact us today!</span>
+              </p>
             </div>
           </div>
 
+
         </div>
         {/* Sidebar */}
-        <aside className="space-y-8">
+        <aside className="space-y-4">
           {/* Social Share */}
           <div>
             <h4 className="font-semibold mb-2">SHARE THIS</h4>
@@ -450,11 +470,8 @@ export default function Fintech_Events_Blog() {
           <div className="sticky top-20 bg-white  z-50">
             <div className="w-full  relative  max-w-3xl ">
               <Image
-                src="/blog_Logo.webp" // Replace with actual image path or use a <img> tag if static
+                src="/blog_Logo.webp" 
                 alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
                 width={179}
                 height={36}
               />
