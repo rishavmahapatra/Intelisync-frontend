@@ -412,7 +412,7 @@ export default function Fintech_Events_Blog() {
               <p className="text-sm sm:text-base text-black mt-1">
                 Attending fintech events and conferences is one of the most powerful ways
                 to stay ahead in the ever-evolving financial technology landscape. Whether
-                you're a startup founder, investor, or industry professional, these events
+                you&apos;re a startup founder, investor, or industry professional, these events
                 offer unparalleled networking opportunities, insights into emerging trends,
                 and chances to grow your business.
                 <br />
