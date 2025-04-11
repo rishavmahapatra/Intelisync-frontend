@@ -23,7 +23,7 @@ export default function Casino_Marketing_blog() {
               </Link>{" "}
               &gt;
               <Link
-              href="/blog" className="hover:underline">
+              href="/company/blog" className="hover:underline">
                 {" "}
                 Blog
               </Link>{" "}
@@ -44,16 +44,17 @@ export default function Casino_Marketing_blog() {
             <Image
               src="/fintech_Blog.webp" // Replace with actual image path or use a <img> tag if static
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
           </div>
 
           {/* Blue Highlight Box */}
-          <div className="bg-blue-100 border border-blue-300 rounded-xl p-4 shadow-sm w-full max-w-3xl mt-5">
+          <div className="bg-blue-100 border border-blue-300 rounded-tl-3xl rounded-br-3xl p-4 sm:p-6 shadow-sm w-full max-w-3xl mt-5"
+            style={{
+              background:
+                "linear-gradient(90deg, rgba(72, 197, 250, 0.3) 0%, rgba(48, 108, 254, 0.68) 100%)",
+            }}>
             <h3 className="font-semibold text-blue-800">
               Rewire Finance, Sync with Tomorrow&apos;s Economy
             </h3>
@@ -83,7 +84,7 @@ export default function Casino_Marketing_blog() {
               redefining it. From AI driven banking to decentralized finance
               (DeFi), the FinTech frontier is about speed, transparency, and user
               empowerment. Its not just innovation for the sake of it it&apos;s about
-              building smarter, more inclusive financia6l systems that align with
+              building smarter, more inclusive financial systems that align with
               tomorrow&apos;s economy.
             </p>
 
@@ -128,9 +129,6 @@ export default function Casino_Marketing_blog() {
           <Image
               src="/casino1.svg" // Replace with actual image path or use a <img> tag if static
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
@@ -181,11 +179,8 @@ export default function Casino_Marketing_blog() {
             <p>Key Digital Marketing Strategies for Casinos</p>
             <div />
             <Image
-              src="/casino2.svg" // Replace with actual image path or use a <img> tag if static
+              src="/casino2.svg" 
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
@@ -212,16 +207,6 @@ export default function Casino_Marketing_blog() {
                 Social Media Strategies to Engage Players
               </h2>
               <div className="mb-4">
-                {/* <Image
-                src="/Fintech_2.png"
-                width={841}
-                height={437}
-                alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
-              /> */}
-
                 <p className="font-[400] text-base text-black mt-3">
                   Social media platforms like Instagram, Twitter, and TikTok
                   offer powerful ways to attract and engage players. Effective
@@ -286,17 +271,7 @@ export default function Casino_Marketing_blog() {
                 <li>Running retargeting campaigns to bring back past visitors. </li>
                 <li>A/B testing ad creatives to optimize conversion rates.</li>
               </ul>
-              {/* <div className="mb-4">
-                <Image
-                  src="/Fintech_3.png"
-                  width={841}
-                  height={437}
-                  alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
-                />
-              </div> */}
+             
               <h2 className="text-xl font-semibold mb-4">
               Influencer Marketing in the Gambling Industry
               </h2>
@@ -347,11 +322,8 @@ export default function Casino_Marketing_blog() {
             <p>Leveraging Data & AI for Casino Marketing</p>
             </div>
             <Image
-              src="/casino3.svg" // Replace with actual image path or use a <img> tag if static
+              src="/casino3.svg" 
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
@@ -381,11 +353,8 @@ export default function Casino_Marketing_blog() {
             <p>Case Studies – Successful Casino <br/>Marketing Campaigns</p>
             </div>
             <Image
-              src="/casino4.svg" // Replace with actual image path or use a <img> tag if static
+              src="/casino4.svg" 
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
@@ -461,11 +430,9 @@ export default function Casino_Marketing_blog() {
             <p>Post Marketing Strategies & Player Retention</p>
             </div>
             <Image
-              src="/casino4.svg" // Replace with actual image path or use a <img> tag if static
+              src="/casino4.svg" 
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
+              
               width={841}
               height={437}
             />
@@ -518,11 +485,8 @@ export default function Casino_Marketing_blog() {
             <p>Future of Casino Marketing</p>
             </div>
             <Image
-              src="/casino3.svg" // Replace with actual image path or use a <img> tag if static
+              src="/casino3.svg" 
               alt="FinTech"
-              // layout="fill"
-              // objectFit="cover"
-              // className="rounded"
               width={841}
               height={437}
             />
@@ -615,25 +579,25 @@ export default function Casino_Marketing_blog() {
         <aside className="space-y-8">
           {/* Social Share */}
           <div>
-            <h4 className="font-semibold mb-2">SHARE THIS</h4>
-            <div className="flex items-center space-x-4 text-white">
-              <div className="bg-blue-600 p-2 rounded-full">
-                <FaFacebookF />
-              </div>
-              <div className="bg-pink-500 p-2 rounded-full">
-                <FaInstagram />
-              </div>
-              <div className="bg-green-500 p-2 rounded-full">
-                <FaWhatsapp />
-              </div>
-              <div className="bg-red-500 p-2 rounded-full">
-                <FaPinterestP />
-              </div>
-              <div className="bg-black p-2 rounded-full">
-                <FaXTwitter />
-              </div>
-            </div>
-          </div>
+                      <h4 className="font-semibold mb-2">SHARE THIS</h4>
+                      <div className="flex items-center space-x-4">
+                        <div className="w-[50px] h-[50px]  relative">
+                          <Image src="/facebook.png" alt="Facebook" fill />
+                        </div>
+                        <div className="w-[50px] h-[50px]  relative">
+                          <Image src="/instagram.png" alt="Instagram" fill />
+                        </div>
+                        <div className="w-[50px] h-[50px]  relative">
+                          <Image src="/whatsapp1.png" alt="WhatsApp" fill />
+                        </div>
+                        <div className="w-[50px] h-[50px]  relative">
+                          <Image src="/Pinterest.png" alt="Pinterest" fill />
+                        </div>
+                        <div className="w-[50px] h-[50px]  relative">
+                          <Image src="/Twitter_X_Icon.png" alt="X (Twitter)" fill />
+                        </div>
+                      </div>
+                    </div>
 
           {/* Latest Posts */}
           <div className="py-8">
@@ -655,11 +619,8 @@ export default function Casino_Marketing_blog() {
           <div className=" p-2 bg-white">
             <div className="w-full  relative  max-w-3xl ">
               <Image
-                src="/blog_Logo.webp" // Replace with actual image path or use a <img> tag if static
+                src="/blog_Logo.webp" 
                 alt="FinTech"
-                // layout="fill"
-                // objectFit="cover"
-                // className="rounded"
                 width={179}
                 height={36}
               />

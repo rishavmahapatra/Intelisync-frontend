@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function BlogEmojiData() {
     return (
-        <div className="bg-white p-6 flex flex-col items-center justify-center space-y-4">
-            <h2 className="text-lg font-semibold text-black">
+        <div className="bg-white p-6 flex flex-col items-center justify-center space-y-10">
+            <h2 className="text-lg font-semibold text-black ">
                 Did you enjoy reading this article?
             </h2>
 
