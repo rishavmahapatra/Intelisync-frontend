@@ -87,7 +87,7 @@ export default function Fintech_Events_Blog() {
               redefining it. From AI driven banking to decentralized finance
               (DeFi), the FinTech frontier is about speed, transparency, and user
               empowerment. It&apos;s not just innovation for the sake of it it&apos;s about
-              building smarter, more inclusive financia6l systems that align with
+              building smarter, more inclusive financial systems that align with
               tomorrow&apos;s economy.
             </p>
 
